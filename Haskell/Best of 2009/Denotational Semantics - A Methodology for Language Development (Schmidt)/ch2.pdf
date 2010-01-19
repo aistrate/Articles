@@ -1,0 +1,12097 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 10783
+>>
+stream
+BT
+/TT2 1 Tf
+13 0 0 13 97.2 694.8601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+[(Chapter)-242.2(2 )]TJ
+/TT4 1 Tf
+4.1577 0 TD
+[(_)34.6(_______________________________________________________)]TJ
+/TT6 1 Tf
+21 0 0 21 97.2 661.8601 Tm
+[(Sets,)-251.6(Functions,)-265(and)-263.9(Domains)]TJ
+/TT2 1 Tf
+11 0 0 11 97.2 576.6601 Tm
+[(Functions)-600.6(are)-570.2(fundamental)-574.7(to)-594.9(denotational)-584.4(semantics.)-588.5(This)-604(chapter)-575.8(introduces)-589(functions)]TJ
+0 -1.2 TD
+[(through)-361.9(set)-361.9(theory,)-359(which)-356.2(provides)-356.2(a)-356.1(precise)-341.2(yet)-360.1(intuitive)-376.1(formulation.)-610.6(In)-348.8(addition,)-363.6(the)-351(con-)]TJ
+T*
+[(cepts)-372.6(of)-376.1(set)-380.1(theory)-381.7(form)-383.4(a)-383.4(foundation)-385.7(for)-379.4(the)-387.4(theory)-381.7(of)]TJ
+/TT8 1 Tf
+23.2455 0 TD
+[(semantic)-381.7(domains,)]TJ
+/TT2 1 Tf
+7.9727 0 TD
+[(the)-387.4(value)-379.9(spaces)]TJ
+-31.2182 -1.2 TD
+[(used)-285.2(for)-279.4(giving)-298.9(meaning)-283.9(to)-294.9(languages.)-278.7(We)-275.9(examine)-276.4(the)-287.4(basic)-272.6(principles)-274.8(of)-276.1(sets,)-286.4(functions,)-282.9(and)]TJ
+T*
+[(domains)-256.8(in)-258.5(turn.)]TJ
+/TT6 1 Tf
+0 -4.8 TD
+[(2.1)-259.1( SETS )]TJ
+/TT4 1 Tf
+4.4554 0 TD
+(_)Tj
+0.0537 0 TD
+-0.2091 Tc
+(__)Tj
+0.3091 0 TD
+0 Tc
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(_)Tj
+/TT2 1 Tf
+-37.4636 -2.4 TD
+(A)Tj
+/TT8 1 Tf
+1.1182 0 TD
+(set)Tj
+/TT2 1 Tf
+1.5091 0 TD
+[(is)-405.7(a)-392.5(collection;)-397.5(it)-408(can)-385(contain)-393(numbers,)-397.1(persons,)-403.9(other)-399.9(sets,)-413.6(or)-403.4(\(almost\))-403.8(anything)-409.6(one)]TJ
+-2.6273 -1.2 TD
+[(wishes.)-573.3(Most)-325.7(of)-303.4(the)-305.6(examples)-296.4(in)-313.1(this)-318.8(book)-309.1(use)-303.4(numbers)-301.6(and)-301.6(sets)-309.1(of)-303.4(numbers)-301.6(as)-303.4(the)-305.6(members)]TJ
+T*
+[(of)-294.3(sets.)-559.1(Like)-294.8(any)-292.5(concept,)-286.1(a)-292.5(set)-298.3(needs)-286.8(a)-292.5(representation)-272.3(so)-301.7(that)-300.5(it)-308(can)-285(be)-292.5(written)-303.8(down.)-564.2(Braces)]TJ
+T*
+[(are)-352(used)-367(to)-376.7(enclose)-356(the)-369.2(members)-361.7(of)-367(a)-365.2(set.)-630.1(Thus,)-377.3({)-165.5(1)0(,)-250(4)0(,)-250(7)-163.6(})-374.6(represents)-346.3(the)-369.2(set)-371(containing)-360.6(the)]TJ
+T*
+[(numbers)-247.1(1,)-259.1(4,)-259.1(and)-247.1(7.)-259.1(These)-239.6(are)-233.8(also)-252.8(sets:)]TJ
+2 -1.9818 TD
+0.25 Tc
+-0.25 Tw
+[({)84.5(1)250(,)163.6( {)80(1)250(,4)250(,7)86.4(})250(,)161.8( 4)81.8(})]TJ
+0 -1.3818 TD
+0 Tc
+0 Tw
+({)Tj
+/TT8 1 Tf
+0.6455 0 TD
+(red)Tj
+/TT2 1 Tf
+1.333 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4943 0 TD
+(yellow)Tj
+/TT2 1 Tf
+2.6104 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4987 0 TD
+(grey)Tj
+/TT2 1 Tf
+1.9273 0 TD
+(})Tj
+-7.5091 -1.3818 TD
+0.3291 Tc
+({})Tj
+-2 -1.8 TD
+0 Tc
+[(The)-245.3(last)-256.8(example)-240.1(is)-260.3(the)]TJ
+/TT8 1 Tf
+9.4727 0 TD
+[(empty)-239.6(set,)]TJ
+/TT2 1 Tf
+4.2455 0 TD
+[(the)-251(set)-252.8(with)-258.5(no)-254.5(members,)-248.1(also)-252.8(written)-249.3(as)]TJ
+/TT3 1 Tf
+16.3182 0 TD
+<0092>Tj
+/TT2 1 Tf
+0.8232 0 TD
+(.)Tj
+-28.8596 -1.2 TD
+[(When)-321.4(a)-328.9(set)-334.6(has)-330.6(a)-328.9(large)-319.6(number)-327.1(of)-330.6(members,)-329.9(it)-353.4(is)-351.2(more)-336.2(convenient)-331(to)-349.4(specify)-330.5(the)-342(condi-)]TJ
+-2 -1.2 TD
+[(tions)-300.6(for)-279.4(membership)-283.9(than)-287.4(to)-294.9(write)-281.7(all)-282.3(the)-278.3(members.)-275.4(A)-277.8(set)]TJ
+/TT8 1 Tf
+23.7 0 TD
+(S)Tj
+/TT2 1 Tf
+0.7818 0 TD
+[(can)-266.8(be)-274.3(de)]TJ
+/TT9 1 Tf
+3.8166 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ned)-274.3(by)]TJ
+/TT8 1 Tf
+3 0 TD
+(S)Tj
+/TT4 1 Tf
+0.5818 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( {)Tj
+/TT8 1 Tf
+0.9057 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+0.1625 Tc
+-0.0018 Tw
+( | )Tj
+/TT8 1 Tf
+1.0243 0 TD
+0 Tc
+0 Tw
+(P)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+0.1475 Tc
+[(\)})147.5(,)]TJ
+-36.7468 -1.2 TD
+0 Tc
+[(which)-256.2(says)-259.6(that)-264.1(an)-256.2(object)]TJ
+/TT8 1 Tf
+10.3455 0 TD
+(a)Tj
+/TT2 1 Tf
+0.7636 0 TD
+[(belongs)-261.9(to)]TJ
+/TT8 1 Tf
+4.4182 0 TD
+(S)Tj
+/TT2 1 Tf
+0.7636 0 TD
+[(if)50(f)-260.7(\(if)-265.2(and)-265.2(only)-276.7(if\))]TJ
+/TT8 1 Tf
+7.3364 0 TD
+(a)Tj
+/TT2 1 Tf
+0.7727 0 TD
+[(has)-267(property)]TJ
+/TT8 1 Tf
+5.2455 0 TD
+(P,)Tj
+/TT2 1 Tf
+1.1364 0 TD
+[(that)-273.2(is,)]TJ
+/TT8 1 Tf
+2.9727 0 TD
+(P)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(a)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(\))-259.5(holds)]TJ
+-35.1984 -1.2 TD
+[(true.)-277.1(For)-274.5(example,)-262.8(let)]TJ
+/TT8 1 Tf
+8.9182 0 TD
+(P)Tj
+/TT2 1 Tf
+0.8818 0 TD
+[(be)-265.2(the)-269.2(property)-257.8(ëëis)-267(an)-265.2(even)-257.8(integer.íí)-253.1(Then)-263.5({)]TJ
+/TT8 1 Tf
+18.2091 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+0.1625 Tc
+-0.0018 Tw
+( | )Tj
+/TT8 1 Tf
+1.0243 0 TD
+0 Tc
+0 Tw
+[(x)-269.8(i)0(s)-278.5(a)0(n)-272.7(even)-250.3(integer)]TJ
+/TT2 1 Tf
+8.0045 0 TD
+(})Tj
+-37.4818 -1.2 TD
+(de)Tj
+/TT9 1 Tf
+0.9438 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nes)-494.3(the)-505.6(set)-507.3(of)-503.4(even)-494.1(integers,)-502.7(an)-501.6(in)]TJ
+/TT9 1 Tf
+15.0324 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nite)-521(set.)-766.4(Note)-501.6(that)]TJ
+/TT3 1 Tf
+8.6024 0 TD
+<0092>Tj
+/TT2 1 Tf
+1.3273 0 TD
+[(can)-494.1(be)-501.6(de)]TJ
+/TT9 1 Tf
+4.2711 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ned)-501.6(as)-503.4(the)-505.6(set)]TJ
+-31.8455 -1.2 TD
+({)Tj
+/TT8 1 Tf
+0.6455 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+0.1625 Tc
+-0.0018 Tw
+( | )Tj
+/TT8 1 Tf
+1.0243 0 TD
+0 Tc
+0 Tw
+(x)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0026>Tj
+/TT8 1 Tf
+0.5488 0 TD
+(x)Tj
+/TT2 1 Tf
+0.6028 0 TD
+[(}.)-624.6(Two)-357.9(sets)]TJ
+/TT8 1 Tf
+5.4 0 TD
+(R)Tj
+/TT2 1 Tf
+0.9636 0 TD
+(and)Tj
+/TT8 1 Tf
+1.7909 0 TD
+(S)Tj
+/TT2 1 Tf
+0.8545 0 TD
+[(are)-333.8(equivalent,)-348.6(written)]TJ
+/TT8 1 Tf
+9.5 0 TD
+(R)Tj
+/TT4 1 Tf
+0.7727 0 TD
+(=)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(,)-359.1(i)0(f)-352.8(they)-351(have)-339.6(the)-351(same)-345.3(members.)]TJ
+-24.2091 -1.2 TD
+[(For)-256.3(example,)-244.6({)-165.5(1)0(,)-250(4)0(,)-250(7)-163.6(})]TJ
+/TT4 1 Tf
+9.4818 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+0.25 Tc
+-0.25 Tw
+[( {)74.3(4)250(,7)250(,1)86.4(})250(.)]TJ
+-8.0306 -1.2 TD
+0 Tc
+0 Tw
+[(These)-239.6(sets)-254.5(are)-233.8(often)-245.3(used)-248.8(in)-258.5(mathematics)-246.3(and)-247.1(computing:)]TJ
+-2 -1.8 TD
+(1.)Tj
+/TT8 1 Tf
+1.9 0 TD
+[(Natural)-270(numbers)]TJ
+/TT2 1 Tf
+6.8262 0 TD
+0.5051 Tc
+[(:I)656.3(N)]TJ
+/TT4 1 Tf
+1.8466 0 TD
+0 Tc
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+0.25 Tc
+-0.25 Tw
+[( {)74.3(0)250(,1)250(,2)250(,)]TJ
+3.7421 0.3 TD
+0 Tc
+0 Tw
+( . . . )Tj
+1.9454 -0.3 TD
+(})Tj
+-16.8091 -1.2 TD
+(2.)Tj
+/TT8 1 Tf
+1.9 0 TD
+(Integers)Tj
+/TT2 1 Tf
+3.2769 0 TD
+0.4999 Tc
+(:Z)Tj
+0.9504 0 TD
+0 Tc
+(|)Tj
+/TT4 1 Tf
+0.6909 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( {)Tj
+0.9057 0.3 TD
+( . . . )Tj
+1.75 -0.3 TD
+(,)Tj
+/TT3 1 Tf
+0.5318 0 TD
+<003c>Tj
+/TT2 1 Tf
+0.5488 0 TD
+(2,)Tj
+/TT3 1 Tf
+1.0057 0 TD
+<003c>Tj
+/TT2 1 Tf
+0.5488 0 TD
+[(1,)-255.7(0,)-250(1,)-250(2,)]TJ
+3.8421 0.3 TD
+( . . . )Tj
+1.9455 -0.3 TD
+(})Tj
+-18.4455 -1.2 TD
+(3.)Tj
+/TT8 1 Tf
+1.9 0 TD
+[(Rational)-264.8(numbers)]TJ
+/TT2 1 Tf
+7.1534 0 TD
+0.5051 Tc
+(:Q)Tj
+0.892 0 TD
+0.1634 Tc
+(| )Tj
+/TT4 1 Tf
+0.7818 0 TD
+0 Tc
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( {)Tj
+/TT8 1 Tf
+0.9057 0 TD
+(x)Tj
+/TT2 1 Tf
+0.5182 0 TD
+0.165 Tc
+0.0032 Tw
+( | )Tj
+/TT8 1 Tf
+1.0318 0 TD
+0 Tc
+0 Tw
+(for)Tj
+/TT2 1 Tf
+1.167 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(p)Tj
+/TT3 1 Tf
+0.5 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.8876 0 TD
+(Z)Tj
+0.1727 0 TD
+[(|)-327.1( and )]TJ
+/TT8 1 Tf
+2.4711 0 TD
+(q)Tj
+/TT3 1 Tf
+0.5 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.8743 0 TD
+(Z)Tj
+0.1727 0 TD
+0.3271 Tc
+[(|,)240.7( )]TJ
+/TT8 1 Tf
+1.1136 0 TD
+0 Tc
+(q)Tj
+/TT3 1 Tf
+0.6682 0 TD
+<0026>Tj
+/TT2 1 Tf
+0.7182 0 TD
+[(0,)-86.4( )]TJ
+/TT8 1 Tf
+1.0864 0 TD
+(x)Tj
+/TT4 1 Tf
+0.5227 0 TD
+(=)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(p/q)Tj
+/TT2 1 Tf
+1.4455 0 TD
+(})Tj
+-27 -1.2 TD
+(4.)Tj
+/TT8 1 Tf
+1.9 0 TD
+[(Real)-249.3(numbers)]TJ
+/TT2 1 Tf
+5.5262 0 TD
+0.5051 Tc
+[(:I)656.3(R)]TJ
+/TT4 1 Tf
+1.8011 0 TD
+0 Tc
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( {)Tj
+/TT8 1 Tf
+0.9057 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+0.1625 Tc
+-0.0018 Tw
+( | )Tj
+/TT8 1 Tf
+1.0243 0 TD
+0 Tc
+0 Tw
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+[(is)-261.9(a)-254.5(point)-262.5(on)-254.5(the)-251(line)]TJ
+/TT3 1 Tf
+7 0 0 7 319.2 141.6601 Tm
+<003c>Tj
+/TT2 1 Tf
+0.5488 0 TD
+(2)Tj
+/TT3 1 Tf
+2.3083 0 TD
+<003c>Tj
+/TT2 1 Tf
+0.5488 0 TD
+1.8083 Tc
+-1.8083 Tw
+[(1 0)-298.8(1)-548.8(2)]TJ
+11 0 0 11 441 128.4601 Tm
+0 Tc
+0 Tw
+(})Tj
+-31.2545 -1.2 TD
+(5.)Tj
+/TT8 1 Tf
+1.9 0 TD
+(Characters)Tj
+/TT2 1 Tf
+4.5 0 TD
+0.5131 Tc
+(:C)Tj
+0.9273 0 TD
+0.1634 Tc
+(| )Tj
+/TT4 1 Tf
+0.7818 0 TD
+0 Tc
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( {)Tj
+/TT8 1 Tf
+0.9057 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+0.1625 Tc
+-0.0018 Tw
+( | )Tj
+/TT8 1 Tf
+1.0243 0 TD
+0 Tc
+0 Tw
+(x)Tj
+/TT2 1 Tf
+0.6955 0 TD
+[(is)-260.3(a)-247.1(character)-118.7(})]TJ
+-11.7273 -1.2 TD
+(6.)Tj
+/TT8 1 Tf
+1.9 0 TD
+[(Truth)-267.8(values)-245.3(\(Booleans\))]TJ
+/TT2 1 Tf
+9.6786 0 TD
+0.4981 Tc
+[(:I)703.8(B)]TJ
+/TT4 1 Tf
+1.7396 0 TD
+0 Tc
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( {)Tj
+/TT8 1 Tf
+0.9057 0 TD
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4983 0 TD
+(false)Tj
+/TT2 1 Tf
+2.0545 0 TD
+(})Tj
+-16.9364 -1.8 TD
+[(The)-345.3(concept)-336.1(of)-348.8(membership)-347.5(is)-360.3(central)-334.3(to)-358.5(set)-352.8(theory.)-604.4(We)-339.6(write)]TJ
+/TT8 1 Tf
+26.0455 0 TD
+(x)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(S)Tj
+/TT2 1 Tf
+0.8524 0 TD
+[(to)-367.6(assert)-350.4(that)]TJ
+/TT8 1 Tf
+5.6364 0 TD
+(x)Tj
+/TT2 1 Tf
+0.8 0 TD
+[(is)-369.4(a)]TJ
+-36.4909 -1.2 TD
+[(member)-350.9(of)-357.9(set)]TJ
+/TT8 1 Tf
+6.2909 0 TD
+(S.)Tj
+/TT2 1 Tf
+1.3727 0 TD
+[(The)-354.4(membership)-356.6(test)-365.9(provides)-356.2(an)-356.2(alternate)-339.9(way)-352.2(of)-348.8(looking)-362.5(at)-351(sets.)-613.6(In)-348.8(the)]TJ
+/TT6 1 Tf
+10 0 0 10 504.8 57.6601 Tm
+(17)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT8 8 0 R
+/TT9 9 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+12 0 obj
+<<
+/FunctionType 2
+/Domain [0 1]
+/N 1
+>>
+endobj
+14 0 obj
+<<
+/Length 9359
+>>
+stream
+BT
+/TT6 1 Tf
+10 0 0 10 97.2 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(18)Tj
+/TT8 1 Tf
+1 0 TD
+(     Sets, Functions, and Domains)Tj
+/TT2 1 Tf
+11 0 0 11 97.2 682.4601 Tm
+[(above)-285(examples,)-291.8(the)-305.6(internal)-300.3(structure)-292.4(of)-303.4(sets)-309.1(was)-299.4(revealed)-277.4(by)-309.1(ëëlooking)-305.6(inside)-311.3(the)-305.6(bracesíí)-271.2(to)]TJ
+0 -1.2 TD
+[(see)-323.1(all)-336.9(the)-332.9(members)-325.4(inside.)-597.7(An)-332.4(external)-316.1(view)-328.9(treats)-325.4(a)-328.9(set)]TJ
+/TT8 1 Tf
+23.7909 0 TD
+(S)Tj
+/TT2 1 Tf
+0.8364 0 TD
+[(as)-330.6(a)-328.9(closed,)-331.7(mysterious)-329.5(object)-320.3(to)]TJ
+-24.6273 -1.2 TD
+[(which)-256.2(we)-252.2(can)-248.7(only)-267.6(ask)-257.9(questions)-267.6(about)-260.1(membership.)-515.7(For)-265.4(example,)-262.8(ëëdoes)-255.5(1)]TJ
+/TT3 1 Tf
+30.4364 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.8727 0 TD
+(S)Tj
+/TT2 1 Tf
+0.7727 0 TD
+[(hold?,íí)-262.3(ëëdoes)]TJ
+-32.0818 -1.2 TD
+(4)Tj
+/TT3 1 Tf
+0.5 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.8727 0 TD
+(S)Tj
+/TT2 1 Tf
+0.9727 0 TD
+[(hold?,íí)-462.3(and)-465.2(so)-465.4(on.)-722.7(The)-454.4(internal)-454.9(structure)-446.9(of)-457.9(a)-456.2(set)-461.9(isnít)-467.6(even)-448.7(important,)-470.9(as)-457.9(long)-467.6(as)]TJ
+-2.3455 -1.2 TD
+[(membership)-311.2(questions)-322.2(can)-303.2(be)-310.7(answered.)-546.8(To)-316.4(tie)-318.7(these)-308.9(two)-318.2(views)-312.4(together,)-310(set)-316.4(theory)-308.9(supports)]TJ
+T*
+(the)Tj
+/TT8 1 Tf
+1.5909 0 TD
+[(extensionality)-364.5(principle)]TJ
+/TT2 1 Tf
+9.5285 0 TD
+[(:)-620.9(a)-356.2(set)]TJ
+/TT8 1 Tf
+3.1715 0 TD
+(R)Tj
+/TT2 1 Tf
+0.9727 0 TD
+[(is)-369.4(equivalent)-353.1(to)-367.6(a)-356.2(set)]TJ
+/TT8 1 Tf
+8.9727 0 TD
+(S)Tj
+/TT2 1 Tf
+0.8636 0 TD
+[(if)50(f)-360.7(they)-360.1(answer)-340.7(the)-360.1(same)-354.4(on)-363.6(all)]TJ
+-25.1 -1.2 TD
+[(tests)-258.5(concerning)-230.3(membership:)]TJ
+/TT8 1 Tf
+2 -1.9818 TD
+(R)Tj
+/TT4 1 Tf
+0.6909 0 TD
+(=)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(S)Tj
+/TT2 1 Tf
+0.7545 0 TD
+[(if)-252.8(and)-247.1(only)-258.5(if,)-257.3(for)-243.1(all)]TJ
+/TT8 1 Tf
+8.3727 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(,)Tj
+/TT8 1 Tf
+0.5016 0 TD
+(x)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8524 0 TD
+[(holds)-260.3(if)50(f)]TJ
+/TT8 1 Tf
+3.5727 0 TD
+(x)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(S)Tj
+/TT2 1 Tf
+0.7433 0 TD
+(holds)Tj
+-20.9636 -1.8 TD
+[(Here)-229.9(are)-233.8(some)-252.8(examples)-241.8(using)-260.3(membership:)]TJ
+2 -1.9818 TD
+(1)Tj
+/TT3 1 Tf
+0.5 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.7129 0 TD
+[( {)-166.2(1)0(,)-250(4)0(,)-250(7)-163.6(})-256.4(holds)]TJ
+-1.2129 -1.3818 TD
+0.1646 Tc
+({1})Tj
+/TT3 1 Tf
+1.9545 0 TD
+0 Tc
+<0044>Tj
+/TT2 1 Tf
+0.7129 0 TD
+[( {)-166.2(1)0(,)-250(4)0(,)-250(7)-163.6(})-256.4(does)-248.8(not)-258.5(hold)]TJ
+-2.6674 -1.3818 TD
+0.1646 Tc
+({1})Tj
+/TT3 1 Tf
+1.9545 0 TD
+0 Tc
+<0044>Tj
+/TT2 1 Tf
+0.7129 0 TD
+[( {)-166.2({)-165.5(1)-163.6(})0(,)-88.2( 4,)-90.9( 7)-168.2(})-256.4(holds)]TJ
+-4.6674 -1.8 TD
+[(The)-245.3(extensionality)-253.8(principle)-245.8(implies)-264.8(the)-251(following)-256.8(equivalences:)]TJ
+2 -1.9818 TD
+0.25 Tc
+[({)84.5(1)250(,4)250(,7)86.4(})]TJ
+/TT4 1 Tf
+3.9545 0 TD
+0 Tc
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+0.25 Tc
+-0.25 Tw
+[( {)74.3(4)250(,1)250(,7)86.4(})]TJ
+-4.5034 -1.3818 TD
+0 Tw
+[({)84.5(1)250(,4)250(,7)86.4(})]TJ
+/TT4 1 Tf
+3.9545 0 TD
+0 Tc
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+0.25 Tc
+-0.25 Tw
+[( {)74.3(4)250(,1)250(,7)250(,4)86.4(})]TJ
+-6.5034 -1.8 TD
+0 Tc
+0 Tw
+[(A)-250.6(set)]TJ
+/TT8 1 Tf
+2.3364 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8636 0 TD
+[(is)-260.3(a)]TJ
+/TT8 1 Tf
+1.6182 0 TD
+(subset)Tj
+/TT2 1 Tf
+2.7545 0 TD
+[(of)-248.8(a)-247.1(set)]TJ
+/TT8 1 Tf
+3.1364 0 TD
+(S)Tj
+/TT2 1 Tf
+0.7545 0 TD
+[(if)-252.8(every)-233.8(member)-241.8(of)]TJ
+/TT8 1 Tf
+7.9182 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8636 0 TD
+[(belongs)-252.8(to)]TJ
+/TT8 1 Tf
+4.4 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+(:)Tj
+/TT8 1 Tf
+-23.1455 -1.9818 TD
+(R)Tj
+/TT3 1 Tf
+0.6108 0 TD
+<0085>Tj
+/TT8 1 Tf
+0.871 0 TD
+(S)Tj
+/TT2 1 Tf
+0.7545 0 TD
+[(if)-252.8(and)-247.1(only)-258.5(if,)-257.3(for)-243.1(all)]TJ
+/TT8 1 Tf
+8.3727 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(,)Tj
+/TT8 1 Tf
+0.5016 0 TD
+(x)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8524 0 TD
+(implies)Tj
+/TT8 1 Tf
+3.2091 0 TD
+(x)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(S)Tj
+/TT2 1 Tf
+-19.9295 -1.8 TD
+[(For)-256.3(example,)]TJ
+2 -1.9818 TD
+0.1646 Tc
+({1})Tj
+/TT3 1 Tf
+1.7891 0 TD
+0 Tc
+<0085>Tj
+/TT2 1 Tf
+0.7129 0 TD
+0.25 Tc
+-0.25 Tw
+[( {)81.9(1)250(,4)250(,7)86.4(})]TJ
+-2.502 -1.3818 TD
+0 Tw
+[({)84.5(1)250(,4)250(,7)86.4(})]TJ
+/TT3 1 Tf
+3.7891 0 TD
+0 Tc
+<0085>Tj
+/TT2 1 Tf
+0.7129 0 TD
+0.25 Tc
+-0.25 Tw
+[( {)81.9(1)250(,4)250(,7)86.4(})]TJ
+-4.502 -1.3818 TD
+0.3291 Tc
+0 Tw
+({})Tj
+/TT3 1 Tf
+1.2891 0 TD
+0 Tc
+<0085>Tj
+/TT2 1 Tf
+0.7129 0 TD
+0.25 Tc
+-0.25 Tw
+[( {)81.9(1)250(,4)250(,7)86.4(})]TJ
+-4.002 -1.8 TD
+0 Tc
+0 Tw
+[(all)-255(hold)-258.5(true)-245.3(but)-258.5({)-165.5(1)-163.6(})]TJ
+/TT3 1 Tf
+8.5818 0 TD
+<0085>Tj
+/TT8 1 Tf
+0.2091 0 TD
+(/)Tj
+/TT2 1 Tf
+0.2778 0 TD
+[( {)-174({)-165.5(1)-163.6(})0(,)-251.8(4)0(,)-250(7)-163.6(}.)]TJ
+/TT6 1 Tf
+-9.0687 -3.6 TD
+[(2.1.1)-263.6( Constructions)-258.6(on)-262(Sets )]TJ
+/TT4 1 Tf
+12.0631 0 TD
+(_)Tj
+0.0187 0 TD
+-0.0091 Tc
+(__)Tj
+0.5091 0 TD
+0 Tc
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(_)Tj
+/TT2 1 Tf
+-37.4636 -2.4 TD
+[(The)-372.6(simplest)-393.8(way)-370.3(to)-385.8(build)-389.8(a)-374.3(new)-370.3(set)-380.1(from)-374.3(two)-381.8(existing)-388(ones)-376.1(is)-387.6(to)]TJ
+/TT8 1 Tf
+27.8273 0 TD
+(union)Tj
+/TT2 1 Tf
+2.6636 0 TD
+[(them)-382.3(together;)-382.2(we)]TJ
+-30.4909 -1.2 TD
+(write)Tj
+/TT8 1 Tf
+2.3182 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6108 0 TD
+<0046>Tj
+/TT8 1 Tf
+0.9346 0 TD
+(S)Tj
+/TT2 1 Tf
+0.7727 0 TD
+[(to)-276.7(denote)-261.7(the)-269.2(set)-271(that)-273.2(contains)-267.5(the)-269.2(members)-261.7(of)]TJ
+/TT8 1 Tf
+18.7455 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8818 0 TD
+(and)Tj
+/TT8 1 Tf
+1.7 0 TD
+(S)Tj
+/TT2 1 Tf
+0.7636 0 TD
+[(and)-256.1(no)-263.6(more.)-258.9(We)-248.7(can)-248.7(de)]TJ
+/TT9 1 Tf
+9.7438 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+(ne)Tj
+-37.0273 -1.2 TD
+[(set)-252.8(union)-258.5(in)-258.5(terms)-251(of)-248.8(membership:)]TJ
+2 -1.9818 TD
+[(for)-243.1(all)]TJ
+/TT8 1 Tf
+2.6636 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(,)Tj
+/TT8 1 Tf
+0.5016 0 TD
+(x)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6108 0 TD
+<0046>Tj
+/TT8 1 Tf
+0.9233 0 TD
+(S)Tj
+/TT2 1 Tf
+0.7545 0 TD
+[(if)-252.8(and)-247.1(only)-258.5(if)]TJ
+/TT8 1 Tf
+5.4545 0 TD
+(x)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8524 0 TD
+(or)Tj
+/TT8 1 Tf
+1.0818 0 TD
+(x)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(S)Tj
+/TT2 1 Tf
+-18.7567 -1.8 TD
+[(Here)-229.9(are)-233.8(some)-252.8(examples:)]TJ
+2 -1.9818 TD
+0.1655 Tc
+[({1)165.5(,)-84.5(2)1.9(})]TJ
+/TT3 1 Tf
+2.9545 0 TD
+0 Tc
+<0046>Tj
+/TT2 1 Tf
+0.7681 0 TD
+0.25 Tc
+-0.25 Tw
+[( {)75.3(1)250(,4)250(,7)86.4(})]TJ
+/TT4 1 Tf
+4.2137 0 TD
+0 Tc
+0 Tw
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+0.25 Tc
+-0.25 Tw
+[( {)74.3(1)250(,2)250(,4)250(,7)86.4(})]TJ
+-8.4852 -1.3818 TD
+0.3291 Tc
+0 Tw
+({})Tj
+/TT3 1 Tf
+1.4545 0 TD
+0 Tc
+<0046>Tj
+/TT2 1 Tf
+0.7681 0 TD
+0.1747 Tc
+-0.1747 Tw
+[( {1)174.7(,)-75.3(2)11.1(})]TJ
+/TT4 1 Tf
+3.2138 0 TD
+0 Tc
+0 Tw
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+0.1757 Tc
+-0.1757 Tw
+[( {1)175.7(,)-74.3(2)12.1(})]TJ
+-5.9852 -1.3818 TD
+0.1655 Tc
+0 Tw
+[({{)-163.6(}})]TJ
+/TT3 1 Tf
+2.7455 0 TD
+0 Tc
+<0046>Tj
+/TT2 1 Tf
+0.7681 0 TD
+0.1747 Tc
+-0.1747 Tw
+[( {1)174.7(,)-75.3(2)11.1(})]TJ
+/TT4 1 Tf
+3.2138 0 TD
+0 Tc
+0 Tw
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[( {)-175.7({)-329.1(},)-251.8(1,)-250(2)-163.6(})]TJ
+-9.2761 -1.8 TD
+[(The)-936.2(union)-949.4(operation)-932.7(is)-951.2(commutative)-942.9(and)-938(associative;)-935(that)-945.9(is,)]TJ
+/TT8 1 Tf
+30.5091 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6108 0 TD
+<0046>Tj
+/TT8 1 Tf
+0.9346 0 TD
+(S)Tj
+/TT4 1 Tf
+0.6636 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(S)Tj
+/TT3 1 Tf
+0.5 0 TD
+<0046>Tj
+/TT8 1 Tf
+0.9466 0 TD
+(R)Tj
+/TT2 1 Tf
+1.5636 0 TD
+(and)Tj
+-36.5273 -1.2 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6108 0 TD
+<0046>Tj
+/TT8 1 Tf
+0.9289 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\))Tj
+/TT3 1 Tf
+0.4909 0 TD
+<0046>Tj
+/TT2 1 Tf
+0.7681 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(T)Tj
+/TT4 1 Tf
+0.7365 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(R)Tj
+/TT3 1 Tf
+0.7012 0 TD
+<0046>Tj
+/TT2 1 Tf
+0.7681 0 TD
+( \()Tj
+/TT8 1 Tf
+0.583 0 TD
+(S)Tj
+/TT3 1 Tf
+0.5 0 TD
+<0046>Tj
+/TT8 1 Tf
+0.9398 0 TD
+(T)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(\).)-297.2(The)-281.7(concept)-272.4(of)-276.1(union)-285.8(can)-266.9(be)-274.3(extended)-263.4(to)-285.8(join)-289.8(an)-274.3(arbitrary)-257.6(number)-272.6(of)]TJ
+ET
+endstream
+endobj
+15 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT8 8 0 R
+/TT9 9 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+17 0 obj
+<<
+/Length 13244
+>>
+stream
+BT
+/TT8 1 Tf
+10 0 0 10 380 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(2.1.1  Constructions on Sets     )Tj
+/TT6 1 Tf
+12.4727 0 TD
+(19)Tj
+/TT2 1 Tf
+11 0 0 11 97.2 677.2601 Tm
+[(sets.)-513.6(If)]TJ
+/TT8 1 Tf
+3.1727 0 TD
+(R)Tj
+/TT2 1 Tf
+8 0 0 8 138.8192 675.0601 Tm
+(0)Tj
+11 0 0 11 143.7 677.2601 Tm
+(,)Tj
+/TT8 1 Tf
+0.5 0 TD
+(R)Tj
+/TT2 1 Tf
+8 0 0 8 155.9192 675.0601 Tm
+(1)Tj
+11 0 0 11 160.8 677.2601 Tm
+(,)Tj
+/TT8 1 Tf
+0.5 0 TD
+(R)Tj
+/TT2 1 Tf
+8 0 0 8 173.0192 675.0601 Tm
+(2)Tj
+11 0 0 11 177.9 677.2601 Tm
+(,)Tj
+0.3364 0.3 TD
+( . . . )Tj
+2.0364 -0.3 TD
+[(is)-260.3(an)-256.2(in)]TJ
+/TT9 1 Tf
+2.9051 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nite)-275.6(sequence)-235.4(of)-257.9(sets,)]TJ
+8 0 0 8 338.7 666.0601 Tm
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(i)Tj
+/TT4 1 Tf
+0.2778 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+(0)Tj
+/TT3 1 Tf
+16 0 0 16 338.8 673.9601 Tm
+<0046>Tj
+/TT2 1 Tf
+8 0 0 8 341.1 687.6601 Tm
+( )Tj
+/TT3 1 Tf
+0.25 0 TD
+<0027>Tj
+/TT2 1 Tf
+11 0 0 11 351.2 677.2601 Tm
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(R)Tj
+8 0 0 8 360.6692 675.0601 Tm
+(i)Tj
+/TT2 1 Tf
+11 0 0 11 366.7 677.2601 Tm
+[(stands)-263.6(for)-252.2(their)-258.4(union.)-526.7(For)-265.4(exam-)]TJ
+-24.5 -2.5 TD
+[(ple,)-310.1(Z)]TJ
+1.9545 0 TD
+(|)Tj
+/TT4 1 Tf
+0.6909 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+8 0 0 8 135.0871 638.5601 Tm
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(i)Tj
+/TT4 1 Tf
+0.2778 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+(0)Tj
+/TT3 1 Tf
+16 0 0 16 135.3 646.4601 Tm
+<0046>Tj
+/TT2 1 Tf
+8 0 0 8 137.6 660.16 Tm
+( )Tj
+/TT3 1 Tf
+0.25 0 TD
+<0027>Tj
+/TT2 1 Tf
+11 0 0 11 147.7 649.7601 Tm
+( {)Tj
+/TT3 1 Tf
+0.9 0 TD
+<003c>Tj
+/TT8 1 Tf
+0.5488 0 TD
+(i)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(,)Tj
+0.3461 0.3 TD
+( . . . )Tj
+1.75 -0.3 TD
+(,)Tj
+/TT3 1 Tf
+0.3682 0 TD
+<003c>Tj
+/TT2 1 Tf
+0.5488 0 TD
+[(1,)-255.7(0,)-250(1,)]TJ
+2.8421 0.3 TD
+( . . . )Tj
+1.75 -0.3 TD
+(,)Tj
+/TT8 1 Tf
+0.5318 0 TD
+(i)Tj
+/TT2 1 Tf
+0.4455 0 TD
+[(})-310.9(shows)-299.5(how)-296(the)-296.5(in)]TJ
+/TT9 1 Tf
+7.9051 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nite)-312(union)-304(construction)-293(can)-285(build)-308(an)]TJ
+-23.3613 -2.0273 TD
+(in)Tj
+/TT9 1 Tf
+0.7778 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nite)-266.5(set)-252.8(from)-247.1(a)-247.1(group)-248.8(of)]TJ
+/TT9 1 Tf
+9.6751 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nite)-262.5(ones.)]TJ
+-9.5652 -1.2 TD
+[(Similarly,)-373.3(the)]TJ
+/TT8 1 Tf
+5.9182 0 TD
+(intersection)Tj
+/TT2 1 Tf
+5.0727 0 TD
+[(of)-348.8(sets)]TJ
+/TT8 1 Tf
+3.0364 0 TD
+(R)Tj
+/TT2 1 Tf
+0.9636 0 TD
+(and)Tj
+/TT8 1 Tf
+1.7909 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+(,)Tj
+/TT8 1 Tf
+0.6091 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6108 0 TD
+<0045>Tj
+/TT8 1 Tf
+0.9346 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(,)-359.1(i)0(s)-360.3(the)-351(set)-352.8(that)-364.1(contains)-358.4(only)-367.6(members)]TJ
+-21.9364 -1.2 TD
+[(common)-255(to)-258.5(both)]TJ
+/TT8 1 Tf
+6.8273 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8636 0 TD
+(and)Tj
+/TT8 1 Tf
+1.6909 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+(:)Tj
+-7.8818 -1.9818 TD
+[(for)-243.1(all)]TJ
+/TT8 1 Tf
+2.6636 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(,)Tj
+/TT8 1 Tf
+0.5016 0 TD
+(x)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6108 0 TD
+<0045>Tj
+/TT8 1 Tf
+0.9233 0 TD
+(S)Tj
+/TT2 1 Tf
+0.7545 0 TD
+[(if)-252.8(and)-247.1(only)-258.5(if)]TJ
+/TT8 1 Tf
+5.4545 0 TD
+(x)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8524 0 TD
+(and)Tj
+/TT8 1 Tf
+1.6909 0 TD
+(x)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(S)Tj
+/TT2 1 Tf
+-19.3658 -1.8 TD
+[(Intersection)-234.3(is)-260.3(also)-252.8(commutative)-252(and)-247.1(associative.)]TJ
+2 -1.2 TD
+[(An)-314.2(important)-320.9(concept)-299.7(that)-318.7(can)-303.2(be)-310.7(de)]TJ
+/TT9 1 Tf
+14.862 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ned)-310.7(in)-322.2(terms)-314.7(of)-312.4(sets)-318.2(\(though)-316.4(it)-326.2(is)-323.9(not)-322.2(done)-319.8(here\))-300.8(is)]TJ
+-17.4182 -1.2 TD
+(the)Tj
+/TT8 1 Tf
+1.5182 0 TD
+[(ordered)-288.5(pair.)]TJ
+/TT2 1 Tf
+5.6818 0 TD
+[(For)-301.8(two)-300(objects)]TJ
+/TT8 1 Tf
+6.6182 0 TD
+(x)Tj
+/TT2 1 Tf
+0.7364 0 TD
+(and)Tj
+/TT8 1 Tf
+1.7364 0 TD
+(y,)Tj
+/TT2 1 Tf
+0.9909 0 TD
+[(their)-294.8(pairing)-294.8(is)-305.7(written)-294.8(\()]TJ
+/TT8 1 Tf
+9.6876 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(,)Tj
+/TT8 1 Tf
+0.3231 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+[(\).)-291.3(Ordered)-260.5(pairs)-283.4(are)-270.2(use-)]TJ
+-28.1802 -1.2 TD
+[(ful)-252.8(because)-226.4(of)-248.8(the)-251(indexing)-255(operations)]TJ
+/TT8 1 Tf
+15.4727 0 TD
+(fst)Tj
+/TT2 1 Tf
+1.2091 0 TD
+(and)Tj
+/TT8 1 Tf
+1.6909 0 TD
+(snd,)Tj
+/TT2 1 Tf
+1.9 0 TD
+(de)Tj
+/TT9 1 Tf
+0.9438 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ned)-247.1(such)-248.8(that:)]TJ
+/TT8 1 Tf
+-19.7727 -1.9818 TD
+(fst)Tj
+/TT2 1 Tf
+0.9448 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(,)Tj
+/TT8 1 Tf
+0.3329 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4834 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(x)Tj
+-3.7806 -1.3818 TD
+(snd)Tj
+/TT2 1 Tf
+1.3892 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(,)Tj
+/TT8 1 Tf
+0.3249 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4834 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(y)Tj
+/TT2 1 Tf
+-6.217 -1.8 TD
+[(Two)-294.3(ordered)-273.6(pairs)]TJ
+/TT8 1 Tf
+7.6909 0 TD
+(P)Tj
+/TT2 1 Tf
+0.9091 0 TD
+(and)Tj
+/TT8 1 Tf
+1.7364 0 TD
+(Q)Tj
+/TT2 1 Tf
+1.0182 0 TD
+[(are)-288.4(equivalent)-298.6(if)50(f)]TJ
+/TT8 1 Tf
+7.1727 0 TD
+[(fst)-173.4(P)]TJ
+/TT4 1 Tf
+1.8909 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+[(fst)-183.6(Q)]TJ
+/TT2 1 Tf
+2.1557 0 TD
+(and)Tj
+/TT8 1 Tf
+1.7455 0 TD
+[(snd)-165.4(P)]TJ
+/TT4 1 Tf
+2.3273 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+[(snd)-175.6(Q)]TJ
+/TT2 1 Tf
+2.287 0 TD
+[(.)-564.2(Pairing)-311.3(is)-314.8(useful)]TJ
+-30.5313 -1.2 TD
+[(for)-270.3(de)]TJ
+/TT9 1 Tf
+2.3802 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ning)-285.8(another)-265.1(set)-280.1(construction,)-279.4(the)-278.3(product)-272.6(construction.)-533.9(For)-283.6(sets)]TJ
+/TT8 1 Tf
+26.2 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8818 0 TD
+(and)Tj
+/TT8 1 Tf
+1.7091 0 TD
+(S,)Tj
+/TT2 1 Tf
+1.0273 0 TD
+(their)Tj
+/TT8 1 Tf
+2.1 0 TD
+(product)Tj
+-34.8545 -1.2 TD
+(R)Tj
+/TT4 1 Tf
+0.6909 0 TD
+(◊)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(S)Tj
+/TT2 1 Tf
+0.7545 0 TD
+[(is)-260.3(the)-251(set)-252.8(of)-248.8(all)-255(pairs)-247.1(built)-266.5(from)]TJ
+/TT8 1 Tf
+12.5818 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8636 0 TD
+(and)Tj
+/TT8 1 Tf
+1.6909 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+(:)Tj
+/TT8 1 Tf
+-15.8 -1.9818 TD
+(R)Tj
+/TT4 1 Tf
+0.6909 0 TD
+(◊)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(S)Tj
+/TT4 1 Tf
+0.6636 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+0.1757 Tc
+-0.1757 Tw
+[( {\()]TJ
+/TT8 1 Tf
+1.2387 0 TD
+0 Tc
+0 Tw
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(,)Tj
+/TT8 1 Tf
+0.3231 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+0.155 Tw
+[(\) |)-163.4( )]TJ
+/TT8 1 Tf
+1.3516 0 TD
+0 Tw
+(x)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(R)Tj
+/TT2 1 Tf
+0.6108 0 TD
+( and )Tj
+/TT8 1 Tf
+1.9438 0 TD
+(y)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(S)Tj
+/TT2 1 Tf
+0.6455 0 TD
+(})Tj
+-13.9364 -1.8 TD
+[(Both)-418.8(pairing)-403.8(and)-401.6(products)-401.6(can)-394.1(be)-410.7(generalized)-383(from)-410.7(their)-412.9(binary)-409(formats)-409(to)]TJ
+/TT8 1 Tf
+31.6455 0 TD
+(n)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(-tuples)-414.7(and)]TJ
+/TT8 1 Tf
+4.9909 0 TD
+(n)Tj
+/TT2 1 Tf
+0.5 0 TD
+(-)Tj
+-37.6364 -1.2 TD
+(products.)Tj
+2 -1.2 TD
+[(A)-277.8(form)-274.3(of)-276.1(union)-285.8(construction)-274.8(on)-281.8(sets)-281.8(that)-282.3(keeps)-268.6(the)-278.3(members)-270.8(of)-276.1(the)-278.3(respective)-255.9(sets)]TJ
+/TT8 1 Tf
+33.6364 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8909 0 TD
+(and)Tj
+/TT8 1 Tf
+-36.5273 -1.2 TD
+(S)Tj
+/TT2 1 Tf
+0.7545 0 TD
+[(separate)-224.6(is)-260.3(called)]TJ
+/TT8 1 Tf
+7.0545 0 TD
+[(disjoint)-272.2(union)]TJ
+/TT2 1 Tf
+5.8091 0 TD
+[(\(or)-243.1(sometimes,)]TJ
+/TT8 1 Tf
+6.2 0 TD
+(sum)Tj
+/TT2 1 Tf
+1.6113 0 TD
+(\):)Tj
+/TT8 1 Tf
+-19.4295 -1.9818 TD
+(R)Tj
+/TT4 1 Tf
+0.6909 0 TD
+(+)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(S)Tj
+/TT4 1 Tf
+0.6636 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+0.1757 Tc
+-0.1757 Tw
+[( {\()]TJ
+/TT8 1 Tf
+1.2387 0 TD
+0 Tc
+0 Tw
+(zero)Tj
+/TT2 1 Tf
+1.7222 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4903 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+0.155 Tw
+[(\) |)-163.4( )]TJ
+/TT8 1 Tf
+1.3516 0 TD
+0 Tw
+(x)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(R)Tj
+/TT2 1 Tf
+0.766 0 TD
+(})Tj
+/TT3 1 Tf
+0.6455 0 TD
+<0046>Tj
+/TT2 1 Tf
+0.7681 0 TD
+0.1655 Tc
+0.0073 Tw
+[( {\()]TJ
+/TT8 1 Tf
+1.4013 0 TD
+0 Tc
+0 Tw
+(one)Tj
+/TT2 1 Tf
+1.4438 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4868 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+0.155 Tw
+[(\) |)-163.4( )]TJ
+/TT8 1 Tf
+1.3516 0 TD
+0 Tw
+(y)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(S)Tj
+/TT2 1 Tf
+0.6569 0 TD
+(})Tj
+-20.1455 -1.8 TD
+[(Ordered)-315(pairs)-338(are)-324.8(used)-339.7(to)-358.5(ëëtagíí)-328.1(the)-351(members)-343.6(of)]TJ
+/TT8 1 Tf
+20.3727 0 TD
+(R)Tj
+/TT2 1 Tf
+0.9636 0 TD
+(and)Tj
+/TT8 1 Tf
+1.7909 0 TD
+(S)Tj
+/TT2 1 Tf
+0.8545 0 TD
+[(so)-356.3(that)-355(it)-362.5(is)-360.3(possible)-358.5(to)-358.5(examine)-340.1(a)]TJ
+-23.9818 -1.2 TD
+[(member)-241.8(and)-247.1(determine)-238.3(its)-264.3(origin.)]TJ
+2 -1.2 TD
+(We)Tj
+/TT9 1 Tf
+1.8182 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nd)-452.9(it)-453.4(useful)-438(to)-449.4(de)]TJ
+/TT9 1 Tf
+7.515 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ne)-447.1(operations)-443.6(for)-443.1(assembling)-455(and)-447.1(disassembling)-460.8(members)-443.6(of)]TJ
+/TT8 1 Tf
+-12.4455 -1.2 TD
+(R)Tj
+/TT4 1 Tf
+0.6909 0 TD
+(+)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(.)-259.1(For)-256.3(assembly,)-255.6(we)-243.1(propose)-243.1(in)]TJ
+/TT8 1 Tf
+11.9778 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8676 0 TD
+[(and)-247.1(in)]TJ
+/TT8 1 Tf
+2.4687 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(,)-263.1(which)-247.1(behave)-232.1(as)-248.8(follows:)]TJ
+-15.7233 -1.9818 TD
+(for)Tj
+/TT8 1 Tf
+1.4091 0 TD
+(x)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(R)Tj
+/TT2 1 Tf
+0.6108 0 TD
+0.2097 Tc
+[(,i)209.7(n)]TJ
+/TT8 1 Tf
+1.2375 0 TD
+0 Tc
+(R)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4799 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( \()Tj
+/TT8 1 Tf
+0.583 0 TD
+(zero)Tj
+/TT2 1 Tf
+1.7222 0 TD
+(,)Tj
+/TT8 1 Tf
+0.5005 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+-10.0802 -1.3818 TD
+(for)Tj
+/TT8 1 Tf
+1.4091 0 TD
+(y)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+0.3205 Tc
+[(,i)320.5(n)]TJ
+/TT8 1 Tf
+1.3484 0 TD
+0 Tc
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4817 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( \()Tj
+/TT8 1 Tf
+0.583 0 TD
+(one)Tj
+/TT2 1 Tf
+1.4438 0 TD
+(,)Tj
+/TT8 1 Tf
+0.497 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+-11.6893 -1.8 TD
+[(To)-352.8(remove)-337.8(the)-351(tag)-351(from)-347.1(an)-347.1(element)]TJ
+/TT8 1 Tf
+15.0364 0 TD
+(m)Tj
+/TT3 1 Tf
+0.8 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.7129 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(R)Tj
+/TT4 1 Tf
+0.6917 0 TD
+(+)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(,)-359.1(w)0(e)-343.1(could)-351(simply)-368.3(say)]TJ
+/TT8 1 Tf
+9.4727 0 TD
+(snd)Tj
+/TT2 1 Tf
+1.3892 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(m)Tj
+/TT2 1 Tf
+0.7222 0 TD
+[(\),)-354.5(but)-367.6(will)-371.6(instead)]TJ
+-30.6262 -1.2 TD
+[(resort)-241.3(to)-258.5(a)-247.1(better)-241.8(structured)-237.8(operation)-241.8(called)]TJ
+/TT8 1 Tf
+17.6455 0 TD
+(cases.)Tj
+/TT2 1 Tf
+2.9182 0 TD
+[(For)-256.3(any)]TJ
+/TT8 1 Tf
+3.3364 0 TD
+(m)Tj
+/TT3 1 Tf
+0.7222 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.8687 0 TD
+(R)Tj
+/TT4 1 Tf
+0.6909 0 TD
+(+)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(,)-259.1(the)-251(value)-243.6(of:)]TJ
+-25.4 -1.9818 TD
+(cases )Tj
+/TT8 1 Tf
+2.3599 0 TD
+(m)Tj
+/TT2 1 Tf
+0.7222 0 TD
+( of)Tj
+-1.2638 -1.3818 TD
+(is)Tj
+/TT8 1 Tf
+0.667 0 TD
+(R)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT3 1 Tf
+0.4817 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0.3 TD
+( . . . )Tj
+/TT8 1 Tf
+1.75 -0.3 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0.3 TD
+( . . . )Tj
+-5.8848 -1.6818 TD
+[([)151.2(])0( is)]TJ
+/TT8 1 Tf
+1.4318 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT3 1 Tf
+0.4822 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0.3 TD
+( . . . )Tj
+/TT8 1 Tf
+1.75 -0.3 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0.3 TD
+( . . . )Tj
+-8.3575 -1.6818 TD
+(end)Tj
+-2 -1.8 TD
+[(is)-260.3(ëë)]TJ
+1.5933 0.3 TD
+( . . . )Tj
+/TT8 1 Tf
+1.75 -0.3 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0.3 TD
+( . . . )Tj
+1.75 -0.3 TD
+[(íí)-287.8(when)]TJ
+/TT8 1 Tf
+3.3629 0 TD
+(m)Tj
+/TT4 1 Tf
+0.8818 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( \()Tj
+/TT8 1 Tf
+0.583 0 TD
+(zero)Tj
+/TT2 1 Tf
+1.7222 0 TD
+(,)Tj
+/TT8 1 Tf
+0.5005 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+[(\))-241.3(and)-247.1(is)-260.3(ëë)]TJ
+3.8585 0.3 TD
+( . . . )Tj
+/TT8 1 Tf
+1.75 -0.3 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0.3 TD
+( . . . )Tj
+1.75 -0.3 TD
+[(íí)-287.8(when)]TJ
+/TT8 1 Tf
+3.3629 0 TD
+(m)Tj
+/TT4 1 Tf
+0.8818 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( \()Tj
+/TT8 1 Tf
+0.583 0 TD
+(one)Tj
+/TT2 1 Tf
+1.4438 0 TD
+(,)Tj
+/TT8 1 Tf
+0.497 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+[(\).)-245.9(The)]TJ
+/TT8 1 Tf
+2.638 0 TD
+(cases)Tj
+/TT2 1 Tf
+2.4182 0 TD
+(operation)Tj
+-34.2 -1.2 TD
+[(makes)-290.8(good)-300(use)-294.3(of)-294.3(the)-287.4(tag)-287.4(on)-290.9(the)-287.4(sum)-296.6(element;)-284.4(it)-298.9(checks)-270.2(the)-287.4(tag)-287.4(before)-264.5(removing)-285.7(it)-298.9(and)-283.4(using)]TJ
+T*
+[(the)-296.5(value.)-293.6(Do)-296(not)-304(be)-292.5(confused)-281(by)-300(the)-296.5(is)]TJ
+/TT8 1 Tf
+15.9397 0 TD
+(R)Tj
+/TT2 1 Tf
+0.9148 0 TD
+[(and)-292.5(is)]TJ
+/TT8 1 Tf
+2.4034 0 TD
+(S)Tj
+/TT2 1 Tf
+0.8057 0 TD
+[(phrases.)-541.9(They)-299.9(are)-288.4(not)-313.1(new)-297.6(operations.)-557.2(You)]TJ
+ET
+endstream
+endobj
+18 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT8 8 0 R
+/TT9 9 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+20 0 obj
+<<
+/Length 10734
+>>
+stream
+BT
+/TT6 1 Tf
+10 0 0 10 97.2 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(20)Tj
+/TT8 1 Tf
+1 0 TD
+(     Sets, Functions, and Domains)Tj
+/TT2 1 Tf
+11 0 0 11 97.2 682.4601 Tm
+[(should)-269.4(read)-242.9(the)-260.1(phrase)-244.7(is)]TJ
+/TT8 1 Tf
+9.9034 0 TD
+(R)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT3 1 Tf
+0.4817 0 TD
+<0041>Tj
+/TT2 1 Tf
+0.9868 0.3 TD
+( . . . )Tj
+/TT8 1 Tf
+1.75 -0.3 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0.3 TD
+( . . . )Tj
+2.0739 -0.3 TD
+[(as)-257.9(saying,)-257.3(ëëif)]TJ
+/TT8 1 Tf
+5.7273 0 TD
+(m)Tj
+/TT2 1 Tf
+0.9727 0 TD
+[(is)-260.3(an)-247.1(element)-244.1(whose)-244.8(tag)-251(component)]TJ
+-23.7273 -1.2 TD
+(is)Tj
+/TT8 1 Tf
+0.9273 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8636 0 TD
+[(and)-247.1(whose)-244.8(value)-243.6(component)-247.5(is)]TJ
+/TT8 1 Tf
+12.5182 0 TD
+(x,)Tj
+/TT2 1 Tf
+0.9455 0 TD
+[(then)-251(the)-251(answer)-231.6(is)]TJ
+7.4364 0.3 TD
+( . . . )Tj
+/TT8 1 Tf
+1.75 -0.3 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0.3 TD
+( . . . )Tj
+1.75 -0.3 TD
+[(.íí)-558.3(As)-252.3(an)-247.1(example,)-244.6(for:)]TJ
+/TT8 1 Tf
+-24.6348 -1.9818 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(m)Tj
+/TT2 1 Tf
+0.7222 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4852 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( cases )Tj
+/TT8 1 Tf
+2.6099 0 TD
+(m)Tj
+/TT2 1 Tf
+0.7222 0 TD
+( of)Tj
+-2.0627 -1.3818 TD
+[(isI)145.5(N\()]TJ
+/TT8 1 Tf
+1.9097 0 TD
+(n)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\))Tj
+/TT3 1 Tf
+0.4812 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(n)Tj
+/TT4 1 Tf
+0.5 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+(1)Tj
+-5.0943 -1.3818 TD
+[([)151.2(])0( isI)201.2(B\()]TJ
+/TT8 1 Tf
+2.5636 0 TD
+(b)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\))Tj
+/TT3 1 Tf
+0.4909 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+(0)Tj
+-4.7091 -1.3818 TD
+(end)Tj
+/TT8 1 Tf
+-5.6364 -1.8 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+[(\(inI)149(N\(2\)\))]TJ
+/TT4 1 Tf
+3.7494 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(zero)Tj
+/TT2 1 Tf
+1.7222 0 TD
+0.2545 Tc
+[(,2)254.5(\))]TJ
+/TT4 1 Tf
+1.5863 0 TD
+0 Tc
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( 2)Tj
+/TT4 1 Tf
+0.9239 0 TD
+(+)Tj
+/TT2 1 Tf
+0.7182 0 TD
+(1)Tj
+/TT4 1 Tf
+0.7545 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[( 3,)-269.4(but)]TJ
+/TT8 1 Tf
+2.8057 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+[(\(inI)203.5(B\()]TJ
+/TT8 1 Tf
+2.2404 0 TD
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+(\)\))Tj
+/TT4 1 Tf
+0.9073 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(one)Tj
+/TT2 1 Tf
+1.4438 0 TD
+(,)Tj
+/TT8 1 Tf
+0.501 0 TD
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+(\))Tj
+/TT4 1 Tf
+0.5801 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( 0.)Tj
+-24.1761 -1.2 TD
+[(Like)-249.3(a)-247.1(product,)-249.9(the)-251(sum)-260.3(construction)-247.5(can)-239.6(be)-247.1(generalized)-219.4(from)-247.1(its)-264.3(binary)-245.3(format)-243.6(to)]TJ
+/TT8 1 Tf
+32.7091 0 TD
+(n)Tj
+/TT2 1 Tf
+0.5 0 TD
+(-sums.)Tj
+-33.2091 -1.2 TD
+[(Finally,)-271.1(the)-251(set)-252.8(of)-248.8(all)-255(subsets)-256.3(of)-248.8(a)-247.1(set)]TJ
+/TT8 1 Tf
+14.8091 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8636 0 TD
+[(is)-260.3(called)-240.1(its)]TJ
+/TT8 1 Tf
+4.7636 0 TD
+(powerset)Tj
+/TT2 1 Tf
+3.6108 0 TD
+(:)Tj
+-24.0472 -1.9818 TD
+-0.1512 Tc
+[(IP)-151.2(\()]TJ
+/TT8 1 Tf
+1.071 0 TD
+0 Tc
+(R)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4909 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( {)Tj
+/TT8 1 Tf
+0.9057 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+0.1625 Tc
+-0.0018 Tw
+( | )Tj
+/TT8 1 Tf
+1.0243 0 TD
+0 Tc
+0 Tw
+(x)Tj
+/TT3 1 Tf
+0.5227 0 TD
+<0085>Tj
+/TT8 1 Tf
+0.8727 0 TD
+(R)Tj
+/TT2 1 Tf
+0.7727 0 TD
+(})Tj
+-9.2636 -1.8 TD
+0.3291 Tc
+({})Tj
+/TT3 1 Tf
+1.4545 0 TD
+0 Tc
+<0044>Tj
+/TT2 1 Tf
+0.7129 0 TD
+-0.1504 Tc
+0.1504 Tw
+[( IP)-150.4(\()]TJ
+/TT8 1 Tf
+1.3217 0 TD
+0 Tc
+0 Tw
+(R)Tj
+/TT2 1 Tf
+0.6108 0 TD
+[(\))-248.8(and)]TJ
+/TT8 1 Tf
+2.2727 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6108 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.871 0 TD
+-0.1512 Tc
+[(IP)-151.2(\()]TJ
+/TT8 1 Tf
+1.071 0 TD
+0 Tc
+(R)Tj
+/TT2 1 Tf
+0.6108 0 TD
+[(\))-248.8(both)-258.5(hold.)]TJ
+/TT6 1 Tf
+-9.5364 -4.8 TD
+[(2.2)-259.1( FUNCTIONS )]TJ
+/TT4 1 Tf
+7.8987 0 TD
+(_)Tj
+0.0285 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(_)Tj
+/TT2 1 Tf
+-37.4636 -2.4 TD
+[(Functions)-327.9(are)-297.5(rather)-295.7(slippery)-314.7(objects)-312.9(to)-322.2(catch)-299.7(and)-310.7(examine.)-562.8(A)-314.2(function)-322(cannot)-316.3(be)-319.8(taken)-316.3(apart)]TJ
+0 -1.2 TD
+[(and)-265.2(its)-282.4(internals)-265.7(examined.)-517.3(It)-261.9(is)-269.4(like)-264.1(a)-256.2(ëëblack)-241.2(boxíí)-252.2(that)-264.1(accepts)-239.4(an)-256.2(object)-256.6(as)-257.9(its)-273.4(input)-271.6(and)-256.2(then)]TJ
+T*
+[(transforms)-268.6(it)-289.8(in)-285.8(some)-280.1(way)-270.3(to)-294.9(produce)-270.2(another)-274.2(object)-283.9(as)-285.2(its)-300.6(output.)-558(We)-275.9(must)-300.6(use)-285.2(the)-287.4(ëëexternal)]TJ
+T*
+[(approachíí)-496.7(mentioned)-533.4(above)-521.4(to)-540.3(understand)-521.4(functions.)-792(Sets)-542.1(are)-506.6(ideal)-520.3(for)-515.8(formalizing)-516.8(the)]TJ
+T*
+[(method.)-523.2(For)-265.4(two)-263.6(sets)]TJ
+/TT8 1 Tf
+8.9545 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8727 0 TD
+(and)Tj
+/TT8 1 Tf
+1.7 0 TD
+[(S,)-268.2(f)]TJ
+/TT2 1 Tf
+1.5636 0 TD
+[(is)-278.5(a)]TJ
+/TT8 1 Tf
+1.6545 0 TD
+(function)Tj
+/TT2 1 Tf
+3.5545 0 TD
+(from)Tj
+/TT8 1 Tf
+2.2091 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8818 0 TD
+(to)Tj
+/TT8 1 Tf
+1.0545 0 TD
+(S,)Tj
+/TT2 1 Tf
+1.0273 0 TD
+(written)Tj
+/TT8 1 Tf
+3.1 0 TD
+(f)Tj
+/TT2 1 Tf
+0.4455 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6994 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(,)-277.3(if,)-275.5(to)-276.7(each)-250.3(member)]TJ
+-29.9 -1.2 TD
+(of)Tj
+/TT8 1 Tf
+1.1545 0 TD
+[(R,)-321(f)]TJ
+/TT2 1 Tf
+1.7818 0 TD
+[(associates)-301.5(exactly)-303.7(one)-310.7(member)-305.5(of)]TJ
+/TT8 1 Tf
+13.9727 0 TD
+(S.)Tj
+/TT2 1 Tf
+1.3273 0 TD
+[(The)-308.9(expression)]TJ
+/TT8 1 Tf
+6.4455 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6909 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(S)Tj
+/TT2 1 Tf
+0.8182 0 TD
+[(is)-323.9(called)-303.7(the)]TJ
+/TT8 1 Tf
+5.2182 0 TD
+(arity)Tj
+/TT2 1 Tf
+2.2091 0 TD
+(or)Tj
+/TT8 1 Tf
+1.1455 0 TD
+(func-)Tj
+-35.9182 -1.2 TD
+(tionality)Tj
+/TT2 1 Tf
+3.7273 0 TD
+(of)Tj
+/TT8 1 Tf
+1.2091 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(.)Tj
+/TT8 1 Tf
+0.6404 0 TD
+(R)Tj
+/TT2 1 Tf
+0.9909 0 TD
+[(is)-387.6(the)]TJ
+/TT8 1 Tf
+2.6636 0 TD
+(domain)Tj
+/TT2 1 Tf
+3.3909 0 TD
+(of)Tj
+/TT8 1 Tf
+1.2182 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(;)Tj
+/TT8 1 Tf
+0.6767 0 TD
+(S)Tj
+/TT2 1 Tf
+0.8909 0 TD
+[(is)-396.6(the)]TJ
+/TT8 1 Tf
+2.6727 0 TD
+(codomain)Tj
+/TT2 1 Tf
+4.3273 0 TD
+(of)Tj
+/TT8 1 Tf
+1.2182 0 TD
+(f.)Tj
+/TT2 1 Tf
+1.1818 0 TD
+(If)Tj
+/TT8 1 Tf
+1.0455 0 TD
+(x)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(R)Tj
+/TT2 1 Tf
+0.9887 0 TD
+[(holds,)-401.2(and)-383.4(the)-387.4(element)]TJ
+-28.5545 -1.2 TD
+[(paired)-246.9(to)]TJ
+/TT8 1 Tf
+3.7909 0 TD
+(x)Tj
+/TT2 1 Tf
+0.6909 0 TD
+(by)Tj
+/TT8 1 Tf
+1.2545 0 TD
+(f)Tj
+/TT2 1 Tf
+0.5364 0 TD
+(is)Tj
+/TT8 1 Tf
+0.9273 0 TD
+(y,)Tj
+/TT2 1 Tf
+0.9455 0 TD
+[(we)-243.1(write)]TJ
+/TT8 1 Tf
+3.7091 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4817 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+[(.)-261.9(A)0(s)-252.3(a)-247.1(simple)-260.8(example,)-244.6(if)]TJ
+/TT8 1 Tf
+10.2391 0 TD
+(R)Tj
+/TT4 1 Tf
+0.7727 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+0.25 Tc
+-0.25 Tw
+[( {)74.3(1)250(,4)250(,7)86.4(})250(,)]TJ
+/TT8 1 Tf
+4.5603 0 TD
+0 Tc
+0 Tw
+(S)Tj
+/TT4 1 Tf
+0.6636 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[( {)-175.7(2)0(,)-250(4)0(,)-250(6)-163.6(},)-260.9(and)]TJ
+/TT8 1 Tf
+-31.967 -1.2 TD
+(f)Tj
+/TT2 1 Tf
+0.5364 0 TD
+(maps)Tj
+/TT8 1 Tf
+2.3636 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8636 0 TD
+(to)Tj
+/TT8 1 Tf
+1.0364 0 TD
+(S)Tj
+/TT2 1 Tf
+0.7545 0 TD
+[(as)-248.8(follows:)]TJ
+/TT8 1 Tf
+-1.7364 -3.0545 TD
+9.3892 Tc
+(RS)Tj
+4.5091 -1.3818 TD
+0 Tc
+(f)Tj
+/TT2 1 Tf
+-4.5091 -1.3818 TD
+9.5 Tc
+(12)Tj
+0 -2.4818 TD
+(44)Tj
+T*
+(76)Tj
+-3.8182 -4.1091 TD
+0 Tc
+(then)Tj
+/TT8 1 Tf
+1.9909 0 TD
+(f)Tj
+/TT2 1 Tf
+0.5545 0 TD
+[(is)-278.5(a)-265.2(function.)-526.6(Presenting)-269.2(an)-265.2(argument)]TJ
+/TT8 1 Tf
+15.5 0 TD
+(a)Tj
+/TT2 1 Tf
+0.7727 0 TD
+(to)Tj
+/TT8 1 Tf
+1.0545 0 TD
+(f)Tj
+/TT2 1 Tf
+0.5545 0 TD
+[(is)-278.5(called)]TJ
+/TT8 1 Tf
+3.5909 0 TD
+(application)Tj
+/TT2 1 Tf
+4.8364 0 TD
+[(and)-265.2(is)-278.5(written)]TJ
+/TT8 1 Tf
+5.7636 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(a)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(\).)-278.9(We)]TJ
+-35.729 -1.2 TD
+[(donít)-307.3(know)]TJ
+/TT8 1 Tf
+4.9455 0 TD
+[(how)-314.8(f)]TJ
+/TT2 1 Tf
+2.5727 0 TD
+[(transforms)-295.9(1)-309.1(t)0(o)-313.1(2)0(,)-313.6(o)0(r)-303.4(4)-309.1(to)-304(6,)-304.5(or)-294.3(7)-300(t)0(o)-304(2)0(,)-304.5(but)-304(we)-288.5(accept)-274(that)-300.5(somehow)-294.3(it)-308(does;)]TJ
+-7.5182 -1.2 TD
+[(the)-323.8(results)-325.5(are)-306.6(what)-319.8(matter.)-577.6(The)-318(viewpoint)-327.8(is)-333(similar)-331.7(to)-331.3(that)-327.8(taken)-325.4(by)-336.4(a)-328.9(naive)-325.4(user)-324.9(of)-330.6(a)-328.9(com-)]TJ
+T*
+[(puter)-363.5(program:)-616.3(unaware)-340.6(of)-367(the)-369.2(workings)-368.7(of)-367(a)-365.2(computer)-360(and)-365.2(its)-382.5(software,)-343.5(the)-360.1(user)-352.2(treats)-352.6(the)]TJ
+T*
+[(program)-394.1(as)-403.4(a)-401.6(function,)-417.5(as)-412.4(he)-410.7(is)-423.9(only)-422.2(concerned)-382.5(with)-422.2(its)-427.9(input-output)-428.4(properties.)-406(An)-414.2(exten-)]TJ
+T*
+[(sionality)-328.4(principle)-309.4(also)-316.4(applies)-312.9(to)-322.2(functions.)-319.2(For)-310.8(functions)]TJ
+/TT8 1 Tf
+23.8273 0 TD
+(f)Tj
+/TT2 1 Tf
+0.4455 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6994 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(S)Tj
+/TT2 1 Tf
+0.8091 0 TD
+(and)Tj
+/TT8 1 Tf
+1.7455 0 TD
+(g)Tj
+/TT2 1 Tf
+0.5818 0 TD
+(:)Tj
+/TT8 1 Tf
+0.4455 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6909 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+(,)Tj
+/TT8 1 Tf
+0.5636 0 TD
+(f)Tj
+/TT2 1 Tf
+0.5909 0 TD
+[(is)-314.8(equal)-298.1(to)]TJ
+ET
+endstream
+endobj
+21 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT8 8 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+23 0 obj
+<<
+/Length 18319
+>>
+stream
+BT
+/TT8 1 Tf
+10 0 0 10 434.8 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(2.2  Functions     )Tj
+/TT6 1 Tf
+6.9995 0 TD
+(21)Tj
+/TT8 1 Tf
+11 0 0 11 97.2 682.4601 Tm
+(g,)Tj
+/TT2 1 Tf
+1.0091 0 TD
+(written)Tj
+/TT8 1 Tf
+3.0818 0 TD
+(f)Tj
+/TT4 1 Tf
+0.4455 0 TD
+(=)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(g)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(,)-259.1(i)0(f)50(f)-251.6(for)-243.1(all)]TJ
+/TT8 1 Tf
+4.3182 0 TD
+(x)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(R)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4961 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4817 0 TD
+(=)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(g)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\).)Tj
+-13.8678 -1.2 TD
+[(Functions)-300.6(can)-275.9(be)-283.4(combined)-283.9(using)-296.6(the)-287.4(composition)-301.1(operation.)-546.4(For)]TJ
+/TT8 1 Tf
+26.8455 0 TD
+(f)Tj
+/TT2 1 Tf
+0.4455 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6994 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(S)Tj
+/TT2 1 Tf
+0.8 0 TD
+(and)Tj
+/TT8 1 Tf
+1.7364 0 TD
+(g)Tj
+/TT2 1 Tf
+0.6636 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(S)Tj
+/TT3 1 Tf
+0.5903 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(T)Tj
+/TT2 1 Tf
+0.5562 0 TD
+(,)Tj
+/TT8 1 Tf
+-37.7016 -1.2 TD
+(g)Tj
+/TT2 1 Tf
+0.5 0 TD
+( )Tj
+/TT4 1 Tf
+0.25 -0.2454 TD
+(∞)Tj
+/TT2 1 Tf
+0.3999 0.2454 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(f)Tj
+/TT2 1 Tf
+0.691 0 TD
+[(is)-405.7(the)-396.5(function)-394.8(with)-404(domain)]TJ
+/TT8 1 Tf
+12 0 TD
+(R)Tj
+/TT2 1 Tf
+1.0091 0 TD
+[(and)-392.5(codomain)]TJ
+/TT8 1 Tf
+6.1727 0 TD
+(T)Tj
+/TT2 1 Tf
+0.9636 0 TD
+[(such)-394.3(that)-391.4(for)-379.4(all)]TJ
+/TT8 1 Tf
+7.0545 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(:)Tj
+/TT8 1 Tf
+0.438 0 TD
+(R)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(,)Tj
+/TT8 1 Tf
+0.6437 0 TD
+(g)Tj
+/TT2 1 Tf
+0.5 0 TD
+( )Tj
+/TT4 1 Tf
+0.25 -0.2455 TD
+(∞)Tj
+/TT2 1 Tf
+0.3999 0.2454 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4909 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(g)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\)\).)Tj
+-37.0592 -1.2 TD
+[(Composition)-696.2(of)-667(functions)-669.2(is)-678.5(associative:)-662.2(for)]TJ
+/TT8 1 Tf
+20.2545 0 TD
+(f)Tj
+/TT2 1 Tf
+0.9545 0 TD
+(and)Tj
+/TT8 1 Tf
+2.1091 0 TD
+(g)Tj
+/TT2 1 Tf
+1.1727 0 TD
+[(as)-676.1(given)-678.3(above)-666.9(and)]TJ
+/TT8 1 Tf
+9.5818 0 TD
+(h)Tj
+/TT2 1 Tf
+0.6636 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(T)Tj
+/TT3 1 Tf
+0.5562 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1706 0 TD
+(U)Tj
+/TT2 1 Tf
+0.7222 0 TD
+(,)Tj
+/TT8 1 Tf
+-37.7131 -1.2 TD
+(h)Tj
+/TT2 1 Tf
+0.5 0 TD
+( )Tj
+/TT4 1 Tf
+0.25 -0.2455 TD
+(∞)Tj
+/TT2 1 Tf
+0.3999 0.2455 TD
+( \()Tj
+/TT8 1 Tf
+0.583 0 TD
+(g)Tj
+/TT2 1 Tf
+0.5 0 TD
+( )Tj
+/TT4 1 Tf
+0.25 -0.2455 TD
+(∞)Tj
+/TT2 1 Tf
+0.3999 0.2455 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\))Tj
+/TT4 1 Tf
+0.5075 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( \()Tj
+/TT8 1 Tf
+0.583 0 TD
+(h)Tj
+/TT2 1 Tf
+0.5 0 TD
+( )Tj
+/TT4 1 Tf
+0.25 -0.2455 TD
+(∞)Tj
+/TT2 1 Tf
+0.3999 0.2455 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(g)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\) )Tj
+/TT4 1 Tf
+0.583 -0.2455 TD
+(∞)Tj
+/TT2 1 Tf
+0.3999 0.2455 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(.)Tj
+-6.4607 -1.2 TD
+[(Functions)-264.3(can)-239.6(be)-247.1(classi)]TJ
+/TT9 1 Tf
+9.249 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ed)-251(by)-254.5(their)-249.3(mappings.)-515.9(Some)-258.5(classi)]TJ
+/TT9 1 Tf
+13.9438 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(cations)-253.3(are:)]TJ
+-26.3051 -1.8 TD
+(1.)Tj
+/TT8 1 Tf
+1.9 0 TD
+(one-one)Tj
+/TT2 1 Tf
+3.2207 0 TD
+(:)Tj
+/TT8 1 Tf
+0.8338 0 TD
+(f)Tj
+/TT2 1 Tf
+0.4455 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6994 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(S)Tj
+/TT2 1 Tf
+0.8182 0 TD
+[(is)-323.9(a)]TJ
+/TT8 1 Tf
+1.7545 0 TD
+(one-one)Tj
+/TT2 1 Tf
+3.5273 0 TD
+[(\(1-1\))-310.1(function)-322(if)50(f)-324.3(for)-315.8(all)]TJ
+/TT8 1 Tf
+9.9909 0 TD
+(x)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(R)Tj
+/TT2 1 Tf
+0.9251 0 TD
+(and)Tj
+/TT8 1 Tf
+1.7636 0 TD
+(y)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(R)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(,)Tj
+/TT8 1 Tf
+0.5688 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4817 0 TD
+(=)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+[(\))-312.3(implies)]TJ
+/TT8 1 Tf
+-32.3638 -1.2 TD
+(x)Tj
+/TT4 1 Tf
+0.6 0 TD
+(=)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(.)Tj
+-3.762 -1.2 TD
+(2.)Tj
+/TT8 1 Tf
+1.9 0 TD
+(onto)Tj
+/TT2 1 Tf
+1.7778 0 TD
+(:)Tj
+/TT8 1 Tf
+0.7949 0 TD
+(f)Tj
+/TT2 1 Tf
+0.4455 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6994 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(S)Tj
+/TT2 1 Tf
+0.7545 0 TD
+[(is)-260.3(an)]TJ
+/TT8 1 Tf
+2.1182 0 TD
+(onto)Tj
+/TT2 1 Tf
+2.0364 0 TD
+[(function)-249.3(if)50(f)]TJ
+/TT8 1 Tf
+4.7273 0 TD
+(S)Tj
+/TT4 1 Tf
+0.6636 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( {)Tj
+/TT8 1 Tf
+0.9057 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+0.1625 Tc
+-0.0018 Tw
+( | )Tj
+/TT8 1 Tf
+1.0243 0 TD
+0 Tc
+0 Tw
+[(there)-249.9(exists)-251(some)-244.8(x)]TJ
+/TT3 1 Tf
+7.5211 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+[(R)-241.5(such)-248.8(that)-262.5(f)]TJ
+/TT2 1 Tf
+5.0302 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.333 0 TD
+(=)Tj
+/TT8 1 Tf
+0.5488 0 TD
+(y)Tj
+/TT2 1 Tf
+0.5907 0 TD
+(}.)Tj
+-36.0364 -1.2 TD
+(3.)Tj
+/TT8 1 Tf
+1.9 0 TD
+(identity)Tj
+/TT2 1 Tf
+2.999 0 TD
+(:)Tj
+/TT8 1 Tf
+0.7919 0 TD
+(f)Tj
+/TT2 1 Tf
+0.4455 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6994 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8636 0 TD
+[(is)-260.3(the)]TJ
+/TT8 1 Tf
+2.4 0 TD
+(identity)Tj
+/TT2 1 Tf
+3.2545 0 TD
+[(function)-249.3(for)]TJ
+/TT8 1 Tf
+4.9909 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8636 0 TD
+[(if)50(f)-251.6(for)-243.1(all)]TJ
+/TT8 1 Tf
+3.8091 0 TD
+(x)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(R)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4961 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4817 0 TD
+(=)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(.)Tj
+-29.662 -1.2 TD
+(4.)Tj
+/TT8 1 Tf
+1.9 0 TD
+(inverse)Tj
+/TT2 1 Tf
+2.8877 0 TD
+[(:)-561.7(for)-315.8(some)]TJ
+/TT8 1 Tf
+4.7578 0 TD
+(f)Tj
+/TT2 1 Tf
+0.4455 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6994 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+0.3318 Tc
+[(,i)331.8(f)]TJ
+/TT8 1 Tf
+1.5182 0 TD
+0 Tc
+(f)Tj
+/TT2 1 Tf
+0.6091 0 TD
+[(is)-333(one-one)-306.6(and)-319.8(onto,)-335.8(then)-323.8(the)-323.8(function)]TJ
+/TT8 1 Tf
+15.9 0 TD
+(g)Tj
+/TT2 1 Tf
+0.6636 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(S)Tj
+/TT3 1 Tf
+0.5904 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(R)Tj
+/TT2 1 Tf
+0.6108 0 TD
+0.3301 Tc
+[(,d)330.1(e)]TJ
+/TT9 1 Tf
+1.5239 0 TD
+0 Tc
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+(ned)Tj
+-34.5273 -1.2 TD
+(as)Tj
+/TT8 1 Tf
+1.0818 0 TD
+(g)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4777 0 TD
+(=)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(x)Tj
+/TT2 1 Tf
+0.6909 0 TD
+[(if)50(f)]TJ
+/TT8 1 Tf
+1.1455 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4817 0 TD
+(=)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(y)Tj
+/TT2 1 Tf
+0.6909 0 TD
+[(is)-260.3(called)-240.1(the)]TJ
+/TT8 1 Tf
+5.0273 0 TD
+[(inverse)-239.6(function)-259(of)-258.5(f.)]TJ
+/TT2 1 Tf
+8.4909 0 TD
+(Function)Tj
+/TT8 1 Tf
+3.8182 0 TD
+(g)Tj
+/TT2 1 Tf
+0.7545 0 TD
+[(is)-260.3(denoted)-243.6(by)]TJ
+/TT8 1 Tf
+5.5909 0 TD
+(f)Tj
+/TT3 1 Tf
+8 0 0 8 474.4562 535.0601 Tm
+<003c>Tj
+/TT2 1 Tf
+0.5488 0 TD
+(1)Tj
+11 0 0 11 483.8 530.6602 Tm
+(.)Tj
+-33.1455 -1.8 TD
+[(Functions)-518.8(are)-488.4(used)-503.4(to)-513.1(de)]TJ
+/TT9 1 Tf
+10.7438 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ne)-501.6(many)-514.7(interesting)-515.2(relationships)-516.9(between)-495.7(sets.)-522.7(The)-508.9(most)]TJ
+-13.3 -1.2 TD
+[(important)-266.4(relationship)-260.6(is)-269.4(called)-249.2(an)]TJ
+/TT8 1 Tf
+13.9091 0 TD
+(isomorphism)Tj
+/TT2 1 Tf
+5.1675 0 TD
+[(:)-527.4(two)-263.6(sets)]TJ
+/TT8 1 Tf
+4.3325 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8727 0 TD
+(and)Tj
+/TT8 1 Tf
+1.7 0 TD
+(S)Tj
+/TT2 1 Tf
+0.7636 0 TD
+(are)Tj
+/TT8 1 Tf
+1.4636 0 TD
+(isomorphic)Tj
+/TT2 1 Tf
+4.7636 0 TD
+[(if)-252.8(there)-237.8(exist)]TJ
+-32.9727 -1.2 TD
+[(a)-265.2(pair)-263.5(of)-276.1(functions)]TJ
+/TT8 1 Tf
+7.6364 0 TD
+(f)Tj
+/TT2 1 Tf
+0.4455 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6994 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(S)Tj
+/TT2 1 Tf
+0.7818 0 TD
+(and)Tj
+/TT8 1 Tf
+1.7182 0 TD
+(g)Tj
+/TT2 1 Tf
+0.6636 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(S)Tj
+/TT3 1 Tf
+0.6722 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.2364 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8909 0 TD
+[(such)-276.1(that)]TJ
+/TT8 1 Tf
+3.8909 0 TD
+(g)Tj
+/TT2 1 Tf
+0.5 0 TD
+( )Tj
+/TT4 1 Tf
+0.25 -0.2455 TD
+(∞)Tj
+/TT2 1 Tf
+0.3999 0.2455 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(f)Tj
+/TT2 1 Tf
+0.5728 0 TD
+[(is)-287.6(the)-278.3(identity)-290.3(function)-276.6(for)]TJ
+/TT8 1 Tf
+10.8455 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8909 0 TD
+(and)Tj
+/TT8 1 Tf
+1.7182 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+( )Tj
+/TT4 1 Tf
+0.25 -0.2455 TD
+(∞)Tj
+/TT2 1 Tf
+0.3999 0.2455 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(g)Tj
+/TT2 1 Tf
+-37.4505 -1.2 TD
+[(is)-278.5(the)-269.2(identity)-281.2(function)-267.5(for)]TJ
+/TT8 1 Tf
+10.8 0 TD
+(S.)Tj
+/TT2 1 Tf
+1.2818 0 TD
+[(The)-263.5(maps)]TJ
+/TT8 1 Tf
+4.2 0 TD
+(f)Tj
+/TT2 1 Tf
+0.5545 0 TD
+(and)Tj
+/TT8 1 Tf
+1.7091 0 TD
+(g)Tj
+/TT2 1 Tf
+0.7727 0 TD
+[(are)-242.9(called)]TJ
+/TT8 1 Tf
+4.1 0 TD
+(isomorphisms.)Tj
+/TT2 1 Tf
+6.3364 0 TD
+[(A)-259.6(function)-258.4(is)-269.4(an)-256.1(iso-)]TJ
+-29.7545 -1.2 TD
+[(morphism)-353.4(if)-343.7(and)-338(only)-349.4(if)-343.7(it)-353.4(is)-351.2(one-one)-324.7(and)-338(onto.)-608.5(Further,)-342.5(the)-342(inverse)]TJ
+/TT8 1 Tf
+28.4364 0 TD
+(f)Tj
+/TT3 1 Tf
+8 0 0 8 413.0562 462.4601 Tm
+<003c>Tj
+/TT2 1 Tf
+0.5488 0 TD
+(1)Tj
+11 0 0 11 426.2 458.0601 Tm
+[(of)-339.7(isomorphism)]TJ
+/TT8 1 Tf
+6.7545 0 TD
+(f)Tj
+/TT2 1 Tf
+0.6273 0 TD
+(is)Tj
+-37.2909 -1.2 TD
+[(also)-252.8(an)-247.1(isomorphism,)-272.8(as)]TJ
+/TT8 1 Tf
+9.8818 0 TD
+(f)Tj
+/TT3 1 Tf
+8 0 0 8 208.9561 449.2601 Tm
+<003c>Tj
+/TT2 1 Tf
+0.5488 0 TD
+(1)Tj
+11 0 0 11 218.3 444.8601 Tm
+( )Tj
+/TT4 1 Tf
+0.25 -0.2455 TD
+(∞)Tj
+/TT2 1 Tf
+0.3999 0.2455 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(f)Tj
+/TT2 1 Tf
+0.5456 0 TD
+(and)Tj
+/TT8 1 Tf
+1.6909 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+( )Tj
+/TT4 1 Tf
+0.25 -0.2455 TD
+(∞)Tj
+/TT2 1 Tf
+0.3999 0.2455 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(f)Tj
+/TT3 1 Tf
+8 0 0 8 268.8112 449.2601 Tm
+<003c>Tj
+/TT2 1 Tf
+0.5488 0 TD
+(1)Tj
+11 0 0 11 281.1 444.8601 Tm
+[(are)-233.8(both)-258.5(identities.)-265.8(Here)-229.9(are)-233.8(some)-252.8(examples:)]TJ
+-16.7182 -1.8 TD
+(1.)Tj
+/TT8 1 Tf
+1.9 0 TD
+(R)Tj
+/TT4 1 Tf
+0.7727 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[( {)-175.7(1)0(,)-250(4)0(,)-250(7)-163.6(})-383.7(i)0(s)-387.6(isomorphic)-382.3(to)]TJ
+/TT8 1 Tf
+11.533 0 TD
+(S)Tj
+/TT4 1 Tf
+0.6636 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[( {)-175.7(2)0(,)-250(4)0(,)-250(6)-163.6(};)-387.6(take)]TJ
+/TT8 1 Tf
+6.7512 0 TD
+(f)Tj
+/TT2 1 Tf
+0.4455 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6994 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(S)Tj
+/TT2 1 Tf
+0.8818 0 TD
+[(to)-385.8(be)]TJ
+/TT8 1 Tf
+2.4909 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\(1\))Tj
+/TT4 1 Tf
+1.166 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+(2,)Tj
+/TT8 1 Tf
+1.1437 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\(4\))Tj
+/TT4 1 Tf
+1.166 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+(6,)Tj
+/TT8 1 Tf
+1.1437 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\(7\))Tj
+/TT4 1 Tf
+1.166 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+(4;)Tj
+-35.1836 -1.2 TD
+(and)Tj
+/TT8 1 Tf
+1.6909 0 TD
+(g)Tj
+/TT2 1 Tf
+0.6636 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(S)Tj
+/TT3 1 Tf
+0.5904 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8636 0 TD
+[(to)-258.5(be)]TJ
+/TT8 1 Tf
+2.2273 0 TD
+(g)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\(2\))Tj
+/TT4 1 Tf
+1.166 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+(1,)Tj
+/TT8 1 Tf
+1.0033 0 TD
+(g)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\(4\))Tj
+/TT4 1 Tf
+1.166 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+(7,)Tj
+/TT8 1 Tf
+1.0033 0 TD
+(g)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\(6\))Tj
+/TT4 1 Tf
+1.166 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+(4.)Tj
+-18.3694 -1.2 TD
+[(2.)-1150(For)-256.3(sets)]TJ
+/TT8 1 Tf
+5.3 0 TD
+(A)Tj
+/TT2 1 Tf
+0.8636 0 TD
+(and)Tj
+/TT8 1 Tf
+1.6909 0 TD
+[(B,)-257.3(A)]TJ
+/TT4 1 Tf
+1.8909 0 TD
+(◊)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(B)Tj
+/TT2 1 Tf
+0.8636 0 TD
+[(is)-260.3(isomorphic)-255(to)]TJ
+/TT8 1 Tf
+6.7182 0 TD
+(B)Tj
+/TT4 1 Tf
+0.7727 0 TD
+(◊)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(A)Tj
+/TT2 1 Tf
+0.6108 0 TD
+[(;)-256.8(take)]TJ
+/TT8 1 Tf
+2.4437 0 TD
+(f)Tj
+/TT2 1 Tf
+0.4455 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(A)Tj
+/TT4 1 Tf
+0.7813 0 TD
+(◊)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(B)Tj
+/TT3 1 Tf
+0.7727 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(B)Tj
+/TT4 1 Tf
+0.7727 0 TD
+(◊)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(A)Tj
+/TT2 1 Tf
+0.8636 0 TD
+[(to)-258.5(be)]TJ
+/TT8 1 Tf
+2.2273 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(a)Tj
+/TT2 1 Tf
+0.5 0 TD
+(,)Tj
+/TT8 1 Tf
+0.3346 0 TD
+(b)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4909 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( \()Tj
+/TT8 1 Tf
+0.583 0 TD
+(b)Tj
+/TT2 1 Tf
+0.5 0 TD
+(,)Tj
+/TT8 1 Tf
+0.3409 0 TD
+(a)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\).)Tj
+-36.4818 -1.2 TD
+[(3.)-1150(I)151.2(N)-250.6(is)-260.3(isomorphic)-255(to)-258.5(Z)]TJ
+9.9455 0 TD
+[(|)-327.1(;)-258.5(take)]TJ
+/TT8 1 Tf
+2.9727 0 TD
+(f)Tj
+/TT2 1 Tf
+0.4455 0 TD
+[(: I)142.7(N)]TJ
+/TT3 1 Tf
+1.6 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+(Z)Tj
+0.1727 0 TD
+[(|)-581.6(t)0(o)-258.5(be:)]TJ
+/TT8 1 Tf
+-14.2909 -2.5 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4817 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/T1 1 Tf
+0.4239 1 TD
+( )Tj
+0 -1 TD
+()Tj
+T*
+()Tj
+/TT2 1 Tf
+0.5 1 TD
+( )Tj
+/TT3 1 Tf
+0.25 -0.5 TD
+<003c>Tj
+/TT2 1 Tf
+0.5488 0 TD
+(\(\()Tj
+/TT8 1 Tf
+0.666 0 TD
+(x)Tj
+/TT4 1 Tf
+0.5988 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+(1\))Tj
+/TT8 1 Tf
+0.833 0 TD
+(/)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(2\))Tj
+/TT8 1 Tf
+-3.4688 1.4 TD
+(x/)Tj
+/TT2 1 Tf
+0.7217 0 TD
+(2)Tj
+3.5783 -0.9 TD
+(   )Tj
+/TT8 1 Tf
+0.75 -0.5 TD
+[(if)-276.2(x)-247.1(i)0(s)-260.3(odd)]TJ
+0.0136 1.4 TD
+[(if)-262.5(x)-247.1(i)0(s)-260.3(even)]TJ
+/TT2 1 Tf
+-10.3273 -3.6 TD
+[(You)-250.6(are)-233.8(invited)-259(to)-258.5(calculate)-229.1(the)-251(inverse)-239.6(functions)-251(in)-258.5(examples)-241.8(2)-254.5(and)-247.1(3.)]TJ
+/TT6 1 Tf
+T*
+[(2.2.1)-263.6( Representing)-247.6(Functions)-267.8(as)-256.3(Sets )]TJ
+/TT4 1 Tf
+16.0358 0 TD
+(_)Tj
+0.0187 0 TD
+(_)Tj
+0.1455 0 TD
+(_)Tj
+0.0182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(_)Tj
+/TT2 1 Tf
+-37.4636 -2.4 TD
+[(We)-266.8(can)-266.9(describe)-259.4(a)-274.3(function)-276.6(via)-278.3(a)-274.3(set.)-539.2(We)-266.9(collect)-271.3(the)-278.3(input-output)-292(pairings)-278.3(of)-276.1(the)-278.3(function)-285.7(into)]TJ
+0 -1.2 TD
+[(a)-247.1(set)-252.8(called)-240.1(its)]TJ
+/TT8 1 Tf
+5.8909 0 TD
+(graph.)Tj
+/TT2 1 Tf
+3.1545 0 TD
+[(For)-256.3(function)]TJ
+/TT8 1 Tf
+5.2273 0 TD
+(f)Tj
+/TT2 1 Tf
+0.4455 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6994 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(,)-259.1(the)-251(set:)]TJ
+/TT8 1 Tf
+-15.6 -1.9818 TD
+(graph)Tj
+/TT2 1 Tf
+2.4727 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4892 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+0.1757 Tc
+-0.1757 Tw
+[( {\()]TJ
+/TT8 1 Tf
+1.2387 0 TD
+0 Tc
+0 Tw
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4868 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+0.1475 Tw
+[(\)\) |)-163.4( )]TJ
+/TT8 1 Tf
+1.6771 0 TD
+0 Tw
+(x)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(R)Tj
+/TT2 1 Tf
+0.766 0 TD
+(})Tj
+-12.9455 -1.8 TD
+[(is)-260.3(the)-251(graph)-241.3(of)]TJ
+/TT8 1 Tf
+6 0 TD
+(f.)Tj
+/TT2 1 Tf
+1.0455 0 TD
+[(Here)-229.9(are)-233.8(some)-252.8(examples:)]TJ
+-7.0455 -1.8 TD
+(1.)Tj
+/TT8 1 Tf
+1.9 0 TD
+(f)Tj
+/TT2 1 Tf
+0.4455 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(R)Tj
+/TT3 1 Tf
+0.7813 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.2364 0 TD
+(S)Tj
+/TT2 1 Tf
+0.7545 0 TD
+[(in)-258.5(example)-240.1(1)-254.5(above:)]TJ
+/TT8 1 Tf
+-3.6455 -1.2 TD
+(graph)Tj
+/TT2 1 Tf
+2.4727 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4892 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[( {)-175.7(\(1,)-80.6(2\),)-80.6( \(4,)-85.2(6\),)-80.6( \(7,)-85.2(4\))-157.9(})]TJ
+-6.1216 -1.2 TD
+[(2.)-1150(the)-251(successor)-231.6(function)-249.3(on)-254.5(Z)]TJ
+12.4455 0 TD
+0.3271 Tc
+(|:)Tj
+/TT8 1 Tf
+-10.4455 -1.2 TD
+0 Tc
+(graph)Tj
+/TT2 1 Tf
+2.4727 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(succ)Tj
+/TT2 1 Tf
+1.7769 0 TD
+(\))Tj
+/TT4 1 Tf
+0.472 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( {)Tj
+0.9057 0.3 TD
+( . . . )Tj
+1.75 -0.3 TD
+0.1182 Tc
+-0.1182 Tw
+(, \()Tj
+/TT3 1 Tf
+0.9512 0 TD
+0 Tc
+0 Tw
+<003c>Tj
+/TT2 1 Tf
+0.5488 0 TD
+(2,)Tj
+/TT3 1 Tf
+0.8409 0 TD
+<003c>Tj
+/TT2 1 Tf
+0.5488 0 TD
+[(1\),)-86.3( \()]TJ
+/TT3 1 Tf
+1.7524 0 TD
+<003c>Tj
+/TT2 1 Tf
+0.5488 0 TD
+[(1,)-90.9(0\),)-80.6( \(0,)-85.2(1\),)-80.6( \(1,)-85.2(2\),)]TJ
+7.1682 0.3 TD
+( . . . )Tj
+1.9455 -0.3 TD
+(})Tj
+-24.5636 -1.2 TD
+(3.)Tj
+/TT8 1 Tf
+1.9 0 TD
+(f)Tj
+/TT2 1 Tf
+0.4455 0 TD
+[(: I)142.7(N)]TJ
+/TT3 1 Tf
+1.6 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+(Z)Tj
+0.1727 0 TD
+[(|)-581.6(i)0(n)-258.5(example)-240.1(3)-254.5(above:)]TJ
+/TT8 1 Tf
+-3.2727 -1.2 TD
+(graph)Tj
+/TT2 1 Tf
+2.4727 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4892 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[( {)-175.7(\(0,)-80.6(0\),)-80.6( \(1,)]TJ
+/TT3 1 Tf
+4.6512 0 TD
+<003c>Tj
+/TT2 1 Tf
+0.5488 0 TD
+[(1\),)-86.3( \(2,)-85.2(1\),)-80.6( \(3,)]TJ
+/TT3 1 Tf
+5.1694 0 TD
+<003c>Tj
+/TT2 1 Tf
+0.5488 0 TD
+[(2\),)-86.3( \(4,)-85.2(2\),)]TJ
+3.7512 0.3 TD
+( . . . )Tj
+1.9455 -0.3 TD
+(})Tj
+-22.7364 -1.8 TD
+[(In)-421.5(every)-406.6(case,)-411.1(we)-415.8(list)-441(the)-423.8(domain)-427.8(and)-419.8(codomain)-429.4(of)-430.6(the)-432.9(function)-431.1(to)-440.3(avoid)-432.9(confusion)-428.9(about)]TJ
+ET
+endstream
+endobj
+24 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT8 8 0 R
+/TT9 9 0 R
+/T1 25 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+27 0 obj
+<<
+/Length 14160
+>>
+stream
+BT
+/TT6 1 Tf
+10 0 0 10 97.2 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(22)Tj
+/TT8 1 Tf
+1 0 TD
+(     Sets, Functions, and Domains)Tj
+/TT2 1 Tf
+11 0 0 11 97.2 682.4601 Tm
+[(which)-265.2(function)-267.5(a)-265.2(graph)-250.4(represents.)-241.7(For)-265.4(example,)]TJ
+/TT8 1 Tf
+19.6364 0 TD
+(f)Tj
+/TT2 1 Tf
+0.4455 0 TD
+[(: I)142.7(N)]TJ
+/TT3 1 Tf
+1.4403 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1506 0 TD
+[(I)151.2(N)-259.6(such)-257.9(that)]TJ
+/TT8 1 Tf
+5.0182 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.333 0 TD
+(=)Tj
+/TT8 1 Tf
+0.5488 0 TD
+(x)Tj
+/TT2 1 Tf
+0.6907 0 TD
+[(has)-257.9(the)-260.1(same)-254.4(graph)]TJ
+-30.3182 -1.2 TD
+(as)Tj
+/TT8 1 Tf
+1.0818 0 TD
+(g)Tj
+/TT2 1 Tf
+0.6636 0 TD
+[(: I)142.7(N)]TJ
+/TT3 1 Tf
+1.6 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+(Z)Tj
+0.1727 0 TD
+[(|)-581.6(such)-248.8(that)]TJ
+/TT8 1 Tf
+4.6182 0 TD
+(g)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.333 0 TD
+(=)Tj
+/TT8 1 Tf
+0.5488 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+[(,)-238.4(but)-258.5(they)-251(are)-233.8(dif)50(ferent)-234.9(functions.)]TJ
+-9.8934 -1.2 TD
+[(We)-257.8(can)-257.8(understand)-266.8(function)-276.6(application)-275.3(and)-274.3(composition)-292(in)-285.8(terms)-278.3(of)-276.1(graphs.)-274.9(For)-283.6(applica-)]TJ
+-2 -1.2 TD
+(tion,)Tj
+/TT8 1 Tf
+2.6909 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(a)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\))Tj
+/TT4 1 Tf
+0.333 0 TD
+(=)Tj
+/TT8 1 Tf
+0.5488 0 TD
+(b)Tj
+/TT2 1 Tf
+1.371 0 TD
+[(if)50(f)-869.8(\()]TJ
+/TT8 1 Tf
+2.0966 0 TD
+(a)Tj
+/TT2 1 Tf
+0.5 0 TD
+(,)Tj
+/TT8 1 Tf
+0.3306 0 TD
+(b)Tj
+/TT2 1 Tf
+0.5 0 TD
+0.867 Tc
+[(\)i)867(s)-11.5(i)867(n)]TJ
+/TT8 1 Tf
+4.4 0 TD
+0 Tc
+(graph)Tj
+/TT2 1 Tf
+2.3892 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+[(\).)-871.5(Let)-867.5(there)-856(be)-865.2(a)-856.2(function)]TJ
+/TT8 1 Tf
+13.8091 0 TD
+(apply)Tj
+/TT2 1 Tf
+3.0818 0 TD
+[(such)-857.9(that)]TJ
+/TT8 1 Tf
+-33.7727 -1.2 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(a)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4892 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(apply)Tj
+/TT2 1 Tf
+2.2217 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(graph)Tj
+/TT2 1 Tf
+2.3892 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\),)Tj
+/TT8 1 Tf
+0.8283 0 TD
+(a)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(\).)-498.8(Composition)-523.4(is)-505.7(modelled)-497(just)-518.8(as)-503.4(easily;)-507.8(for)-497.6(graphs)]TJ
+/TT8 1 Tf
+23.4091 0 TD
+(f)Tj
+/TT2 1 Tf
+0.4455 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6994 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(S)Tj
+/TT2 1 Tf
+1.0091 0 TD
+(and)Tj
+/TT8 1 Tf
+-36.5273 -1.2 TD
+(g)Tj
+/TT2 1 Tf
+0.6636 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(S)Tj
+/TT3 1 Tf
+0.5904 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(T)Tj
+/TT2 1 Tf
+0.5562 0 TD
+(:)Tj
+/TT8 1 Tf
+-1.6743 -2.3636 TD
+(graph)Tj
+/TT2 1 Tf
+2.4727 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(g)Tj
+/TT4 1 Tf
+0.7488 -0.2455 TD
+(∞)Tj
+/TT8 1 Tf
+0.6545 0.2455 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4949 0 TD
+(=)Tj
+/TT2 1 Tf
+0.8091 0 TD
+0.1655 Tc
+({\()Tj
+/TT8 1 Tf
+0.9785 0 TD
+0 Tc
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(,)Tj
+/TT8 1 Tf
+0.3231 0 TD
+(z)Tj
+/TT2 1 Tf
+0.3892 0 TD
+0.4142 Tc
+(\)|)Tj
+/TT8 1 Tf
+1.3654 0 TD
+0 Tc
+(x)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+[(R)-241.5(and)-254.5(there)-245.3(exists)-251(a)-254.5(y)]TJ
+/TT3 1 Tf
+8.578 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(S)Tj
+-7.7386 -1.3818 TD
+[(such)-248.8(that)]TJ
+/TT2 1 Tf
+3.9 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(,)Tj
+/TT8 1 Tf
+0.3231 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT3 1 Tf
+0.333 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.8595 0 TD
+(graph)Tj
+/TT2 1 Tf
+2.5545 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\))Tj
+/TT8 1 Tf
+0.5801 0 TD
+(and)Tj
+/TT2 1 Tf
+1.7545 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(,)Tj
+/TT8 1 Tf
+0.3231 0 TD
+(z)Tj
+/TT2 1 Tf
+0.3892 0 TD
+(\))Tj
+/TT3 1 Tf
+0.333 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.8687 0 TD
+(graph)Tj
+/TT2 1 Tf
+2.4727 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(g)Tj
+/TT2 1 Tf
+0.5 0 TD
+0.1522 Tc
+(\)})Tj
+-29.9512 -2.1818 TD
+0 Tc
+[(Functions)-273.4(can)-248.7(have)-248.7(arbitrarily)-247.4(complex)-265.7(domains)-275(and)-265.2(codomains.)-526.6(For)-274.5(example,)-262.8(if)]TJ
+/TT8 1 Tf
+32.8727 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8818 0 TD
+(and)Tj
+/TT8 1 Tf
+1.7091 0 TD
+(S)Tj
+/TT2 1 Tf
+-37.4636 -1.2 TD
+[(are)-288.4(sets,)-313.6(so)-310.8(is)]TJ
+/TT8 1 Tf
+5.7545 0 TD
+(R)Tj
+/TT4 1 Tf
+0.7727 0 TD
+(◊)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(,)-313.6(and)-301.6(it)-317.1(is)-314.8(reasonable)-279.2(to)-313.1(make)]TJ
+/TT8 1 Tf
+12.2727 0 TD
+(R)Tj
+/TT4 1 Tf
+0.7727 0 TD
+(◊)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(S)Tj
+/TT2 1 Tf
+0.8091 0 TD
+[(the)-305.6(domain)-309.6(or)-294.3(codomain)-293(of)-294.3(a)-292.5(function.)]TJ
+-22.3182 -1.2 TD
+[(If)-270.3(it)-289.8(is)-287.6(the)-278.3(domain,)-286.9(we)-270.3(say)-276.1(that)-282.3(the)-278.3(function)-285.7(ëëneeds)-266.2(two)-290.9(argumentsíí;)-272.4(if)-289.2(it)-298.9(is)-296.6(the)-287.4(codomain,)-288.5(we)]TJ
+T*
+[(say)-357.9(that)-364.1(it)-371.6(ëëreturns)-338.9(a)-347.1(pair)-345.3(of)-348.8(values.íí)-338.4(Here)-329.9(are)-333.8(some)-352.8(examples)-341.8(of)-348.8(functions)-351.1(with)-358.5(compound)]TJ
+T*
+[(domains)-256.8(or)-248.8(codomains:)]TJ
+0 -1.8 TD
+(1.)Tj
+/TT8 1 Tf
+1.9 0 TD
+(add)Tj
+/TT2 1 Tf
+1.6636 0 TD
+[(: \(I)148.4(N)]TJ
+/TT4 1 Tf
+1.9273 0 TD
+(◊)Tj
+/TT2 1 Tf
+0.7182 0 TD
+-0.1512 Tc
+[(IN)-151.2(\))]TJ
+/TT3 1 Tf
+1.3909 0 TD
+0 Tc
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+-0.1512 Tc
+(IN)Tj
+/TT8 1 Tf
+-6.7545 -1.2 TD
+0 Tc
+(graph)Tj
+/TT2 1 Tf
+2.5545 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(add)Tj
+/TT2 1 Tf
+1.5 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4852 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[( {)-175.7(\(\(0,)-74.9(0\),)-244.3(0\),)-80.6( \(\(1,)-79.4(0\),)-244.3(1\),)-80.6( \(\(0,)-79.4(1\),)-244.3(1\),)-80.6( \(\(1,)-79.4(1\),)-244.3(2\),)-80.6( \(\(2,)-79.4(1\),)-244.3(3\),)]TJ
+21.833 0.3 TD
+( . . . )Tj
+1.9455 -0.3 TD
+(})Tj
+-31.2 -1.2 TD
+(2.)Tj
+/TT8 1 Tf
+1.9 0 TD
+(duplicate)Tj
+/TT2 1 Tf
+3.8818 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6994 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(R)Tj
+/TT4 1 Tf
+0.6108 0 TD
+(◊)Tj
+/TT8 1 Tf
+0.5488 0 TD
+(R)Tj
+/TT2 1 Tf
+0.6108 0 TD
+[(\),)-249.8(where)]TJ
+/TT8 1 Tf
+3.5056 0 TD
+(R)Tj
+/TT4 1 Tf
+0.7727 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+0.25 Tc
+-0.25 Tw
+[( {)74.3(1)250(,4)250(,7)86.4(})]TJ
+/TT8 1 Tf
+-13.0943 -1.2 TD
+0 Tc
+0 Tw
+(graph)Tj
+/TT2 1 Tf
+2.4727 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(duplicate)Tj
+/TT2 1 Tf
+3.7212 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4822 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[( {)-175.7(\(1,)-244.3(\(1,)-80.6(1\)\),)-74.9( \(4,)-85.2(\(4,)-80.6(4\)\),)-74.9( \(7,)-248.8(\(7,)-80.6(7\)\))-152.2(})]TJ
+-9.5579 -1.2 TD
+(3.)Tj
+/TT8 1 Tf
+1.9 0 TD
+(which-part)Tj
+/TT2 1 Tf
+4.5545 0 TD
+[(: \(I)202.9(B)]TJ
+/TT4 1 Tf
+1.6579 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+-0.1397 Tc
+[(IN)-139.7(\))]TJ
+/TT3 1 Tf
+1.4024 0 TD
+0 Tc
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(,)-259.1(where)]TJ
+/TT8 1 Tf
+3.4364 0 TD
+(S)Tj
+/TT4 1 Tf
+0.6636 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( {)Tj
+/TT8 1 Tf
+0.9057 0 TD
+(isbool)Tj
+/TT2 1 Tf
+2.4448 0 TD
+(,)Tj
+/TT8 1 Tf
+0.5097 0 TD
+(isnum)Tj
+/TT2 1 Tf
+2.5545 0 TD
+(})Tj
+/TT8 1 Tf
+-20.7818 -1.2 TD
+(graph)Tj
+/TT2 1 Tf
+2.5545 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(which-part)Tj
+/TT2 1 Tf
+4.3887 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4874 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+0.1757 Tc
+-0.1757 Tw
+[( {\()175.7(\()]TJ
+/TT8 1 Tf
+1.5717 0 TD
+0 Tc
+0 Tw
+(zero)Tj
+/TT2 1 Tf
+1.7222 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4845 0 TD
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+(\),)Tj
+/TT8 1 Tf
+0.8255 0 TD
+(isbool)Tj
+/TT2 1 Tf
+2.4448 0 TD
+[(\),)-90.3( \(\()]TJ
+/TT8 1 Tf
+1.5894 0 TD
+(zero)Tj
+/TT2 1 Tf
+1.7222 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4891 0 TD
+(false)Tj
+/TT2 1 Tf
+1.8887 0 TD
+(\),)Tj
+/TT8 1 Tf
+0.8295 0 TD
+(isbool)Tj
+/TT2 1 Tf
+2.4448 0 TD
+[(\),)-90.4( )]TJ
+-15.0266 -1.2 TD
+(\(\()Tj
+/TT8 1 Tf
+0.666 0 TD
+(one)Tj
+/TT2 1 Tf
+1.4438 0 TD
+[(,)-231(0\),)]TJ
+/TT8 1 Tf
+1.8083 0 TD
+(isnum)Tj
+/TT2 1 Tf
+2.3892 0 TD
+[(\),)-82.4( \(\()]TJ
+/TT8 1 Tf
+1.5814 0 TD
+(one)Tj
+/TT2 1 Tf
+1.4438 0 TD
+[(,)-72(1\),)]TJ
+/TT8 1 Tf
+1.6492 0 TD
+(isnum)Tj
+/TT2 1 Tf
+2.3892 0 TD
+[(\),)-82.4( )]TJ
+-11.5528 -1.2 TD
+(\(\()Tj
+/TT8 1 Tf
+0.666 0 TD
+(one)Tj
+/TT2 1 Tf
+1.4438 0 TD
+[(,)-231(2\),)]TJ
+/TT8 1 Tf
+1.8083 0 TD
+(isnum)Tj
+/TT2 1 Tf
+2.3892 0 TD
+(\),)Tj
+0.6654 0.3 TD
+( . . . )Tj
+1.75 -0.3 TD
+0.1182 Tc
+[(,\()118.2(\()]TJ
+/TT8 1 Tf
+1.0342 0 TD
+0 Tc
+(one)Tj
+/TT2 1 Tf
+1.4439 0 TD
+(,)Tj
+/TT8 1 Tf
+0.481 0 TD
+(n)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\),)Tj
+/TT8 1 Tf
+0.8273 0 TD
+(isnum)Tj
+/TT2 1 Tf
+2.3892 0 TD
+(\),)Tj
+0.6654 0.3 TD
+( . . . )Tj
+1.9454 -0.3 TD
+(})Tj
+-32.7364 -1.2 TD
+(4.)Tj
+/TT8 1 Tf
+1.9 0 TD
+(make-singleton)Tj
+/TT2 1 Tf
+6.2545 0 TD
+[(: I)142.7(N)]TJ
+/TT3 1 Tf
+1.6 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+[(I)151.2(P\(I)149.4(N\))]TJ
+/TT8 1 Tf
+-8.9091 -1.2 TD
+(graph)Tj
+/TT2 1 Tf
+2.5545 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(make-singleton)Tj
+/TT2 1 Tf
+6.1094 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4667 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[( {)-175.7(\(0,)-244.3({)-165.5(0)-163.6(}\),)-82.5( \(1,)-248.8({)-165.5(1)-163.6(}\),)]TJ
+8.7239 0.3 TD
+( . . . )Tj
+1.75 -0.3 TD
+0.1182 Tc
+(,\()Tj
+/TT8 1 Tf
+0.7012 0 TD
+0 Tc
+(n)Tj
+/TT2 1 Tf
+0.5 0 TD
+0.2443 Tc
+(,{)Tj
+/TT8 1 Tf
+1.1397 0 TD
+0 Tc
+(n)Tj
+/TT2 1 Tf
+0.6636 0 TD
+(}\),)Tj
+1.1455 0.3 TD
+( . . . )Tj
+1.9455 -0.3 TD
+(})Tj
+-28.5818 -1.2 TD
+(5.)Tj
+/TT8 1 Tf
+1.9 0 TD
+(nothing)Tj
+/TT2 1 Tf
+3.2273 0 TD
+[(: I)197.2(B)]TJ
+/TT3 1 Tf
+1.3306 0 TD
+<0045>Tj
+/TT2 1 Tf
+0.9421 0 TD
+-0.1512 Tc
+(IN)Tj
+/TT3 1 Tf
+1.0636 0 TD
+0 Tc
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+-0.2057 Tc
+(IB)Tj
+/TT8 1 Tf
+-7.6182 -1.2 TD
+0 Tc
+(graph)Tj
+/TT2 1 Tf
+2.5545 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(nothing)Tj
+/TT2 1 Tf
+3.0557 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4931 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+0.3394 Tc
+-0.3394 Tw
+[( {})]TJ
+-6.9852 -1.8 TD
+0 Tc
+0 Tw
+[(The)-308.9(graphs)-306.7(make)-307.2(it)-326.2(clear)-294(how)-314.2(the)-314.7(functions)-314.7(behave)-295.7(when)-306.7(they)-314.7(are)-297.5(applied)-311.2(to)-331.3(arguments.)]TJ
+-2 -1.2 TD
+[(For)-265.4(example,)]TJ
+/TT8 1 Tf
+5.5455 0 TD
+(apply)Tj
+/TT2 1 Tf
+2.3 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(graph)Tj
+/TT2 1 Tf
+2.467 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(which-part)Tj
+/TT2 1 Tf
+4.3887 0 TD
+[(\),)-77.1( \()]TJ
+/TT8 1 Tf
+1.2431 0 TD
+(one)Tj
+/TT2 1 Tf
+1.4438 0 TD
+[(,)-241.3(2\)\))]TJ
+/TT4 1 Tf
+1.8095 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(isnum)Tj
+/TT2 1 Tf
+2.3892 0 TD
+[(.)-280.2(W)0(e)-248.7(see)-250.4(in)-267.6(example)-249.2(4)-263.6(that)-255(a)-247.1(function)]TJ
+-23.0516 -1.2 TD
+[(can)-239.6(return)-239.6(a)-247.1(set)-252.8(as)-248.8(a)-256.2(value)-252.7(\(or,)-256.7(for)-252.2(that)-264.1(matter,)-259.4(use)-257.9(one)-256.2(as)-257.9(an)-256.2(argument\).)-249.7(Since)-260.1(a)-256.2(function)-258.4(can)-248.7(be)]TJ
+T*
+[(represented)-309.8(by)-345.5(its)-355.2(graph,)-336.8(which)-338(is)-351.2(a)-338(set,)-348.3(we)-324.9(will)-344.3(allow)-332.9(functions)-332.9(to)-340.4(accept)-310.4(other)-327.1(functions)-332.9(as)]TJ
+T*
+[(arguments)-389(and)-392.5(produce)-379.3(functions)-396.5(as)-394.3(answers.)-383.4(Let)-394.8(the)]TJ
+/TT8 1 Tf
+22.5364 0 TD
+[(set)-398.2(of)-404(functions)-406.2(from)-401.8(R)-398.2(t)0(o)-404(S)]TJ
+/TT2 1 Tf
+12.1455 0 TD
+[(be)-392.5(a)-392.5(set)]TJ
+-34.6818 -1.2 TD
+[(whose)-344.8(members)-343.6(are)-333.8(the)-351(graphs)-343.1(of)-348.8(all)-355(functions)-342(whose)-335.7(domain)-345.9(is)]TJ
+/TT8 1 Tf
+26.9 0 TD
+(R)Tj
+/TT2 1 Tf
+0.9545 0 TD
+[(and)-338(codomain)-338.5(is)]TJ
+/TT8 1 Tf
+7.0818 0 TD
+(S.)Tj
+/TT2 1 Tf
+1.3545 0 TD
+(Call)Tj
+-36.2909 -1.2 TD
+[(this)-355.2(set)]TJ
+/TT8 1 Tf
+3.2545 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6909 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(.)-350(Thus)-345.5(the)-342(expression)]TJ
+/TT8 1 Tf
+9.1182 0 TD
+(f)Tj
+/TT2 1 Tf
+0.4455 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6994 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(S)Tj
+/TT2 1 Tf
+0.8455 0 TD
+[(also)-343.7(states)-342(that)]TJ
+/TT8 1 Tf
+6.3636 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+[(ís)-345.5(graph)-332.2(is)-351.2(a)-338(member)-332.7(of)-339.7(the)-341.9(set)]TJ
+/TT8 1 Tf
+-25.0324 -1.2 TD
+(R)Tj
+/TT3 1 Tf
+0.6909 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(.)-622.7(A)-359.6(function)-358.4(that)-364.1(uses)-359.7(functions)-360.1(as)-357.9(arguments)-343.6(or)-348.8(results)-352.8(is)-360.3(called)-340.1(a)]TJ
+/TT8 1 Tf
+28.0636 0 TD
+[(higher-order)-343.1(func-)]TJ
+-30.4091 -1.2 TD
+(tion.)Tj
+/TT2 1 Tf
+2.3909 0 TD
+[(The)-308.9(graphs)-306.7(of)-321.5(higher-order)-293.4(functions)-323.8(become)-308.8(complex)-320.3(very)-314.1(quickly,)-332.3(but)-331.3(it)-335.2(is)-333(important)]TJ
+-2.3909 -1.2 TD
+[(to)-394.9(remember)-365(that)-391.4(they)-387.4(do)-381.8(exist)-384.1(and)-374.3(everything)-369.1(is)-387.6(legal)-374.8(under)-368.6(the)-378.3(set)-380.1(theory)-372.6(laws.)-635.2(Here)-357.1(are)]TJ
+T*
+[(some)-252.8(examples:)]TJ
+0 -1.8 TD
+(6.)Tj
+/TT8 1 Tf
+1.9 0 TD
+(split-add)Tj
+/TT2 1 Tf
+3.7273 0 TD
+[(: I)142.7(N)]TJ
+/TT3 1 Tf
+1.6 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+[(\(I)156.9(N)]TJ
+/TT3 1 Tf
+1.3909 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+[(I)151.2(N\).)-258.5(Function)]TJ
+/TT8 1 Tf
+5.5727 0 TD
+(split-add)Tj
+/TT2 1 Tf
+3.8273 0 TD
+[(is)-269.4(the)-260.1(addition)-268.1(function)-258.4(ëësplit)-265.9(upíí)-261.3(so)-274.5(that)-273.2(it)]TJ
+-18.3273 -1.2 TD
+[(can)-439.6(accept)-428.6(its)-455.2(two)-445.5(arguments)-434.5(one)-438(at)-442(a)-438(time.)-709(It)-443.7(is)-451.2(de)]TJ
+/TT9 1 Tf
+22.5348 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ned)-438(as)]TJ
+/TT8 1 Tf
+3.1545 0 TD
+(split-add)Tj
+/TT2 1 Tf
+3.5557 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.7675 0 TD
+(=)Tj
+/TT8 1 Tf
+1 0 TD
+(g)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(,)-450(where)]TJ
+/TT8 1 Tf
+-32.8455 -1.2 TD
+(g)Tj
+/TT2 1 Tf
+0.6636 0 TD
+[(: I)142.7(N)]TJ
+/TT3 1 Tf
+1.6 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+-0.1512 Tc
+[(IN)-401.8(i)-151.2(s)]TJ
+/TT8 1 Tf
+2.0818 0 TD
+0 Tc
+(g)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.5686 0 TD
+(=)Tj
+/TT8 1 Tf
+0.8091 0 TD
+(add)Tj
+/TT2 1 Tf
+1.6636 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(,)Tj
+/TT8 1 Tf
+0.3231 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+[(\).)-500.4(The)-245.3(graph)-241.3(gives)-252.8(a)-247.1(lot)-262.5(of)-248.8(insight:)]TJ
+ET
+endstream
+endobj
+28 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT8 8 0 R
+/TT9 9 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+30 0 obj
+<<
+/Length 10132
+>>
+stream
+BT
+/TT8 1 Tf
+10 0 0 10 342.1 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(2.2.1  Representing Functions as Sets     )Tj
+/TT6 1 Tf
+16.2759 0 TD
+(23)Tj
+/TT8 1 Tf
+11 0 0 11 139.2 673.8601 Tm
+(graph)Tj
+/TT2 1 Tf
+2.5545 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(split-add)Tj
+/TT2 1 Tf
+3.5557 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4931 0 TD
+(=)Tj
+/TT2 1 Tf
+0.8091 0 TD
+[({)-165.5(\()-157.9(0,)-250({)-165.5(\(0,)-80.6(0\),)-244.3(\(1,)-80.6(1\),)-244.3(\(2,)-80.6(2\),)]TJ
+10.3455 0.3 TD
+0.2591 Tc
+(...)Tj
+1.6909 -0.3 TD
+0.1655 Tc
+[(}\))165.5(,)]TJ
+-9.7818 -1.3818 TD
+0 Tc
+[(\()-157.9(1)0(,)-340.9({)-165.5(\(0,)-80.6(1\),)-244.3(\(1,)-80.6(2\),)-244.3(\(2,)-80.6(3\),)]TJ
+9.7909 0.3 TD
+0.2591 Tc
+(...)Tj
+1.6909 -0.3 TD
+0.1655 Tc
+[(}\))165.5(,)]TJ
+-11.4818 -1.3818 TD
+0 Tc
+[(\()-157.9(2)0(,)-340.9({)-165.5(\(0,)-80.6(2\),)-244.3(\(1,)-80.6(3\),)-244.3(\(2,)-80.6(4\),)]TJ
+9.7909 0.3 TD
+0.2591 Tc
+(...)Tj
+1.6909 -0.3 TD
+0.1655 Tc
+[(}\))165.5(,)]TJ
+1.5636 0.3 TD
+0.2591 Tc
+(...)Tj
+1.6909 -0.3 TD
+0 Tc
+(})Tj
+-26.5545 -2.1818 TD
+[(Each)-237.8(argument)-241.8(from)-247.1(I)151.2(N)-250.6(is)-260.3(paired)-237.8(with)-258.5(a)-247.1(graph)-241.3(that)-255(denotes)-245.3(a)-256.2(function)-258.4(from)-256.2(I)151.2(N)-259.7(to)-267.6(I)151.2(N)0(.)-264.2(Com-)]TJ
+0 -1.2 TD
+[(pare)-288.4(the)-305.6(graph)-295.9(of)]TJ
+/TT8 1 Tf
+7.2455 0 TD
+(split-add)Tj
+/TT2 1 Tf
+3.8727 0 TD
+[(to)-313.1(that)-309.6(of)]TJ
+/TT8 1 Tf
+4.0364 0 TD
+(add;)Tj
+/TT2 1 Tf
+2.1273 0 TD
+[(there)-283.3(is)-305.7(a)-292.5(close)-290.8(relationship)-297(between)-277.5(functions)]TJ
+-17.2818 -1.2 TD
+[(of)-294.3(the)-296.5(form)-292.5(\()]TJ
+/TT8 1 Tf
+5.2148 0 TD
+(R)Tj
+/TT4 1 Tf
+0.767 0 TD
+(◊)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\))Tj
+/TT3 1 Tf
+0.4909 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(T)Tj
+/TT2 1 Tf
+0.8636 0 TD
+[(to)-304(those)-298.3(of)-294.3(the)-296.5(form)]TJ
+/TT8 1 Tf
+8.3727 0 TD
+(R)Tj
+/TT3 1 Tf
+0.7727 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(S)Tj
+/TT3 1 Tf
+0.6579 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(T)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(\).)-315.4(The)-299.9(functions)-305.6(of)-303.4(the)]TJ
+/TT9 1 Tf
+9.4438 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(rst)-316.6(form)]TJ
+-32.7107 -1.2 TD
+[(can)-366.9(be)-374.3(placed)-363.4(in)-385.8(one-one)-361.1(onto)-385.8(correspondence)-334.7(with)-376.7(the)-369.2(ones)-367(of)-367(the)-369.2(second)-359.5(formó)-365.2(the)]TJ
+T*
+[(sets)-254.5(\()]TJ
+/TT8 1 Tf
+2.0876 0 TD
+(R)Tj
+/TT4 1 Tf
+0.767 0 TD
+(◊)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\))Tj
+/TT3 1 Tf
+0.4909 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(T)Tj
+/TT2 1 Tf
+0.8182 0 TD
+(and)Tj
+/TT8 1 Tf
+1.6909 0 TD
+(R)Tj
+/TT3 1 Tf
+0.7727 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(S)Tj
+/TT3 1 Tf
+0.6579 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(T)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(\))-256.3(are)-233.8(isomorphic.)]TJ
+-14.8562 -1.2 TD
+(7.)Tj
+/TT10 1 Tf
+1.9 0 TD
+(ﬁ)Tj
+/TT8 1 Tf
+0.5 0 TD
+(rst-value)Tj
+/TT2 1 Tf
+3.7091 0 TD
+[(: \(I)148.4(N)]TJ
+/TT3 1 Tf
+1.9273 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+-0.1512 Tc
+[(IN)-151.2(\))]TJ
+/TT3 1 Tf
+1.3909 0 TD
+0 Tc
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+[(I)151.2(N)0(.)-573.3(The)-308.9(function)-312.9(looks)-323.9(at)-314.7(the)-314.7(value)-316.3(its)-337(argument)-314.5(produces)-308.3(when)]TJ
+-9.7364 -1.2 TD
+[(applied)-247.6(to)-258.5(a)-247.1(zero;)]TJ
+/TT10 1 Tf
+7.1545 0 TD
+(ﬁ)Tj
+/TT8 1 Tf
+0.5 0 TD
+(rst-value)Tj
+/TT2 1 Tf
+3.5547 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4799 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+[(\(0\),)-261.9(and:)]TJ
+/TT8 1 Tf
+-11.5585 -2.3636 TD
+(graph)Tj
+/TT2 1 Tf
+2.5545 0 TD
+(\()Tj
+/TT10 1 Tf
+0.333 0 TD
+(ﬁ)Tj
+/TT8 1 Tf
+0.5 0 TD
+(rst-value)Tj
+/TT2 1 Tf
+3.5547 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4759 0 TD
+(=)Tj
+/TT2 1 Tf
+0.8091 0 TD
+({)Tj
+0.9 0.3 TD
+0.2591 Tc
+(...)Tj
+1.5273 -0.3 TD
+0 Tc
+[(,)-340.9(\()-157.9({)-165.5(\(0,)-80.6(1\),)-244.3(\(1,)-80.6(1\),)-244.3(\(2,)-80.6(1\),)-244.3(\(3,)-80.6(6\),)]TJ
+11.7818 0.3 TD
+0.2591 Tc
+(...)Tj
+1.6909 -0.3 TD
+0 Tc
+[(},)-342.7(1)-163.6(\))0(,)]TJ
+-13.8727 -1.0818 TD
+0.2591 Tc
+(...)Tj
+1.5273 -0.3 TD
+0 Tc
+[(,)-340.9(\()-157.9({)-165.5(\(0,)-80.6(49\),)-244.3(\(1,)-80.6(64\),)-244.3(\(2,)-80.6(81\),)-244.3(\(3,)-80.6(100\),)]TJ
+14.2818 0.3 TD
+0.2591 Tc
+(...)Tj
+1.6909 -0.3 TD
+0 Tc
+[(},)-342.7(49)-163.6(\),)]TJ
+-17.5 -1.0818 TD
+0.2591 Tc
+(...)Tj
+1.6909 -0.3 TD
+0 Tc
+(})Tj
+-13.7636 -2.1818 TD
+[(Writing)-326(the)-323.8(graph)-314.1(for)-315.8(the)-332.9(function)-331.1(is)-342.1(a)-328.9(tedious)-338.6(\(and)-323.1(endless\))-323.1(task,)-339.2(so)-338.1(we)-324.9(show)-334.1(only)-340.3(two)]TJ
+0 -1.2 TD
+[(example)-240.1(argument,)-246.4(answer)-231.6(pairs.)]TJ
+-2 -1.2 TD
+(8.)Tj
+/TT8 1 Tf
+1.9 0 TD
+(make-succ)Tj
+/TT2 1 Tf
+4.3455 0 TD
+[(: \(I)148.4(N)]TJ
+/TT3 1 Tf
+1.9273 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+-0.1512 Tc
+[(IN)-151.2(\))]TJ
+/TT3 1 Tf
+1.3909 0 TD
+0 Tc
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+[(\(I)156.9(N)]TJ
+/TT3 1 Tf
+1.3909 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+[(I)151.2(N\).)-431.2(Function)]TJ
+/TT8 1 Tf
+5.9273 0 TD
+(make-succ)Tj
+/TT2 1 Tf
+4.6273 0 TD
+[(builds)-455.2(a)-438(new)-434(function)-440.2(from)-438(its)]TJ
+-22.9727 -1.2 TD
+[(argument)-287.3(by)-300(adding)-296.5(one)-292.5(to)-294.9(all)-291.4(the)-287.4(argument)-278.2(functionís)-281.7(answers:)]TJ
+/TT8 1 Tf
+26.4091 0 TD
+(make-succ)Tj
+/TT2 1 Tf
+4.2197 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4513 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(g)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(,)-305.7(where)]TJ
+/TT8 1 Tf
+-32.9897 -1.2 TD
+(g)Tj
+/TT2 1 Tf
+0.6636 0 TD
+[(: I)142.7(N)]TJ
+/TT3 1 Tf
+1.6 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+[(I)151.2(N)-250.6(and)]TJ
+/TT8 1 Tf
+2.8455 0 TD
+(g)Tj
+/TT2 1 Tf
+0.6636 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4777 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.333 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+(1.)Tj
+/TT8 1 Tf
+-9.099 -2.3636 TD
+(graph)Tj
+/TT2 1 Tf
+2.5545 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(make-succ)Tj
+/TT2 1 Tf
+4.2197 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4473 0 TD
+(=)Tj
+/TT2 1 Tf
+0.8091 0 TD
+({)Tj
+0.9 0.3 TD
+0.2591 Tc
+(...)Tj
+1.5273 -0.3 TD
+0 Tc
+(,)Tj
+-0.7909 -1.3818 TD
+[(\()-157.9({)-165.5(\(0,)-80.6(1\),)-244.3(\(1,)-80.6(1\),)-244.3(\(2,)-80.6(1\),)-244.3(\(3,)-80.6(6\),)]TJ
+11.1909 0.3 TD
+0.2591 Tc
+(...)Tj
+1.6909 -0.3 TD
+0 Tc
+(},)Tj
+-10.8818 -1.3818 TD
+[({)-165.5(\(0,)-80.6(2\),)-244.3(\(1,)-80.6(2\),)-244.3(\(2,)-80.6(2\),)-244.3(\(3,)-80.6(7\),)]TJ
+10.7 0.3 TD
+0.2591 Tc
+(...)Tj
+1.6909 -0.3 TD
+0.1655 Tc
+[(}\))165.5(,)]TJ
+-14.1364 -1.0818 TD
+0.2591 Tc
+(...)Tj
+1.5273 -0.3 TD
+0 Tc
+(,)Tj
+-1.7818 -1.3818 TD
+[(\({)-159.7(\(0,)-80.6(49\),)-244.3(\(1,)-80.6(64\),)-244.3(\(2,)-80.6(81\),)-244.3(\(3,)-80.6(100\),)]TJ
+13.5273 0.3 TD
+0.2591 Tc
+(...)Tj
+1.6909 -0.3 TD
+0 Tc
+(},)Tj
+-13.2182 -1.3818 TD
+[({)-165.5(\(0,)-80.6(50\),)-244.3(\(1,)-80.6(65\),)-244.3(\(2,)-80.6(82\),)-244.3(\(3,)-80.6(101\),)]TJ
+13.2 0.3 TD
+0.2591 Tc
+(...)Tj
+1.6909 -0.3 TD
+0.1655 Tc
+(}\))Tj
+-16.6364 -1.0818 TD
+0.2591 Tc
+(...)Tj
+1.6909 -0.3 TD
+0 Tc
+(})Tj
+-15.7636 -2.1818 TD
+(9.)Tj
+/TT8 1 Tf
+1.9 0 TD
+(apply)Tj
+/TT2 1 Tf
+2.3818 0 TD
+[(: \(\(I)154.1(N)]TJ
+/TT3 1 Tf
+2.2545 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+-0.1512 Tc
+[(IN)-151.2(\))]TJ
+/TT4 1 Tf
+1.3909 0 TD
+0 Tc
+(◊)Tj
+/TT2 1 Tf
+0.7182 0 TD
+-0.1512 Tc
+[(IN)-151.2(\))]TJ
+/TT3 1 Tf
+1.3909 0 TD
+0 Tc
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+[(I)151.2(N)0(.)-255.1(Recall)-245.8(that)]TJ
+/TT8 1 Tf
+5.9636 0 TD
+(apply)Tj
+/TT2 1 Tf
+2.3818 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(,)Tj
+/TT8 1 Tf
+0.3346 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4834 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+[(\),)-254.4(so)-256.3(its)-264.3(graph)-241.3(is:)]TJ
+/TT8 1 Tf
+-20.599 -2.3636 TD
+(graph)Tj
+/TT2 1 Tf
+2.5545 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(apply)Tj
+/TT2 1 Tf
+2.2217 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4817 0 TD
+(=)Tj
+/TT2 1 Tf
+0.8091 0 TD
+({)Tj
+0.9 0.3 TD
+0.2591 Tc
+(...)Tj
+1.5273 -0.3 TD
+0 Tc
+[(,)-340.9(\()0(\()-152.2({)-165.5(\(0,)-80.6(1\),)-244.3(\(1,)-80.6(1\),)-244.3(\(2,)-80.6(1\),)-244.3(\(3,)-80.6(6\),)]TJ
+12.1091 0.3 TD
+0.2591 Tc
+(...)Tj
+1.6909 -0.3 TD
+0 Tc
+[(},)-251.8(0)-163.6(\))0(,)-244.3(1\),)]TJ
+-14.6273 -1.3818 TD
+[(\(\()-152.2({)-165.5(\(0,)-80.6(1\),)-244.3(\(1,)-80.6(1\),)-244.3(\(2,)-80.6(1\),)-244.3(\(3,)-80.6(6\),)]TJ
+11.5182 0.3 TD
+0.2591 Tc
+(...)Tj
+1.6909 -0.3 TD
+0 Tc
+[(},)-251.8(1\),)-244.3(1\),)]TJ
+-13.2091 -1.3818 TD
+[(\(\()-152.2({)-165.5(\(0,)-80.6(1\),)-244.3(\(1,)-80.6(1\),)-244.3(\(2,)-80.6(1\),)-244.3(\(3,)-80.6(6\),)]TJ
+11.5182 0.3 TD
+0.2591 Tc
+(...)Tj
+1.6909 -0.3 TD
+0 Tc
+[(},)-251.8(2\),)-244.3(1\),)]TJ
+-13.2091 -1.3818 TD
+[(\(\()-152.2({)-165.5(\(0,)-80.6(1\),)-244.3(\(1,)-80.6(1\),)-244.3(\(2,)-80.6(1\),)-244.3(\(3,)-80.6(6\),)]TJ
+11.5182 0.3 TD
+0.2591 Tc
+(...)Tj
+1.6909 -0.3 TD
+0 Tc
+[(},)-251.8(3\),)-244.3(6\),)]TJ
+-12.9545 -1.0818 TD
+0.2591 Tc
+(...)Tj
+1.5273 -0.3 TD
+0 Tc
+(,)Tj
+-1.7818 -1.3818 TD
+[(\(\()-152.2({)-165.5(\(0,)-80.6(49\),)-244.3(\(1,)-80.6(64\),)-244.3(\(2,)-80.6(81\),)-244.3(\(3,)-80.6(100\),)]TJ
+14.0182 0.3 TD
+0.2591 Tc
+(...)Tj
+1.6909 -0.3 TD
+0 Tc
+[(},)-251.8(0\),)-244.3(49\),)]TJ
+-15.7091 -1.3818 TD
+[(\(\()-152.2({)-165.5(\(0,)-80.6(49\),)-244.3(\(1,)-80.6(64\),)-244.3(\(2,)-80.6(81\),)-244.3(\(3,)-80.6(100\),)]TJ
+14.0182 0.3 TD
+0.2591 Tc
+(...)Tj
+1.6909 -0.3 TD
+0 Tc
+[(},)-251.8(1\),)-244.3(64\),)]TJ
+-15.4545 -1.0818 TD
+0.2591 Tc
+(...)Tj
+1.6909 -0.3 TD
+0 Tc
+(})Tj
+-11.7636 -2.1818 TD
+[(The)-354.4(graph)-350.4(of)]TJ
+/TT8 1 Tf
+5.7273 0 TD
+(apply)Tj
+/TT2 1 Tf
+2.5818 0 TD
+[(is)-369.4(little)-376.1(help;)-364.1(things)-373.4(are)-342.9(getting)-368.1(too)-367.6(complex.)-361.2(But)-373.4(it)-371.6(is)-369.4(important)-366.4(to)]TJ
+-8.3091 -1.2 TD
+[(understand)-375.9(why)-386.9(the)-387.4(pairs)-383.4(are)-370.2(built)-402.9(as)-385.2(they)-387.4(are.)-620.2(Each)-365.1(pair)-372.6(in)]TJ
+/TT8 1 Tf
+25.5091 0 TD
+(graph)Tj
+/TT2 1 Tf
+2.5545 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(apply)Tj
+/TT2 1 Tf
+2.2217 0 TD
+[(\))-366.8(contains)-376.6(an)]TJ
+ET
+endstream
+endobj
+31 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT8 8 0 R
+/TT9 9 0 R
+/TT10 32 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+34 0 obj
+<<
+/Length 14779
+>>
+stream
+BT
+/TT6 1 Tf
+10 0 0 10 97.2 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(24)Tj
+/TT8 1 Tf
+1 0 TD
+(     Sets, Functions, and Domains)Tj
+/TT2 1 Tf
+11 0 0 11 119.2 682.4601 Tm
+[(argument)-241.8(and)-247.1(an)-247.1(answer,)-236.2(where)-229.9(the)-251(argument)-241.8(is)-260.3(itself)-255(a)-247.1(set,)-257.3(number)-245.3(pair.)]TJ
+/TT6 1 Tf
+-2 -4.2 TD
+[(2.2.2)-263.6( Representing)-247.6(Functions)-267.8(as)-256.3(Equations )]TJ
+/TT4 1 Tf
+18.6491 0 TD
+(_)Tj
+0.0509 0 TD
+(_)Tj
+0.0909 0 TD
+(_)Tj
+0.0182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(_)Tj
+/TT2 1 Tf
+-37.4636 -2.4 TD
+[(The)-263.5(graph)-259.5(representation)-245(of)-267(a)-265.2(function)-267.5(provides)-265.2(insight)-286.4(into)-280.7(its)-291.5(structure)-265.1(but)-285.8(is)-287.6(inconvenient)-271.3(to)]TJ
+0 -1.2 TD
+[(use)-294.3(in)-304(practice.)-531.4(In)-294.3(this)-309.7(text)-300.5(we)-288.5(use)-294.3(the)-296.5(traditional)-299.2(equational)-289.5(format)-289(for)-288.5(specifying)-279.9(a)-283.4(function.)]TJ
+T*
+[(Here)-311.7(are)-315.7(the)-332.9(equational)-325.9(speci)]TJ
+/TT9 1 Tf
+11.8911 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(cations)-329.4(for)-324.9(the)-342(functions)-342(described)-323(in)-349.4(examples)-332.7(1-5)-339.7(of)-339.7(Section)]TJ
+-12.4472 -1.2 TD
+(2.2.1:)Tj
+0 -1.8 TD
+(1.)Tj
+/TT8 1 Tf
+1.9 0 TD
+(add)Tj
+/TT2 1 Tf
+1.5818 0 TD
+[(: \(I)148.4(N)]TJ
+/TT4 1 Tf
+1.9273 0 TD
+(◊)Tj
+/TT2 1 Tf
+0.7182 0 TD
+-0.1512 Tc
+[(IN)-151.2(\))]TJ
+/TT3 1 Tf
+1.3909 0 TD
+0 Tc
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+-0.1512 Tc
+(IN)Tj
+/TT8 1 Tf
+-6.6727 -1.2 TD
+0 Tc
+(add)Tj
+/TT2 1 Tf
+1.5 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(m)Tj
+/TT2 1 Tf
+0.7222 0 TD
+(,)Tj
+/TT8 1 Tf
+0.3266 0 TD
+(n)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4909 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(m)Tj
+/TT4 1 Tf
+0.8921 0 TD
+(+)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(n)Tj
+/TT2 1 Tf
+-8.2818 -1.2 TD
+(2.)Tj
+/TT8 1 Tf
+1.9 0 TD
+(duplicate)Tj
+/TT2 1 Tf
+3.8 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(R)Tj
+/TT3 1 Tf
+0.6994 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(R)Tj
+/TT4 1 Tf
+0.767 0 TD
+(◊)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(R)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(\))Tj
+/TT8 1 Tf
+-8.5108 -1.2 TD
+(duplicate)Tj
+/TT2 1 Tf
+3.7212 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(r)Tj
+/TT2 1 Tf
+0.3892 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4839 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( \()Tj
+/TT8 1 Tf
+0.583 0 TD
+(r)Tj
+/TT2 1 Tf
+0.3892 0 TD
+(,)Tj
+/TT8 1 Tf
+0.5063 0 TD
+(r)Tj
+/TT2 1 Tf
+0.3892 0 TD
+(\))Tj
+-9.3437 -1.2 TD
+(3.)Tj
+/TT8 1 Tf
+1.9 0 TD
+(whichpart)Tj
+/TT2 1 Tf
+4.1455 0 TD
+[(: \(I)202.9(B)]TJ
+/TT4 1 Tf
+1.8273 0 TD
+(+)Tj
+/TT2 1 Tf
+0.7182 0 TD
+-0.1512 Tc
+[(IN)-151.2(\))]TJ
+/TT3 1 Tf
+1.3909 0 TD
+0 Tc
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(S)Tj
+-9.1364 -1.2 TD
+(which-part)Tj
+/TT2 1 Tf
+4.3887 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(m)Tj
+/TT2 1 Tf
+0.7222 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4834 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( cases )Tj
+/TT8 1 Tf
+2.6099 0 TD
+(m)Tj
+/TT2 1 Tf
+0.7222 0 TD
+( of)Tj
+-6.1718 -1.2 TD
+[(isI)200(B\()]TJ
+/TT8 1 Tf
+1.8 0 TD
+(b)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\))Tj
+/TT3 1 Tf
+0.4909 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(isbool)Tj
+/TT2 1 Tf
+-3.9455 -1.2 TD
+[([)151.2(])0( isI)146.6(N\()]TJ
+/TT8 1 Tf
+2.6734 0 TD
+(n)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\))Tj
+/TT3 1 Tf
+0.4812 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(isnum)Tj
+/TT2 1 Tf
+-4.8091 -1.2 TD
+(end)Tj
+-5.6364 -1.2 TD
+(4.)Tj
+/TT8 1 Tf
+1.9 0 TD
+(make-singleton)Tj
+/TT2 1 Tf
+6.2545 0 TD
+[(: I)142.7(N)]TJ
+/TT3 1 Tf
+1.6 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+[(I)151.2(P\(I)149.4(N\))]TJ
+/TT8 1 Tf
+-8.9091 -1.2 TD
+(make-singleton)Tj
+/TT2 1 Tf
+6.1094 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(n)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4667 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( {)Tj
+/TT8 1 Tf
+0.9057 0 TD
+(n)Tj
+/TT2 1 Tf
+0.6636 0 TD
+(})Tj
+-11.5273 -1.2 TD
+(5.)Tj
+/TT8 1 Tf
+1.9 0 TD
+(nothing)Tj
+/TT2 1 Tf
+3.2273 0 TD
+[(: I)197.2(B)]TJ
+/TT3 1 Tf
+1.5 0 TD
+<0045>Tj
+/TT2 1 Tf
+0.9364 0 TD
+-0.1512 Tc
+(IN)Tj
+/TT3 1 Tf
+1.0636 0 TD
+0 Tc
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+[(I)205.7(B)-260.3(has)-248.8(no)-254.5(equational)-244.1(de)]TJ
+/TT9 1 Tf
+9.2438 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-266.5(since)-245.3(its)-264.3(domain)-255(is)-260.3(empty)]TJ
+-17.5818 -1.8 TD
+[(The)-327.1(equational)-325.9(format)-325.4(is)-342.1(so)-338.1(obvious)-342.1(and)-328.9(easy)-323.1(to)-349.4(use)-339.7(that)-345.9(we)-334(tend)-342(to)-349.4(take)-334.5(it)-353.4(for)-334(granted.)]TJ
+-2 -1.2 TD
+[(Nonetheless,)-344.1(it)-362.5(is)-360.3(important)-357.3(to)-358.5(remember)-328.6(that)-345.9(an)-338(equation)]TJ
+/TT8 1 Tf
+24.1 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4817 0 TD
+(=)Tj
+/TT3 1 Tf
+0.7182 0 TD
+<005f>Tj
+/TT2 1 Tf
+0.6309 0 TD
+[(,)-346.4(for)]TJ
+/TT8 1 Tf
+2.0964 0 TD
+(f)Tj
+/TT2 1 Tf
+0.4455 0 TD
+(:)Tj
+/TT8 1 Tf
+0.4455 0 TD
+(A)Tj
+/TT3 1 Tf
+0.6909 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(B)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(,)Tj
+/TT8 1 Tf
+0.5983 0 TD
+(represents)Tj
+/TT2 1 Tf
+4.5 0 TD
+(a)Tj
+-37.5273 -1.2 TD
+[(function.)-299.3(The)-290.8(actual)-285.5(function)-294.8(is)-305.7(determined)-292.9(by)-309.1(a)-301.6(form)-301.6(of)-303.4(evaluation)-298.6(that)-309.6(uses)-305.1(substitution)-332.5(and)]TJ
+T*
+(simpli)Tj
+/TT9 1 Tf
+2.5005 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(cation.)-577.3(To)-298.3(use)]TJ
+/TT8 1 Tf
+6.307 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+[(ís)-300(equational)-289.5(de)]TJ
+/TT9 1 Tf
+6.4206 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-312(to)-304(map)-296.5(a)-292.5(speci)]TJ
+/TT9 1 Tf
+8.5365 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+(c)Tj
+/TT8 1 Tf
+0.7255 0 TD
+(a)Tj
+/TT2 1 Tf
+8 0 0 8 393.5 343.6601 Tm
+(0)Tj
+/TT3 1 Tf
+11 0 0 11 398.4 345.8601 Tm
+<0044>Tj
+/TT8 1 Tf
+0.8727 0 TD
+(A)Tj
+/TT2 1 Tf
+0.9 0 TD
+(to)Tj
+/TT8 1 Tf
+1.0727 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(a)Tj
+/TT2 1 Tf
+8 0 0 8 441.9192 343.6601 Tm
+(0)Tj
+11 0 0 11 446.8 345.8601 Tm
+(\))Tj
+/TT3 1 Tf
+0.333 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.867 0 TD
+(B)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(,)Tj
+/TT9 1 Tf
+0.5437 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+(rst,)Tj
+/TT8 1 Tf
+1.5529 0 TD
+(sub-)Tj
+-36.2455 -1.2 TD
+[(stitute)-264.8(a)]TJ
+/TT2 1 Tf
+8 0 0 8 132.5 330.4601 Tm
+(0)Tj
+11 0 0 11 140.2 332.6601 Tm
+[(for)-243.1(all)-255(occurrences)-207.4(of)]TJ
+/TT8 1 Tf
+8.7273 0 TD
+(x)Tj
+/TT2 1 Tf
+0.6909 0 TD
+(in)Tj
+/TT3 1 Tf
+1.0364 0 TD
+<005f>Tj
+/TT2 1 Tf
+0.6309 0 TD
+[(.)-255.5(The)-245.3(substitution)-278(is)-260.3(represented)-218.9(as)-248.8([)]TJ
+/TT8 1 Tf
+14.5782 0 TD
+(a)Tj
+/TT2 1 Tf
+8 0 0 8 428 330.4601 Tm
+(0)Tj
+/TT8 1 Tf
+11 0 0 11 432.9 332.6601 Tm
+(/x)Tj
+/TT2 1 Tf
+0.8 0 TD
+(])Tj
+/TT3 1 Tf
+0.333 0 TD
+<005f>Tj
+/TT2 1 Tf
+0.6309 0 TD
+[(.)-258.9(Second,)]TJ
+/TT8 1 Tf
+3.9634 0 TD
+(sim-)Tj
+-36.2455 -1.2 TD
+(plify)Tj
+/TT2 1 Tf
+2.0364 0 TD
+([)Tj
+/TT8 1 Tf
+0.4909 0 TD
+(a)Tj
+/TT2 1 Tf
+8 0 0 8 130.5 317.2601 Tm
+(0)Tj
+/TT8 1 Tf
+11 0 0 11 135.4 319.4601 Tm
+(/x)Tj
+/TT2 1 Tf
+0.8 0 TD
+(])Tj
+/TT3 1 Tf
+0.333 0 TD
+<005f>Tj
+/TT2 1 Tf
+0.8761 0 TD
+[(to)-258.5(its)-264.3(underlying)-249.3(value.)]TJ
+-3.4818 -1.2 TD
+[(Here)-266.2(is)-296.6(the)-287.4(process)-273.7(in)-294.9(action:)-287.9(to)-294.9(determine)-274.7(the)-287.4(the)-287.4(value)-279.9(of)]TJ
+/TT8 1 Tf
+23.9636 0 TD
+(add)Tj
+/TT2 1 Tf
+1.5 0 TD
+[(\(2,)-80.6(3\),)-289.7(we)]TJ
+/TT9 1 Tf
+3.9909 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(rst)-307.5(substitute)-312(2)]TJ
+-32.0107 -1.2 TD
+(for)Tj
+/TT8 1 Tf
+1.4818 0 TD
+(m)Tj
+/TT2 1 Tf
+1.0455 0 TD
+[(and)-319.8(3)-327.3(for)]TJ
+/TT8 1 Tf
+4.0727 0 TD
+(n)Tj
+/TT2 1 Tf
+0.8273 0 TD
+[(in)-322.2(the)-314.7(expression)-305(on)-318.2(the)-314.7(right-hand)-307.2(side)-316.4(of)]TJ
+/TT8 1 Tf
+17.6182 0 TD
+(add)Tj
+/TT2 1 Tf
+1.5 0 TD
+[(ís)-314.2(equation,)-315.7(giving)]TJ
+/TT8 1 Tf
+7.9273 0 TD
+(add)Tj
+/TT2 1 Tf
+1.5 0 TD
+[(\(2,)-80.6(3\))]TJ
+/TT4 1 Tf
+-35.9727 -1.2 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( [3)Tj
+/TT8 1 Tf
+1.083 0 TD
+(/n)Tj
+/TT2 1 Tf
+0.7778 0 TD
+(][2)Tj
+/TT8 1 Tf
+1.166 0 TD
+(/m)Tj
+/TT2 1 Tf
+1 0 TD
+(])Tj
+/TT8 1 Tf
+0.333 0 TD
+(m)Tj
+/TT4 1 Tf
+0.7222 0 TD
+(+)Tj
+/TT8 1 Tf
+0.5488 0 TD
+(n)Tj
+/TT4 1 Tf
+0.8203 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( 2)Tj
+/TT4 1 Tf
+0.75 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[(3.)-347.8(Second,)-333.4(we)-324.9(simplify)-348.3(the)-332.9(expression)-323.1(2+3)-336(using)-342.1(our)-330.6(knowledge)-321.4(of)-330.6(the)]TJ
+-8.8477 -1.2 TD
+[(primitive)-443.1(operation)-423.6(+)-436(t)0(o)-440.4(obtain)-436.8(2)]TJ
+/TT4 1 Tf
+13.9636 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+(3)Tj
+/TT4 1 Tf
+0.6694 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[( 5.)-451.2(The)-427.1(substitution/simpli)]TJ
+/TT9 1 Tf
+10.8788 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(cation)-482(process)-419.2(produces)-408.3(a)]TJ
+-27.1656 -1.2 TD
+[(value)-243.6(that)-255(is)-260.3(consistent)-255(with)-258.5(the)-251(functionís)-245.3(graph.)]TJ
+2 -1.2 TD
+[(Often)-332.2(we)-334(choose)-341.3(to)-358.5(represent)-326.4(a)-347.1(function)]TJ
+/TT8 1 Tf
+16.8273 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4817 0 TD
+(=)Tj
+/TT3 1 Tf
+0.7182 0 TD
+<005f>Tj
+/TT2 1 Tf
+0.9818 0 TD
+(as)Tj
+/TT8 1 Tf
+1.1818 0 TD
+(f)Tj
+/TT4 1 Tf
+0.4455 0 TD
+(=)Tj
+/TT3 1 Tf
+0.7182 0 TD
+<0068>Tj
+/TT8 1 Tf
+0.5488 0 TD
+(x.)Tj
+/TT3 1 Tf
+0.8603 0 TD
+<005f>Tj
+/TT2 1 Tf
+0.6309 0 TD
+[(;)-354.9(that)-355(is,)-364.8(we)-343.1(move)-351(the)-351(argu-)]TJ
+-26.449 -1.2 TD
+[(ment)-373.2(identi)]TJ
+/TT9 1 Tf
+4.6501 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(er)-371.5(to)-376.7(the)-369.2(right)-375(of)-367(the)-369.2(equals)-354.4(sign.)-373.9(The)]TJ
+/TT3 1 Tf
+16.0574 0 TD
+<0068>Tj
+/TT2 1 Tf
+1.1727 0 TD
+[(and)-610.7(.)-368.2(bracket)-339.4(the)-360.1(argument)-350.9(identi)]TJ
+/TT9 1 Tf
+13.941 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+(er.)Tj
+-36.9335 -1.2 TD
+[(The)-436.2(choice)-427(of)]TJ
+/TT3 1 Tf
+6.3 0 TD
+<0068>Tj
+/TT2 1 Tf
+1.2545 0 TD
+[(and)-692.5(.)-450(follows)-445.5(from)-438(tradition,)-452.7(and)-438(the)-442(format)-434.5(is)-460.3(called)]TJ
+/TT8 1 Tf
+23.3545 0 TD
+[(lambda)-454.5(notation.)]TJ
+/TT2 1 Tf
+-30.9091 -1.2 TD
+[(Lambda)-478.2(notation)-495.4(makes)-481.7(it)-489.8(easier)-459.4(to)-485.8(de)]TJ
+/TT9 1 Tf
+16.6075 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ne)-474.3(functions)-478.3(such)-476.1(as)]TJ
+/TT8 1 Tf
+9.2364 0 TD
+(split-add)Tj
+/TT2 1 Tf
+3.7273 0 TD
+[(: I)142.7(N)]TJ
+/TT3 1 Tf
+1.6 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+[(\(I)156.9(N)]TJ
+/TT3 1 Tf
+1.3909 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+-0.1512 Tc
+[(IN)-151.2(\))-623.3(a)-151.2(s)]TJ
+/TT8 1 Tf
+-35.4273 -1.2 TD
+0 Tc
+(split-add)Tj
+/TT2 1 Tf
+3.5557 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4857 0 TD
+(=)Tj
+/TT3 1 Tf
+0.7182 0 TD
+<0068>Tj
+/TT8 1 Tf
+0.5488 0 TD
+[(y.)-166.4(x)]TJ
+/TT4 1 Tf
+1.3041 0 TD
+(+)Tj
+/TT8 1 Tf
+0.5488 0 TD
+(y)Tj
+/TT2 1 Tf
+0.7073 0 TD
+[(or)-267(even)-257.8(as)]TJ
+/TT8 1 Tf
+4.3455 0 TD
+(split-add)Tj
+/TT4 1 Tf
+3.7273 0 TD
+(=)Tj
+/TT3 1 Tf
+0.7182 0 TD
+<0068>Tj
+/TT8 1 Tf
+0.5488 0 TD
+(x.)Tj
+/TT3 1 Tf
+0.6938 0 TD
+<0068>Tj
+/TT8 1 Tf
+0.5488 0 TD
+[(y.)-169.2(x)]TJ
+/TT4 1 Tf
+1.3069 0 TD
+(+)Tj
+/TT8 1 Tf
+0.5488 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+[(.)-277.1(Also,)-288.1(a)-274.3(function)-276.6(can)-266.8(be)-274.3(de)]TJ
+/TT9 1 Tf
+11.0982 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5561 0 TD
+[(ned)-274.3(without)]TJ
+-33.1818 -1.2 TD
+[(giving)-335.2(it)-335.2(a)-319.8(name:)-574.8( )]TJ
+/TT3 1 Tf
+7.8136 0 TD
+<0068>Tj
+/TT2 1 Tf
+0.5488 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(,)Tj
+/TT8 1 Tf
+0.3334 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\).)Tj
+/TT8 1 Tf
+0.738 0 TD
+(x)Tj
+/TT4 1 Tf
+0.4438 0 TD
+(+)Tj
+/TT8 1 Tf
+0.5488 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+0.3226 Tw
+[( is)-333(the)]TJ
+/TT8 1 Tf
+3.118 0 TD
+0 Tw
+(add)Tj
+/TT2 1 Tf
+1.8273 0 TD
+[(function)-322(yet)-323.8(again.)-320.8(Functions)-327.9(written)-312.9(in)-322.2(the)-314.7(lambda)]TJ
+-17.0364 -1.2 TD
+[(notation)-613.6(behave)-586.6(in)-613.1(the)-605.6(same)-599.9(way)-597.6(as)-603.4(the)-605.6(ones)-603.4(we)-597.6(have)-594.1(used)-603.4(thus)-614.8(far.)-858.3(For)-619.9(example,)]TJ
+T*
+(\()Tj
+/TT3 1 Tf
+0.333 0 TD
+<0068>Tj
+/TT2 1 Tf
+0.5488 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(,)Tj
+/TT8 1 Tf
+0.3231 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\).)Tj
+/TT8 1 Tf
+0.738 0 TD
+(x)Tj
+/TT4 1 Tf
+0.4438 0 TD
+(+)Tj
+/TT8 1 Tf
+0.5488 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+[(\)\(2,)-65.6(3\))]TJ
+/TT4 1 Tf
+2.5726 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( [3)Tj
+/TT8 1 Tf
+1.083 0 TD
+(/y)Tj
+/TT2 1 Tf
+0.7217 0 TD
+(][2)Tj
+/TT8 1 Tf
+1.166 0 TD
+(/x)Tj
+/TT2 1 Tf
+0.7217 0 TD
+(])Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT4 1 Tf
+0.4438 0 TD
+(+)Tj
+/TT8 1 Tf
+0.5488 0 TD
+(y)Tj
+/TT4 1 Tf
+0.6786 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( 2)Tj
+/TT4 1 Tf
+0.75 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+(3)Tj
+/TT4 1 Tf
+0.7796 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[( 5.)-278.4(Section)-264.1(3.2.3)-263.6(in)-258.5(the)-251(next)-251(chapter)-230.3(discusses)-250.6(lambda)]TJ
+-16.5943 -1.2 TD
+[(notation)-259(at)-251(greater)-224.6(length.)]TJ
+2 -1.2 TD
+[(As)-270.5(a)]TJ
+/TT9 1 Tf
+2.0909 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nal)-276.7(addition)-277.2(to)-276.7(our)-267(tools)-291.5(for)-270.3(representing)-257.6(functions,)-282.9(we)-270.3(will)-289.8(make)-270.8(use)-276.1(of)-276.1(a)-274.3(function)]TJ
+-4.6471 -1.2 TD
+[(updating)-327.8(expression.)-573.1(For)-329(a)-310.7(function)]TJ
+/TT8 1 Tf
+15.0455 0 TD
+(f)Tj
+/TT2 1 Tf
+0.4455 0 TD
+(:)Tj
+/TT8 1 Tf
+0.4455 0 TD
+(A)Tj
+/TT3 1 Tf
+0.6909 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(B)Tj
+/TT2 1 Tf
+0.6108 0 TD
+[(,)-321(w)0(e)-306.7(let)-318.7([)]TJ
+/TT8 1 Tf
+3.8528 0 TD
+(a)Tj
+/TT2 1 Tf
+8 0 0 8 347.4 106.0601 Tm
+(0)Tj
+/TT4 1 Tf
+7 0 0 7 352.3 109.0601 Tm
+-0.1573 Tc
+(||)Tj
+/TT3 1 Tf
+11 0 0 11 352.4 108.2601 Tm
+0 Tc
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(b)Tj
+/TT2 1 Tf
+8 0 0 8 370.6 106.0601 Tm
+(0)Tj
+11 0 0 11 377.3 108.2601 Tm
+(])Tj
+/TT8 1 Tf
+0.333 0 TD
+(f)Tj
+/TT2 1 Tf
+0.5943 0 TD
+[(be)-310.7(the)-314.7(function)-312.9(that)-318.7(acts)-308.9(just)]TJ
+-26.3909 -1.2 TD
+(like)Tj
+/TT8 1 Tf
+1.7545 0 TD
+(f)Tj
+/TT2 1 Tf
+0.5364 0 TD
+[(except)-236.1(that)-255(it)-262.5(maps)-252.8(the)-251(speci)]TJ
+/TT9 1 Tf
+11.3092 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(c)-245.3(value)]TJ
+/TT8 1 Tf
+3.0982 0 TD
+(a)Tj
+/TT2 1 Tf
+8 0 0 8 292.5 92.8601 Tm
+(0)Tj
+/TT3 1 Tf
+11 0 0 11 297.4 95.0601 Tm
+<0044>Tj
+/TT8 1 Tf
+0.8727 0 TD
+(A)Tj
+/TT2 1 Tf
+0.8636 0 TD
+(to)Tj
+/TT8 1 Tf
+1.0364 0 TD
+(b)Tj
+/TT2 1 Tf
+8 0 0 8 333.4 92.8601 Tm
+(0)Tj
+/TT3 1 Tf
+11 0 0 11 338.3 95.0601 Tm
+<0044>Tj
+/TT8 1 Tf
+0.8727 0 TD
+(B)Tj
+/TT2 1 Tf
+0.6108 0 TD
+[(.)-257.3(That)-249.3(is:)]TJ
+ET
+endstream
+endobj
+35 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT8 8 0 R
+/TT9 9 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+37 0 obj
+<<
+/Length 14759
+>>
+stream
+BT
+/TT8 1 Tf
+10 0 0 10 317.6 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(2.2.2  Representing Functions as Equations     )Tj
+/TT6 1 Tf
+18.7207 0 TD
+(25)Tj
+/TT2 1 Tf
+11 0 0 11 119.2 680.4601 Tm
+(\([)Tj
+/TT8 1 Tf
+0.8182 0 TD
+(a)Tj
+/TT2 1 Tf
+8 0 0 8 133.7 678.2601 Tm
+(0)Tj
+/TT4 1 Tf
+7 0 0 7 138.6 681.2601 Tm
+-0.1573 Tc
+(||)Tj
+/TT3 1 Tf
+11 0 0 11 138.7 680.4601 Tm
+0 Tc
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(b)Tj
+/TT2 1 Tf
+8 0 0 8 156.9 678.2601 Tm
+(0)Tj
+11 0 0 11 163.6 680.4601 Tm
+(])Tj
+/TT8 1 Tf
+0.333 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\)\()Tj
+/TT8 1 Tf
+0.666 0 TD
+(a)Tj
+/TT2 1 Tf
+8 0 0 8 183.1454 678.2601 Tm
+(0)Tj
+11 0 0 11 187.9 680.4601 Tm
+(\))Tj
+/TT4 1 Tf
+0.4909 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(b)Tj
+/TT2 1 Tf
+8 0 0 8 207.5871 678.2601 Tm
+(0)Tj
+11 0 0 11 119.2 665.2601 Tm
+(\([)Tj
+/TT8 1 Tf
+0.8182 0 TD
+(a)Tj
+/TT2 1 Tf
+8 0 0 8 133.7 663.0601 Tm
+(0)Tj
+/TT4 1 Tf
+7 0 0 7 138.6 666.0601 Tm
+-0.1573 Tc
+(||)Tj
+/TT3 1 Tf
+11 0 0 11 138.7 665.2601 Tm
+0 Tc
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(b)Tj
+/TT2 1 Tf
+8 0 0 8 156.9 663.0601 Tm
+(0)Tj
+11 0 0 11 163.6 665.2601 Tm
+(])Tj
+/TT8 1 Tf
+0.333 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\)\()Tj
+/TT8 1 Tf
+0.666 0 TD
+(a)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4777 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(a)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(\))-511.9(for)-243.1(all)-255(other)]TJ
+/TT8 1 Tf
+5.8085 0 TD
+(a)Tj
+/TT3 1 Tf
+0.5 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(A)Tj
+/TT2 1 Tf
+0.8598 0 TD
+[(such)-248.8(that)]TJ
+/TT8 1 Tf
+3.8364 0 TD
+(a)Tj
+/TT3 1 Tf
+0.5818 0 TD
+<0026>Tj
+/TT8 1 Tf
+0.7182 0 TD
+(a)Tj
+/TT2 1 Tf
+8 0 0 8 358.1 663.0601 Tm
+(0)Tj
+/TT6 1 Tf
+11 0 0 11 97.2 605.86 Tm
+[(2.3)-259.1( SEMANTIC)-260.4(DOMAINS )]TJ
+/TT4 1 Tf
+12.4926 0 TD
+(_)Tj
+0.0165 0 TD
+(_)Tj
+0.0636 0 TD
+(_)Tj
+0.0182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(_)Tj
+/TT2 1 Tf
+-37.4636 -2.4 TD
+[(The)-272.6(sets)-281.8(that)-282.3(are)-261.1(used)-276.1(as)-276.1(value)-270.8(spaces)-262.9(in)-285.8(programming)-274.8(language)-263.4(semantics)-274.8(are)-261.1(called)]TJ
+/TT8 1 Tf
+34.4182 0 TD
+(semantic)Tj
+-34.4182 -1.2 TD
+(domains.)Tj
+/TT2 1 Tf
+4.0636 0 TD
+[(A)-414.2(semantic)-409.4(domain)-418.7(may)-414.7(have)-403.2(a)-410.7(dif)50(ferent)-398.5(structure)-401.5(than)-405.6(a)-401.6(set,)-411.9(but)-413.1(sets)-409.1(will)-417.1(serve)]TJ
+-4.0636 -1.2 TD
+[(nicely)-274.8(for)-270.3(most)-291.5(of)-276.1(the)-278.3(situations)-293.8(encountered)-250.1(in)-285.8(this)-291.5(text.)-286.9(In)-276.1(practice,)-258.7(not)-285.8(all)-282.3(of)-276.1(the)-278.3(sets)-290.9(and)-283.4(set)]TJ
+T*
+[(building)-312(operations)-289(are)-279.3(needed)-268.5(for)-279.4(building)-302.9(domains.)-552.2(We)-275.9(will)-298.9(make)-279.9(use)-285.2(of)]TJ
+/TT8 1 Tf
+30.6727 0 TD
+[(primitive)-289.6(domains)]TJ
+/TT2 1 Tf
+-30.6727 -1.2 TD
+[(such)-357.9(as)-357.9(I)151.2(N)0(,)-364.2(Z)]TJ
+5.0727 0 TD
+0.3271 Tc
+[(|,)-41.1(I)532.8(B)327.1(,)]TJ
+/TT8 1 Tf
+2.5636 0 TD
+0.3682 Tc
+(...)Tj
+/TT2 1 Tf
+1.4864 0 TD
+0 Tc
+[(,)-381.8(and)-365.2(the)-369.2(following)-375(four)-361.3(kinds)-378.5(of)]TJ
+/TT8 1 Tf
+14.0682 0 TD
+[(compound)-361.3(domains,)]TJ
+/TT2 1 Tf
+8.5455 0 TD
+[(which)-365.2(are)-352(built)]TJ
+-31.7364 -1.2 TD
+[(from)-247.1(existing)-260.8(domains)]TJ
+/TT8 1 Tf
+9.2636 0 TD
+(A)Tj
+/TT2 1 Tf
+0.8636 0 TD
+(and)Tj
+/TT8 1 Tf
+1.6909 0 TD
+(B)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(:)Tj
+-12.429 -1.8 TD
+[(1.)-1150(Product)-252.8(domains)]TJ
+/TT8 1 Tf
+8.9091 0 TD
+(A)Tj
+/TT4 1 Tf
+0.6909 0 TD
+(◊)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(B)Tj
+/TT2 1 Tf
+-10.3182 -1.2 TD
+[(2.)-1150(Sum)-266(domains)]TJ
+/TT8 1 Tf
+7.6455 0 TD
+(A)Tj
+/TT4 1 Tf
+0.7727 0 TD
+(+)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(B)Tj
+/TT2 1 Tf
+-9.1364 -1.2 TD
+[(3.)-1150(Function)-262.5(domains)]TJ
+/TT8 1 Tf
+9.3636 0 TD
+(A)Tj
+/TT3 1 Tf
+0.6909 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(B)Tj
+/TT2 1 Tf
+-11.2091 -1.2 TD
+[(4.)-1150(Lifted)-247.5(domains)]TJ
+/TT8 1 Tf
+8.2364 0 TD
+(A)Tj
+/TT4 1 Tf
+8 0 0 8 195 451.86 Tm
+(|)Tj
+-0.2 0 TD
+(_)Tj
+/TT2 1 Tf
+11 0 0 11 198.3 454.0601 Tm
+[(,)-259.1(where)]TJ
+/TT8 1 Tf
+3.1818 0 TD
+(A)Tj
+/TT4 1 Tf
+8 0 0 8 240.5 451.86 Tm
+(|)Tj
+-0.2 0 TD
+(_)Tj
+11 0 0 11 245.6 454.0601 Tm
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(A)Tj
+/TT3 1 Tf
+0.783 0 TD
+<0046>Tj
+/TT2 1 Tf
+0.9364 0 TD
+({)Tj
+/TT4 1 Tf
+0.8091 0 TD
+(|)Tj
+/TT3 1 Tf
+-0.1455 -0.4 TD
+<003c>Tj
+/TT2 1 Tf
+0.7182 0.4 TD
+(})Tj
+-17.3909 -1.8 TD
+(The)Tj
+/TT9 1 Tf
+1.8364 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(rst)-298.4(three)-274.2(constructions)-285.7(were)-275.3(studied)-302.2(in)-304(the)-296.5(previous)-292.5(sections.)-301(The)-290.8(fourth,)]TJ
+/TT8 1 Tf
+29.5438 0 TD
+(A)Tj
+/TT4 1 Tf
+8 0 0 8 455.7 432.0601 Tm
+(|)Tj
+-0.2 0 TD
+(_)Tj
+/TT2 1 Tf
+11 0 0 11 459 434.2601 Tm
+[(,)-304.5(adds)-294.3(a)-292.5(spe-)]TJ
+-32.8909 -1.2 TD
+[(cial)-293(value)]TJ
+/TT4 1 Tf
+4.3545 0 TD
+(|)Tj
+/TT3 1 Tf
+-0.1455 -0.4 TD
+<003c>Tj
+/TT2 1 Tf
+0.8545 0.4 TD
+[(\(read)-273.6(ëëbottomíí\))-283.3(that)-300.5(denotes)]TJ
+/TT8 1 Tf
+12.2545 0 TD
+(nontermination)Tj
+/TT2 1 Tf
+6.4727 0 TD
+[(or)-294.3(ëëno)-288.5(value)-289(at)-296.5(all.íí)-548.1(Since)-287.4(we)-279.4(are)]TJ
+-23.7909 -1.2 TD
+[(interested)-403.7(in)-422.2(modelling)-426.6(computing-related)-396.7(situations,)-434.7(the)-414.7(possibility)-441.6(exists)-422.2(that)-418.7(a)-410.7(function)]TJ
+/TT8 1 Tf
+37.6818 0 TD
+(f)Tj
+/TT2 1 Tf
+-37.6818 -1.2 TD
+[(applied)-265.7(to)-276.7(an)-265.2(argument)]TJ
+/TT8 1 Tf
+9.5091 0 TD
+(a)Tj
+/TT3 1 Tf
+0.5 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.8727 0 TD
+(A)Tj
+/TT2 1 Tf
+0.8818 0 TD
+[(may)-269.2(yield)-273.2(no)-272.7(answer)-249.8(at)-269.2(alló)]TJ
+/TT8 1 Tf
+11.8818 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(a)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(\))-265.2(may)-269.2(stand)-271(for)-261.3(a)-256.2(nonterminating)]TJ
+-24.7563 -1.2 TD
+[(computation.)-323.7(In)-312.4(this)-327.9(situation,)-332.9(we)-306.7(say)-312.4(that)]TJ
+/TT8 1 Tf
+17.4545 0 TD
+(f)Tj
+/TT2 1 Tf
+0.6091 0 TD
+[(has)-321.5(functionality)]TJ
+/TT8 1 Tf
+7.0909 0 TD
+(A)Tj
+/TT3 1 Tf
+0.6909 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(B)Tj
+/TT4 1 Tf
+8 0 0 8 401.4 379.2601 Tm
+(|)Tj
+-0.2 0 TD
+(_)Tj
+/TT2 1 Tf
+11 0 0 11 408.3 381.4601 Tm
+(and)Tj
+/TT8 1 Tf
+1.7636 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(a)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4892 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT4 1 Tf
+0.4239 0 TD
+(|)Tj
+/TT3 1 Tf
+-0.1455 -0.4 TD
+<003c>Tj
+/TT2 1 Tf
+0.5488 0.4 TD
+[(.)-337.5(The)-318(use)-321.5(of)]TJ
+-33.0216 -1.2 TD
+[(the)-342(codomain)]TJ
+/TT8 1 Tf
+5.8455 0 TD
+(B)Tj
+/TT4 1 Tf
+8 0 0 8 168.7 366.0601 Tm
+(|)Tj
+-0.2 0 TD
+(_)Tj
+/TT2 1 Tf
+11 0 0 11 175.8 368.2601 Tm
+[(instead)-340.2(of)]TJ
+/TT8 1 Tf
+4.3455 0 TD
+(B)Tj
+/TT2 1 Tf
+0.9545 0 TD
+[(stands)-345.5(as)-339.7(a)-338(kind)-349.4(of)-339.7(warning:)-336.2(in)-349.4(the)-342(process)-328.3(of)-339.7(computing)-349.9(a)]TJ
+/TT8 1 Tf
+24.5818 0 TD
+(B)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(-)Tj
+-37.6381 -1.2 TD
+[(value,)-248.1(nontermination)-253.8(could)-251(occur.)]TJ
+2 -1.2 TD
+(Including)Tj
+/TT4 1 Tf
+4.2909 0 TD
+(|)Tj
+/TT3 1 Tf
+-0.1455 -0.4 TD
+<003c>Tj
+/TT2 1 Tf
+0.8545 0.4 TD
+[(as)-294.3(a)-292.5(value)-289(is)-305.7(an)-292.5(alternative)-280.3(to)-313.1(using)-314.8(a)-301.6(theory)-299.9(of)]TJ
+/TT8 1 Tf
+19.3364 0 TD
+[(partial)-322.8(functions)]TJ
+/TT2 1 Tf
+6.712 0 TD
+0.5744 Tc
+[(.\()574.4(A)]TJ
+/TT8 1 Tf
+2.179 0 TD
+0 Tc
+(partial)Tj
+-35.2273 -1.2 TD
+(function)Tj
+/TT2 1 Tf
+3.5727 0 TD
+[(is)-287.6(a)-274.3(function)-276.6(that)-282.3(may)-278.3(not)-285.8(have)-266.8(a)-274.3(value)-270.8(associated)-263.4(with)-285.8(each)-259.4(argument)-269.1(in)-285.8(its)-291.5(domain.\))]TJ
+-3.5727 -1.2 TD
+[(A)-341.5(function)]TJ
+/TT8 1 Tf
+4.7364 0 TD
+(f)Tj
+/TT2 1 Tf
+0.6273 0 TD
+[(that)-345.9(is)-351.2(unde)]TJ
+/TT9 1 Tf
+4.8075 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ned)-338(at)-342(argument)]TJ
+/TT8 1 Tf
+6.9545 0 TD
+(a)Tj
+/TT2 1 Tf
+0.8455 0 TD
+[(has)-339.7(the)-342(property)]TJ
+/TT8 1 Tf
+6.9545 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(a)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4892 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT4 1 Tf
+0.4239 0 TD
+(|)Tj
+/TT3 1 Tf
+-0.1455 -0.4 TD
+<003c>Tj
+/TT2 1 Tf
+0.5488 0.4 TD
+[(.)-364.8(I)0(n)-348.8(addition)-359(to)-358.5(dealing)]TJ
+-28.4579 -1.2 TD
+[(with)-376.7(unde)]TJ
+/TT9 1 Tf
+4.0984 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nedness)-361.3(as)-367(a)-365.2(real)-356(value,)-366.3(we)-352.2(can)-348.7(also)-361.9(use)]TJ
+/TT4 1 Tf
+17.2545 0 TD
+(|)Tj
+/TT3 1 Tf
+-0.1455 -0.4 TD
+<003c>Tj
+/TT2 1 Tf
+0.9182 0.4 TD
+[(to)-367.6(clearly)-343.4(state)-358.4(what)-356.2(happens)-350.4(when)-352.2(a)]TJ
+-22.6818 -1.2 TD
+[(function)-267.5(receives)-242.8(a)-265.2(nonterminating)-272(value)-261.7(as)-276.1(an)-274.3(argument.)-528.2(For)]TJ
+/TT8 1 Tf
+25.1909 0 TD
+(f)Tj
+/TT2 1 Tf
+0.4455 0 TD
+(:)Tj
+/TT8 1 Tf
+0.4455 0 TD
+(A)Tj
+/TT4 1 Tf
+8 0 0 8 391.3 286.86 Tm
+(|)Tj
+-0.2 0 TD
+(_)Tj
+/TT3 1 Tf
+11 0 0 11 396.4 289.0601 Tm
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(B)Tj
+/TT4 1 Tf
+8 0 0 8 416.3 286.86 Tm
+(|)Tj
+-0.2 0 TD
+(_)Tj
+/TT2 1 Tf
+11 0 0 11 419.6 289.0601 Tm
+[(,)-286.4(w)0(e)-270.3(write)]TJ
+/TT8 1 Tf
+4.3 0 TD
+(f)Tj
+/TT4 1 Tf
+0.4455 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT3 1 Tf
+0.25 0 TD
+<0068>Tj
+/TT4 1 Tf
+0.0103 -0.1 TD
+(_)Tj
+0.0546 0 TD
+(_)Tj
+/TT8 1 Tf
+0.5 0.1 TD
+(x.)Tj
+/TT3 1 Tf
+0.8545 0 TD
+<005f>Tj
+/TT2 1 Tf
+0.9091 0 TD
+(to)Tj
+-37.1818 -1.2 TD
+[(denote)-243.6(the)-251(mapping:)]TJ
+/TT8 1 Tf
+2 -1.9818 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT4 1 Tf
+0.4949 0 TD
+(|)Tj
+/TT3 1 Tf
+-0.1455 -0.4 TD
+<003c>Tj
+/TT2 1 Tf
+0.5488 0.4 TD
+(\))Tj
+/TT4 1 Tf
+0.4966 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT4 1 Tf
+0.4239 0 TD
+(|)Tj
+/TT3 1 Tf
+-0.1455 -0.4 TD
+<003c>Tj
+/TT8 1 Tf
+-2.5 -0.9818 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(a)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4892 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( [)Tj
+/TT8 1 Tf
+0.7512 0 TD
+0.0818 Tc
+[(a/)81.8(x)]TJ
+/TT2 1 Tf
+1.3818 0 TD
+0 Tc
+(])Tj
+/TT3 1 Tf
+0.333 0 TD
+<005f>Tj
+/TT2 1 Tf
+1.1306 0 TD
+(for)Tj
+/TT8 1 Tf
+1.4091 0 TD
+(a)Tj
+/TT3 1 Tf
+0.5 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.7129 0 TD
+(A)Tj
+/TT2 1 Tf
+-10.3674 -1.8 TD
+[(The)-299.9(underlined)-296.4(lambda)-302.1(forces)]TJ
+/TT8 1 Tf
+12.4 0 TD
+(f)Tj
+/TT2 1 Tf
+0.5909 0 TD
+[(to)-322.2(be)-310.7(a)]TJ
+/TT8 1 Tf
+3.1091 0 TD
+(strict)Tj
+/TT2 1 Tf
+2.3818 0 TD
+[(function,)-317.5(that)-318.7(is,)-328.5(one)-310.7(that)-318.7(cannot)-307.2(recover)-284.3(from)-310.7(a)]TJ
+-18.4818 -1.2 TD
+[(nonterminating)-281(situation.)-296.6(As)-270.5(an)-265.2(example,)-262.8(for)]TJ
+/TT8 1 Tf
+18.3 0 TD
+(f)Tj
+/TT2 1 Tf
+0.4455 0 TD
+0.1676 Tc
+[(:I)318.8(N)]TJ
+/TT4 1 Tf
+8 0 0 8 318.7 203.6601 Tm
+0 Tc
+(|)Tj
+-0.2 0 TD
+(_)Tj
+/TT3 1 Tf
+11 0 0 11 323.8 205.8601 Tm
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+-0.1512 Tc
+(IN)Tj
+/TT4 1 Tf
+8 0 0 8 346.9 203.6601 Tm
+0 Tc
+(|)Tj
+-0.2 0 TD
+(_)Tj
+/TT2 1 Tf
+11 0 0 11 350.2 205.8601 Tm
+0.2773 Tc
+[(,d)277.3(e)]TJ
+/TT9 1 Tf
+1.4711 0 TD
+0 Tc
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ned)-265.2(as)]TJ
+/TT8 1 Tf
+2.8091 0 TD
+(f)Tj
+/TT4 1 Tf
+0.4455 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT3 1 Tf
+0.25 0 TD
+<0068>Tj
+/TT4 1 Tf
+0.0103 -0.1 TD
+(_)Tj
+0.0546 0 TD
+(_)Tj
+/TT8 1 Tf
+0.5 0.1 TD
+(n.)Tj
+/TT2 1 Tf
+0.75 0 TD
+(0,)Tj
+/TT8 1 Tf
+1.0318 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT4 1 Tf
+0.4949 0 TD
+(|)Tj
+/TT3 1 Tf
+-0.1455 -0.4 TD
+<003c>Tj
+/TT2 1 Tf
+0.5488 0.4 TD
+0.2727 Tc
+[(\)i)272.7(s)]TJ
+/TT4 1 Tf
+1.7148 0 TD
+0 Tc
+(|)Tj
+/TT3 1 Tf
+-0.1455 -0.4 TD
+<003c>Tj
+/TT2 1 Tf
+0.5488 0.4 TD
+[(,)-283(but)-276.7(for)]TJ
+/TT8 1 Tf
+-34.7215 -1.2 TD
+(g)Tj
+/TT2 1 Tf
+0.6636 0 TD
+0.1676 Tc
+[(:I)318.8(N)]TJ
+/TT4 1 Tf
+8 0 0 8 119.8 190.4601 Tm
+0 Tc
+(|)Tj
+-0.2 0 TD
+(_)Tj
+/TT3 1 Tf
+11 0 0 11 124.9 192.6601 Tm
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+-0.1512 Tc
+(IN)Tj
+/TT4 1 Tf
+8 0 0 8 148 190.4601 Tm
+0 Tc
+(|)Tj
+-0.2 0 TD
+(_)Tj
+/TT2 1 Tf
+11 0 0 11 151.3 192.6601 Tm
+0.2591 Tc
+[(,d)259.1(e)]TJ
+/TT9 1 Tf
+1.4529 0 TD
+0 Tc
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ned)-247.1(as)]TJ
+/TT8 1 Tf
+2.7727 0 TD
+(g)Tj
+/TT4 1 Tf
+0.6636 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT3 1 Tf
+0.25 0 TD
+<0068>Tj
+/TT8 1 Tf
+0.5488 0 TD
+(n.)Tj
+/TT2 1 Tf
+0.75 0 TD
+(0,)Tj
+/TT8 1 Tf
+1.0296 0 TD
+(g)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\()Tj
+/TT4 1 Tf
+0.4909 0 TD
+(|)Tj
+/TT3 1 Tf
+-0.1455 -0.4 TD
+<003c>Tj
+/TT2 1 Tf
+0.5488 0.4 TD
+[(\))-254.5(i)0(s)-260.3(0)0(.)-259.1(Section)-255(3.2.4)-263.6(in)-258.5(the)-251(next)-251(chapter)-230.3(elaborates)-237.7(on)-263.6(non-)]TJ
+-14.8852 -1.2 TD
+[(termination)-253.8(and)-247.1(strictness.)]TJ
+/TT6 1 Tf
+0 -3.6 TD
+[(2.3.1)-263.6( Semantic)-251.6(Algebras )]TJ
+/TT4 1 Tf
+10.7921 0 TD
+(_)Tj
+0.017 0 TD
+(_)Tj
+0.2091 0 TD
+(_)Tj
+0.0182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(_)Tj
+/TT2 1 Tf
+-37.4636 -2.4 TD
+[(Now)-246.6(that)-255(the)-251(tools)-273.4(for)-252.2(building)-275.6(domains)-265.9(and)-256.2(functions)-260.1(have)-248.7(been)-248.7(speci)]TJ
+/TT9 1 Tf
+28.3274 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ed,)-258.9(we)-252.2(introduce)-250.9(a)-256.2(for-)]TJ
+-28.8836 -1.2 TD
+[(mat)-327.8(for)-315.8(presenting)-316.3(semantic)-318.5(domains.)-334.1(The)-318(format)-307.2(is)-323.9(called)-303.7(a)]TJ
+/TT8 1 Tf
+24.9182 0 TD
+[(semantic)-390.8(algebra,)]TJ
+/TT2 1 Tf
+7.7909 0 TD
+[(for,)-474.9(like)-482.3(the)]TJ
+ET
+endstream
+endobj
+38 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT8 8 0 R
+/TT9 9 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+40 0 obj
+<<
+/Length 10502
+>>
+stream
+BT
+/TT6 1 Tf
+10 0 0 10 97.2 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(26)Tj
+/TT8 1 Tf
+1 0 TD
+(     Sets, Functions, and Domains)Tj
+/TT2 1 Tf
+11 0 0 11 97.2 682.4601 Tm
+[(algebras)-432.1(studied)-375(in)-376.7(universal)-443.6(algebra,)-434.9(it)-380.7(is)-378.5(the)-287.4(grouping)-289.2(of)-285.2(a)-283.4(set)-289.2(with)-304(the)-296.5(fundamental)-283.8(opera-)]TJ
+0 -1.2 TD
+[(tions)-264.3(on)-254.5(that)-255(set.)-257.3(We)-239.6(choose)-241.3(the)-251(algebra)-230.3(format)-243.6(because)-226.4(it:)]TJ
+0 -1.8 TD
+[(1.)-1150(Clearly)-247.5(states)-251(the)-251(structure)-237.8(of)-248.8(a)-247.1(domain)-255(and)-247.1(how)-250.6(its)-264.3(elements)-245.8(are)-233.8(used)-248.8(by)-254.5(the)-251(functions.)]TJ
+0 -1.2 TD
+[(2.)-1150(Encourages)-299.1(the)-323.8(development)-316.8(of)-330.6(standard)-321.4(algebra)-312.2(ëëmodulesíí)-315.7(or)-330.6(ëëkitsíí)-323.1(that)-336.8(can)-321.4(be)-328.9(used)]TJ
+2 -1.2 TD
+[(in)-258.5(a)-247.1(variety)-241.8(of)-248.8(semantic)-245.8(de)]TJ
+/TT9 1 Tf
+10.5711 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+(nitions.)Tj
+-13.1273 -1.2 TD
+[(3.)-1150(Makes)-243.1(it)-262.5(easier)-232.1(to)-258.5(analyze)-228.6(a)-247.1(semantic)-245.8(de)]TJ
+/TT9 1 Tf
+17.9438 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-266.5(concept)-236.1(by)-254.5(concept.)]TJ
+-18.5 -1.2 TD
+[(4.)-1150(Makes)-297.6(it)-317.1(straightforward)-280.9(to)-313.1(alter)-296.4(a)-301.6(semantic)-300.3(de)]TJ
+/TT9 1 Tf
+20.8893 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-321(by)-309.1(replacing)-298(one)-310.7(semantic)-309.4(algebra)]TJ
+-19.4455 -1.2 TD
+[(with)-258.5(another.)]TJ
+0 -1.8 TD
+[(Many)-285.2(examples)-278.2(of)-294.3(semantic)-291.3(algebras)-277.5(are)-279.3(presented)-277.5(in)-304(Chapter)-289(3,)-304.6(so)-301.7(we)-288.5(provide)-290.8(only)-304(one)]TJ
+-2 -1.2 TD
+[(here.)-683.8(We)-430.5(use)-439.7(pairs)-438(of)-439.7(integers)-434.5(to)-449.4(simulate)-448.2(the)-442(rational)-436.7(numbers.)-697.1(Operations)-421.4(for)-424.9(creating,)]TJ
+T*
+[(adding,)-346.5(and)-338(multiplying)-369.4(rational)-336.7(numbers)-338(are)-324.8(speci)]TJ
+/TT9 1 Tf
+20.9092 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ed.)-340.8(The)-336.2(example)-331(also)-352.8(introduces)-343.6(a)-347.1(func-)]TJ
+-21.4654 -1.2 TD
+[(tion)-335.2(that)-318.7(we)-306.7(will)-326.2(use)-312.4(often:)-567.5(the)-314.7(expression)-305( )]TJ
+/TT8 1 Tf
+17.9773 0 TD
+(e)Tj
+/TT2 1 Tf
+8 0 0 8 299.8323 521.86 Tm
+(1)Tj
+/TT3 1 Tf
+11 0 0 11 306.5 524.0601 Tm
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(e)Tj
+/TT2 1 Tf
+8 0 0 8 324.0823 521.86 Tm
+(2)Tj
+11 0 0 11 330.7 524.0601 Tm
+-0.1512 Tc
+[([])-151.2( )]TJ
+/TT8 1 Tf
+0.7648 0 TD
+0 Tc
+(e)Tj
+/TT2 1 Tf
+8 0 0 8 343.9954 521.86 Tm
+(3)Tj
+11 0 0 11 348.8 524.0601 Tm
+0.3227 Tw
+[( is)-323.9(the)]TJ
+/TT8 1 Tf
+3.1 0 TD
+0 Tw
+[(choice)-299.7(function,)]TJ
+/TT2 1 Tf
+6.7636 0 TD
+[(which)-310.7(has)-312.4(as)]TJ
+-32.7364 -1.2 TD
+[(its)-264.3(value)]TJ
+/TT8 1 Tf
+3.6182 0 TD
+(e)Tj
+/TT2 1 Tf
+8 0 0 8 141.8823 508.66 Tm
+(2)Tj
+11 0 0 11 149.5 510.8601 Tm
+(if)Tj
+/TT8 1 Tf
+0.8636 0 TD
+(e)Tj
+/TT2 1 Tf
+8 0 0 8 163.8823 508.66 Tm
+(1)Tj
+/TT4 1 Tf
+11 0 0 11 170.5 510.8601 Tm
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(true)Tj
+/TT2 1 Tf
+1.8739 0 TD
+(and)Tj
+/TT8 1 Tf
+1.6909 0 TD
+(e)Tj
+/TT2 1 Tf
+8 0 0 8 223.3823 508.66 Tm
+(3)Tj
+11 0 0 11 231 510.8601 Tm
+(if)Tj
+/TT8 1 Tf
+0.8636 0 TD
+(e)Tj
+/TT2 1 Tf
+8 0 0 8 245.3823 508.66 Tm
+(1)Tj
+/TT4 1 Tf
+11 0 0 11 252 510.8601 Tm
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(false)Tj
+/TT2 1 Tf
+1.8887 0 TD
+(.)Tj
+/TT6 1 Tf
+-14.7602 -3.6 TD
+0.2636 Tw
+(2.1 Example:)Tj
+/TT8 1 Tf
+6.3818 0 TD
+0 Tw
+[(Simulating)-266.5(the)-251(rational)-268.3(numbers)]TJ
+/TT2 1 Tf
+-6.3818 -1.9818 TD
+(Domain)Tj
+/TT8 1 Tf
+3.4727 0 TD
+(Rat)Tj
+/TT4 1 Tf
+1.5545 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( \(Z)Tj
+0.7603 0 TD
+(|)Tj
+/TT4 1 Tf
+0.6909 0 TD
+(◊)Tj
+/TT2 1 Tf
+0.7182 0 TD
+(Z)Tj
+0.1727 0 TD
+0.3271 Tc
+(|\))Tj
+/TT4 1 Tf
+8 0 0 8 216.2 447.2601 Tm
+0 Tc
+(|)Tj
+-0.2 0 TD
+(_)Tj
+/TT2 1 Tf
+11 0 0 11 119.2 434.2601 Tm
+(Operations)Tj
+/TT8 1 Tf
+0.5 -1.7909 TD
+(makerat)Tj
+/TT2 1 Tf
+3.3455 0 TD
+(: Z)Tj
+0.7091 0 TD
+(|)Tj
+/TT3 1 Tf
+0.6909 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+(\(Z)Tj
+0.5 0 TD
+(|)Tj
+/TT3 1 Tf
+0.6909 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(Rat)Tj
+/TT2 1 Tf
+1.3887 0 TD
+(\))Tj
+/TT8 1 Tf
+-9.1341 -1.3818 TD
+(makerat)Tj
+/TT4 1 Tf
+3.3455 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT3 1 Tf
+0.25 0 TD
+<0068>Tj
+/TT8 1 Tf
+0.5488 0 TD
+(p.)Tj
+/TT3 1 Tf
+0.75 0 TD
+<0068>Tj
+/TT8 1 Tf
+0.5488 0 TD
+(q.)Tj
+/TT2 1 Tf
+0.9444 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(q)Tj
+/TT4 1 Tf
+0.5 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+(0\))Tj
+/TT3 1 Tf
+0.9909 0 TD
+<0041>Tj
+/TT4 1 Tf
+1.3182 0 TD
+(|)Tj
+/TT3 1 Tf
+-0.1455 -0.4 TD
+<003c>Tj
+/TT2 1 Tf
+0.7182 0.4 TD
+-0.1512 Tc
+0.1512 Tw
+[([])-151.2( \()]TJ
+/TT8 1 Tf
+1.0978 0 TD
+0 Tc
+0 Tw
+(p)Tj
+/TT2 1 Tf
+0.5 0 TD
+(,)Tj
+/TT8 1 Tf
+0.3294 0 TD
+(q)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\))Tj
+/TT8 1 Tf
+-14.1273 -1.7909 TD
+(addrat)Tj
+/TT2 1 Tf
+2.7545 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(Rat)Tj
+/TT3 1 Tf
+1.4813 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(Rat)Tj
+/TT3 1 Tf
+1.467 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(Rat)Tj
+/TT2 1 Tf
+1.3887 0 TD
+(\))Tj
+/TT8 1 Tf
+-9.7614 -1.3818 TD
+(addrat)Tj
+/TT4 1 Tf
+2.7545 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT3 1 Tf
+0.25 0 TD
+<0068>Tj
+/TT4 1 Tf
+0.0103 -0.1 TD
+(_)Tj
+0.0545 0 TD
+(_)Tj
+/TT2 1 Tf
+0.5 0.1 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(p)Tj
+/TT2 1 Tf
+8 0 0 8 184.6631 362.2601 Tm
+(1)Tj
+11 0 0 11 189.5 364.4601 Tm
+(,)Tj
+/TT8 1 Tf
+0.3364 0 TD
+(q)Tj
+/TT2 1 Tf
+8 0 0 8 198.7 362.2601 Tm
+(1)Tj
+11 0 0 11 203.6 364.4601 Tm
+(\))Tj
+/TT8 1 Tf
+0.333 0 TD
+(.)Tj
+/TT3 1 Tf
+0.25 0 TD
+<0068>Tj
+/TT4 1 Tf
+-0.0012 -0.1 TD
+(_)Tj
+0.0546 0 TD
+(_)Tj
+/TT2 1 Tf
+0.5 0.1 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(p)Tj
+/TT2 1 Tf
+8 0 0 8 225.2631 362.2601 Tm
+(2)Tj
+11 0 0 11 230.1 364.4601 Tm
+(,)Tj
+/TT8 1 Tf
+0.3364 0 TD
+(q)Tj
+/TT2 1 Tf
+8 0 0 8 239.3 362.2601 Tm
+(2)Tj
+11 0 0 11 244.2 364.4601 Tm
+(\))Tj
+/TT8 1 Tf
+0.333 0 TD
+(.)Tj
+/TT2 1 Tf
+0.4124 0 TD
+(\(\()Tj
+/TT8 1 Tf
+0.666 0 TD
+(p)Tj
+/TT2 1 Tf
+8 0 0 8 265.2262 362.2601 Tm
+(1)Tj
+/TT3 1 Tf
+11 0 0 11 270 364.4601 Tm
+<009b>Tj
+/TT8 1 Tf
+0.5 0 TD
+(q)Tj
+/TT2 1 Tf
+8 0 0 8 281 362.2601 Tm
+(2)Tj
+11 0 0 11 285.9 364.4601 Tm
+(\))Tj
+/TT4 1 Tf
+0.333 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(p)Tj
+/TT2 1 Tf
+8 0 0 8 304.7633 362.2601 Tm
+(2)Tj
+/TT3 1 Tf
+11 0 0 11 309.6 364.4601 Tm
+<009b>Tj
+/TT8 1 Tf
+0.5 0 TD
+(q)Tj
+/TT2 1 Tf
+8 0 0 8 320.6 362.2601 Tm
+(1)Tj
+11 0 0 11 325.5 364.4601 Tm
+(\),)Tj
+/TT8 1 Tf
+0.8273 0 TD
+(q)Tj
+/TT2 1 Tf
+8 0 0 8 340.1 362.2601 Tm
+(1)Tj
+/TT3 1 Tf
+11 0 0 11 345 364.4601 Tm
+<009b>Tj
+/TT8 1 Tf
+0.5 0 TD
+(q)Tj
+/TT2 1 Tf
+8 0 0 8 356 362.2601 Tm
+(2)Tj
+11 0 0 11 360.9 364.4601 Tm
+(\))Tj
+/TT8 1 Tf
+-21.4727 -1.7909 TD
+(multrat)Tj
+/TT2 1 Tf
+3.0364 0 TD
+(: )Tj
+/TT8 1 Tf
+0.5278 0 TD
+(Rat)Tj
+/TT3 1 Tf
+1.4813 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(Rat)Tj
+/TT3 1 Tf
+1.467 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(Rat)Tj
+/TT2 1 Tf
+1.3887 0 TD
+(\))Tj
+/TT8 1 Tf
+-10.0432 -1.3818 TD
+(multrat)Tj
+/TT4 1 Tf
+3.0364 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT3 1 Tf
+0.25 0 TD
+<0068>Tj
+/TT4 1 Tf
+0.0103 -0.1 TD
+(_)Tj
+0.0546 0 TD
+(_)Tj
+/TT2 1 Tf
+0.5 0.1 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(p)Tj
+/TT2 1 Tf
+8 0 0 8 187.7631 327.36 Tm
+(1)Tj
+11 0 0 11 192.6 329.5601 Tm
+(,)Tj
+/TT8 1 Tf
+0.3364 0 TD
+(q)Tj
+/TT2 1 Tf
+8 0 0 8 201.8 327.36 Tm
+(1)Tj
+11 0 0 11 206.7 329.5601 Tm
+(\))Tj
+/TT8 1 Tf
+0.333 0 TD
+(.)Tj
+/TT3 1 Tf
+0.25 0 TD
+<0068>Tj
+/TT4 1 Tf
+-0.0012 -0.1 TD
+(_)Tj
+0.0546 0 TD
+(_)Tj
+/TT2 1 Tf
+0.5 0.1 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(p)Tj
+/TT2 1 Tf
+8 0 0 8 228.3631 327.36 Tm
+(2)Tj
+11 0 0 11 233.2 329.5601 Tm
+(,)Tj
+/TT8 1 Tf
+0.3364 0 TD
+(q)Tj
+/TT2 1 Tf
+8 0 0 8 242.4 327.36 Tm
+(2)Tj
+11 0 0 11 247.3 329.5601 Tm
+(\))Tj
+/TT8 1 Tf
+0.333 0 TD
+(.)Tj
+/TT2 1 Tf
+0.4124 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(p)Tj
+/TT2 1 Tf
+8 0 0 8 264.6631 327.36 Tm
+(1)Tj
+/TT3 1 Tf
+11 0 0 11 269.5 329.5601 Tm
+<009b>Tj
+/TT8 1 Tf
+0.5 0 TD
+(p)Tj
+/TT2 1 Tf
+8 0 0 8 280.5 327.36 Tm
+(2)Tj
+11 0 0 11 285.4 329.5601 Tm
+(,)Tj
+/TT8 1 Tf
+0.5 0 TD
+(q)Tj
+/TT2 1 Tf
+8 0 0 8 296.4 327.36 Tm
+(1)Tj
+/TT3 1 Tf
+11 0 0 11 301.3 329.5601 Tm
+<009b>Tj
+/TT8 1 Tf
+0.5 0 TD
+(q)Tj
+/TT2 1 Tf
+8 0 0 8 312.3 327.36 Tm
+(2)Tj
+11 0 0 11 317.2 329.5601 Tm
+(\))Tj
+-20 -3.0909 TD
+(Operation)Tj
+/TT8 1 Tf
+4.2818 0 TD
+(makerat)Tj
+/TT2 1 Tf
+3.5636 0 TD
+[(groups)-296(the)-305.6(integers)]TJ
+/TT8 1 Tf
+8.0091 0 TD
+(p)Tj
+/TT2 1 Tf
+0.8091 0 TD
+(and)Tj
+/TT8 1 Tf
+1.7455 0 TD
+(q)Tj
+/TT2 1 Tf
+0.8091 0 TD
+[(into)-317.1(a)-301.6(rational)]TJ
+/TT8 1 Tf
+5.9727 0 TD
+(p/q,)Tj
+/TT2 1 Tf
+1.8455 0 TD
+[(represented)-273.4(by)-309.1(\()]TJ
+/TT8 1 Tf
+6.5239 0 TD
+(p)Tj
+/TT2 1 Tf
+0.5 0 TD
+(,)Tj
+/TT8 1 Tf
+0.3306 0 TD
+(q)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(\).)-307.9(If)-297.6(the)]TJ
+-34.8909 -1.2 TD
+(denominator)Tj
+/TT8 1 Tf
+5.5364 0 TD
+(q)Tj
+/TT2 1 Tf
+0.9909 0 TD
+[(is)-496.6(0,)-495.5(then)-487.4(the)-487.4(rational)-482.2(is)-496.6(unde)]TJ
+/TT9 1 Tf
+12.9711 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ned.)-478.9(Since)-478.3(the)-478.3(possibility)-505.2(of)-476.1(an)-474.3(unde)]TJ
+/TT9 1 Tf
+15.9166 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+(ned)Tj
+-36.5273 -1.2 TD
+[(rational)-327.6(exists,)-344.9(the)]TJ
+/TT8 1 Tf
+7.8091 0 TD
+(addrat)Tj
+/TT2 1 Tf
+3.0091 0 TD
+[(operation)-323.6(checks)-315.7(both)-340.4(of)-330.6(its)-346.1(arguments)-325.4(for)-324.9(de)]TJ
+/TT9 1 Tf
+18.6348 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nedness)-324.9(before)-319(per-)]TJ
+-30.0091 -1.2 TD
+[(forming)-251(the)-251(addition)-259(of)-248.8(the)-251(two)-254.5(fractions.)]TJ
+/TT8 1 Tf
+16.7818 0 TD
+(Multrat)Tj
+/TT2 1 Tf
+3.3182 0 TD
+[(operates)-232.1(similarly.)]TJ
+-18.1 -1.2 TD
+[(The)-345.3(following)-356.8(chapter)-330.3(explains,)-353.8(in)-358.5(careful)-333.7(detail,)-365.2(the)-360.1(notion)-371.6(of)-357.9(a)-356.2(domain,)-368.7(its)-373.4(associated)]TJ
+-2 -1.2 TD
+[(construction)-402.1(and)-401.6(destruction)-393(operations,)-393.6(and)-392.5(its)-409.7(presentation)-385.5(in)-404(semantic)-391.3(algebra)-375.8(format.)-648.1(If)]TJ
+T*
+[(you)-254.5(are)-233.8(a)-247.1(newcomer)-226.4(to)-267.6(the)-260.1(area)-235.5(of)-257.9(denotational)-257.1(semantics,)-261.2(you)-263.6(may)-260.1(wish)-265.4(to)-267.6(skip)-269.4(Chapter)-252.7(3)-263.6(and)]TJ
+T*
+[(use)-439.7(it)-453.4(as)-439.7(a)-438(reference.)-649.9(If)-434(you)-445.5(decide)-427(to)-449.4(follow)-443.7(this)-455.2(approach,)-421.8(glance)-427(at)-442(Section)-436.9(3.5)-440.9(of)-430.6(the)]TJ
+T*
+[(chapter,)-271.3(which)-283.4(is)-296.6(a)-283.4(summary)-287.4(of)-285.2(the)-296.5(semantic)-291.3(operations)-289(and)-292.5(abbreviations)-285.5(that)-300.5(are)-279.3(used)-294.3(in)-304(the)]TJ
+T*
+(text.)Tj
+ET
+endstream
+endobj
+41 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT8 8 0 R
+/TT9 9 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+43 0 obj
+<<
+/Length 11274
+>>
+stream
+BT
+/TT8 1 Tf
+10 0 0 10 412.1 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(Suggested Readings     )Tj
+/TT6 1 Tf
+9.2764 0 TD
+(27)Tj
+11 0 0 11 97.2 682.4601 Tm
+[(SUGGESTED)-286.7(READINGS )]TJ
+/TT4 1 Tf
+11.9288 0 TD
+(_)Tj
+0.0257 0 TD
+(_)Tj
+0.1 0 TD
+(_)Tj
+0.0182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(_)Tj
+/TT6 1 Tf
+-37.4636 -2.4 TD
+[(Naive)-247.1(set)-243.1(theory:)]TJ
+/TT2 1 Tf
+7.7 0 TD
+[(Halmos)-252.8(1960;)-258.5(Manna)-241.3(&)-258.5(Waldinger)-234.3(1985)]TJ
+/TT6 1 Tf
+-7.7 -1.2 TD
+[(Axiomatic)-239.6(set)-243.1(theory:)]TJ
+/TT2 1 Tf
+9.6364 0 TD
+[(Devlin)-251(1969;)-258.5(Enderton)-243.6(1977;)-258.5(Lemmon)-253.3(1969)]TJ
+/TT6 1 Tf
+-9.6364 -4.8 TD
+(EXERCISES )Tj
+/TT4 1 Tf
+5.9189 0 TD
+(_)Tj
+0.0447 0 TD
+-0.1091 Tc
+(__)Tj
+0.4091 0 TD
+0 Tc
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(_)Tj
+/TT2 1 Tf
+-36.9636 -2.4 TD
+[(1.)-750(List)-262.5(\(some)-247.1(of\))-243.1(the)-251(members)-243.6(of)-248.8(each)-232.1(of)-248.8(these)-245.3(sets:)]TJ
+1.5 -1.8 TD
+[(a.)-806.2(I)151.2(N)]TJ
+/TT3 1 Tf
+2.5636 0 TD
+<0045>Tj
+/TT2 1 Tf
+0.9364 0 TD
+(Z)Tj
+0.1727 0 TD
+(|)Tj
+-3.6727 -1.2 TD
+[(b.)-750(Z)]TJ
+1.6727 0 TD
+(|)Tj
+/TT3 1 Tf
+0.6909 0 TD
+<003c>Tj
+/TT2 1 Tf
+0.7182 0 TD
+-0.1512 Tc
+(IN)Tj
+-3.0818 -1.2 TD
+0 Tc
+[(c.)-806.2(I)205.7(B)]TJ
+/TT4 1 Tf
+2.4636 0 TD
+(◊)Tj
+/TT2 1 Tf
+0.7182 0 TD
+(\(C)Tj
+0.4636 0 TD
+0.1634 Tc
+(| )Tj
+/TT4 1 Tf
+0.7818 0 TD
+0 Tc
+(+)Tj
+/TT2 1 Tf
+0.7182 0 TD
+-0.2057 Tc
+[(IB)-205.7(\))]TJ
+-5.1455 -1.2 TD
+0 Tc
+[(d.)-750(I)151.2(N)]TJ
+/TT3 1 Tf
+2.5636 0 TD
+<003c>Tj
+/TT2 1 Tf
+0.7182 0 TD
+[(\(I)156.9(N)]TJ
+/TT3 1 Tf
+1.3909 0 TD
+<0046>Tj
+/TT2 1 Tf
+0.9364 0 TD
+(Z)Tj
+0.1727 0 TD
+0.3271 Tc
+(|\))Tj
+-7.2818 -2.4 TD
+0 Tc
+[(2.)-750(Give)-247.1(the)-251(value)-243.6(of)-248.8(each)-232.1(of)-248.8(these)-245.3(expressions:)]TJ
+1.5 -1.8 TD
+(a.)Tj
+/TT8 1 Tf
+1.5 0 TD
+(fst)Tj
+/TT2 1 Tf
+0.9448 0 TD
+(\(4)Tj
+/TT4 1 Tf
+0.833 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[(2,)-259.7(7\))]TJ
+-3.8267 -1.2 TD
+(b.)Tj
+/TT8 1 Tf
+1.5 0 TD
+(snd)Tj
+/TT2 1 Tf
+1.3892 0 TD
+[(\(7,)-246(7)]TJ
+/TT4 1 Tf
+1.829 0 TD
+(+)Tj
+/TT8 1 Tf
+0.5488 0 TD
+(fst)Tj
+/TT2 1 Tf
+0.9448 0 TD
+(\(3)Tj
+/TT3 1 Tf
+0.833 0 TD
+<003c>Tj
+/TT2 1 Tf
+0.5488 0 TD
+[(1,)-265.4(0\)\))]TJ
+-7.5937 -1.2 TD
+[(c.)-806.2(cases inI)161.6(N\(3)]TJ
+/TT4 1 Tf
+6.3643 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[(1\) of isI)206.4(B\()]TJ
+/TT8 1 Tf
+3.9596 0 TD
+(t)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\))Tj
+/TT3 1 Tf
+0.4949 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+[(0 [)146.6(])0( isI)146.6(N\()]TJ
+/TT8 1 Tf
+3.4279 0 TD
+(n)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\))Tj
+/TT3 1 Tf
+0.4812 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(n)Tj
+/TT4 1 Tf
+0.5 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+(2 end)Tj
+-19.4125 -1.2 TD
+[(d.)-750({)]TJ
+/TT8 1 Tf
+2.1455 0 TD
+(true)Tj
+/TT2 1 Tf
+1.7727 0 TD
+(})Tj
+/TT3 1 Tf
+0.6455 0 TD
+<0046>Tj
+/TT2 1 Tf
+0.9364 0 TD
+[(\(I)156.9(P\(I)204(B\))]TJ
+/TT3 1 Tf
+2.6909 0 TD
+<003c>Tj
+/TT2 1 Tf
+0.7182 0 TD
+0.1655 Tc
+({{)Tj
+/TT8 1 Tf
+1.2909 0 TD
+0 Tc
+(true)Tj
+/TT2 1 Tf
+1.7727 0 TD
+0.1655 Tc
+[(}})165.5(\))]TJ
+-13.4727 -2.4 TD
+0 Tc
+[(3.)-750(Using)-292.7(the)-287.4(extensionality)-299.2(principle,)-295.8(prove)-286.8(that)-300.5(set)-298.3(union)-304(and)-292.5(intersection)-289.5(are)-279.3(commutative)]TJ
+1.5 -1.2 TD
+[(and)-247.1(associative)-240.1(operations.)]TJ
+-1.5 -2.4 TD
+[(4.)-750(In)-248.8(ëëpureíí)-218.4(set)-252.8(theory,)-249.9(an)-247.1(ordered)-228.1(pair)]TJ
+/TT8 1 Tf
+16.6 0 TD
+(P)Tj
+/TT4 1 Tf
+0.7727 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( \()Tj
+/TT8 1 Tf
+0.583 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(,)Tj
+/TT8 1 Tf
+0.3334 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+[(\))-241.3(i)0(s)-260.3(modelled)-251.5(by)-254.5(the)-251(set)]TJ
+/TT8 1 Tf
+9.5652 0 TD
+(P)Tj
+/TT2 1 Tf
+14 0 0 14 431.6192 346.9601 Tm
+(')Tj
+/TT4 1 Tf
+11 0 0 11 435.9 352.4601 Tm
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+0.1757 Tc
+-0.1757 Tw
+[( {{)]TJ
+/TT8 1 Tf
+1.5512 0 TD
+0 Tc
+0 Tw
+(x)Tj
+/TT2 1 Tf
+0.6 0 TD
+[(},)-88.2( {)]TJ
+/TT8 1 Tf
+1.7182 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(,)Tj
+/TT8 1 Tf
+0.3289 0 TD
+(y)Tj
+/TT2 1 Tf
+0.6 0 TD
+0.1655 Tc
+[(}})165.5(.)]TJ
+-34.5818 -1.8 TD
+0 Tc
+[(a.)-806.2(Using)-256.3(the)-251(operations)-243.6(union,)-263.1(intersection,)-248.6(and)-247.1(set)-252.8(subtraction,)-252.1(de)]TJ
+/TT9 1 Tf
+26.9257 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ne)-247.1(operations)]TJ
+/TT8 1 Tf
+5.6 0 TD
+(fst)Tj
+/TT2 1 Tf
+14 0 0 14 493.493 327.1601 Tm
+(')Tj
+11 0 0 11 499 332.6601 Tm
+(and)Tj
+/TT8 1 Tf
+-33.0273 -1.2 TD
+(snd)Tj
+/TT2 1 Tf
+14 0 0 14 150.9807 313.9601 Tm
+(')Tj
+11 0 0 11 156.3 319.4601 Tm
+[(such)-248.8(that)]TJ
+/TT8 1 Tf
+3.8364 0 TD
+(fst)Tj
+/TT2 1 Tf
+14 0 0 14 208.8931 313.9601 Tm
+(')Tj
+11 0 0 11 211.4155 319.4601 Tm
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(P)Tj
+/TT2 1 Tf
+14 0 0 14 221.7979 313.9601 Tm
+(')Tj
+11 0 0 11 224.3203 319.4601 Tm
+(\))Tj
+/TT4 1 Tf
+0.4891 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(x)Tj
+/TT2 1 Tf
+0.7012 0 TD
+(and)Tj
+/TT8 1 Tf
+1.6909 0 TD
+(snd)Tj
+/TT2 1 Tf
+14 0 0 14 280.0807 313.9601 Tm
+(')Tj
+11 0 0 11 282.6032 319.4601 Tm
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(P)Tj
+/TT2 1 Tf
+14 0 0 14 292.9855 313.9601 Tm
+(')Tj
+11 0 0 11 295.5079 319.4601 Tm
+(\))Tj
+/TT4 1 Tf
+0.4811 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(.)Tj
+-17.7518 -1.2 TD
+[(b.)-750(Show)-258(that)-255(for)-243.1(any)-247.1(other)-245.3(set)]TJ
+/TT8 1 Tf
+12.5545 0 TD
+(Q)Tj
+/TT2 1 Tf
+14 0 0 14 265.2438 300.7601 Tm
+(')Tj
+11 0 0 11 270.5 306.2601 Tm
+[(such)-248.8(that)]TJ
+/TT8 1 Tf
+3.8364 0 TD
+(fst)Tj
+/TT2 1 Tf
+14 0 0 14 323.093 300.7601 Tm
+(')Tj
+11 0 0 11 325.6155 306.2601 Tm
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(Q)Tj
+/TT2 1 Tf
+14 0 0 14 337.2224 300.7601 Tm
+(')Tj
+11 0 0 11 339.7449 306.2601 Tm
+(\))Tj
+/TT4 1 Tf
+0.4868 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(x)Tj
+/TT2 1 Tf
+0.7012 0 TD
+(and)Tj
+/TT8 1 Tf
+1.6909 0 TD
+(snd)Tj
+/TT2 1 Tf
+14 0 0 14 395.4807 300.7601 Tm
+(')Tj
+11 0 0 11 398.0032 306.2601 Tm
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(Q)Tj
+/TT2 1 Tf
+14 0 0 14 409.6102 300.7601 Tm
+(')Tj
+11 0 0 11 412.1326 306.2601 Tm
+(\))Tj
+/TT4 1 Tf
+0.4789 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(y)Tj
+/TT2 1 Tf
+0.7012 0 TD
+(that)Tj
+/TT8 1 Tf
+1.7545 0 TD
+(P)Tj
+/TT2 1 Tf
+14 0 0 14 459.9192 300.7601 Tm
+(')Tj
+/TT4 1 Tf
+11 0 0 11 464.2 306.2601 Tm
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(Q)Tj
+/TT2 1 Tf
+14 0 0 14 480.9309 300.7601 Tm
+(')Tj
+11 0 0 11 483.4534 306.2601 Tm
+(.)Tj
+-34.6139 -2.4 TD
+[(5.)-750(Give)-247.1(examples)-241.8(of)-248.8(the)-251(following)-256.8(functions)-251(if)-252.8(they)-251(exist.)-515.9(If)-243.1(they)-251(do)-254.5(not,)-263.1(explain)-247.6(why:)]TJ
+1.5 -1.8 TD
+[(a.)-806.2(a)-247.1(one-one)-233.8(function)-249.3(from)-247.1(I)205.7(B)-260.3(to)-258.5(I)151.2(N)0(;)-254.5(from)-247.1(I)151.2(N)-250.6(to)-258.5(I)205.7(B)0(.)]TJ
+0 -1.2 TD
+[(b.)-750(a)-247.1(one-one)-233.8(function)-249.3(from)-247.1(I)151.2(N)]TJ
+/TT4 1 Tf
+12.4818 0 TD
+(◊)Tj
+/TT2 1 Tf
+0.7182 0 TD
+[(I)151.2(N)-250.6(to)-258.5(I)151.2(R)0(;)-264.3(from)-247.1(I)151.2(R)-260.3(to)-258.5(I)151.2(N)]TJ
+/TT4 1 Tf
+8.9818 0 TD
+(◊)Tj
+/TT2 1 Tf
+0.7182 0 TD
+-0.1512 Tc
+[(IN)-151.2(.)]TJ
+-22.9 -1.2 TD
+0 Tc
+[(c.)-806.2(an)-247.1(onto)-258.5(function)-249.3(from)-247.1(I)151.2(N)-250.6(to)-258.5(I)205.7(B)0(;)-264.3(from)-247.1(I)205.7(B)-260.3(to)-258.5(I)151.2(N)0(.)]TJ
+T*
+[(d.)-750(an)-247.1(onto)-258.5(function)-249.3(from)-247.1(I)151.2(N)-250.6(to)-258.5(Q)]TJ
+12.8 0 TD
+[(|)-163.4( ;)-263.1(from)-247.1(Q)]TJ
+3.4545 0 TD
+0.2591 Tw
+[(|)-163.4( to)-258.5(I)151.2(N)0(.)]TJ
+-17.7545 -2.4 TD
+0 Tw
+[(6.)-750(For)-256.3(sets)]TJ
+/TT8 1 Tf
+4.9 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8636 0 TD
+(and)Tj
+/TT8 1 Tf
+1.6909 0 TD
+(S,)Tj
+/TT2 1 Tf
+1.0091 0 TD
+[(show)-252.3(that:)]TJ
+-6.9636 -1.8 TD
+(a.)Tj
+/TT8 1 Tf
+1.5 0 TD
+(R)Tj
+/TT4 1 Tf
+0.7727 0 TD
+(◊)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(S)Tj
+/TT3 1 Tf
+0.6636 0 TD
+<0026>Tj
+/TT8 1 Tf
+0.7182 0 TD
+(S)Tj
+/TT4 1 Tf
+0.6636 0 TD
+(◊)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(R)Tj
+/TT2 1 Tf
+0.8636 0 TD
+[(can)-239.6(hold,)-263.1(but)]TJ
+/TT8 1 Tf
+5.4545 0 TD
+(R)Tj
+/TT4 1 Tf
+0.7727 0 TD
+(◊)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(S)Tj
+/TT2 1 Tf
+0.7545 0 TD
+[(is)-260.3(always)-241.3(isomorphic)-255(to)]TJ
+/TT8 1 Tf
+9.7364 0 TD
+(S)Tj
+/TT4 1 Tf
+0.6636 0 TD
+(◊)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(R)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(.)Tj
+-26.0472 -1.2 TD
+(b.)Tj
+/TT8 1 Tf
+1.5 0 TD
+(R)Tj
+/TT4 1 Tf
+0.7727 0 TD
+(+)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(S)Tj
+/TT3 1 Tf
+0.6636 0 TD
+<0026>Tj
+/TT8 1 Tf
+0.7182 0 TD
+(R)Tj
+/TT3 1 Tf
+0.7727 0 TD
+<0046>Tj
+/TT8 1 Tf
+0.9364 0 TD
+(S)Tj
+/TT2 1 Tf
+0.7545 0 TD
+[(always)-241.3(holds,)-264.8(but)]TJ
+/TT8 1 Tf
+7.2364 0 TD
+(R)Tj
+/TT4 1 Tf
+0.7727 0 TD
+(+)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(S)Tj
+/TT2 1 Tf
+0.7545 0 TD
+[(can)-239.6(be)-247.1(isomorphic)-255(to)]TJ
+/TT8 1 Tf
+8.6091 0 TD
+(R)Tj
+/TT3 1 Tf
+0.7727 0 TD
+<0046>Tj
+/TT8 1 Tf
+0.9364 0 TD
+(S)Tj
+/TT2 1 Tf
+0.5 0 TD
+(.)Tj
+-28.6364 -2.4 TD
+[(7.)-750(Prove)-303.4(that)-309.6(the)-305.6(composition)-319.3(of)-303.4(two)-309.1(one-one)-288.4(functions)-305.6(is)-323.9(one-one;)-301.5(that)-318.7(the)-314.7(composition)-328.4(of)]TJ
+1.5 -1.2 TD
+[(two)-272.7(onto)-276.7(functions)-269.2(is)-278.5(onto;)-280.7(that)-273.2(the)-269.2(composition)-282.9(of)-257.9(two)-263.6(isomorphisms)-279.1(is)-269.4(an)-256.2(isomorphism.)]TJ
+T*
+[(Show)-385.3(also)-380.1(that)-382.3(the)-378.3(composition)-392(of)-376.1(a)-374.3(one-one)-361.1(function)-376.6(with)-385.8(an)-374.3(onto)-385.8(function)-385.7(\(and)-377.7(vice)]TJ
+T*
+[(versa\))-229.9(might)-266.5(not)-258.5(be)-247.1(either)-241.8(one-one)-233.8(or)-248.8(onto.)]TJ
+ET
+endstream
+endobj
+44 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT8 8 0 R
+/TT9 9 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+48 0 obj
+<<
+/Length 12649
+>>
+stream
+BT
+/TT6 1 Tf
+10 0 0 10 97.2 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(28)Tj
+/TT8 1 Tf
+1 0 TD
+(     Sets, Functions, and Domains)Tj
+/TT2 1 Tf
+11 0 0 11 102.7 682.4601 Tm
+[(8.)-750(Using)-256.3(the)-251(de)]TJ
+/TT9 1 Tf
+6.562 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-266.5(of)]TJ
+/TT8 1 Tf
+3.6818 0 TD
+(split-add)Tj
+/TT2 1 Tf
+3.8182 0 TD
+[(in)-258.5(Section)-255(2.2.1,)-268.2(determine)-238.3(the)-251(graphs)-243.1(of:)]TJ
+-13.1182 -1.8 TD
+(a.)Tj
+/TT8 1 Tf
+1.5 0 TD
+(split-add)Tj
+/TT2 1 Tf
+3.5557 0 TD
+(\(3\))Tj
+-5.0557 -1.2 TD
+(b.)Tj
+/TT8 1 Tf
+1.5 0 TD
+(split-add)Tj
+/TT2 1 Tf
+3.5557 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(split-add)Tj
+/TT2 1 Tf
+3.5557 0 TD
+(\(2\)\(1\)\))Tj
+-10.4443 -2.4 TD
+[(9.)-750(Determine)-234.3(the)-251(graphs)-243.1(of:)]TJ
+1.5 -1.8 TD
+(a.)Tj
+/TT8 1 Tf
+1.5 0 TD
+(split-sub)Tj
+/TT2 1 Tf
+3.6182 0 TD
+(: Z)Tj
+0.7091 0 TD
+(|)Tj
+/TT3 1 Tf
+0.6909 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+(Z)Tj
+0.1727 0 TD
+(|)Tj
+/TT3 1 Tf
+0.6909 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+(Z)Tj
+0.1727 0 TD
+[(|)-581.6(such)-248.8(that)]TJ
+/TT8 1 Tf
+4.6182 0 TD
+(split-sub)Tj
+/TT2 1 Tf
+3.4448 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4874 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(g)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(,)-269.4(where)]TJ
+/TT8 1 Tf
+3.1921 0 TD
+(g)Tj
+/TT2 1 Tf
+0.6636 0 TD
+0.1676 Tc
+(:Z)Tj
+0.6182 0 TD
+0 Tc
+(|)Tj
+/TT3 1 Tf
+0.6909 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+(Z)Tj
+0.1727 0 TD
+0.5816 Tc
+[(|i)581.6(s)]TJ
+/TT8 1 Tf
+1.7091 0 TD
+0 Tc
+(g)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4777 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(x)Tj
+/TT3 1 Tf
+0.6103 0 TD
+<003c>Tj
+/TT8 1 Tf
+0.7182 0 TD
+(y)Tj
+/TT2 1 Tf
+-32.5727 -1.2 TD
+(b.)Tj
+/TT8 1 Tf
+1.5 0 TD
+(split-sub)Tj
+/TT2 1 Tf
+3.6182 0 TD
+[(: I)142.7(N)]TJ
+/TT3 1 Tf
+1.6 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+-0.1512 Tc
+(IN)Tj
+/TT3 1 Tf
+1.0636 0 TD
+0 Tc
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+(Z)Tj
+0.1727 0 TD
+[(|)-327.1(,)-259.1(where)-229.9(the)-251(function)-249.3(is)-260.3(de)]TJ
+/TT9 1 Tf
+10.6348 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ned)-247.1(in)-258.5(part)-245.3(a.)]TJ
+-23.4545 -2.4 TD
+[(10.)-750(The)-308.9(previous)-310.7(two)-318.2(exercises)-290(suggest)-318.2(that)-318.7(there)-301.5(is)-323.9(an)-310.7(underlying)-312.9(concept)-299.7(for)-306.7(ëësplittingíí)-316.9(a)]TJ
+2 -1.2 TD
+[(function.)-862.9(For)-610.8(a)-601.6(set)]TJ
+/TT8 1 Tf
+9.2091 0 TD
+(D,)Tj
+/TT2 1 Tf
+1.5818 0 TD
+[(we)-597.6(de)]TJ
+/TT9 1 Tf
+2.7075 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+(ne)Tj
+/TT8 1 Tf
+1.5455 0 TD
+(curryD)Tj
+/TT2 1 Tf
+3.0364 0 TD
+0.6131 Tc
+[(:\()613.1(\()]TJ
+/TT8 1 Tf
+1.5569 0 TD
+0 Tc
+(D)Tj
+/TT4 1 Tf
+0.8703 0 TD
+(◊)Tj
+/TT8 1 Tf
+0.7182 0 TD
+(D)Tj
+/TT2 1 Tf
+0.7222 0 TD
+(\))Tj
+/TT3 1 Tf
+0.4869 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(D)Tj
+/TT2 1 Tf
+0.7222 0 TD
+(\))Tj
+/TT3 1 Tf
+0.9233 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(D)Tj
+/TT3 1 Tf
+0.8761 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(D)Tj
+/TT3 1 Tf
+0.8761 0 TD
+<0041>Tj
+/TT8 1 Tf
+1.1545 0 TD
+(D)Tj
+/TT2 1 Tf
+0.7222 0 TD
+[(\)\))-584.5(to)-604(be)]TJ
+/TT8 1 Tf
+-32.3949 -1.2 TD
+(curryD)Tj
+/TT2 1 Tf
+2.8882 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4737 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(g)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(,)-569.4(where)]TJ
+/TT8 1 Tf
+3.7921 0 TD
+(g)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4777 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(h)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(,)-569.4(where)]TJ
+/TT8 1 Tf
+3.7921 0 TD
+(h)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4777 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT8 1 Tf
+0.25 0 TD
+(f)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(x)Tj
+/TT2 1 Tf
+0.4438 0 TD
+(,)Tj
+/TT8 1 Tf
+0.3374 0 TD
+(y)Tj
+/TT2 1 Tf
+0.4438 0 TD
+[(\).)-545.9(Write)-541.8(out)-558.5(\(part)-539.6(of\))-543.1(the)-551(graph)-541.3(for)]TJ
+/TT8 1 Tf
+-20.2984 -1.2 TD
+(curry)Tj
+/TT2 1 Tf
+2.166 0 TD
+[(I)217.2(B)-169.4(:)-258.5(\(\(I)217.2(B )]TJ
+/TT4 1 Tf
+3.1873 0 TD
+(◊)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[( I)185.2(B\) )]TJ
+/TT3 1 Tf
+1.6478 0 TD
+<0041>Tj
+/TT2 1 Tf
+0.9868 0 TD
+-0.1926 Tc
+0.1926 Tw
+[( IB)-192.6(\))]TJ
+/TT3 1 Tf
+1.645 0 TD
+0 Tc
+0 Tw
+<0041>Tj
+/TT2 1 Tf
+0.9868 0 TD
+[( \(I)202.8(B)]TJ
+/TT3 1 Tf
+1.5495 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+[(\(I)211.5(B)]TJ
+/TT3 1 Tf
+1.2909 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+[(I)205.7(B\)\).)]TJ
+-18.3182 -2.4 TD
+[(11.)-750(For)-383.6(I)205.7(B)]TJ
+/TT4 1 Tf
+4.7364 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( {)Tj
+/TT8 1 Tf
+0.9057 0 TD
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4983 0 TD
+(false)Tj
+/TT2 1 Tf
+2.0545 0 TD
+[(})-383.7(and)-374.3(I)151.2(N)]TJ
+/TT4 1 Tf
+3.7455 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+0.25 Tc
+-0.25 Tw
+[( {)74.3(0)250(,1)250(,2)250(,)]TJ
+3.7421 0.3 TD
+0 Tc
+0 Tw
+( . . . )Tj
+1.9455 -0.3 TD
+[(},)-388.2(what)-374.3(are)-361.1(the)-378.3(functionalities)-379.3(of)-376.1(the)-387.4(func-)]TJ
+-18.3364 -1.2 TD
+[(tions)-264.3(represented)-218.9(by)-254.5(these)-245.3(graphs?)]TJ
+0 -1.8 TD
+[(a.)-806.2({)-165.5(\()]TJ
+/TT8 1 Tf
+2.4785 0 TD
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+[(,)-242.5(0\),)-80.6( \()]TJ
+/TT8 1 Tf
+2.2392 0 TD
+(false)Tj
+/TT2 1 Tf
+1.8887 0 TD
+0.251 Tc
+[(,1)251(\))93.1(})]TJ
+-8.2171 -1.2 TD
+0 Tc
+[(b.)-750({)-165.5(\()0(\()]TJ
+/TT8 1 Tf
+2.8115 0 TD
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+[(,)-236.8(0\),)-80.6( \()]TJ
+/TT8 1 Tf
+2.2334 0 TD
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4971 0 TD
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+[(\)\),)-73.1( \(\()]TJ
+/TT8 1 Tf
+1.9052 0 TD
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+[(,)-241.3(1\),)-244.3(\()]TJ
+/TT8 1 Tf
+2.1516 0 TD
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4925 0 TD
+(false)Tj
+/TT2 1 Tf
+1.8887 0 TD
+[(\)\),)-77.1( \(\()]TJ
+/TT8 1 Tf
+1.9092 0 TD
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+[(,)-241.3(2\),)-244.3(\()]TJ
+/TT8 1 Tf
+2.1516 0 TD
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4925 0 TD
+(false)Tj
+/TT2 1 Tf
+1.8887 0 TD
+(\)\),)Tj
+-28.1978 -0.9 TD
+( . . . )Tj
+1.75 -0.3 TD
+0.1182 Tc
+[(,\()118.2(\()]TJ
+/TT8 1 Tf
+1.0342 0 TD
+0 Tc
+(false)Tj
+/TT2 1 Tf
+1.8887 0 TD
+[(,)-240.8(0\),)-244.3(\()]TJ
+/TT8 1 Tf
+2.151 0 TD
+(false)Tj
+/TT2 1 Tf
+1.8887 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4965 0 TD
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+[(\)\),)-73.1( \(\()]TJ
+/TT8 1 Tf
+1.9052 0 TD
+(false)Tj
+/TT2 1 Tf
+1.8887 0 TD
+[(,)-245.3(1\),)-244.3(\()]TJ
+/TT8 1 Tf
+2.1556 0 TD
+(false)Tj
+/TT2 1 Tf
+1.8887 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4965 0 TD
+(false)Tj
+/TT2 1 Tf
+1.8887 0 TD
+[(\)\),)-77.1( \(\()]TJ
+/TT8 1 Tf
+1.9092 0 TD
+(false)Tj
+/TT2 1 Tf
+1.8887 0 TD
+[(,)-245.3(2\),)]TJ
+-24.8411 -1.2 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(false)Tj
+/TT2 1 Tf
+1.8887 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4965 0 TD
+(false)Tj
+/TT2 1 Tf
+1.8887 0 TD
+(\)\),)Tj
+0.9931 0.3 TD
+( . . . )Tj
+1.9455 -0.3 TD
+(})Tj
+-9.0455 -1.2 TD
+[(c.)-806.2({)-165.5(\()0({)-159.7(\()]TJ
+/TT8 1 Tf
+3.4512 0 TD
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4925 0 TD
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+[(\),)-242.5(\()]TJ
+/TT8 1 Tf
+1.1585 0 TD
+(false)Tj
+/TT2 1 Tf
+1.8887 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4965 0 TD
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+0.1562 Tc
+[(\)})156.2(,)]TJ
+/TT8 1 Tf
+1.471 0 TD
+0 Tc
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+[(\),)-78.9( \({)-164.3(\()]TJ
+/TT8 1 Tf
+2.2222 0 TD
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4925 0 TD
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+[(\),)-242.5(\()]TJ
+/TT8 1 Tf
+1.1585 0 TD
+(false)Tj
+/TT2 1 Tf
+1.8887 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4965 0 TD
+(false)Tj
+/TT2 1 Tf
+1.8887 0 TD
+0.1601 Tc
+[(\)})160.1(,)]TJ
+/TT8 1 Tf
+1.475 0 TD
+0 Tc
+(false)Tj
+/TT2 1 Tf
+1.8887 0 TD
+(\),)Tj
+-28.6341 -0.9 TD
+( . . . )Tj
+1.75 -0.3 TD
+0.2818 Tc
+[(,\()281.8({)122.1(\()]TJ
+/TT8 1 Tf
+1.8376 0 TD
+0 Tc
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4925 0 TD
+(false)Tj
+/TT2 1 Tf
+1.8887 0 TD
+[(\),)-246.5(\()]TJ
+/TT8 1 Tf
+1.1625 0 TD
+(false)Tj
+/TT2 1 Tf
+1.8887 0 TD
+(,)Tj
+/TT8 1 Tf
+0.4965 0 TD
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+0.1562 Tc
+[(\)})156.2(,)]TJ
+/TT8 1 Tf
+1.471 0 TD
+0 Tc
+(true)Tj
+/TT2 1 Tf
+1.6108 0 TD
+(\),)Tj
+0.6619 0.3 TD
+( . . . )Tj
+1.9455 -0.3 TD
+(})Tj
+-21.9273 -2.4 TD
+[(12.)-750(Use)-244.8(the)-251(de)]TJ
+/TT9 1 Tf
+6.2166 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nitions)-268.3(in)-258.5(Section)-255(2.2.2)-263.6(to)-258.5(simplify)-266.5(each)-232.1(of)-248.8(the)-251(following)-256.8(expressions:)]TJ
+-4.7727 -1.8 TD
+(a.)Tj
+/TT8 1 Tf
+1.5 0 TD
+(make-singleton)Tj
+/TT2 1 Tf
+6.1094 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(add)Tj
+/TT2 1 Tf
+1.5 0 TD
+[(\(3,)-56.4(2\)\))]TJ
+/TT3 1 Tf
+2.4576 0 TD
+<0046>Tj
+/TT2 1 Tf
+0.9364 0 TD
+0.1646 Tc
+({4})Tj
+-12.8364 -1.2 TD
+0 Tc
+(b.)Tj
+/TT8 1 Tf
+1.5 0 TD
+(add)Tj
+/TT2 1 Tf
+1.5 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(snd)Tj
+/TT2 1 Tf
+1.3892 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(duplicate)Tj
+/TT2 1 Tf
+3.7212 0 TD
+[(\(4\)\),)-220.1(1\))]TJ
+-8.7764 -1.2 TD
+(c.)Tj
+/TT8 1 Tf
+1.5 0 TD
+(which-part)Tj
+/TT2 1 Tf
+4.3887 0 TD
+[(\(inI)150.7(N\()]TJ
+/TT8 1 Tf
+2.3483 0 TD
+(add)Tj
+/TT2 1 Tf
+1.5 0 TD
+[(\(2,)-70.9(0\)\)\))]TJ
+-9.737 -1.2 TD
+[(d.)-750(\([)-152.2(3)]TJ
+/TT4 1 Tf
+7 0 0 7 150.2 313.6601 Tm
+-0.1573 Tc
+(||)Tj
+/TT3 1 Tf
+11 0 0 11 150.3 312.86 Tm
+0 Tc
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+0.165 Tc
+({4}])Tj
+/TT8 1 Tf
+2.2876 0 TD
+0 Tc
+(make-singleton)Tj
+/TT2 1 Tf
+6.1094 0 TD
+(\)\(2\))Tj
+-12.3787 -1.2 TD
+[(e.)-806.2(\([)-152.2(3)]TJ
+/TT4 1 Tf
+7 0 0 7 150.2 300.4601 Tm
+-0.1573 Tc
+(||)Tj
+/TT3 1 Tf
+11 0 0 11 150.3 299.6601 Tm
+0 Tc
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+0.165 Tc
+({4}])Tj
+/TT8 1 Tf
+2.2876 0 TD
+0 Tc
+(make-singleton)Tj
+/TT2 1 Tf
+6.1094 0 TD
+(\)\(3\))Tj
+-14.3787 -2.4 TD
+[(13.)-750(For)-447.2(the)-442(equational)-435(de)]TJ
+/TT9 1 Tf
+11.0438 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+(nition)Tj
+/TT8 1 Tf
+2.7909 0 TD
+(fac)Tj
+/TT2 1 Tf
+1.2217 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(n)Tj
+/TT2 1 Tf
+0.5 0 TD
+(\))Tj
+/TT4 1 Tf
+0.4817 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( \()Tj
+/TT8 1 Tf
+0.583 0 TD
+(n)Tj
+/TT4 1 Tf
+0.5 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+(0\))Tj
+/TT3 1 Tf
+1.0012 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+[(1 [)146.6(])0( )]TJ
+/TT8 1 Tf
+1.5194 0 TD
+(n)Tj
+/TT3 1 Tf
+0.5 0 TD
+<009b>Tj
+/TT8 1 Tf
+0.5 0 TD
+(fac)Tj
+/TT2 1 Tf
+1.2217 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(n)Tj
+/TT3 1 Tf
+0.5 0 TD
+<003c>Tj
+/TT2 1 Tf
+0.5488 0 TD
+[(1\),)-439.6(show)-443.2(that)-445.9(the)-442(following)]TJ
+-24.3865 -1.2 TD
+[(properties)-237.8(hold)-258.5(\(hint:)-260.8(use)-248.8(mathematical)-241(induction\):)]TJ
+0 -1.8 TD
+[(a.)-806.2(For)-256.3(all)]TJ
+/TT8 1 Tf
+4.4 0 TD
+(n)Tj
+/TT3 1 Tf
+0.6636 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.8727 0 TD
+-0.1512 Tc
+[(IN)-151.2(,)]TJ
+/TT8 1 Tf
+1.4091 0 TD
+0 Tc
+(fac)Tj
+/TT2 1 Tf
+1.2217 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(n)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(\))-239.6(has)-248.8(a)-247.1(unique)-251(value,)-248.1(that)-255(is,)]TJ
+/TT8 1 Tf
+11.418 0 TD
+(fac)Tj
+/TT2 1 Tf
+1.4727 0 TD
+[(is)-260.3(a)-247.1(function.)]TJ
+-22.2909 -1.2 TD
+[(b.)-750(For)-256.3(all)]TJ
+/TT8 1 Tf
+4.4 0 TD
+(n)Tj
+/TT3 1 Tf
+0.6636 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.8727 0 TD
+-0.1512 Tc
+[(IN)-151.2(,)]TJ
+/TT8 1 Tf
+1.4091 0 TD
+0 Tc
+(fac)Tj
+/TT2 1 Tf
+1.2217 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(n)Tj
+/TT4 1 Tf
+0.5 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+(2\))Tj
+/TT8 1 Tf
+0.9874 0 TD
+0.1707 Tc
+(>n)Tj
+/TT2 1 Tf
+1.3455 0 TD
+0 Tc
+(.)Tj
+-14.2818 -2.4 TD
+[(14.)-750(List)-262.5(the)-251(elements)-245.8(in)-258.5(these)-245.3(domains:)]TJ
+2 -1.9818 TD
+[(a.)-806.2(\(I)211.5(B)]TJ
+/TT4 1 Tf
+2.7909 0 TD
+(◊)Tj
+/TT2 1 Tf
+0.7182 0 TD
+-0.2057 Tc
+[(IB)-205.7(\))]TJ
+/TT4 1 Tf
+8 0 0 8 170.7 176.6601 Tm
+0 Tc
+(|)Tj
+-0.2 0 TD
+(_)Tj
+/TT2 1 Tf
+11 0 0 11 119.2 163.6601 Tm
+[(b.)-750(I)205.7(B)]TJ
+/TT4 1 Tf
+8 0 0 8 145 161.4601 Tm
+(|)Tj
+-0.2 0 TD
+(_)Tj
+11 0 0 11 150.1 163.6601 Tm
+(◊)Tj
+/TT2 1 Tf
+0.7182 0 TD
+-0.2057 Tc
+(IB)Tj
+/TT4 1 Tf
+8 0 0 8 167.3 161.4601 Tm
+0 Tc
+(|)Tj
+-0.2 0 TD
+(_)Tj
+/TT2 1 Tf
+11 0 0 11 119.2 148.4601 Tm
+[(c.)-806.2(\(I)211.5(B)]TJ
+/TT4 1 Tf
+2.7909 0 TD
+(◊)Tj
+/TT2 1 Tf
+0.7182 0 TD
+-0.2057 Tc
+[(IB)-205.7(\))]TJ
+/TT4 1 Tf
+1.2909 0 TD
+0 Tc
+(+)Tj
+/TT2 1 Tf
+0.7182 0 TD
+-0.2057 Tc
+(IB)Tj
+-5.5182 -1.3818 TD
+0 Tc
+[(d.)-750(\(I)211.5(B)]TJ
+/TT4 1 Tf
+2.7909 0 TD
+(+)Tj
+/TT2 1 Tf
+0.7182 0 TD
+-0.2057 Tc
+[(IB)-205.7(\))]TJ
+/TT4 1 Tf
+8 0 0 8 170.7 131.0601 Tm
+0 Tc
+(|)Tj
+-0.2 0 TD
+(_)Tj
+/TT2 1 Tf
+11 0 0 11 119.2 118.0601 Tm
+[(e.)-806.2(I)205.7(B)]TJ
+/TT4 1 Tf
+8 0 0 8 145 115.8601 Tm
+(|)Tj
+-0.2 0 TD
+(_)Tj
+11 0 0 11 150.1 118.0601 Tm
+(+)Tj
+/TT2 1 Tf
+0.7182 0 TD
+-0.2057 Tc
+(IB)Tj
+/TT4 1 Tf
+8 0 0 8 167.3 115.8601 Tm
+0 Tc
+(|)Tj
+-0.2 0 TD
+(_)Tj
+/TT2 1 Tf
+11 0 0 11 119.2 102.86 Tm
+[(f.)-917(I)205.7(B)]TJ
+/TT3 1 Tf
+2.4636 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+-0.2057 Tc
+(IB)Tj
+/TT4 1 Tf
+8 0 0 8 168.3 100.6601 Tm
+0 Tc
+(|)Tj
+-0.2 0 TD
+(_)Tj
+/TT2 1 Tf
+11 0 0 11 119.2 87.6601 Tm
+[(g.)-750(\(I)211.5(B)]TJ
+/TT3 1 Tf
+2.7909 0 TD
+<0041>Tj
+/TT2 1 Tf
+1.1545 0 TD
+-0.2057 Tc
+[(IB)-205.7(\))]TJ
+/TT4 1 Tf
+8 0 0 8 175.5 85.4601 Tm
+0 Tc
+(|)Tj
+-0.2 0 TD
+(_)Tj
+ET
+endstream
+endobj
+49 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT8 8 0 R
+/TT9 9 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+51 0 obj
+<<
+/Length 3905
+>>
+stream
+BT
+/TT8 1 Tf
+10 0 0 10 454.1 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(Exercises     )Tj
+/TT6 1 Tf
+5.0815 0 TD
+(29)Tj
+/TT2 1 Tf
+11 0 0 11 97.2 682.4601 Tm
+[(15.)-750(Simplify)-272.2(these)-245.3(expressions)-243.1(using)-260.3(the)-251(algebra)-230.3(in)-258.5(Example)-245.8(2.1:)]TJ
+2 -1.8 TD
+(a.)Tj
+/TT8 1 Tf
+1.5 0 TD
+(addrat)Tj
+/TT2 1 Tf
+2.667 0 TD
+( \()Tj
+/TT8 1 Tf
+0.583 0 TD
+(makerat)Tj
+/TT2 1 Tf
+3.4318 0 TD
+[(\(3\))-152.2(\(2\)\) \()]TJ
+/TT8 1 Tf
+3.4002 0 TD
+(makerat)Tj
+/TT2 1 Tf
+3.4089 0 TD
+[(\(1\))-152.2(\(3\)\))]TJ
+-14.9909 -1.2 TD
+(b.)Tj
+/TT8 1 Tf
+1.5 0 TD
+(addrat)Tj
+/TT2 1 Tf
+2.667 0 TD
+( \()Tj
+/TT8 1 Tf
+0.583 0 TD
+(makerat)Tj
+/TT2 1 Tf
+3.4318 0 TD
+[(\(2\))-152.2(\(0\)\) \()]TJ
+/TT8 1 Tf
+3.4002 0 TD
+(multrat)Tj
+/TT2 1 Tf
+3.0998 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(makerat)Tj
+/TT2 1 Tf
+3.4215 0 TD
+[(\(3\))-152.2(\(2\)\) \()]TJ
+/TT8 1 Tf
+3.4002 0 TD
+(makerat)Tj
+/TT2 1 Tf
+3.4089 0 TD
+[(\(1\))-152.2(\(3\)\)\))]TJ
+-25.2455 -1.2 TD
+[(c.)-806.2(\()]TJ
+/TT3 1 Tf
+1.833 0 TD
+<0068>Tj
+/TT8 1 Tf
+0.5488 0 TD
+[(r.)-169.9(one)]TJ
+/TT2 1 Tf
+2.2529 0 TD
+0.1504 Tc
+(\)\()Tj
+/TT8 1 Tf
+0.8164 0 TD
+0 Tc
+(makerat)Tj
+/TT2 1 Tf
+3.4215 0 TD
+[(\(1\))-152.2(\(0\)\))]TJ
+-8.8727 -1.2 TD
+[(d.)-750(\()]TJ
+/TT3 1 Tf
+1.833 0 TD
+<0068>Tj
+/TT4 1 Tf
+-0.0057 -0.1 TD
+(_)Tj
+0.0545 0 TD
+(_)Tj
+/TT8 1 Tf
+0.5 0.1 TD
+[(r.)-169.9(one)]TJ
+/TT2 1 Tf
+2.2529 0 TD
+0.1504 Tc
+(\)\()Tj
+/TT8 1 Tf
+0.8164 0 TD
+0 Tc
+(makerat)Tj
+/TT2 1 Tf
+3.4215 0 TD
+[(\(1\))-152.2(\(0\)\))]TJ
+-8.8727 -1.2 TD
+[(e.)-806.2(\()]TJ
+/TT3 1 Tf
+1.833 0 TD
+<0068>Tj
+/TT2 1 Tf
+0.5488 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(r)Tj
+/TT2 1 Tf
+0.3892 0 TD
+(,)Tj
+/TT8 1 Tf
+0.496 0 TD
+(s)Tj
+/TT2 1 Tf
+0.3892 0 TD
+(\))Tj
+/TT8 1 Tf
+0.333 0 TD
+[(.)-164.2(addrat)]TJ
+/TT2 1 Tf
+3.0812 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(r)Tj
+/TT2 1 Tf
+0.3892 0 TD
+0.1596 Tc
+(\)\()Tj
+/TT8 1 Tf
+0.8257 0 TD
+0 Tc
+(s)Tj
+/TT2 1 Tf
+0.3892 0 TD
+[(\)\) \()-147(\()]TJ
+/TT8 1 Tf
+1.729 0 TD
+(makerat)Tj
+/TT2 1 Tf
+3.4215 0 TD
+[(\(2\))-152.2(\(1\)\),)-232.8(\()]TJ
+/TT8 1 Tf
+3.633 0 TD
+(makerat)Tj
+/TT2 1 Tf
+3.4215 0 TD
+[(\(3\))-152.2(\(2\)\))-146.4(\))]TJ
+-21.5455 -1.2 TD
+[(f.)-917(\()]TJ
+/TT3 1 Tf
+1.833 0 TD
+<0068>Tj
+/TT2 1 Tf
+0.5488 0 TD
+(\()Tj
+/TT8 1 Tf
+0.333 0 TD
+(r)Tj
+/TT2 1 Tf
+0.3892 0 TD
+(,)Tj
+/TT8 1 Tf
+0.496 0 TD
+(s)Tj
+/TT2 1 Tf
+0.3892 0 TD
+(\))Tj
+/TT8 1 Tf
+0.333 0 TD
+0.1642 Tc
+(.r)Tj
+/TT2 1 Tf
+0.8034 0 TD
+0 Tc
+[(\) \()-158.5(\()]TJ
+/TT8 1 Tf
+1.4075 0 TD
+(makerat)Tj
+/TT2 1 Tf
+3.4215 0 TD
+[(\(2\))-152.2(\(1\)\),)-232.8(\()]TJ
+/TT8 1 Tf
+3.633 0 TD
+(makerat)Tj
+/TT2 1 Tf
+3.4215 0 TD
+[(\(1\))-152.2(\(0\)\))-146.4(\))]TJ
+-19.0091 -2.4 TD
+[(16.)-750(The)-472.6(sets)-481.8(introduced)-469.1(in)-485.8(Section)-482.3(2.1)-486.4(belong)-478.3(to)]TJ
+/TT8 1 Tf
+21.7 0 TD
+[(naive)-470.8(set)-480.1(theory,)]TJ
+/TT2 1 Tf
+7.5091 0 TD
+[(which)-474.3(is)-487.6(called)-467.3(such)]TJ
+-27.2091 -1.2 TD
+[(because)-226.4(it)-262.5(is)-260.3(possible)-258.5(to)-258.5(construct)-243.6(set)-252.8(de)]TJ
+/TT9 1 Tf
+15.9257 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nitions)-268.3(that)-255(are)-233.8(nonsensical.)]TJ
+-16.4818 -1.8 TD
+[(a.)-806.2(Show)-367.1(that)-364.1(the)-360.1(de)]TJ
+/TT9 1 Tf
+8.5348 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-375.6({)]TJ
+/TT8 1 Tf
+3.3545 0 TD
+(x)Tj
+/TT2 1 Tf
+0.7636 0 TD
+(|)Tj
+/TT8 1 Tf
+0.5273 0 TD
+(x)Tj
+/TT3 1 Tf
+0.6 0 TD
+<0044>Tj
+/TT8 1 Tf
+0.2091 0 TD
+(/x)Tj
+/TT2 1 Tf
+0.8818 0 TD
+[(})-365.5(i)0(s)-378.5(a)-365.2(nonsensical)-361.7(de)]TJ
+/TT9 1 Tf
+8.6711 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition;)-388.7(that)-373.2(is,)-383(no)-372.7(set)-371(exists)]TJ
+-23.1545 -1.2 TD
+[(that)-255(satis)]TJ
+/TT9 1 Tf
+3.5324 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(es)-260.3(the)-251(de)]TJ
+/TT9 1 Tf
+3.5099 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+(nition.)Tj
+-9.6545 -1.2 TD
+[(b.)-750(Justify)-260.3(why)-250.6(the)-251(domain)-255(constructions)-249.3(in)-258.5(Section)-255(2.3)-259.1(always)-241.3(de)]TJ
+/TT9 1 Tf
+26.4711 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ne)-247.1(sensical)-243.6(sets.)]TJ
+ET
+endstream
+endobj
+52 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT8 8 0 R
+/TT9 9 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+53 0 obj
+<<
+/Type /Halftone
+/HalftoneType 1
+/Frequency 60
+/Angle 45
+/SpotFunction /SimpleDot
+>>
+endobj
+10 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT 53 0 R
+/TR /Identity
+>>
+endobj
+54 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 701
+/CapHeight 0
+/Descent -298
+/Flags 4
+/FontBBox [-167 -299 1063 827]
+/FontName /GCCABN+Symbol
+/ItalicAngle 0
+/StemV 0
+/FontFile2 55 0 R
+>>
+endobj
+55 0 obj
+<<
+/Filter /FlateDecode
+/Length 4310
+/Length1 7232
+>>
+stream
+HâºóxWU«ﬂÁû{Ôw¿ƒ1I≈±∂s“X:&“Dl–ú4à&‚⁄`åeåæ¸‘Ão®DSå¢Eã–åîxp!"ôu*!ÊJ“0#$¥hôÒ r{ü˜æ®è’>~˜|^ÁÛ„¸¸úsÓΩÉêN¯»ÆÆ©ôΩeò°Ùˆüü;.3Ü(ùµxaˆº)	üˆÄ◊ˆ‚q˙'∂ç•_[ü5f@˛¥7“æ¨vvı¬ûˆˆ9"µ∂qN}ıçi¥“nô3wYÌmÁ]8Ë∑àΩT7ª∫f˜§ëe¿¿∆Ø®£#ıoªûK{p]˝¬•´Ôú8Ñˆˆ1¶EÒÖ&∂‚Z∂›¬¯‹π≥™˜F˚8÷Ä©ú„ö˙Í•ç)œö€Äå◊œûW]?{@˛§)¿EØ2nÃn¨|`ÿ˝@ Öî‘∆çÀÏçU@⁄`∆/™ˇbÌKﬁ√åı+uÎâ"¸í≤áÚ8Â	 ì=Î˚ ~›ÿáë∏›[Ö—òÜTöcÿf÷bµ)¿*FGb+∂°ì2®≤õXÁ4∫∞]ﬁÏ•UãBo Àâò ZmûÁeb:Ã:tx}Ω—f6xmf96b:≤¸<÷<é
+ªı(ÚÓG•ì∑2ƒΩ{±»§!éJÔob/≠˛	å∆cC;6ŸzÔh¨%Ê${Ø√À8Ñ·ﬁÃDã7ì3›e∫Ãs¿ˆ ±ﬂÏ1ßÕæ†Tµ\ÂË:∞√À¿|Ï†ùÅ—÷O∆]é≥0ÑÛwRk÷{ÕÆ2WﬂçB¨«›ÙØgΩv⁄VXŒØ£åCl+=EAÇ˙‹ÖÚ†”MÖMÃcváŸÜ"€$LßÏVù˚#a&ä˝//¨ƒÌx=h˜Fy∞	Ôkn«+Aã∑â˘H⁄ºÑôŸìL ±:hAf&áÂÓHVpÂÊQØ ivìŸ|67¡”ﬁQ/5èö‡òÈ6'√K√\≥-8È	”«(s:,2ª¬‚∞/[$ò«]∑¨\·V\¶ª’sæÇ%sÍtóñ‘,¨s%ØÊBhhåﬂåT`^ı\ó_ÛﬁÛ8&æıÜfßµ{π◊÷¥è˘lEˆS◊Á}üôùÀn«‰ˆsñeÔå¢…~Fp}{0∞›Ê¶¥˚πÉ˝ø‡°Ç°◊MÆ»ﬁib„Jí›é´*°sJUg—Mˇ∏í=F∏ê∂∑˘¨HôvfÛ[SöˇÎˆt˙˚P+Ìü0,ºÕxŸGt*‹åÊ∞U¥+)U~¶3^AYÂGoÚ°4í≤ë2*©QÚ)S)≈îr Ø)ÀÿﬁıQ·J€Ç&ˆ9’	«Í∂∞¡¨«FW⁄",≥[±ïıfº+n‹dª
+øÎÏq,ßø,\«qk0»+åJ√\‘“˜[ø&:Ã˛é—üÂA>j/∫vlf ,«¸d_ı*ªLfÏ‚Núû2[ÿœˆ◊Í$hÚ É&‹tF'Çi(Ùª0‹?å!NÇN‰›Ã«fSÕzô±Lñù»Ü`>ÀiÏ„R?NyÈlì¨DFòÅÒåg¿R1ûÛXeÀ‡qé•î<éëÓÁ3Á˜¢ç±ænç¥aﬂDık(M¨Sjòj—~ø-:…x˝˝É¶Ë$Á1ﬁÌë9Ö˚]ÜàSr(˚(Õ\ﬂ”zC$–üÛÀu‚r·÷˝~·8€òõ'Ng~öÇî%cõ(˜±}Kx‘L‡~Lv˘
+◊ô<õé]Iiv¬˙•£åÁ·nÆk∏Æ==ÿù`£8óz÷)d›ñ§‰:â1£Ìq≥ÉyôﬁSJØ=[˙'∏◊]^A
+¢Â…v”ú¶Ï„^œtÀ2√YñJ –¡¸T2˜ÓÏdq-M|äÃ‘πˇíº-Ω≈ÀÂay˚Àûò•o û‡€x∑’˚û∫4gkD—Ó˜ñfl‰≠0Œ¿_¥h"=ÈFÑ#"Òå¯∂xZ|K<%ûˇ-ûˇ%ˇ)æ)˛C|C¸ªÿ-˛M<&˛UÎ¸ãÙ◊Òj∞tñ”-éJˇ≥xD|U<,˛I<$æ"˛A<(˛^|I|Q¸ùx@|_E&G{Éh=/ﬂÛ‘}¸Z˙sI:œ~Èœäø˜‚)ÚÈOãOâù‚ìö˚“˜à‚/ƒ]‚œ≈«ƒüâè‚ßòƒy=⁄cEœq|Á±¸:x}ŸâÛe≠`‰æyC˙\ƒícË€°ìÙ0Üë€˘Ó±c#<ƒ/Ö"÷{àÔ7K∫z€4¬O4◊v<»ñŒ˜ øO”r>gπë∂&{pK∫~åÎ®oVõƒ˚≈©œM∏í¸°Ù˚‰ˇÅFøWû{í˝›√o$gπ˛ú«‚˚j∑c…ÔqO,⁄‘˙ªmΩÙÔà≠Ó„€¯$πNûoâﬂTk˝Üx∑∆\£Ë]<…w™Nã¢_WkOø¶:´ƒ;pâcÙÁvª<∑â+ìgg%Æ¶ÂtÀ∑˝≠ZOB5⁄∑[µûfÊÔ #Õä4c7#+∞ú£äX“ex9æÇ´ËsK∫å8èª≠ÆÂó≈[p≥j›“ciúõUkô<K≈%‚b≠z—ÿû{«åcÀxè•ñŒc˘˝÷®›üØH#¥˚ç⁄˝FÕ≠Ûp1}⁄˝ÕÕy,æ§6u‚q∂8K¸ÇX)ﬁ(Œo‡w´ªÎ7»öÆy^/ΩB¸º8M¸ú8Uú¢ù*ó>Yú$N?#NØK£?r¶üVˇ„Â)—ç˛îÙkƒ±‚≠f¥Ù´≈Q‚U‚HÒJ±ò≠-œú”GàóãE‚0±ê>ÀØ>ß_*~B,á¢îÃó˛qqàx	Ú8F¿“Yy:°Kœ„\rø¥->∆oë#6sd˘ΩÌÍTûLÈ≈å±=Á‡"qÄ∆æPµ.œ?íd≥”˝8b¿“˘ŒC:≥∞t#¶'cÈ∫çN∑lsFtmœ’ÌÍ+œ9b™ÿGÏ-ˆSƒÜì!üÆzGAÔ(X—”›Ú‘≥—¸´∏˙*zW∞˜5îçîv nJ∆LXŸb‚˘ Œ0‰/Ûù/˜Ω1îYxﬁ˝ﬁËÕ<˚‹+˜N	òO˛…}JÈ◊á{÷+´„ΩÈÔ√øÛù ∫ˇ°ΩZÄ¢∫Œ9˜µÔÂÓ[Ÿ∞Ó›¨Î.ª,+„b©YHDK0>p*ã•Å
+c,Ò’Iòƒ‚0£cjöf,µmZc¢f2JªÉm«¿dÿ‘XÛ®	}ÿnô©ÆZ.˝œ]∞ôf“i3Õ|‹À∑Áúπˇ9ˇ˘˛ˇ¸«"ù< 2–÷BË…FŸzÏí¯Ëõ
+v+∏Ÿ‡;ã–"¯é†ı
+0“PÅ™ù0“`A˘nh…∞7˘¿˝ ∏@D© ≤HΩ¥t£ÇËåJ+(æUA˚7 *Ù-»QÓm€ÅwKŸÏ{êUpŒáˆÛp©`Ìdı√ gı/êÍﬂ™,ÚŒ#‰çÚ÷ÅLŸÊÿ$˝/•óﬂK∏c7p
+5ãáôfˆeIœñòÇÅKÅú•‰øÙ˛•Bƒ'/%/:AÁtB3É¶;iÎÙƒ√2Ì?ntp˘ƒ÷cP+ÀÈó   bnπ¬»Ù†˙>-•‰˙‘ÃA£é÷»z≠R!gêö≈Y*#üå&Çñ¯¸t4|˛BâN_R¿!ì ‡ÒDúa!"¿c°„Áƒ±<23|£aM:,F®ÿﬂ©W˜⁄s£qPzlC◊ŸJ˙#è|æ<ÊBj◊&ãVåd]Ùø¢/öF|÷£5ÇV=∑º@ø‹V‡”©dJ'Õ%M•»£”[`"6
+áãrùN∂√€d4CKD<7\T
+ö-ÀaåŸd‰†ÖÊCœ4¥ÓÚÒ⁄ßœÑ˙÷€Xø˚≈Gõˆù{eﬂ¶C—≤õˆù˝¡ﬁ¶ ªqcˇE6lÍ‚õ}˚ÒÓoøw|h|ÁûﬁûÀ/ç˜ÄG1FMÂììS}Ë §ÜO&à√R^a‘”´Ë◊±É0∫≤N˙Ë<≥qåå%2;&•∆–€JK!Ü√ÂtÖ|•íOß'ÊüöNègºÓé∞&÷„¬‹Û‚z’0s¬áø?ı1ı PãxDlÍ$˚AàÌanCn-åYπQ95äÆ™Gµ
+}ñRßë·:Œ´Ø5ÅK'ÇA©˘Sƒ¡0gì éÑ7¯ﬁv§„ı2ue∆Û«)3vœoú˙+˘%~(û∆’ÃÌÓﬂzs≤◊c†ûÿ˚œ≤+!sÁ∆Ljÿƒ‹è≤îòÚ¢∏¬´™—ÉÂt
+lF”dKXÁ‘!ßôÄå≤œvâ∑ÓNâ∑∫ÍÃáâMÍJ3‚tö0Ï¿5‚)bmˆO`Õ÷Úbf…ßƒ`P¶‚`Úæ9>	Î%ˆ∫êŒàBA"ŸÏ¬™©)¨ÓOäW ?¶÷Éiq≥7Áñ{
+◊ê»¨úùdﬁ•_ız—⁄XÒ´YÉ,f[g†GV˙à⁄Û™`Ì\\œ‘À◊y€Ω≠˘m*ŒlÒjÉ8µÖ[ËZÃ''í	òäÆ§p=‚'ÇÈDäô$ÇÜ}‡OÈ”Z,ì4	eÏ! F·"Dîm†Î}œuÏÏˇNÔˆ˝¯´qS±›_,¯8O¨lEù˚·∑v˝Rú¡ ◊˚Oª´ıÒ≥◊Üﬂ˘`ò˙π8Z7∏‚—GC^sG{€‡Åùÿî<èm'N‡"≤ŒŸ4”¿É∫`iÃÆÊÌì#7r\rî£Ï3ü•Q´0RiŸl≠‘ûê¬“üH$¸ËH&*CF”\¿yhÏƒiE2g—|Df¬ñq2M5µˆÛ‚e|∆ª®:[¡y®Ø=R˚ÿ2ÃTïÜJ±ï¢‹Ü≠Ω´6Q˛ôB˙˙ŒÜÚp±Ãƒn›µÂ‰Ù«=´JaO"≥ùlèîM([àG7 hF≥êô◊»)ΩZQ3ôl08óFI<?`MBXí=2Å(Ê5œˆ‹˝5µÅl˝MÒf“ˇ“º•´ã}≥[º5uWº˝)›Cµ8{Ü{ê}‚€ ’YSl©;h7˚J≤8sçrmÚªÏöq?=nˇùˇJ–tÂÛ¶Ï˚˝<gÊ™≤˘™¸ OfvÅ8ROÙ†#≥ùH√\˘º‘¨ìd‚¬\ãr˝D0¿å‡◊à‘b2R2é!Œá¸ºÉœ#≈.p;>Yˇn7Êp[ÕCÀVø∑]º'~∑¶ö>w5rπq›◊[ög—‡3ìmüÑØ5nx§Æ;~ÿwÁ£Í8n√ ø]≥Ù°á≈ƒ;O]é”>à\mø≥˜qzksÀ⁄∆âË'ÎÔÙ?ıó¶ﬁÎâ~ûGÈvZÑ∫π>(/éÜ≥µFM|UûY5aÖ2Z4⁄îu!Ø8lÕÆ(◊jê≤§Jˆ†Œ/î‘¡¡AìJ´$1M¿_&0Êí†Ÿb∂ê5JÍÇ(…0Xd)ûO˙Ç\OÆGZ<\x^z0:œ2 µ∞ÆÀ°Ò°Å™Jü«µdeÂ@TÜäùÎÍ∫ÏpÆœÌÙWBü£ ëÈ[©ÕAM´ãªÔç<]ıOÕ˛H0œv:Ævü[,∏C*äRÜ≥`D–!¯NÁÒU?≥z√0‚T\Ì:ÎsªB
+åUR ¸±˝Êø∆µy`ìÑ5∏'˛WP·œ‡π/åw>Ùöœ‡o_§z¥˘~≈™π_≠1¿5súñΩàQ@K6‘ìNA≠Z6«…}®vé3¿[Á8|œW**  „ﬁ’;∂mno˚¸p±¨ î¡E2Œj¥ ßÕPz∂¡uz œ6‘Ñ:˛√∏/“#≠Ú"zÊmÖ5ë€QåTÍ≤?£ü@ñ˙·)∞èΩµ1+zcπ‰ñ„o?Ωkæûáfé {πcí∑2^Cˇ` =‡[ò
+endstream
+endobj
+56 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+57 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 701
+/CapHeight 0
+/Descent -298
+/Flags 32
+/FontBBox [-167 -299 1063 827]
+/FontName /GCCAEH+Symbol
+/ItalicAngle 0
+/StemV 0
+/FontFile2 58 0 R
+>>
+endobj
+58 0 obj
+<<
+/Filter /FlateDecode
+/Length 3208
+/Length1 6176
+>>
+stream
+Hâºñ|VU«?Áû{Ô3m‚ú,6qNKÁDúà4'¡öàqm0∆2∆xà∂`.4¬˘#ä&MB3RÚÖOàHFƒB˛@Õï§iFDh—2#‚Ö»Ìs>{P_Vˇ˘Úy^ﬂ˜˘ûÔ˜úÔ9Á{Œπ˜¬ ËO¯(©≠´õΩkòâŒ:#1g.ú¶Ü(õŸX˜Œ(ø8≠Ñ∂∫ôõ≥Á^ŸÊS ˙œZ8?¡vì ªï•__óòY2(ˇB÷∑≥~^˝¨⁄Êæxˆm"Ω>>ª±v`<Éı£¨∑œû≥∏˛°ÿ%Á ßt0ﬁÈ≥jÎ∂O]|ì˛hH∆[≈–∑±~fCcÛ+nü4úı$cπ~A¢Ÿƒñ^ƒû£Œú¶ôµWﬂS58ï~sgcÌÒ¥ÁÕ-å∑ì˛Ïπµç≥bÁ\UxÇ~oJ4√∫˘∏ﬂ˘„Ûg≈´<ükKªàíüﬂ_lØc.2JŸ˛Ãç_Æ’{ÙtŒ∑¡≠/äK  î')Oı≠˜c¯ıbF„Vo9∆b*∫Pm`£Yâ¶ ÀÈçÿàn (†∆Æcõ£Ë¡Ùx”Ò,kı(Ù±úÑ)l’Èy^†À¨Bó◊œk¬Ø”,¡ZL√P?è-¢ nB#äºPÌ_Ô-ã	Ô>,0H†⁄ªÃõtÇáˇF0[ëƒ:€ËÌèU£‘fÙºé=Èç¬¥{38”m¶«l6ªÕ^Ø/òÊ®ŸîÈ_œUDo–ÖÕﬁ`Ã√f÷c¨ıS˛2÷áb8ÁÔ§ﬁ¨û5k∏˛
+ÆæÖXçªh_ÕvI⁄XŒo°úˇ·∂Éñ¢†ç˙‹Å †”L'Ñ-Ã}v≥Ÿà"€¥ôn’yëiˆÖY(ˆsºº∞∑‚≠ ÈçÒvc⁄ºClπ	oÌﬁ:Ê#3ËÙ⁄Ãåæú`RPâA;˙339,ßsGÜQi˜
+êa◊ôı«s<ÌÌ˜“√	®ò^s8<7Ã5É√–f∫¬ëcéÜEf[Xˆcè6Êq€MÀñD∏ÁÈÆıùØ`—Ï›≠EuÕÆ‰’mvé¶x‚F§skÁ∏¸öü«íX¯÷3ëùëÙr/ØKñ|±*{Á59#>RÕŒàe'Që<iqˆñ(™®Ú◊$É!IõõñÙsáÌ˘Œ=#Æ®® ﬁbb„KSa«◊î“xeUW£ôˆÒ•zÃp!ùÔuÚÆM=∂˛›◊“ZˇÎˆt˚ªP/Ìü,ºıx›Gt$\è÷∞5¨WSj¸:L£øä≤‹+éﬁ·Cj4e-eLJ/¢‰S¶Pä)ïîâ^1÷R≥øãQÂJ€é∆ú‚Ñcı⁄›XcVc≠+m€ÿ¿v”ﬁ7n™_ïﬂâUˆ ñ–^Æ‚∏uÊFea.Íi˚ç_Ìeº¥ı˜!?x≈ıcü–0a%Ê•b5™Ï1Y±}H8qz⁄T<ƒ8£Ø√I–‚U-∏#ËéSQË˜`§ø√ù›»zôèı(¶>ñÌ≤bY,ªë«<ñS„\?AŸäLˆ…	ñap8ËNá§cÁ±‹ñ√„À(y#”œgŒÔC'}˝‹Yá}9‘/£¥∞Môm√€Ω‡wFáÈ/¢Ω–Ê<&∏=2G–∆∏+√	Je•ïÎ{⁄m7˚˜Á¸rù∏\∏uT8ŒFÊ¶‘â”ôüñ†Â)ﬂ: ˝ÏﬂÓ7π._·*ìg3±-%≠NÿæåcîÛ<‹≈uçt¬µgõ¢Cå1ÜsidõB∂mOIÆìÿ>3÷4õôói}•Ù˙„•à{›„§!ZíÍ«1ÕQ .Óı'±°f$À2I9∫òüjÊﬁùù°\Kü"3tÓˇá§nÀâ‚2Ü|ü•”¶|ñ∂!xío{D¸·É^˝y
+ié∑à¢Ì.Õ∏»[jÉ5æh—Bz“çGD‚1Ò=Ò®¯ÆxD<,˛[<$˛K<(˛S|G¸á¯∂¯w±W¸õx@¸´÷˘Èo·M‘!`ÈjN∑ÿ/˝œ‚>ÒO‚^Òè‚ÒÒ˜‚k‚ÔƒW≈Wƒﬂäª≈óÒudq¥ó1åµód{â∫è_I1EgyA˙Û‚s‚≥ÿI>#˝iqßÿ->•π?)˝	qáÿ%˛B‹&˛\‹*˛L|?≈dŒÎÒæZÙ"«wÀØÉ«–èû-†⁄Rz„õ7§Õy,YB€fù§Gq>πâÔ;.¬#¸R(bªG¯~≥§k∑Q#¸DsM‚aé∞t∂á˘}≤ê5gs57“ÜTÁ±§ãc\A}Ω˙<(> ˛H1◊·bÚá“Ôó˝˝>YÓM≈ªóﬂHÆÊ‚9ã≈˜’o∆ë˜pO,:’˚{mµÙª≈wéÒ]\DÆíÂ;‚∑a•ºﬂÔ“òw {O≤≈Ìj”.Ôm‚
+ÌÈ7’fπ¯úÌΩÕπ›*À-‚≤‘ŸYÜKYs∫Â€˛f≠ßM-⁄¥o7k=≠ÃﬂkÙ¥ ”äÌÙ,≈é»cIó·%¯.°Õy,È2‚,Ó∂∫û_o¬çjuS_M„‹®VãeπA\$.‘™åÎª◊	Ã«xˆLÙ’‘”Y,øﬂ‚⁄˝yÚƒ—§›èk˜„ö[Ê‚,⁄ö¥˚Möõ≥X|E}ƒŸ‚,q¶¯%±ZºNú.^ÀÔVw◊ØUmöÊyçÙ*Òjq™xï8EºR;U)ΩBú,Nø NØÀ¢?p¶üW¸	≤îÍFN˙e‚8±D´+˝Rqåxâ8ZºX,foÀ3ÁÙQ‚bëxæXHõÂWü”œ?+à#PFÊK?G.ûç<é∞tµ<ù–≥§Áäg‚drø¥-Œ‡â∑»ë=õ9≤¸ﬁvÌ?#KñÙ!‚‡q}Á‡”‚ ç}∫Zàß•ò¡ÏÙ«)1`Èlß"ìŸX∫3SæL›Fß[ˆ9&∫æ'ÎvıìÂ$1]¸îx¢xÇò&∆0í˘tµ–;
+zG¡äûÓñß»FÛØ·Íkh] ËwR÷RíîÌîåô∏¨›$Ú?ë>ôa>Œ_÷˚_
+Ó{c≥<|Ωq"ÛÏˇá˝j	m"√3ª≥ØLZ≥±55}&i’"ÿZmUL!µàV≠^DƒG‘Ä–¯®-mÒ‚Ñ-à®Ω®EA¥Ω®‡≈W¡K<°ËE¡CÒ ä¢q„7ì(X≠≠û›è›˝fvfÁˇg˛˛∞V"¶hòO"±N¶Õ±fV%«wÍ9``æΩhêëß0`[≥Ò%HÇ~éU*/#e´U^A*üJRâˇT÷BÀ0¿a’¥¨4X~jÊ¸¶º¿) ≈·Y"_Zª·Œ®‘†<I⁄Pø‡§{¡π≠ºGÓfó∞3rƒôÀ®øãƒ°ª–˛>@´>!ÀœyÇ‹^±Á\.moóÔfu)¯q¡√G¡ípXBª"Ì9≥¶¶0RóK-$æt*ù™üiáÏöêJ0í9®ñf^ªF·ßwùz≠k3!Ã´>Ç\5±ô«$˝∫‚0 ·?∑4Øo,:ûâé/$uô(ﬁı4T≤#v®1d/R˙Ë7È∏Ù¨£‘:nú:tPH∫âX°2"Â*ãË˝åÙ+é…àFM_:öjÄpôÒ1ÒªF	VòY£ﬁ78«Hñ}Îñ3ø{C¯~Ã@wx"Û•GÖZπ~ÃˇeåUªÂßÑóæ>'üı≠b/ây»=zóë&•ë˘ﬁCtﬂ´WòÖà˝y≥æı„!ÛÑê∞O=†‹—F†wÄT≈lÎâ?≠>Ò>,!m3÷Ëm≈%Dv}èW=]<'÷ããf-jhRfÈëú∆≈M ñÌÌ˚˜∑ØÔ|–3<‘€7tùùÂù]tﬂpo˜µûﬁa!]íT™ü‘!å∂ V∆-”–TÖÀ£3/˜ò∫∆b™‘2ºòú—Ü¿2°dt4∞¨û,jXtÆEóPu Óûßª„ÓE˜BúÓíıÍvÛ≈8›w± ¬¬¡⁄)±˜N ÅÙﬂÇzˇc"§ÔÊ|ªˆ	FÉ∏ıﬂû©&ª<ø‘îNŸßÍO√5|Ó™û^≥Êiˇêa%ÿ…MÊ£Á6‰õ#‰ô‹*g_f_dÔgØfª≤âﬂúG’)«2I‚Gƒ) ﬂw[^êÁ:XP¨≥PD<»q∂‰π»g÷Â9ﬂìÁ:¯±U≠≠-+WœﬂÿóåÔÎòºÄƒ∞hAºJnD
+ù$qÑé§òªëŒvÉÌ@í<yª˘"µ|Ñ¨ù¡vô›ƒD§5ﬁ‡\E%dˇ”◊7∑Õà~†‘î”r˘Ò…√‚-‚ë{˝ÎÛà>(g+ø
+ﬂ öÁñ‡
+endstream
+endobj
+59 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 676
+/Descent -250
+/Flags 262178
+/FontBBox [-168 -218 1000 935]
+/FontName /Times-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 461
+/StemH 139
+>>
+endobj
+60 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 653
+/Descent -250
+/Flags 98
+/FontBBox [-169 -217 1010 883]
+/FontName /Times-Italic
+/ItalicAngle -15
+/StemV 76
+/XHeight 441
+/StemH 76
+>>
+endobj
+61 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+62 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 653
+/Descent -250
+/Flags 98
+/FontBBox [-169 -217 1010 883]
+/FontName /Times-Italic
+/ItalicAngle -15
+/StemV 76
+/XHeight 441
+/StemH 76
+>>
+endobj
+63 0 obj
+<<
+/ProcSet [/PDF ]
+>>
+endobj
+25 0 obj
+<<
+/Name /T1
+/Type /Font
+/Subtype /Type3
+/Resources 63 0 R
+/FontBBox [-5 -25 50 100]
+/FontMatrix [0.01 0 0 0.01 0 0]
+/FirstChar 0
+/LastChar 2
+/Encoding 64 0 R
+/CharProcs 65 0 R
+/Widths [50 50 50 ]
+>>
+endobj
+64 0 obj
+<<
+/Type /Encoding
+/Differences [0/Clt /Clk /Clb ]
+>>
+endobj
+65 0 obj
+<<
+/Clt 66 0 R
+/Clk 67 0 R
+/Clb 68 0 R
+>>
+endobj
+66 0 obj
+<<
+/Length 103
+>>
+stream
+50 0 -5 -25 50 100 d1
+1 i 
+42 75 m
+27 75 22 65 22 50 c
+22 -25 l
+28 -25 l
+28 48 l
+28 63 33 69 42 73 c
+f
+endstream
+endobj
+67 0 obj
+<<
+/Length 159
+>>
+stream
+50 0 -5 -25 50 100 d1
+1 i 
+22 -25 m
+22 15 l
+22 20 17 25 12 25 c
+17 25 22 30 22 35 c
+22 75 l
+28 75 l
+28 35 l
+28 30 23 25 18 25 c
+23 25 28 20 28 15 c
+28 -25 l
+f
+endstream
+endobj
+68 0 obj
+<<
+/Length 105
+>>
+stream
+50 0 -5 -25 50 100 d1
+1 i 
+42 -25 m
+27 -25 22 -15 22 0 c
+22 75 l
+28 75 l
+28 2 l
+28 -13 33 -19 42 -23 c
+f
+endstream
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 151
+/Widths [250 0 0 0 0 0 778 180 333 333 0 564 250 333 250 278 
+500 500 500 500 500 500 500 500 500 500 278 278 0 0 0 444 
+0 722 667 667 722 611 556 722 722 333 389 0 611 889 722 722 
+556 722 667 556 611 722 0 944 0 722 611 333 0 333 0 0 
+0 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 
+500 500 333 389 278 500 500 722 500 500 444 480 200 480 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 333 333 0 0 0 0 1000 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 56 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type0
+/BaseFont /GCCABN+Symbol
+/Encoding /Identity-H
+/DescendantFonts [ 69 0 R ]
+/ToUnicode 70 0 R
+>>
+endobj
+69 0 obj
+<<
+/Type /Font
+/Subtype /CIDFontType2
+/BaseFont /GCCABN+Symbol
+/FontDescriptor 54 0 R
+/CIDSystemInfo<<
+/Registry (Adobe)
+/Ordering (Identity)
+/Supplement 0
+>>
+/DW 1000
+/W [
+38 [548 712 ]
+60 [548]
+65 [986]
+68 [712 768 ]
+70 [768]
+95 [630]
+104 [548]
+133 [712]
+146 [823]
+155 [500]
+]
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 43
+/LastChar 215
+/Widths [549 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 549 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 500 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 200 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 400 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 549 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /GCCAEH+Symbol
+/FontDescriptor 57 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 121
+/Widths [250 0 0 0 0 0 0 0 0 0 0 0 250 0 250 0 
+500 500 500 500 500 500 500 500 500 500 333 0 0 0 0 0 
+0 722 0 722 722 667 611 778 0 389 0 0 0 944 722 778 
+0 0 722 556 667 722 0 0 722 0 0 0 0 0 0 0 
+0 500 556 444 556 444 0 500 556 278 0 0 278 833 556 500 
+556 556 444 389 333 556 500 0 500 500 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Bold
+/FontDescriptor 59 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 122
+/Widths [250 0 0 0 0 0 0 0 333 333 0 0 250 333 250 278 
+0 500 500 0 0 0 0 0 0 0 0 333 0 0 675 0 
+0 611 611 667 722 611 611 0 0 333 0 0 0 833 667 0 
+611 722 611 500 556 722 0 0 0 0 0 0 0 0 0 0 
+0 500 500 444 500 444 278 500 500 278 278 444 278 722 500 500 
+500 500 389 389 278 500 444 667 444 444 389 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Italic
+/FontDescriptor 60 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 222
+/Widths [556 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 61 0 R
+>>
+endobj
+32 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 222
+/Widths [500 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Times-Italic
+/FontDescriptor 62 0 R
+>>
+endobj
+70 0 obj
+<<
+/Filter /FlateDecode
+/Length 293
+>>
+stream
+HâTëMoÉ0ÜÔ¸
+7Ìêè	qh∑C˚–`ΩC0iÑ(–Cˇ˝áv⁄!â€Ø¸∆f«”ÛIè+∞;´
+WËG›Y\ÊãU-£!°’∫›jj0'ÆÆÀä”I˜3Eƒ>]rYÌÍz˜ƒÅΩ€Ì®âÂ◊ŸE™ã1?8°^ÅCYBá}ƒéØçyk&F¬ø`}5íXlΩÁ”(¥ç
+ŒeZ˙'oK@›˝œGÇY€´Ô∆F∑r)S^Ìâƒ—NíD±$Úçb Òå(È}”›A•Y†QñPeñ99Èí@mË∞/#gvs%nÉgﬂ,°?≈¡´Ã∑Íê˜øÙ∏OM]¨u•5—ÿ¸¿Fç˜MöŸ¯Ÿ¯˝
+0 äëX
+endstream
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 15 0 R
+/Contents 14 0 R
+>>
+endobj
+16 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 18 0 R
+/Contents 17 0 R
+>>
+endobj
+19 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 21 0 R
+/Contents 20 0 R
+>>
+endobj
+22 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 24 0 R
+/Contents 23 0 R
+>>
+endobj
+26 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 28 0 R
+/Contents 27 0 R
+>>
+endobj
+29 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 31 0 R
+/Contents 30 0 R
+>>
+endobj
+33 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 35 0 R
+/Contents 34 0 R
+>>
+endobj
+36 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 38 0 R
+/Contents 37 0 R
+>>
+endobj
+39 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 41 0 R
+/Contents 40 0 R
+>>
+endobj
+42 0 obj
+<<
+/Type /Page
+/Parent 46 0 R
+/Resources 44 0 R
+/Contents 43 0 R
+>>
+endobj
+47 0 obj
+<<
+/Type /Page
+/Parent 46 0 R
+/Resources 49 0 R
+/Contents 48 0 R
+>>
+endobj
+50 0 obj
+<<
+/Type /Page
+/Parent 46 0 R
+/Resources 52 0 R
+/Contents 51 0 R
+>>
+endobj
+71 0 obj
+<<
+/S /D
+>>
+endobj
+72 0 obj
+<<
+/Nums [0 71 0 R ]
+>>
+endobj
+11 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 13 0 R 16 0 R 19 0 R 22 0 R 26 0 R 29 0 R 33 0 R 36 0 R 39 0 R]
+/Count 10
+/Parent 45 0 R
+>>
+endobj
+46 0 obj
+<<
+/Type /Pages
+/Kids [42 0 R 47 0 R 50 0 R]
+/Count 3
+/Parent 45 0 R
+>>
+endobj
+45 0 obj
+<<
+/Type /Pages
+/Kids [11 0 R 46 0 R ]
+/Count 13
+/MediaBox [0 0 612 792]
+>>
+endobj
+73 0 obj
+<<
+/CreationDate (D:20050425064323-06'00')
+/ModDate (D:20050425064323-06'00')
+/Producer (Apple pstopdf)
+>>
+endobj
+74 0 obj
+<<
+/Type /Catalog
+/Pages 45 0 R
+/PageLabels 72 0 R
+>>
+endobj
+xref
+0 75
+0000000000 65535 f 
+0000170736 00000 n 
+0000000016 00000 n 
+0000010852 00000 n 
+0000167578 00000 n 
+0000168150 00000 n 
+0000168590 00000 n 
+0000169124 00000 n 
+0000169572 00000 n 
+0000170028 00000 n 
+0000157462 00000 n 
+0000171893 00000 n 
+0000011003 00000 n 
+0000170817 00000 n 
+0000011060 00000 n 
+0000020472 00000 n 
+0000170901 00000 n 
+0000020624 00000 n 
+0000033922 00000 n 
+0000170985 00000 n 
+0000034074 00000 n 
+0000044862 00000 n 
+0000171069 00000 n 
+0000045003 00000 n 
+0000063376 00000 n 
+0000166711 00000 n 
+0000171153 00000 n 
+0000063539 00000 n 
+0000077753 00000 n 
+0000171237 00000 n 
+0000077905 00000 n 
+0000088091 00000 n 
+0000170198 00000 n 
+0000171321 00000 n 
+0000088256 00000 n 
+0000103089 00000 n 
+0000171405 00000 n 
+0000103241 00000 n 
+0000118054 00000 n 
+0000171489 00000 n 
+0000118206 00000 n 
+0000128762 00000 n 
+0000171573 00000 n 
+0000128914 00000 n 
+0000140242 00000 n 
+0000172118 00000 n 
+0000172030 00000 n 
+0000171657 00000 n 
+0000140394 00000 n 
+0000153097 00000 n 
+0000171741 00000 n 
+0000153249 00000 n 
+0000157207 00000 n 
+0000157359 00000 n 
+0000157601 00000 n 
+0000157791 00000 n 
+0000162189 00000 n 
+0000162386 00000 n 
+0000162577 00000 n 
+0000165873 00000 n 
+0000166075 00000 n 
+0000166275 00000 n 
+0000166472 00000 n 
+0000166672 00000 n 
+0000166927 00000 n 
+0000166997 00000 n 
+0000167055 00000 n 
+0000167210 00000 n 
+0000167421 00000 n 
+0000168292 00000 n 
+0000170370 00000 n 
+0000171825 00000 n 
+0000171853 00000 n 
+0000172210 00000 n 
+0000172333 00000 n 
+trailer
+<<
+/Size 75
+/Root 74 0 R
+/Info 73 0 R
+/ID [<d5f629a1e974dfc38689d99bf6755ae6><d5f629a1e974dfc38689d99bf6755ae6>]
+>>
+startxref
+172403
+%%EOF

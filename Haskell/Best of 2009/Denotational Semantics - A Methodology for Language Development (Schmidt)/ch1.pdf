@@ -1,0 +1,5080 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 7513
+>>
+stream
+BT
+/TT2 1 Tf
+13 0 0 13 97.2 694.8601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+[(Chapter)-242.2(1 )]TJ
+/TT4 1 Tf
+4.1577 0 TD
+[(_)34.6(_______________________________________________________)]TJ
+/TT6 1 Tf
+21 0 0 21 97.2 661.8601 Tm
+(Syntax)Tj
+/TT2 1 Tf
+11 0 0 11 97.2 576.6601 Tm
+[(A)-268.7(programming)-265.7(language)-254.3(consists)-278.5(of)-267(syntax,)-284.6(semantics,)-279.4(and)-274.3(pragmatics.)-526.4(We)-266.8(formalize)-259.8(syntax)]TJ
+/TT7 1 Tf
+0 -1.2 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(rst,)-448.4(because)-408.2(only)-440.3(syntactically)-428.1(correct)-406.4(programs)-414.1(have)-412.3(semantics.)-424.8(A)-423.3(syntax)-425.5(de)]TJ
+/TT7 1 Tf
+32.3877 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-439.2(of)-421.5(a)]TJ
+-33.5 -1.2 TD
+[(language)-254.3(lists)-288.2(the)-269.2(symbols)-284.2(for)-261.3(building)-284.7(words,)-269.3(the)-269.2(word)-272.1(structure,)-269.6(the)-278.3(structure)-265.1(of)-276.1(well)-278.3(formed)]TJ
+T*
+[(phrases,)-241.9(and)-247.1(the)-251(sentence)-230.3(structure.)-496.9(Here)-229.9(are)-233.8(two)-254.5(examples:)]TJ
+0 -1.8 TD
+(1.)Tj
+/TT9 1 Tf
+1.9 0 TD
+(Arithmetic)Tj
+/TT2 1 Tf
+4.2212 0 TD
+[(:)-601(The)-345.3(symbols)-366(include)-347.5(the)-351(digits)-368.3(from)-347.1(0)-354.5(t)0(o)-358.5(9)0(,)-359.1(the)-351(arithmetic)-346.3(operators)-333.8(+,)]TJ
+/TT3 1 Tf
+31.0333 0 TD
+<003c>Tj
+/TT2 1 Tf
+0.5488 0 TD
+(,)Tj
+/TT4 1 Tf
+-35.7034 -1.2 TD
+(◊)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[(,)-573.9(and)-556.2(/,)-572.2(and)-301.6(parentheses.)-540(The)-299.9(numerals)-298.1(built)-321.1(from)-301.6(the)-305.6(digits)-322.8(and)-301.6(the)-305.6(operators)-288.4(are)-279.3(the)]TJ
+-0.5488 -1.2 TD
+[(words.)-369.3(The)-363.5(phrases)-355.5(are)-352(the)-378.3(usual)-380.1(arithmetic)-373.6(expressions,)-374.9(and)-374.3(the)-378.3(sentences)-359.4(are)-361.1(just)-391.5(the)]TJ
+T*
+(phrases.)Tj
+-2 -1.2 TD
+(2.)Tj
+/TT9 1 Tf
+1.9 0 TD
+[(A)-471(Pascal-like)-456.5(programming)-472.2(language)]TJ
+/TT2 1 Tf
+15.7308 0 TD
+[(:)-727.8(The)-463.5(symbols)-493.3(are)-461.1(the)-478.3(letters,)-479.4(digits,)-500.1(operators,)]TJ
+-15.6308 -1.2 TD
+[(brackets,)-318.5(and)-328.9(the)-332.9(like,)-341.4(and)-328.9(the)-332.9(words)-328.4(are)-315.7(the)-332.9(identi)]TJ
+/TT7 1 Tf
+20.7864 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ers,)-341.4(numerals,)-329.9(and)-328.9(operators.)-565.7(There)]TJ
+-21.3426 -1.2 TD
+[(are)-288.4(several)-286.6(kinds)-314.8(of)-303.4(phrases:)-295.9(identi)]TJ
+/TT7 1 Tf
+14.0955 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ers)-318.7(and)-310.7(numerals)-307.2(can)-303.2(be)-310.7(combined)-311.2(with)-322.2(operators)-297.5(to)]TJ
+-14.6517 -1.2 TD
+[(form)-347.1(expressions,)-347.6(and)-338(expressions)-334(can)-330.5(be)-338(combined)-338.5(with)-349.4(identi)]TJ
+/TT7 1 Tf
+26.0228 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ers)-345.9(and)-338(other)-336.2(operators)]TJ
+-26.579 -1.2 TD
+[(to)-376.7(form)-365.2(statements)-369.7(such)-367(as)-367(assignments,)-379.5(conditionals,)-380(and)-365.2(declarations.)-609.9(Statements)-384.5(are)]TJ
+T*
+[(combined)-247.5(to)-258.5(form)-247.1(programs,)-245.9(the)-251(ëësentencesíí)-209.2(of)-248.8(Pascal.)]TJ
+-2 -1.8 TD
+[(These)-548.7(examples)-550.9(point)-571.6(out)-567.6(that)-564.1(languages)-546.9(have)-548.7(internal)-554.9(structure.)-560.6(A)-568.7(notation)-577.2(known)-568.7(as)]TJ
+/TT9 1 Tf
+0 -1.2 TD
+[(Backus-Naur)-241.3(form)]TJ
+/TT2 1 Tf
+7.6636 0 TD
+[(\(BNF\))-252.3(is)-260.3(used)-248.8(to)-258.5(precisely)-236.1(specify)-239.6(this)-264.3(structure.)]TJ
+-5.6636 -1.2 TD
+[(A)-414.2(BNF)-427.4(de)]TJ
+/TT7 1 Tf
+4.4529 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-430.1(consists)-423.9(of)-421.5(a)-419.8(set)-425.5(of)-421.5(equations.)-426.6(The)-418(left-hand)-408.8(side)-425.5(of)-421.5(an)-419.8(equation)-420.3(is)]TJ
+-7.0091 -1.2 TD
+[(called)-331(a)]TJ
+/TT9 1 Tf
+3.4909 0 TD
+(nonterminal)Tj
+/TT2 1 Tf
+5.2273 0 TD
+[(and)-328.9(gives)-334.6(the)-332.9(name)-325.4(of)-330.6(a)-328.9(structural)-323.6(type)-332.9(in)-340.4(the)-332.9(language.)-322.4(The)-327.1(right-hand)]TJ
+-8.7182 -1.2 TD
+[(side)-325.5(lists)-342.7(the)-323.8(forms)-321.5(which)-328.9(belong)-332.9(to)-340.3(the)-332.9(structural)-323.6(type.)-592(These)-321.4(forms)-330.6(are)-315.7(built)-348.3(from)-328.9(symbols)]TJ
+T*
+(\(called)Tj
+/TT9 1 Tf
+3.0455 0 TD
+[(terminal)-347.7(symbols)]TJ
+/TT2 1 Tf
+6.9585 0 TD
+[(\))-335.7(and)-338(other)-336.2(nonterminals.)-347(The)-336.2(best)-343.7(introduction)-348.2(is)-351.2(through)-334.6(an)-328.9(exam-)]TJ
+-10.004 -1.2 TD
+(ple.)Tj
+2 -1.2 TD
+[(Consider)-316.4(a)-319.8(description)-320.3(of)-321.5(arithmetic.)-578.1(It)-325.5(includes)-322(two)-327.3(equations)-322(that)-327.8(de)]TJ
+/TT7 1 Tf
+28.8348 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ne)-319.8(the)-323.8(structural)]TJ
+-31.3909 -1.2 TD
+[(types)-252.8(of)]TJ
+/TT9 1 Tf
+3.4455 0 TD
+(digit)Tj
+/TT2 1 Tf
+2.1 0 TD
+(and)Tj
+/TT9 1 Tf
+1.6909 0 TD
+(operator:)Tj
+/TT2 1 Tf
+-5.4182 -2.3636 TD
+[(<)-81.5(digit>)-266.2(::=)-262.2(0)-254.5(|)-254.4(1)-254.5(|)-254.4(2)-254.5(|)-254.3(3)-254.5(|)-254.4(4)-254.5(|)-254.4(5)-254.5(|)-254.3(6)-254.5(|)-254.4(7)-254.5(|)-254.4(8)-254.5(|)-254.3(9)]TJ
+0 -1.3818 TD
+[(<)-81.5(operator>)-231.8(::=)-262.2(+)-254.2(|)]TJ
+/TT3 1 Tf
+7.4273 0 TD
+<003c>Tj
+/TT2 1 Tf
+0.8091 0 TD
+(|)Tj
+/TT4 1 Tf
+0.4545 0 TD
+(◊)Tj
+/TT2 1 Tf
+0.8091 0 TD
+0.2543 Tc
+(|/)Tj
+-11.3182 -2.1818 TD
+0 Tc
+[(Each)-237.8(equation)-247.5(de)]TJ
+/TT7 1 Tf
+6.8711 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nes)-248.8(a)-247.1(group)-248.8(of)-248.8(objects)-249.3(with)-258.5(common)-255(structure.)-496.9(To)-252.8(be)-256.2(a)-256.1(digit,)-280.1(an)-256.1(object)-256.6(must)]TJ
+-7.4273 -1.2 TD
+[(be)-283.4(a)-538(0)-545.5(or)-285.2(a)-538(1)-545.5(or)-285.2(a)-538(2)-545.5(or)-276.1(a)-528.9(3)-536.4(.)-286.4(.)-286.4(.)-540.9(or)-276.1(a)-528.9(9)0(.)-540.9(The)-272.6(name)-270.8(to)-285.8(the)-278.3(left)-276.6(of)-276.1(the)-278.3(equals)-272.6(sign)-287.6(\(::=\))-278(is)-287.6(the)]TJ
+T*
+[(nonterminal)-340.7(name)-343.6(<)-81.5(digit>,)-625.3(the)-351(name)-343.6(of)-348.8(the)-351(structural)-341.8(type.)-610.1(Symbols)-371.7(such)-348.8(as)-603.4(0,)-613.6(1,)-613.6(and)-601.6(+)]TJ
+T*
+[(are)-233.8(terminal)-249.8(symbols.)-270.6(Read)-245.3(the)-251(vertical)-238.3(bar)-241.3(\()-76.1(|)-81.6(\))-248.8(a)0(s)-248.8(ëëor.íí)]TJ
+2 -1.2 TD
+[(Another)-241.3(equation)-247.6(de)]TJ
+/TT7 1 Tf
+8.1529 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nes)-248.8(the)-251(numerals,)-248.1(the)-251(words)-246.6(of)-248.8(the)-251(language:)]TJ
+-8.8909 -2.0909 TD
+[(<)-81.5(numeral>)-241.5(::=)-262.2(<)-81.5(digit>)-266.2(|)-254.4(<)-81.5(digit>)-266.2(<)-81.5(numeral>)]TJ
+-1.8182 -1.9091 TD
+[(The)-354.4(name)-352.7(<)-81.5(digit>)-629.8(comes)-354.4(in)-367.6(handy,)-360.7(for)-352.2(we)-352.2(can)-348.7(succinctly)-354.9(state)-358.4(that)-364.1(an)-356.1(object)-356.6(with)-376.7(numeral)]TJ
+0 -1.2 TD
+[(structure)-446.9(must)-473.4(either)-441.8(have)-439.6(digit)-466.5(structure)-437.8(or)]TJ
+18.9273 0 TD
+0.4591 Tc
+[(...o)459.1(r)]TJ
+3.4091 0 TD
+0 Tc
+[(what?)-439.6(The)-445.3(second)-441.3(option)-462.5(says)-450.6(that)-455(a)]TJ
+-22.3364 -1.2 TD
+[(numeral)-341.8(may)-351(have)-339.6(the)-351(structure)-337.8(of)-348.8(a)-347.1(digit)-366.5(grouped)-341.3(\(concatenated\))-306.1(with)-358.5(something)-360.8(that)-364.1(has)-357.9(a)]TJ
+T*
+[(known)-350.6(numeral)-341.8(structure.)-596.9(This)-358.5(clever)-330.3(use)-348.8(of)-348.8(recursion)-333.8(permits)-345.9(us)-347.2(to)-349.4(de)]TJ
+/TT7 1 Tf
+29.5166 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ne)-338(a)-338(structural)-332.7(type)]TJ
+/TT6 1 Tf
+10 0 0 10 509.8 57.6601 Tm
+(5)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT7 8 0 R
+/TT9 9 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+12 0 obj
+<<
+/FunctionType 2
+/Domain [0 1]
+/N 1
+>>
+endobj
+14 0 obj
+<<
+/Length 5027
+>>
+stream
+BT
+/TT6 1 Tf
+10 0 0 10 97.2 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(6)Tj
+/TT9 1 Tf
+0.5 0 TD
+(     Syntax)Tj
+/TT2 1 Tf
+11 0 0 11 97.2 682.4601 Tm
+[(that)-255(has)-248.8(an)-247.1(in)]TJ
+/TT7 1 Tf
+5.3051 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nite)-266.5(number)-245.3(of)-248.8(members.)]TJ
+-3.8613 -1.2 TD
+(The)Tj
+/TT7 1 Tf
+1.8 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nal)-258.5(rule)-245.3(is:)]TJ
+-2.538 -2.0909 TD
+[(<)-81.5(expression>)-241(::=)-262.2(<)-81.5(numeral>)-241.5(|)-254.4(\()-157.9(<)-81.5(expression>)-150.1(\))]TJ
+8.5091 -1.3818 TD
+[(|)-254.4(<)-81.5(expression>)-241(<)-81.5(operator>)-231.8(<)-81.5(expression>)]TJ
+-10.3273 -1.9091 TD
+[(An)-377.8(expression)-377.7(can)-375.9(have)-375.9(one)-383.4(of)-385.2(three)-374.2(possible)-394.9(forms:)-389.2(it)-398.9(can)-375.9(be)-383.4(a)-383.4(numeral,)-382.7(or)-385.2(an)-383.4(expression)]TJ
+0 -1.2 TD
+[(enclosed)-237.8(in)-258.5(parentheses,)-230.9(or)-248.8(two)-254.5(expressions)-243.1(grouped)-241.3(around)-241.3(an)-247.1(operator.)]TJ
+2 -1.2 TD
+[(The)-299.9(BNF)-318.3(de)]TJ
+/TT7 1 Tf
+5.062 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-321(of)-303.4(arithmetic)-300.8(consists)-314.8(of)-303.4(these)-299.9(four)-297.6(equations.)-308.4(The)-299.9(de)]TJ
+/TT7 1 Tf
+24.2711 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-321(gives)-316.4(a)]TJ
+-32.4454 -1.2 TD
+[(complete)-289.5(and)-292.5(precise)-277.5(description)-293(of)-294.3(the)-287.4(syntax.)-293.7(An)-286.9(arithmetic)-282.7(expression)-277.7(such)-285.2(as)-539.7(\()-157.9(4)]TJ
+/TT4 1 Tf
+34.3727 0 TD
+(+)Tj
+/TT2 1 Tf
+0.7182 0 TD
+[(24)-163.6(\))]TJ
+/TT3 1 Tf
+1.6545 0 TD
+<003c>Tj
+/TT2 1 Tf
+0.7182 0 TD
+(1)Tj
+-37.4636 -1.2 TD
+[(is)-269.4(drawn)-246.4(as)-257.9(a)]TJ
+/TT9 1 Tf
+5.4727 0 TD
+[(derivation)-262.4(tree,)]TJ
+/TT2 1 Tf
+6.4455 0 TD
+[(so)-274.5(that)-273.2(the)-269.2(structure)-256(is)-278.5(apparent.)-507.6(Figure)-271(1.1)-277.3(shows)-272.2(the)-269.2(derivation)]TJ
+-11.9182 -1.2 TD
+[(tree)-237.8(for)-243.1(the)-251(expression)-241.3(just)-264.3(mentioned.)]TJ
+2 -1.2 TD
+[(We)-285(wonít)-294.3(cover)-288.4(further)-288.4(the)-305.6(details)-307.8(of)-303.4(BNF;)-322.3(this)-318.8(information)-306.1(can)-294.1(be)-301.6(found)-303.4(in)-313.1(many)-305.6(other)]TJ
+-2 -1.2 TD
+[(texts.)-279.5(But)-282.4(there)-256(is)-278.5(one)-265.2(more)-263.5(notion)-280.7(that)-273.2(merits)-273.2(discussion.)-273.9(Consider)-261.9(the)-260.1(derivation)-254.9(trees)-248.7(in)-267.6(Fig-)]TJ
+T*
+[(ures)-306.7(1.2)-322.7(and)-319.8(1.3)-331.8(for)-315.8(the)-323.8(expression)-568.6(4)]TJ
+/TT4 1 Tf
+15.4273 0 TD
+(◊)Tj
+/TT2 1 Tf
+0.7182 0 TD
+(2)Tj
+/TT4 1 Tf
+0.6636 0 TD
+(+)Tj
+/TT2 1 Tf
+0.7182 0 TD
+[(1.)-586.4(Both)-337(are)-306.6(acceptable)-290.3(derivation)-318.5(trees.)-571.4(It)-325.5(is)-333(puz-)]TJ
+-17.5273 -1.2 TD
+[(zling)-555(that)-555(one)-547.1(expression)-541.3(should)-560.3(possess)]TJ
+/TT9 1 Tf
+18.2 0 TD
+(two)Tj
+/TT2 1 Tf
+2.0091 0 TD
+[(trees.)-798.7(A)-550.6(BNF)-554.7(de)]TJ
+/TT7 1 Tf
+7.6529 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-557.4(that)-545.9(allows)-543.7(this)]TJ
+-28.4182 -1.2 TD
+[(phenomenon)-461.7(is)-487.6(called)]TJ
+/TT9 1 Tf
+9.6364 0 TD
+(ambiguous.)Tj
+/TT2 1 Tf
+5.3818 0 TD
+[(Since)-478.3(there)-465.1(are)-461.1(two)-481.8(allowable)-467.3(structures)-466.8(for)-724.9(4)]TJ
+/TT4 1 Tf
+20.0909 0 TD
+(◊)Tj
+/TT2 1 Tf
+0.7182 0 TD
+(2)Tj
+/TT4 1 Tf
+0.6636 0 TD
+(+)Tj
+/TT2 1 Tf
+0.7182 0 TD
+(1,)Tj
+-37.2091 -1.2 TD
+[(which)-256.2(one)-256.2(is)-269.4(proper?)-237.2(The)-254.4(choice)-245.2(is)-269.4(important,)-270.9(for)-252.2(real)-246.9(life)-258.4(compilers)-247.5(\(and)-241.3(semantic)-245.8(de)]TJ
+/TT7 1 Tf
+34.3438 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+(nitions\))Tj
+-34.9 -1.2 TD
+[(assign)-490.9(meanings)-485.7(based)-477.7(on)-490.9(the)-487.4(structure.)-478.7(In)-485.2(this)-500.6(example,)-481(the)-487.4(two)-490.9(trees)-475.9(suggest)-500(a)-492.5(choice)]TJ
+T*
+[(between)-359.4(multiplying)-405.7(four)-370.3(by)-381.8(two)-381.8(and)-374.3(then)-378.3(adding)-378.3(one)-374.3(versus)-372.1(adding)-378.3(two)-381.8(and)-374.3(one)-365.2(and)-365.2(then)]TJ
+T*
+[(multiplying)-278.5(by)-254.5(four.)]TJ
+/TT6 1 Tf
+0 -3 TD
+[(Figure)-249.3(1.1)]TJ
+0 -0.4 TD
+[(_)36.4(___________________________________________________________________________)]TJ
+0.9818 0 TD
+(________________________________________________________________________)Tj
+/TT2 1 Tf
+19.0182 -3.2 TD
+[(<)-81.5(expression>)]TJ
+-8 -2.4 TD
+[(<)-81.5(expression>)-1277.4(<)-81.5(operator>)-3204.5(<)-81.5(expression>)]TJ
+T*
+[(<)-81.5(expression>)-11022.8(<)-81.5(numeral>)]TJ
+-7.4909 -2.4 TD
+0.0001 Tc
+[(<)-81.4(expression><)-81.4(operator>)-1458.9(<)-81.4(expression>)-5022.7(<)-81.4(digit>)]TJ
+T*
+0 Tc
+[(<)-81.5(numeral>)-7005.1(<)-81.5(numeral>)]TJ
+T*
+[(<)-81.5(digit>)-6448(<)-81.5(digit>)-2957.1(<)-81.5(numeral>)]TJ
+17.4909 -2.4 TD
+[(<)-81.5(digit>)]TJ
+-21.7455 -2.4 TD
+5.1943 Tc
+[(\(4)-2051.2(+)1285.5(2)-305.7(4)1185.2(\))]TJ
+/TT3 1 Tf
+30 0 TD
+0 Tc
+<003c>Tj
+/TT2 1 Tf
+2 0 TD
+(1)Tj
+-32.2545 -2.2 TD
+[(_)36.4(___________________________________________________________________________)]TJ
+ET
+endstream
+endobj
+15 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT7 8 0 R
+/TT9 9 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+17 0 obj
+<<
+/Length 2909
+>>
+stream
+BT
+/TT9 1 Tf
+10 0 0 10 470.7 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(Syntax     )Tj
+/TT6 1 Tf
+3.9155 0 TD
+(7)Tj
+11 0 0 11 97.2 662.66 Tm
+[(Figure)-249.3(1.2)]TJ
+0 -0.4 TD
+[(_)36.4(___________________________________________________________________________)]TJ
+0.9818 0 TD
+(________________________________________________________________________)Tj
+/TT2 1 Tf
+17.0182 -3.2 TD
+[(<)-81.5(expression>)]TJ
+-10 -2.4 TD
+[(<)-81.5(expression>)-2768.3(<)-81.5(operator>)-3204.5(<)-81.5(expression>)]TJ
+-8 -2.4 TD
+[(<)-81.5(expression>)-513.7(<)-81.5(operator>)-1459(<)-81.5(expression>)-4513.7(<)-81.5(numeral>)]TJ
+T*
+[(<)-81.5(numeral>)-9514.2(<)-81.5(numeral>)-7514.2(<)-81.5(digit>)]TJ
+T*
+[(<)-81.5(digit>)-10957.1(<)-81.5(digit>)]TJ
+1.2727 -2.4 TD
+(4)Tj
+/TT4 1 Tf
+6.7273 0 TD
+(◊)Tj
+/TT2 1 Tf
+6 0 TD
+5.5 Tc
+[(2+)64(1)]TJ
+-14 -2.2 TD
+0 Tc
+[(_)36.4(___________________________________________________________________________)]TJ
+/TT6 1 Tf
+0 -4.4 TD
+[(Figure)-249.3(1.3)]TJ
+0 -0.4 TD
+[(_)36.4(___________________________________________________________________________)]TJ
+0.9818 0 TD
+(________________________________________________________________________)Tj
+/TT2 1 Tf
+9.0182 -2.6 TD
+[(<)-81.5(expression>)]TJ
+-8 -2.4 TD
+[(<)-81.5(expression>)-513.7(<)-81.5(operator>)-7459(<)-81.5(expression>)]TJ
+T*
+[(<)-81.5(numeral>)-7514.2(<)-81.5(expression>)-513.7(<)-81.5(operator>)-1459(<)-81.5(expression>)]TJ
+T*
+[(<)-81.5(digit>)-8957.1(<)-81.5(numeral>)-9514.2(<)-81.5(numeral>)]TJ
+12 -2.4 TD
+[(<)-81.5(digit>)-10957.1(<)-81.5(digit>)]TJ
+-10 -2.4 TD
+(4)Tj
+/TT4 1 Tf
+8 0 TD
+(◊)Tj
+/TT2 1 Tf
+4 0 TD
+7.5 Tc
+[(2+)2064(1)]TJ
+-16 -1.6 TD
+0 Tc
+[(_)36.4(___________________________________________________________________________)]TJ
+2 -4.4 TD
+[(Ambiguous)-378.5(BNF)-391.1(de)]TJ
+/TT7 1 Tf
+8.3257 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nitions)-395.5(can)-366.8(often)-372.6(be)-374.3(rewritten)-363.4(into)-389.8(an)-374.3(unambiguous)-384.1(form,)-378.9(but)-385.8(the)]TJ
+-10.8818 -1.2 TD
+[(price)-246.9(paid)-251(is)-260.3(that)-255(the)-251(revised)-239.6(de)]TJ
+/TT7 1 Tf
+12.4438 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nitions)-268.2(contain)-247.5(extra,)-242.4(arti)]TJ
+/TT7 1 Tf
+10.0052 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(cial)-249.8(levels)-249.3(of)-248.8(structure.)-496.9(An)-250.6(unambi-)]TJ
+-23.5614 -1.2 TD
+[(guous)-256.3(de)]TJ
+/TT7 1 Tf
+3.5893 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-266.5(of)-248.8(arithmetic)-246.3(reads:)]TJ
+-2.3273 -2.0909 TD
+[(<)-81.5(expression>)-241(::=)-262.2(<)-81.5(expression>)-241(<)-81.5(lowop>)-254.2(<)-81.5(term>)-249(|)-254.4(<)-81.5(term>)]TJ
+0 -1.3818 TD
+[(<)-81.5(term>)-249(::=)-262.2(<)-81.5(term>)-249(<)-81.5(highop>)-258.2(<)-81.5(factor>)-231.8(|)-254.4(<)-81.5(factor>)]TJ
+T*
+[(<)-81.5(factor>)-231.8(::=)-262.2(<)-81.5(numeral>)-241.5(|)-254.4(\()-248.8(<)-81.5(expression>)-241(\))]TJ
+T*
+[(<)-81.5(lowop>)-254.2(::=)-262.2(+)-254.2(|)]TJ
+/TT3 1 Tf
+6.6182 0 TD
+<003c>Tj
+ET
+endstream
+endobj
+18 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT7 8 0 R
+/TT9 9 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+20 0 obj
+<<
+/Length 6439
+>>
+stream
+BT
+/TT6 1 Tf
+10 0 0 10 97.2 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(8)Tj
+/TT9 1 Tf
+0.5 0 TD
+(     Syntax)Tj
+/TT2 1 Tf
+11 0 0 11 117.2 680.4601 Tm
+[(<)-81.5(highop>)-258.2(::=)]TJ
+/TT4 1 Tf
+5.6273 0 TD
+(◊)Tj
+/TT2 1 Tf
+0.8091 0 TD
+0.2543 Tc
+(|/)Tj
+-8.2545 -2.1818 TD
+0 Tc
+[(\(The)-294.1(rules)-301.6(for)-297.6(<)-81.5(numeral>)-296(and)-301.6(<)-81.5(digit>)-320.7(remain)-296.4(the)-305.6(same.\))-298.7(This)-313.1(de)]TJ
+/TT7 1 Tf
+26.3529 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-321(solves)-309.1(the)-305.6(ambiguity)]TJ
+-26.9091 -1.2 TD
+[(problem,)-290.2(and)-283.4(now)-286.9(there)-274.2(is)-296.6(only)-304(one)-292.5(derivation)-291.3(tree)-283.3(for)-288.5(4)]TJ
+/TT4 1 Tf
+22.9091 0 TD
+(◊)Tj
+/TT2 1 Tf
+0.7182 0 TD
+(2)Tj
+/TT4 1 Tf
+0.6636 0 TD
+(+)Tj
+/TT2 1 Tf
+0.7182 0 TD
+[(1,)-304.5(given)-296.5(in)-304(Figure)-298.3(1.4.)-563.6(The)-290.8(tree)]TJ
+-25.0091 -1.2 TD
+[(is)-342.1(more)-327.1(complex)-329.4(than)-332.9(the)-332.9(one)-319.8(in)-331.3(Figure)-325.5(1.2)-331.8(\(or)-315.8(1.3\))-326.1(and)-319.8(the)-323.8(intuitive)-339.7(structure)-310.6(of)-321.5(the)-323.8(expres-)]TJ
+T*
+[(sion)-333(is)-333(obscured.)-567.4(Compiler)-331.7(writers)-314.1(further)-306.6(extend)-325.4(BNF)-345.6(de)]TJ
+/TT7 1 Tf
+23.8802 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nitions)-350.1(so)-338.1(that)-336.9(fast)-328.9(parsers)-313.4(result.)]TJ
+-24.4364 -1.2 TD
+[(Must)-280.2(we)-261.3(use)-267(these)-263.5(modi)]TJ
+/TT7 1 Tf
+9.7375 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ed,)-276.2(complex)-256.6(BNF)-272.9(de)]TJ
+/TT7 1 Tf
+8.332 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nitions)-277.3(when)-252.2(we)-252.2(study)-269.4(semantics?)-503.7(The)-254.4(answer)]TJ
+-19.1818 -1.2 TD
+[(is)-260.3(no.)]TJ
+2 -1.2 TD
+[(We)-366.9(claim)-387.9(that)-391.4(the)-387.4(derivation)-382.2(trees)-375.9(are)-370.2(the)]TJ
+/TT9 1 Tf
+17.7636 0 TD
+(real)Tj
+/TT2 1 Tf
+2 0 TD
+[(sentences)-368.5(of)-385.2(a)-383.4(language,)-377(and)-383.4(strings)-396.6(of)]TJ
+-21.7636 -1.2 TD
+[(symbols)-302.4(are)-270.2(just)-300.6(abbreviations)-276.4(for)-279.4(the)-287.4(trees.)-280.5(Thus,)-295.5(the)-287.4(string)-549.4(4)]TJ
+/TT4 1 Tf
+25.4545 0 TD
+(◊)Tj
+/TT2 1 Tf
+0.7182 0 TD
+(2)Tj
+/TT4 1 Tf
+0.6636 0 TD
+(+)Tj
+/TT2 1 Tf
+0.7182 0 TD
+[(1)-536.4(i)0(s)-287.6(a)0(n)-274.3(ambiguous)-284.1(abbre-)]TJ
+-27.5545 -1.2 TD
+[(viation.)-354.5(The)-336.2(original)-344.2(BNF)-354.7(de)]TJ
+/TT7 1 Tf
+11.9711 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-357.4(of)-348.8(arithmetic)-346.3(is)-360.3(adequate)-328.6(for)-343.1(specifying)-343.6(the)-351(structure)-337.8(of)]TJ
+-12.5273 -1.2 TD
+[(sentences)-250.3(\(trees\))-246.3(of)-267(arithmetic,)-269(but)-276.7(it)-280.7(is)-278.5(not)-276.7(designed)-263.5(for)-261.3(assigning)-276.7(a)-256.1(unique)-260.1(derivation)-254.9(tree)-246.9(to)-267.6(a)]TJ
+T*
+[(string)-322.2(purporting)-314.7(to)-322.2(be)-310.7(a)-310.7(sentence.)-298.5(In)-312.4(real)-301.5(life,)-317.5(we)-306.7(use)]TJ
+/TT9 1 Tf
+22.2 0 TD
+(two)Tj
+/TT2 1 Tf
+1.7818 0 TD
+[(BNF)-336.5(de)]TJ
+/TT7 1 Tf
+3.2257 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nitions:)-345(one)-319.8(to)-331.3(determine)]TJ
+-27.7636 -1.2 TD
+[(the)-323.8(derivation)-318.5(tree)-310.6(that)-327.8(a)-319.8(string)-331.3(abbreviates,)-305.9(and)-319.8(one)-319.8(to)-331.3(analyze)-301.3(the)-323.8(treeís)-306.6(structure)-301.5(and)-310.7(deter-)]TJ
+T*
+[(mine)-255(its)-264.3(semantics.)-252.1(Call)-260.8(these)-245.3(the)]TJ
+/TT9 1 Tf
+13.6091 0 TD
+(concrete)Tj
+/TT2 1 Tf
+3.6727 0 TD
+(and)Tj
+/TT9 1 Tf
+1.6909 0 TD
+[(abstract)-258.5(syntax)-245.3(de)]TJ
+/TT10 1 Tf
+7.2802 0 TD
+(ﬁ)Tj
+/TT9 1 Tf
+0.5 0 TD
+(nitions)Tj
+/TT2 1 Tf
+2.7227 0 TD
+[(,)-265.3(respectively.)]TJ
+-27.4756 -1.2 TD
+[(A)-305.1(formal)-298.1(relationship)-306.1(exists)-322.2(between)-295.7(an)-310.7(abstract)-299.7(syntax)-316.4(de)]TJ
+/TT7 1 Tf
+23.7802 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-330.1(and)-310.7(its)-327.9(concrete)-286.5(coun-)]TJ
+-26.3364 -1.2 TD
+[(terpart.)-267.9(The)-272.6(tree)-265.1(generated)-250.1(for)-270.3(a)-274.3(string)-285.8(by)-272.7(the)-269.2(concrete)-241(de)]TJ
+/TT7 1 Tf
+22.9075 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-284.7(identi)]TJ
+/TT7 1 Tf
+4.8955 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(es)-279(a)-265.2(derivation)-264(tree)-256(for)]TJ
+-28.9153 -1.2 TD
+[(the)-305.6(string)-322.2(in)-322.2(the)-314.7(abstract)-299.7(de)]TJ
+/TT7 1 Tf
+11.1166 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition.)-334.7(For)-319.9(example,)-308.2(the)-314.7(concrete)-286.5(derivation)-309.4(tree)-301.5(for)-561.3(4)]TJ
+/TT4 1 Tf
+22.3364 0 TD
+(◊)Tj
+/TT2 1 Tf
+0.7182 0 TD
+(2)Tj
+/TT4 1 Tf
+0.6636 0 TD
+(+)Tj
+/TT2 1 Tf
+0.7182 0 TD
+0.5727 Tc
+[(1i)572.7(n)]TJ
+-36.1091 -1.2 TD
+0 Tc
+[(Figure)-252.8(1.4)-259.1(identi)]TJ
+/TT7 1 Tf
+6.6501 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(es)-260.8(the)-251(tree)-237.8(in)-258.5(Figure)-252.8(1.2)-259.1(because)-226.4(the)-251(branching)-237.8(structures)-239.6(of)-248.8(the)-251(trees)-239.6(match.)]TJ
+-5.2062 -1.2 TD
+[(Concrete)-254.3(syntax)-271(de)]TJ
+/TT7 1 Tf
+7.6893 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nitions)-286.4(will)-280.7(no)-272.7(longer)-263.5(be)-265.2(used)-267(in)-285.8(this)-291.5(text.)-286.9(They)-272.6(handle)-270.8(parsing)-274.3(prob-)]TJ
+-10.2455 -1.2 TD
+[(lems,)-388.6(which)-374.3(do)-381.8(not)-385.8(concern)-353.6(us.)-388.1(We)-366.8(will)-389.8(always)-368.6(work)-372.1(with)-385.8(derivation)-364(trees,)-362.3(not)-376.7(strings.)-383(Do)]TJ
+T*
+[(remember)-392.2(that)-418.7(the)-414.7(concrete)-386.5(syntax)-416.4(de)]TJ
+/TT7 1 Tf
+15.7438 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-430.1(is)-423.9(derived)-410.6(from)-419.8(the)-423.8(abstract)-408.8(one)-419.8(and)-419.8(that)-427.8(the)]TJ
+/TT6 1 Tf
+-16.3 -3 TD
+[(Figure)-249.3(1.4)]TJ
+0 -0.4 TD
+[(_)36.4(___________________________________________________________________________)]TJ
+0.9818 0 TD
+(________________________________________________________________________)Tj
+/TT2 1 Tf
+15.0182 -2.6 TD
+[(<)-81.5(expression>)]TJ
+-10 -2.4 TD
+[(<)-81.5(expression>)-2768.3(<)-81.5(lowop>)-2036(<)-81.5(term>)]TJ
+T*
+[(<)-81.5(term>)-14958.1(<)-81.5(factor>)]TJ
+-6 -2.4 TD
+[(<)-81.5(term>)-2958.1(<)-81.5(highop>)-12.7(<)-81.5(factor>)-6459(<)-81.5(numeral>)]TJ
+T*
+[(<)-81.5(factor>)-6459(<)-81.5(numeral>)-7514.2(<)-81.5(digit>)]TJ
+T*
+[(<)-81.5(numeral>)-7514.2(<)-81.5(digit>)]TJ
+T*
+[(<)-81.5(digit>)]TJ
+2 -2.4 TD
+(4)Tj
+/TT4 1 Tf
+6 0 TD
+(◊)Tj
+/TT2 1 Tf
+6 0 TD
+3.5 Tc
+[(2+)-3936(1)]TJ
+-14 -1.6 TD
+0 Tc
+[(_)36.4(___________________________________________________________________________)]TJ
+ET
+endstream
+endobj
+21 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT7 8 0 R
+/TT9 9 0 R
+/TT10 22 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+24 0 obj
+<<
+/Length 9787
+>>
+stream
+BT
+/TT9 1 Tf
+10 0 0 10 470.7 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(Syntax     )Tj
+/TT6 1 Tf
+3.9155 0 TD
+(9)Tj
+/TT2 1 Tf
+11 0 0 11 97.2 682.4601 Tm
+[(abstract)-236.1(syntax)-252.8(de)]TJ
+/TT7 1 Tf
+7.1529 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-266.5(is)-260.3(the)-251(true)-245.3(de)]TJ
+/TT7 1 Tf
+7.7438 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-266.5(of)-248.8(language)-236.1(structure.)]TJ
+/TT6 1 Tf
+-16.0091 -4.8 TD
+[(1.1)-259.1( ABSTRACT)-267.8(SYNTAX)-251.8(DEFINITIONS )]TJ
+/TT4 1 Tf
+18.6992 0 TD
+(_)Tj
+0.0372 0 TD
+(_)Tj
+0.0546 0 TD
+(_)Tj
+0.0182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(_)Tj
+/TT2 1 Tf
+-37.4636 -2.4 TD
+[(Abstract)-248.7(syntax)-261.9(de)]TJ
+/TT7 1 Tf
+7.4529 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nitions)-277.3(describe)-241.2(structure.)-251.5(Terminal)-253.1(symbols)-275.1(disappear)-241.2(entirely)-254.9(if)-261.9(we)-261.3(study)]TJ
+-8.0091 -1.2 TD
+[(abstract)-263.4(syntax)-280.1(at)-278.3(the)-269.2(word)-263(level.)-270.3(The)-263.5(building)-284.7(blocks)-271(of)-267(abstract)-254.3(syntax)-271(are)-252(words)-264.8(\(also)-265.2(called)]TJ
+/TT9 1 Tf
+T*
+(tokens,)Tj
+/TT2 1 Tf
+3.0818 0 TD
+[(as)-276.1(in)-285.8(compiling)-290.3(theory\))-266.9(rather)-259.4(than)-278.3(terminal)-277.1(symbols.)-561.5(This)-294.9(relates)-272.4(syntax)-289.2(to)-294.9(semantics)]TJ
+-3.0818 -1.2 TD
+[(more)-245.3(closely,)-253.8(for)-243.1(meanings)-249.3(are)-233.8(assigned)-247.1(to)-258.5(entire)-241.8(words,)-251.1(not)-258.5(to)-258.5(individual)-263(symbols.)]TJ
+2 -1.2 TD
+[(Here)-466.2(is)-496.6(the)-487.4(abstract)-472.4(syntax)-489.2(de)]TJ
+/TT7 1 Tf
+12.9075 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-502.9(of)-485.2(arithmetic)-482.7(once)-475.9(again,)-484.5(where)-475.3(the)-496.5(numerals,)]TJ
+-15.4636 -1.2 TD
+[(parentheses,)-230.9(and)-247.1(operators)-233.8(are)-233.8(treated)-234.3(as)-248.8(tokens:)]TJ
+1.8182 -2.3636 TD
+[(<)-81.5(expression>)-241(::=)-262.2(<)-81.5(numeral>)-241.5(|)-254.4(<)-81.5(expression>)-241(<)-81.5(operator>)-231.8(<)-81.5(expression>)]TJ
+8.1636 -1.3818 TD
+(|)Tj
+/TT9 1 Tf
+0.6182 0 TD
+(left-paren)Tj
+/TT2 1 Tf
+4.1909 0 TD
+[(<)-81.5(expression>)]TJ
+/TT9 1 Tf
+5.7273 0 TD
+(right-paren)Tj
+/TT2 1 Tf
+-18.7 -1.3818 TD
+[(<)-81.5(operator>)-231.8(::=)]TJ
+/TT9 1 Tf
+6.1545 0 TD
+(plus)Tj
+/TT2 1 Tf
+2.0909 0 TD
+(|)Tj
+/TT9 1 Tf
+0.6182 0 TD
+(minus)Tj
+/TT2 1 Tf
+2.8091 0 TD
+(|)Tj
+/TT9 1 Tf
+0.6182 0 TD
+(mult)Tj
+/TT2 1 Tf
+2.2 0 TD
+(|)Tj
+/TT9 1 Tf
+0.6182 0 TD
+(div)Tj
+/TT2 1 Tf
+-15.1091 -1.3818 TD
+[(<)-81.5(numeral>)-241.5(::=)]TJ
+/TT9 1 Tf
+6.1091 0 TD
+(zero)Tj
+/TT2 1 Tf
+2.1364 0 TD
+(|)Tj
+/TT9 1 Tf
+0.6182 0 TD
+(one)Tj
+/TT2 1 Tf
+1.8545 0 TD
+(|)Tj
+/TT9 1 Tf
+0.6182 0 TD
+(two)Tj
+/TT2 1 Tf
+1.8727 0 TD
+(|)Tj
+0.8727 0.3 TD
+0.2591 Tc
+(...)Tj
+1.9455 -0.3 TD
+0 Tc
+(|)Tj
+/TT9 1 Tf
+0.6182 0 TD
+(ninety-nine)Tj
+/TT2 1 Tf
+4.9 0 TD
+(|)Tj
+/TT9 1 Tf
+0.6182 0 TD
+(one-hundred)Tj
+/TT2 1 Tf
+5.5091 0 TD
+(|)Tj
+0.8727 0.3 TD
+0.2591 Tc
+(...)Tj
+-30.3636 -2.4818 TD
+0 Tc
+[(The)-254.4(structure)-246.9(of)-257.9(arithmetic)-264.5(remains,)-266.3(but)-276.7(all)-273.2(traces)-250.3(of)-267(text)-273.2(vanish.)-530.1(The)-263.5(derivation)-264(trees)-257.8(have)-257.8(the)]TJ
+0 -1.2 TD
+[(same)-245.3(structure)-237.8(as)-248.8(before,)-232.7(but)-258.5(the)-251(treeís)-233.8(leaves)-237.8(are)-233.8(tokens)-252.8(instead)-249.3(of)-248.8(symbols.)]TJ
+2 -1.2 TD
+[(Set)-322.2(theory)-308.9(gives)-316.4(us)-319.9(an)-310.7(even)-303.2(more)-308.9(abstract)-299.7(view)-310.7(of)-312.4(abstract)-299.7(syntax.)-321(Say)-318.2(that)-327.8(each)-304.8(nonter-)]TJ
+-2 -1.2 TD
+[(minal)-340.8(in)-340.4(a)-319.8(BNF)-336.5(de)]TJ
+/TT7 1 Tf
+7.7257 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-339.2(names)-318(the)-323.8(set)-325.5(of)-321.5(those)-325.5(phrases)-310.1(that)-327.8(have)-312.3(the)-323.8(structure)-310.6(speci)]TJ
+/TT7 1 Tf
+26.8638 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ed)-318(by)]TJ
+-35.7018 -1.2 TD
+[(the)-260.1(nonterminalís)-254.9(BNF)-272.9(rule.)-258.9(But)-273.4(the)-260.1(rule)-254.4(can)-248.7(be)-256.2(discarded:)-499.7(we)-252.2(introduce)-250.9(syntax)-261.9(builder)-258.4(opera-)]TJ
+T*
+[(tions,)-268.8(one)-247.1(for)-243.1(each)-232.1(form)-247.1(on)-254.5(the)-251(right-hand)-243.6(side)-252.8(of)-248.8(the)-251(rule.)]TJ
+2 -1.2 TD
+[(Figure)-252.8(1.5)-259.1(shows)-254.1(the)-251(set)-252.8(theoretic)-238.3(formulation)-251.5(of)-248.8(the)-251(syntax)-252.8(of)-248.8(arithmetic.)]TJ
+T*
+[(The)-472.6(language)-463.4(consists)-487.6(of)-476.1(three)-465.1(sets)-481.8(of)-485.2(values:)-485.7(expressions,)-484(arithmetic)-482.7(operators,)-474.8(and)]TJ
+-2 -1.2 TD
+[(numerals.)-275.4(The)-272.6(members)-270.8(of)-276.1(the)]TJ
+/TT9 1 Tf
+12.5636 0 TD
+(Numeral)Tj
+/TT2 1 Tf
+3.7818 0 TD
+[(set)-280.1(are)-261.1(exactly)-267.3(those)-280.1(values)-272.6(built)-293.8(by)-281.8(the)-278.3(ëëoperationsíí)]TJ
+-16.3455 -1.2 TD
+[(\(in)-261.9(this)-273.4(case,)-247.5(they)-260.1(are)-252(really)-260(constants\))]TJ
+/TT9 1 Tf
+15.6182 0 TD
+(zero)Tj
+/TT2 1 Tf
+1.7222 0 TD
+(,)Tj
+/TT9 1 Tf
+0.5233 0 TD
+(one)Tj
+/TT2 1 Tf
+1.4438 0 TD
+(,)Tj
+/TT9 1 Tf
+0.5198 0 TD
+(two)Tj
+/TT2 1 Tf
+1.4448 0 TD
+[(,)-287(and)-265.2(so)-274.5(on.)-277.3(No)-268.7(other)-263.5(values)-263.5(are)-252(members)]TJ
+-21.2721 -1.2 TD
+[(of)-357.9(the)]TJ
+/TT9 1 Tf
+2.7727 0 TD
+(Numeral)Tj
+/TT2 1 Tf
+3.8636 0 TD
+[(set.)-366.4(Similarly,)-382.4(the)]TJ
+/TT9 1 Tf
+7.6636 0 TD
+(Operator)Tj
+/TT2 1 Tf
+4.0818 0 TD
+[(set)-361.9(contains)-358.4(just)-373.4(the)-360.1(four)-352.2(values)-354.4(denoted)-352.7(by)-354.5(the)]TJ
+-18.3818 -1.2 TD
+(constants)Tj
+/TT9 1 Tf
+4.0545 0 TD
+(plus)Tj
+/TT2 1 Tf
+1.667 0 TD
+(,)Tj
+/TT9 1 Tf
+0.5966 0 TD
+(minus)Tj
+/TT2 1 Tf
+2.3892 0 TD
+(,)Tj
+/TT9 1 Tf
+0.5927 0 TD
+(mult)Tj
+/TT2 1 Tf
+1.7778 0 TD
+[(,)-344.9(and)]TJ
+/TT9 1 Tf
+2.3676 0 TD
+(div)Tj
+/TT2 1 Tf
+1.2217 0 TD
+[(.)-592(Members)-323.1(of)-330.6(the)]TJ
+/TT9 1 Tf
+7.6601 0 TD
+(Expression)Tj
+/TT2 1 Tf
+4.7727 0 TD
+[(set)-343.7(are)-324.7(built)-357.4(with)-349.4(the)-342(three)]TJ
+-27.1 -1.2 TD
+(operations)Tj
+/TT9 1 Tf
+4.6091 0 TD
+(make-numeral-into-expression)Tj
+/TT2 1 Tf
+12.2744 0 TD
+(,)Tj
+/TT9 1 Tf
+0.6619 0 TD
+(make-compound-expression)Tj
+/TT2 1 Tf
+11.2188 0 TD
+[(,)-404(and)]TJ
+/TT9 1 Tf
+2.5358 0 TD
+(make-bracketed-)Tj
+-31.3 -1.2 TD
+(expression)Tj
+/TT2 1 Tf
+4.2769 0 TD
+[(.)-518.6(Consider)]TJ
+/TT9 1 Tf
+4.6504 0 TD
+(make-numeral-into-expression)Tj
+/TT2 1 Tf
+12.2744 0 TD
+[(;)-229.6(i)0(t)-280.7(converts)-266.9(a)-274.3(value)-270.8(from)-274.3(the)]TJ
+/TT9 1 Tf
+11.871 0 TD
+(Numeral)Tj
+/TT2 1 Tf
+3.7818 0 TD
+(set)Tj
+-36.8545 -1.2 TD
+[(into)-353.4(a)-338(value)-334.5(in)-349.4(the)]TJ
+/TT9 1 Tf
+7.8818 0 TD
+(Expression)Tj
+/TT2 1 Tf
+4.7818 0 TD
+[(set.)-602.8(The)-336.2(operation)-332.7(re)]TJ
+/TT7 1 Tf
+8.7405 0 TD
+(ﬂ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ects)-321.4(the)-332.9(idea)-325.4(that)-500.5(any)-492.5(known)-496(numeral)]TJ
+-21.9603 -1.2 TD
+[(can)-766.8(be)-692.5(used)-694.3(as)-785.2(an)-783.4(expression.)-1409.5(Similarly,)]TJ
+/TT9 1 Tf
+20.3818 0 TD
+(make-compound-expression)Tj
+/TT2 1 Tf
+11.7091 0 TD
+[(combines)-540.2(two)]TJ
+-32.0909 -1.2 TD
+[(known)-296(members)-289(of)-294.3(the)]TJ
+/TT9 1 Tf
+9.6182 0 TD
+(Expression)Tj
+/TT2 1 Tf
+4.7364 0 TD
+[(set)-298.3(with)-294.9(a)-283.4(member)-278.2(of)-285.2(the)]TJ
+/TT9 1 Tf
+10.3909 0 TD
+(Operation)Tj
+/TT2 1 Tf
+4.4 0 TD
+[(set)-289.2(to)-294.9(build)-298.9(a)-283.4(member)]TJ
+-29.1455 -1.2 TD
+[(of)-321.5(the)]TJ
+/TT9 1 Tf
+2.7 0 TD
+(Expression)Tj
+/TT2 1 Tf
+4.7727 0 TD
+[(set.)-339.2(Note)-328.9(that)]TJ
+/TT9 1 Tf
+5.8091 0 TD
+(make-bracketed-expression)Tj
+/TT2 1 Tf
+11.2636 0 TD
+[(does)-330.6(not)-340.3(need)-321.4(parenthesis)-319.6(tokens)]TJ
+-24.5455 -1.2 TD
+[(to)-358.5(complete)-344.1(its)-364.3(mapping;)-359(the)-351(parentheses)-326.4(were)-329.9(just)-364.3(ëëwindow)-330(dressing.íí)-332.8(As)-343.2(an)-338(example,)-335.5(the)]TJ
+T*
+[(expression)-723.1(4)-736.4(+)-736(12)-745.5(is)-751.2(represented)-709.8(by)]TJ
+/TT9 1 Tf
+17.7636 0 TD
+[(make-compound-expression)-690.3(\(make-numeral-into-)]TJ
+-17.7636 -1.2 TD
+[(expression\(four\),)-240.1(plus,)-264.8(make-numeral-into-expression\(twelve\)\).)]TJ
+/TT2 1 Tf
+2 -1.2 TD
+[(When)-412.3(we)-415.8(work)-417.6(with)-431.3(the)-423.8(set)-425.5(theoretic)-411(formulation)-424.3(of)-421.5(abstract)-408.8(syntax,)-430.1(we)-415.8(forget)-412.3(about)]TJ
+-2 -1.2 TD
+[(words)-401.1(and)-401.6(derivation)-400.3(trees)-394.1(and)-401.6(work)-399.4(in)-404(the)-396.5(world)-394.3(of)-394.3(sets)-400(and)-392.5(operations.)-393.6(The)-390.8(set)-398.3(theoretic)]TJ
+T*
+[(approach)-244.5(reinforces)-238.8(our)-267(view)-265.2(that)-273.2(syntax)-271(is)-278.5(not)-276.7(tied)-282.3(to)-285.8(symbols;)-297.3(it)-289.8(is)-287.6(a)-274.3(matter)-273.1(of)-276.1(structure.)-524.2(We)]TJ
+T*
+[(use)-294.3(the)-296.5(term)]TJ
+/TT9 1 Tf
+5.2727 0 TD
+[(syntax)-290.8(domain)]TJ
+/TT2 1 Tf
+6.1455 0 TD
+[(for)-288.5(a)-292.5(collection)-293.5(of)-285.2(values)-281.7(with)-294.9(common)-291.4(syntactic)-282.2(structure.)-278.7(Arith-)]TJ
+-11.4182 -1.2 TD
+[(metic)-251.5(has)-248.8(three)-237.8(syntax)-252.8(domains.)]TJ
+2 -1.2 TD
+[(In)-457.9(this)-473.4(book,)-468.2(we)-452.2(use)-457.9(a)-456.2(more)-454.4(readable)-432(version)-456.2(of)-457.9(set-theoretic)-439.9(abstract)-445.2(syntax)-471(due)-465.2(to)]TJ
+ET
+endstream
+endobj
+25 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT7 8 0 R
+/TT9 9 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+27 0 obj
+<<
+/Length 5920
+>>
+stream
+BT
+/TT6 1 Tf
+10 0 0 10 97.2 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(10)Tj
+/TT9 1 Tf
+1 0 TD
+(     Syntax)Tj
+/TT6 1 Tf
+11 0 0 11 97.2 682.4601 Tm
+[(Figure)-249.3(1.5)]TJ
+0 -0.4 TD
+[(_)36.4(___________________________________________________________________________)]TJ
+0.9818 0 TD
+(________________________________________________________________________)Tj
+/TT2 1 Tf
+-0.9818 -2.6 TD
+(Sets:)Tj
+/TT9 1 Tf
+2 -1.2 TD
+(Expression)Tj
+T*
+(Op)Tj
+T*
+(Numeral)Tj
+/TT2 1 Tf
+-2 -2.4 TD
+(Operations:)Tj
+/TT9 1 Tf
+2 -1.2 TD
+(make-numeral-into-expression)Tj
+/TT2 1 Tf
+12.2744 0 TD
+(:)Tj
+/TT9 1 Tf
+0.4892 0 TD
+(Numeral)Tj
+/TT3 1 Tf
+3.5818 0 TD
+<0041>Tj
+/TT9 1 Tf
+1.1545 0 TD
+(Expression)Tj
+-17.5 -1.2 TD
+(make-compound-expression)Tj
+/TT2 1 Tf
+11.2188 0 TD
+(:)Tj
+/TT9 1 Tf
+0.4812 0 TD
+(Expression)Tj
+/TT4 1 Tf
+4.5182 0 TD
+(◊)Tj
+/TT9 1 Tf
+0.7182 0 TD
+(Op)Tj
+/TT4 1 Tf
+1.3 0 TD
+(◊)Tj
+/TT9 1 Tf
+0.7182 0 TD
+(Expression)Tj
+/TT3 1 Tf
+4.5182 0 TD
+<0041>Tj
+/TT9 1 Tf
+1.1545 0 TD
+(Expression)Tj
+-24.6273 -1.2 TD
+(make-bracketed-expression)Tj
+/TT2 1 Tf
+10.9951 0 TD
+(:)Tj
+/TT9 1 Tf
+0.4685 0 TD
+(Expression)Tj
+/TT3 1 Tf
+4.5182 0 TD
+<0041>Tj
+/TT9 1 Tf
+1.1545 0 TD
+(Expression)Tj
+-17.1364 -2.4 TD
+(plus)Tj
+/TT2 1 Tf
+1.667 0 TD
+(:)Tj
+/TT9 1 Tf
+0.5421 0 TD
+(Op)Tj
+-2.2091 -1.2 TD
+(minus)Tj
+/TT2 1 Tf
+2.3892 0 TD
+(:)Tj
+/TT9 1 Tf
+0.5381 0 TD
+(Op)Tj
+-2.9273 -1.2 TD
+(mult)Tj
+/TT2 1 Tf
+1.7778 0 TD
+(:)Tj
+/TT9 1 Tf
+0.5403 0 TD
+(Op)Tj
+-2.3182 -1.2 TD
+(div)Tj
+/TT2 1 Tf
+1.2217 0 TD
+(:)Tj
+/TT9 1 Tf
+0.5329 0 TD
+(Op)Tj
+-1.7545 -2.4 TD
+(zero)Tj
+/TT2 1 Tf
+1.7222 0 TD
+(:)Tj
+/TT9 1 Tf
+0.5324 0 TD
+(Numeral)Tj
+-2.2545 -1.2 TD
+(one)Tj
+/TT2 1 Tf
+1.4438 0 TD
+(:)Tj
+/TT9 1 Tf
+0.5289 0 TD
+(Numeral)Tj
+-1.9727 -1.2 TD
+(two)Tj
+/TT2 1 Tf
+1.4448 0 TD
+(:)Tj
+/TT9 1 Tf
+0.5461 0 TD
+(Numeral)Tj
+-1.7364 -0.9 TD
+0.2591 Tc
+(...)Tj
+-0.2545 -1.5 TD
+0 Tc
+(ninety-nine)Tj
+/TT2 1 Tf
+4.498 0 TD
+(:)Tj
+/TT9 1 Tf
+0.5201 0 TD
+(Numeral)Tj
+-5.0182 -1.2 TD
+(one-hundred)Tj
+/TT2 1 Tf
+5.1099 0 TD
+(:)Tj
+/TT9 1 Tf
+0.5174 0 TD
+(Numeral)Tj
+-5.3727 -0.9 TD
+0.2591 Tc
+(...)Tj
+/TT2 1 Tf
+-2.2545 -1.9 TD
+0 Tc
+[(_)36.4(___________________________________________________________________________)]TJ
+0 -2.6 TD
+[(Strachey.)-624.2(We)-366.8(specify)-366.8(a)-374.3(languageís)-359.4(syntax)-380.1(by)-381.8(listing)-399.5(its)-391.5(syntax)-380.1(domains)-384.1(and)-374.3(its)-400.6(BNF)-400.1(rules.)]TJ
+0 -1.2 TD
+[(Figure)-252.8(1.6)-259.1(shows)-254.1(the)-251(syntax)-252.8(of)-248.8(a)-247.1(block-structured)-228.6(programming)-247.6(language)-236.1(in)-258.5(the)-251(new)-243.1(format.)]TJ
+2 -1.2 TD
+[(As)-406.9(an)-401.6(example)-394.6(from)-401.6(Figure)-407.3(1.6,)-418.2(the)-405.6(phrase)-390.1(B)]TJ
+/TT3 1 Tf
+19.2215 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.7129 0 TD
+[(Block)-413.3(indicates)-400.3(that)-409.6(Block)-420.4(is)-423.9(a)-410.7(syntax)]TJ
+-21.9344 -1.2 TD
+[(domain)-318.7(and)-301.6(that)-309.6(B)-314.8(i)0(s)-314.8(the)-305.6(nonterminal)-304.3(that)-309.6(represents)-282.7(an)-301.6(arbitrary)-284.9(member)-296.4(of)-303.4(the)-305.6(domain.)-314.1(The)]TJ
+T*
+[(structure)-274.2(of)-285.2(blocks)-289.2(is)-296.6(given)-287.4(by)-300(the)-296.5(BNF)-309.2(rule)-290.8(B::=)-177(D;C)-305.7(which)-292.5(says)-296(that)-300.5(any)-292.5(block)-296.5(must)-309.7(consist)]TJ
+T*
+[(of)-267(a)-265.2(declaration)-249(\(represented)-231.3(by)-272.7(D\))-263(and)-265.2(a)-256.2(command)-256.6(\(represented)-222.2(by)-263.6(C\).)-268.2(The)-254.4(;)-267.6(token)-260.1(isnít)-267.6(really)]TJ
+T*
+[(necessary,)-226.9(but)-258.5(we)-243.1(keep)-239.6(it)-262.5(to)-258.5(make)-243.6(the)-251(rule)-245.3(readable.)]TJ
+2 -1.2 TD
+[(The)-263.5(structures)-257.8(of)-267(programs,)-264.1(declarations,)-255.3(commands,)-272(expressions,)-265.8(and)-265.2(operators)-261.1(are)-261.1(simi-)]TJ
+-2 -1.2 TD
+[(larly)-367.5(speci)]TJ
+/TT7 1 Tf
+4.2547 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ed.)-368(\(Note)-359.5(that)-373.2(the)-369.2(Expression)-365.2(syntax)-361.9(domain)-364.1(is)-369.4(the)-360.1(set)-361.9(of)-357.9(arithmetic)-355.4(expressions)]TJ
+-4.8108 -1.2 TD
+[(that)-318.7(we)-306.7(have)-303.2(been)-303.2(studying.\))-326.7(No)-314.2(BNF)-327.4(rules)-310.7(exist)-320.4(for)-306.7(Identi)]TJ
+/TT7 1 Tf
+24.1052 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(er)-307.2(or)-312.4(Numeral,)-306(because)-290(these)-308.9(are)]TJ
+-24.6614 -1.2 TD
+[(collections)-277.1(of)-267(tokens.)-275.5(Figures)-272.7(1.7)-277.3(and)-265.2(1.8)-277.3(give)-269.2(the)-269.2(syntax)-271(de)]TJ
+/TT7 1 Tf
+24.1893 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nitions)-286.4(for)-261.3(an)-265.2(interactive)]TJ
+/TT7 1 Tf
+10.1182 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(le)-276.7(edi-)]TJ
+-35.4198 -1.2 TD
+[(tor)-343.7(and)-338(a)-338(list)-359.2(processing)-332.2(language.)-331.5(\(The)]TJ
+/TT6 1 Tf
+16.6182 0 TD
+(cr)Tj
+/TT2 1 Tf
+1.2182 0 TD
+[(token)-342(in)-349.4(Figure)-352.8(1.7)-359.1(represents)-328.1(the)-351(carriage)-317.1(return)]TJ
+-17.8364 -1.2 TD
+(symbol.\))Tj
+2 -1.2 TD
+[(A)-405.1(good)-409.1(syntax)-407.3(de)]TJ
+/TT7 1 Tf
+7.4984 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-421(lends)-407.3(a)-401.6(lot)-426.2(of)-412.4(help)-414.7(toward)-405(understanding)-407.2(the)-414.7(semantics)-411.2(of)-412.4(a)]TJ
+-10.0545 -1.2 TD
+[(language.)-595.2(Your)-344.8(experience)-315.4(with)-358.5(block-structured)-328.6(languages)-337.8(helps)-343.7(you)-345.5(recognize)-313.8(some)-343.7(fami-)]TJ
+T*
+[(liar)-394.8(constructs)-390.8(in)-404(Figure)-407.3(1.6.)-418.2(Of)-399.4(course,)-394.7(no)-409.1(semantic)-400.3(questions)-413.1(are)-388.4(answered)-378.7(by)-409.1(the)-405.6(syntax)]TJ
+T*
+(de)Tj
+/TT7 1 Tf
+0.9438 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-312(alone.)-293.6(If)-288.5(you)-300(are)-279.3(familiar)-289.5(with)-304(ALGOL60)-284.5(and)-292.5(LISP,)-312(you)-300(may)-296.5(have)-285(noted)-296.5(a)-292.5(number)]TJ
+-1.5 -1.2 TD
+[(of)-248.8(constructs)-245.3(in)-258.5(Figures)-254.5(1.6)-259.1(and)-247.1(1.8)-259.1(that)-255(have)-239.6(a)-247.1(variety)-241.8(of)-248.8(possible)-258.5(semantics.)]TJ
+ET
+endstream
+endobj
+28 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT7 8 0 R
+/TT9 9 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+30 0 obj
+<<
+/Length 4468
+>>
+stream
+BT
+/TT9 1 Tf
+10 0 0 10 317.9 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(1.2  Mathematical and Structural Induction     )Tj
+/TT6 1 Tf
+18.6924 0 TD
+(11)Tj
+11 0 0 11 97.2 682.4601 Tm
+[(Figure)-249.3(1.6)]TJ
+0 -0.4 TD
+[(_)36.4(___________________________________________________________________________)]TJ
+0.9818 0 TD
+(________________________________________________________________________)Tj
+/TT2 1 Tf
+-0.9818 -2.6 TD
+[(Abstract)-239.6(syntax:)]TJ
+1 -1.5545 TD
+(P)Tj
+/TT3 1 Tf
+0.5562 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.9711 0 TD
+(Program)Tj
+-1.5273 -1.2 TD
+(B)Tj
+/TT3 1 Tf
+0.667 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.9694 0 TD
+(Block)Tj
+-1.6364 -1.2 TD
+(D)Tj
+/TT3 1 Tf
+0.7222 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.9597 0 TD
+(Declaration)Tj
+-1.6818 -1.2 TD
+(C)Tj
+/TT3 1 Tf
+0.667 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.9694 0 TD
+(Command)Tj
+-1.6364 -1.2 TD
+(E)Tj
+/TT3 1 Tf
+0.6108 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.9619 0 TD
+(Expression)Tj
+-1.5727 -1.2 TD
+(O)Tj
+/TT3 1 Tf
+0.7222 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.9597 0 TD
+(Operator)Tj
+-1.6818 -1.2 TD
+(I)Tj
+/TT3 1 Tf
+0.4909 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.9636 0 TD
+(Identi)Tj
+/TT7 1 Tf
+2.3325 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+(er)Tj
+-4.3432 -1.2 TD
+(N)Tj
+/TT3 1 Tf
+0.7222 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.9597 0 TD
+(Numeral)Tj
+-2.6818 -1.7364 TD
+[(P)-262(::=)-262.2(B.)]TJ
+0 -1.3818 TD
+[(B)-260.3(::=)-262.2(D;C)]TJ
+T*
+[(D)-250.6(::=)]TJ
+/TT6 1 Tf
+2.3545 0 TD
+(var)Tj
+/TT2 1 Tf
+1.6909 0 TD
+0.2488 Tc
+(I|)Tj
+/TT6 1 Tf
+1.0364 0 TD
+0 Tc
+(procedure)Tj
+/TT2 1 Tf
+4.6273 0 TD
+[(I;)-161.9(C)-260.3(|)-254.4(D)]TJ
+8 0 0 8 235.6438 488.2601 Tm
+(1)Tj
+11 0 0 11 240.5 490.4601 Tm
+0.1676 Tc
+(;D)Tj
+8 0 0 8 253.3438 488.2601 Tm
+0 Tc
+(2)Tj
+11 0 0 11 97.2 475.2601 Tm
+[(C)-260.3(::=)-262.2(I:)]TJ
+/TT4 1 Tf
+2.9199 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+0.2568 Tc
+(E|)Tj
+/TT6 1 Tf
+1.3222 0 TD
+0 Tc
+(if)Tj
+/TT2 1 Tf
+0.8636 0 TD
+(E)Tj
+/TT6 1 Tf
+0.8636 0 TD
+(then)Tj
+/TT2 1 Tf
+2.1455 0 TD
+0.2603 Tc
+(C|)Tj
+/TT6 1 Tf
+1.3818 0 TD
+0 Tc
+(while)Tj
+/TT2 1 Tf
+2.5364 0 TD
+(E)Tj
+/TT6 1 Tf
+0.8636 0 TD
+(do)Tj
+/TT2 1 Tf
+1.3182 0 TD
+0.2603 Tc
+[(C|)6(C)]TJ
+8 0 0 8 282.1369 473.0601 Tm
+0 Tc
+(1)Tj
+11 0 0 11 287.1 475.2601 Tm
+(;C)Tj
+8 0 0 8 297.4931 473.0601 Tm
+(2)Tj
+11 0 0 11 305.3 475.2601 Tm
+(|)Tj
+/TT6 1 Tf
+0.4545 0 TD
+(begin)Tj
+/TT2 1 Tf
+2.6 0 TD
+(B)Tj
+/TT6 1 Tf
+0.9273 0 TD
+(end)Tj
+/TT2 1 Tf
+-22.9 -1.3818 TD
+[(E)-252.8(::=)-262.2(I)-248.8(|)-254.4(N)-250.6(|)-254.3(E)]TJ
+8 0 0 8 155.7192 457.86 Tm
+(1)Tj
+11 0 0 11 163.4 460.0601 Tm
+0.2506 Tc
+(OE)Tj
+8 0 0 8 180.8192 457.86 Tm
+0 Tc
+(2)Tj
+11 0 0 11 188.5 460.0601 Tm
+[(|)-254.4(\(E\))]TJ
+-8.3 -1.3818 TD
+[(O)-250.6(::=)-262.2(+)-254.2(|)]TJ
+/TT3 1 Tf
+3.6273 0 TD
+<003c>Tj
+/TT2 1 Tf
+0.8091 0 TD
+(|)Tj
+/TT3 1 Tf
+0.4545 0 TD
+<009b>Tj
+/TT2 1 Tf
+0.7545 0 TD
+(|)Tj
+/TT6 1 Tf
+0.4545 0 TD
+(div)Tj
+/TT2 1 Tf
+-6.1 -1.6 TD
+[(_)36.4(___________________________________________________________________________)]TJ
+/TT6 1 Tf
+0 -2.6 TD
+[(Figure)-249.3(1.7)]TJ
+0 -0.4 TD
+[(_)36.4(___________________________________________________________________________)]TJ
+0.9818 0 TD
+(________________________________________________________________________)Tj
+/TT2 1 Tf
+-0.9818 -2.6 TD
+[(Abstract)-239.6(syntax:)]TJ
+1 -1.5545 TD
+(P)Tj
+/TT3 1 Tf
+0.5562 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.9711 0 TD
+(Program-session)Tj
+-1.5273 -1.2 TD
+(S)Tj
+/TT3 1 Tf
+0.5562 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.9711 0 TD
+(Command-sequence)Tj
+-1.5273 -1.2 TD
+(C)Tj
+/TT3 1 Tf
+0.667 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.9694 0 TD
+(Command)Tj
+-1.6364 -1.2 TD
+(R)Tj
+/TT3 1 Tf
+0.667 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.9694 0 TD
+(Record)Tj
+-1.6364 -1.2 TD
+(I)Tj
+/TT3 1 Tf
+0.4909 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.9636 0 TD
+(Identi)Tj
+/TT7 1 Tf
+2.3325 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+(er)Tj
+-5.3432 -1.7364 TD
+[(P)-262(::=)-262.2(S)]TJ
+/TT6 1 Tf
+3.0182 0 TD
+(cr)Tj
+/TT2 1 Tf
+-3.0182 -1.3818 TD
+[(S)-262(::=)-262.2(C)]TJ
+/TT6 1 Tf
+3.1273 0 TD
+(cr)Tj
+/TT2 1 Tf
+1.1273 0 TD
+0.262 Tc
+(S|)Tj
+/TT6 1 Tf
+1.2727 0 TD
+0 Tc
+(quit)Tj
+/TT2 1 Tf
+-5.5273 -1.3818 TD
+[(C)-260.3(::=)]TJ
+/TT6 1 Tf
+2.3091 0 TD
+(new)Tj
+/TT11 1 Tf
+1.7222 0 TD
+(ﬁ)Tj
+/TT6 1 Tf
+0.5562 0 TD
+(le)Tj
+/TT2 1 Tf
+0.9762 0 TD
+(|)Tj
+/TT6 1 Tf
+0.4545 0 TD
+(open)Tj
+/TT2 1 Tf
+2.3182 0 TD
+0.2488 Tc
+(I|)Tj
+/TT6 1 Tf
+1.0364 0 TD
+0 Tc
+(moveup)Tj
+/TT2 1 Tf
+3.6455 0 TD
+(|)Tj
+/TT6 1 Tf
+0.4545 0 TD
+(moveback)Tj
+/TT2 1 Tf
+4.5818 0 TD
+(|)Tj
+/TT6 1 Tf
+-14.0545 -1.3818 TD
+(insert)Tj
+/TT2 1 Tf
+2.6909 0 TD
+0.2603 Tc
+(R|)Tj
+/TT6 1 Tf
+1.3818 0 TD
+0 Tc
+(delete)Tj
+/TT2 1 Tf
+2.7364 0 TD
+(|)Tj
+/TT6 1 Tf
+0.4545 0 TD
+(close)Tj
+/TT2 1 Tf
+-11.2636 -1.6 TD
+[(_)36.4(___________________________________________________________________________)]TJ
+ET
+endstream
+endobj
+31 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT7 8 0 R
+/TT9 9 0 R
+/TT11 32 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+34 0 obj
+<<
+/Length 10934
+>>
+stream
+BT
+/TT6 1 Tf
+10 0 0 10 97.2 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(12)Tj
+/TT9 1 Tf
+1 0 TD
+(     Syntax)Tj
+/TT6 1 Tf
+11 0 0 11 97.2 682.4601 Tm
+[(Figure)-249.3(1.8)]TJ
+0 -0.4 TD
+[(_)36.4(___________________________________________________________________________)]TJ
+0.9818 0 TD
+(________________________________________________________________________)Tj
+/TT2 1 Tf
+-0.9818 -2.6 TD
+[(Abstract)-239.6(syntax:)]TJ
+1 -1.5545 TD
+(P)Tj
+/TT3 1 Tf
+0.5562 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.9711 0 TD
+(Program)Tj
+-1.5273 -1.2 TD
+(E)Tj
+/TT3 1 Tf
+0.6108 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.9619 0 TD
+(Expression)Tj
+-1.5727 -1.2 TD
+(L)Tj
+/TT3 1 Tf
+0.6108 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.9619 0 TD
+(List)Tj
+-1.5727 -1.2 TD
+(A)Tj
+/TT3 1 Tf
+0.7222 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.9597 0 TD
+(Atom)Tj
+-2.6818 -1.7364 TD
+[(P)-262(::=)-262.2(E,)-84.6(P)-262(|)]TJ
+/TT6 1 Tf
+4.4182 0 TD
+(end)Tj
+/TT2 1 Tf
+-4.4182 -1.3818 TD
+[(E)-252.8(::=)-262.2(A)-250.6(|)-254.3(L)-252.8(|)]TJ
+/TT6 1 Tf
+4.9909 0 TD
+(head)Tj
+/TT2 1 Tf
+2.3182 0 TD
+0.2528 Tc
+(E|)Tj
+/TT6 1 Tf
+1.3182 0 TD
+0 Tc
+(tail)Tj
+/TT2 1 Tf
+1.6455 0 TD
+0.2528 Tc
+(E|)Tj
+/TT6 1 Tf
+1.3182 0 TD
+0 Tc
+(let)Tj
+/TT2 1 Tf
+1.3 0 TD
+(A)Tj
+/TT4 1 Tf
+0.8818 0 TD
+(=)Tj
+/TT2 1 Tf
+0.7182 0 TD
+(E)Tj
+8 0 0 8 263.3192 556.2601 Tm
+(1)Tj
+/TT6 1 Tf
+11 0 0 11 271 558.4601 Tm
+(in)Tj
+/TT2 1 Tf
+1.1 0 TD
+(E)Tj
+8 0 0 8 289.8192 556.2601 Tm
+(2)Tj
+11 0 0 11 97.2 543.2601 Tm
+[(L)-252.8(::=)-262.2(\(A)-244.8(L\))-247.1(|)-254.4(\()0(\))]TJ
+0 -1.6 TD
+[(_)36.4(___________________________________________________________________________)]TJ
+/TT6 1 Tf
+0 -2.6 TD
+[(1.2)-259.1( MATHEMATICAL)-256.9(AND)-242.6(STRUCTURAL)-255.3(INDUCTION )]TJ
+/TT4 1 Tf
+26.2658 0 TD
+(_)Tj
+0.016 0 TD
+-0.2182 Tc
+(__)Tj
+0.3 0 TD
+0 Tc
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(_)Tj
+/TT2 1 Tf
+-37.4636 -2.4 TD
+[(Often)-250.4(we)-252.2(must)-282.4(show)-270.5(that)-273.2(all)-273.2(the)-269.2(members)-261.7(of)-267(a)-265.2(syntax)-271(domain)-273.2(have)-257.8(some)-271(property)-257.8(in)-276.7(common.)]TJ
+0 -1.2 TD
+[(The)-336.2(proof)-334(technique)-331(used)-339.7(on)-345.5(syntax)-343.7(domains)-347.7(is)-351.2(called)]TJ
+/TT9 1 Tf
+22.5545 0 TD
+[(structural)-346.1(induction.)]TJ
+/TT2 1 Tf
+8.9182 0 TD
+[(Before)-315.7(studying)]TJ
+-31.4727 -1.2 TD
+[(the)-296.5(general)-275.8(principle)-291.3(of)-294.3(structural)-287.3(induction,)-309(we)]TJ
+/TT7 1 Tf
+19.5636 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(rst)-316.6(consider)-294.1(a)-301.6(speci)]TJ
+/TT7 1 Tf
+7.7985 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(c)-299.9(case)-288.4(of)-303.4(it)-317.1(in)-313.1(the)-305.6(guise)]TJ
+-28.4745 -1.2 TD
+(of)Tj
+/TT9 1 Tf
+1.1 0 TD
+[(mathematical)-265.7(induction.)]TJ
+/TT2 1 Tf
+10.2727 0 TD
+[(Mathematical)-257(induction)-268.1(is)-269.4(a)-256.2(proof)-252.2(strategy)-252.7(for)-252.2(showing)-265.4(that)-264.1(all)-264.1(the)]TJ
+-11.3727 -1.2 TD
+[(members)-243.6(of)-248.8(I)151.2(N)0(,)-255.1(the)-251(natural)-241.8(numbers,)-251.6(possess)-254.1(a)-247.1(property)]TJ
+/TT9 1 Tf
+22.4091 0 TD
+(P.)Tj
+/TT2 1 Tf
+1.3727 0 TD
+[(The)-245.3(strategy)-243.6(goes:)]TJ
+-23.7818 -1.8 TD
+[(1.)-1150(Show)-258(that)-255(0)-254.5(has)]TJ
+/TT9 1 Tf
+8.5273 0 TD
+(P,)Tj
+/TT2 1 Tf
+1.1182 0 TD
+[(that)-255(is,)-264.8(show)-252.3(that)]TJ
+/TT9 1 Tf
+7.0545 0 TD
+(P)Tj
+/TT2 1 Tf
+0.6108 0 TD
+[(\(0\))-241.3(holds.)]TJ
+-17.3108 -1.2 TD
+[(2.)-1150(Assuming)-398.4(that)-391.4(an)-392.5(arbitrary)-375.8(member)]TJ
+/TT9 1 Tf
+17.0636 0 TD
+(i)Tj
+/TT3 1 Tf
+0.2778 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.8767 0 TD
+[(I)151.2(N)-396(has)]TJ
+/TT9 1 Tf
+3.0273 0 TD
+(P)Tj
+/TT2 1 Tf
+0.6108 0 TD
+[(,)-402.8(show)-397.8(that)]TJ
+/TT9 1 Tf
+5.0619 0 TD
+(i)Tj
+/TT4 1 Tf
+0.4455 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[(1)-405.7(has)-394.3(it)-408(as)-394.3(well;)-400.5(that)-400.5(is,)]TJ
+-25.9125 -1.2 TD
+[(show)-252.3(that)]TJ
+/TT9 1 Tf
+4.1182 0 TD
+(P)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(\()Tj
+/TT9 1 Tf
+0.333 0 TD
+(i)Tj
+/TT2 1 Tf
+0.2778 0 TD
+[(\))-245.3(implies)]TJ
+/TT9 1 Tf
+3.7874 0 TD
+(P)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(\()Tj
+/TT9 1 Tf
+0.333 0 TD
+(i)Tj
+/TT4 1 Tf
+0.438 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+(1\).)Tj
+-13.0579 -1.8 TD
+[(If)-288.5(steps)-300(1)-309.1(and)-301.6(2)-309.1(are)-288.4(proved)-295.9(for)-297.6(a)-301.6(property)]TJ
+/TT9 1 Tf
+17.0909 0 TD
+(P)Tj
+/TT2 1 Tf
+0.6108 0 TD
+[(,)-311.9(then)-305.6(it)-317.1(follows)-309.1(that)-309.6(the)-305.6(property)-294.1(holds)-314.8(for)-297.6(all)-309.6(the)]TJ
+-17.7017 -1.2 TD
+[(numbers.)-578.9(\(Why?)-306.6(Any)-323.3(number)]TJ
+/TT9 1 Tf
+12.7091 0 TD
+(k)Tj
+/TT3 1 Tf
+0.4438 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.8652 0 TD
+[(I)151.2(N)-314.2(is)-323.9(exactly)-303.7(\()]TJ
+5.733 0.3 TD
+( . . . )Tj
+1.75 -0.3 TD
+(\(\(0)Tj
+/TT4 1 Tf
+1.166 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+(1\))Tj
+/TT4 1 Tf
+0.833 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+(1\))Tj
+/TT4 1 Tf
+0.833 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0.3 TD
+( . . . )Tj
+/TT4 1 Tf
+1.75 -0.3 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[(1\),)-374.8(the)-314.7(1)-318.2(added)]TJ
+/TT9 1 Tf
+6.5033 0 TD
+(k)Tj
+/TT2 1 Tf
+0.7545 0 TD
+(times.)Tj
+-35.5364 -1.2 TD
+[(You)-250.6(take)-243.6(it)-262.5(from)-247.1(there.\))-491.2(Here)-229.9(is)-260.3(an)-247.1(application)-248(of)-248.8(mathematical)-241(induction:)]TJ
+/TT6 1 Tf
+2 -2.4 TD
+0.2636 Tw
+(1.1 Proposition:)Tj
+/TT9 1 Tf
+0 -1.8 TD
+0 Tw
+[(For)-254.5(any)-247.1(n)]TJ
+/TT3 1 Tf
+3.9455 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.8727 0 TD
+-0.1512 Tc
+(IN)Tj
+/TT9 1 Tf
+0.904 0 TD
+0 Tc
+[(,)-255.1(there)-245.3(exist)-249.3(exactly)-396.2(n)]TJ
+/TT2 1 Tf
+8.6142 0 TD
+(!)Tj
+/TT9 1 Tf
+0.8364 0 TD
+[(permutations)-258.5(of)-258.5(n)-254.5(objects.)]TJ
+-15.1727 -2.4 TD
+(Proof:)Tj
+/TT2 1 Tf
+3.1182 0 TD
+[(We)-239.6(use)-248.8(mathematical)-241(induction)-259(to)-258.5(do)-254.5(the)-251(proof.)]TJ
+/TT9 1 Tf
+-3.1182 -1.5545 TD
+(Basis:)Tj
+/TT2 1 Tf
+3.0909 0 TD
+[(for)-324.9(0)-336.4(objects,)-335.7(there)-319.6(exists)-340.3(the)-332.9(ëëemptyíí)-313.9(permutation;)-335.6(since)-327.1(0!)-339.7(equals)-336.2(1,)-350(this)-355.2(case)]TJ
+-3.0909 -1.2 TD
+(holds.)Tj
+/TT9 1 Tf
+0 -1.5545 TD
+(Induction:)Tj
+/TT2 1 Tf
+4.7727 0 TD
+(for)Tj
+/TT9 1 Tf
+1.5182 0 TD
+(n)Tj
+/TT3 1 Tf
+0.5 0 TD
+<0044>Tj
+/TT2 1 Tf
+0.8727 0 TD
+[(I)151.2(N)-359.6(assume)-356.2(that)-364.1(there)-346.9(exist)]TJ
+/TT9 1 Tf
+11.1909 0 TD
+(n)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(!)-612.4(permutations)-360.6(of)]TJ
+/TT9 1 Tf
+7.7273 0 TD
+(n)Tj
+/TT2 1 Tf
+0.8727 0 TD
+[(objects.)-372(Now)-364.8(add)-365.2(a)]TJ
+-27.9545 -1.2 TD
+[(new)-488.5(object)]TJ
+/TT9 1 Tf
+5.0909 0 TD
+(j)Tj
+/TT2 1 Tf
+0.7727 0 TD
+[(to)-494.9(the)]TJ
+/TT9 1 Tf
+2.9818 0 TD
+(n)Tj
+/TT2 1 Tf
+0.9909 0 TD
+[(objects.)-490.2(For)-492.7(each)-468.5(permutation)]TJ
+/TT9 1 Tf
+13.0727 0 TD
+(k)Tj
+8 0 0 8 376.0823 190.0601 Tm
+(i)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(1)Tj
+11 0 0 11 383.1 192.2601 Tm
+(,)Tj
+/TT9 1 Tf
+0.5 0 TD
+(k)Tj
+8 0 0 8 393.4823 190.0601 Tm
+(i)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(2)Tj
+11 0 0 11 400.5 192.2601 Tm
+(,)Tj
+0.3364 0.3 TD
+( . . . )Tj
+1.75 -0.3 TD
+(,)Tj
+/TT9 1 Tf
+0.5318 0 TD
+(k)Tj
+8 0 0 8 434.1823 190.0601 Tm
+(in)Tj
+/TT2 1 Tf
+11 0 0 11 446.6 192.2601 Tm
+[(of)-485.2(the)-487.4(existing)]TJ
+-29.7636 -1.2 TD
+(objects,)Tj
+/TT9 1 Tf
+3.8545 0 TD
+(n)Tj
+/TT4 1 Tf
+0.6636 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[(1)-778.4(permutations)-769.7(result:)-1027.8(they)-769.2(are)]TJ
+/TT9 1 Tf
+15.2603 0 TD
+(j)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(,)Tj
+/TT9 1 Tf
+0.504 0 TD
+(k)Tj
+8 0 0 8 356.2823 176.8601 Tm
+(i)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(1)Tj
+11 0 0 11 363.3 179.0601 Tm
+(,)Tj
+/TT9 1 Tf
+0.5 0 TD
+(k)Tj
+8 0 0 8 373.6823 176.8601 Tm
+(i)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(2)Tj
+11 0 0 11 380.7 179.0601 Tm
+(,)Tj
+0.3364 0.3 TD
+( . . . )Tj
+1.75 -0.3 TD
+(,)Tj
+/TT9 1 Tf
+0.5318 0 TD
+(k)Tj
+8 0 0 8 414.3823 176.8601 Tm
+(in)Tj
+/TT2 1 Tf
+11 0 0 11 421.4 179.0601 Tm
+(;)Tj
+/TT9 1 Tf
+1.0636 0 TD
+(k)Tj
+8 0 0 8 437.9823 176.8601 Tm
+(i)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(1)Tj
+11 0 0 11 445 179.0601 Tm
+(,)Tj
+/TT9 1 Tf
+0.5 0 TD
+(j)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(,)Tj
+/TT9 1 Tf
+0.504 0 TD
+(k)Tj
+8 0 0 8 463.9823 176.8601 Tm
+(i)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(2)Tj
+11 0 0 11 471 179.0601 Tm
+(,)Tj
+0.3364 0.3 TD
+( . . . )Tj
+1.75 -0.3 TD
+(,)Tj
+/TT9 1 Tf
+0.5318 0 TD
+(k)Tj
+8 0 0 8 504.6823 176.8601 Tm
+(in)Tj
+/TT2 1 Tf
+11 0 0 11 511.7 179.0601 Tm
+(;)Tj
+/TT9 1 Tf
+-35.6818 -1.2 TD
+(k)Tj
+8 0 0 8 124.0823 163.6601 Tm
+(i)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(1)Tj
+11 0 0 11 131.1 165.8601 Tm
+(,)Tj
+/TT9 1 Tf
+0.5 0 TD
+(k)Tj
+8 0 0 8 141.4823 163.6601 Tm
+(i)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(2)Tj
+11 0 0 11 148.5 165.8601 Tm
+(,)Tj
+/TT9 1 Tf
+0.5 0 TD
+(j)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(,)Tj
+0.3404 0.3 TD
+( . . . )Tj
+1.75 -0.3 TD
+(,)Tj
+/TT9 1 Tf
+0.5318 0 TD
+(k)Tj
+8 0 0 8 190.7823 163.6601 Tm
+(in)Tj
+/TT2 1 Tf
+11 0 0 11 197.8 165.8601 Tm
+(;)Tj
+/TT9 1 Tf
+0.6182 0 TD
+(k)Tj
+8 0 0 8 209.4823 163.6601 Tm
+(i)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(1)Tj
+11 0 0 11 216.5 165.8601 Tm
+(,)Tj
+/TT9 1 Tf
+0.5 0 TD
+(k)Tj
+8 0 0 8 226.8823 163.6601 Tm
+(i)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(2)Tj
+11 0 0 11 233.9 165.8601 Tm
+(,)Tj
+0.3364 0.3 TD
+( . . . )Tj
+1.75 -0.3 TD
+(,)Tj
+/TT9 1 Tf
+0.5318 0 TD
+(j)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(,)Tj
+/TT9 1 Tf
+0.504 0 TD
+(k)Tj
+8 0 0 8 276.1823 163.6601 Tm
+(in)Tj
+/TT2 1 Tf
+11 0 0 11 283.2 165.8601 Tm
+[(;)-340.3(and)]TJ
+/TT9 1 Tf
+2.3909 0 TD
+(k)Tj
+8 0 0 8 314.3823 163.6601 Tm
+(i)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(1)Tj
+11 0 0 11 321.4 165.8601 Tm
+(,)Tj
+/TT9 1 Tf
+0.5 0 TD
+(k)Tj
+8 0 0 8 331.7823 163.6601 Tm
+(i)Tj
+/TT2 1 Tf
+0.2778 0 TD
+(2)Tj
+11 0 0 11 338.8 165.8601 Tm
+(,)Tj
+0.3364 0.3 TD
+( . . . )Tj
+1.75 -0.3 TD
+(,)Tj
+/TT9 1 Tf
+0.5318 0 TD
+(k)Tj
+8 0 0 8 372.4823 163.6601 Tm
+(in)Tj
+/TT2 1 Tf
+11 0 0 11 379.5 165.8601 Tm
+(,)Tj
+/TT9 1 Tf
+0.5 0 TD
+(j)Tj
+/TT2 1 Tf
+0.2778 0 TD
+[(.)-599.4(Since)-332.9(there)-310.6(are)]TJ
+/TT9 1 Tf
+7.2403 0 TD
+(n)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(!)-576.1(permu-)]TJ
+-32.1818 -1.2 TD
+[(tations)-260.8(of)]TJ
+/TT9 1 Tf
+4.0091 0 TD
+(n)Tj
+/TT2 1 Tf
+0.7545 0 TD
+[(objects,)-253.8(a)-247.1(total)-259(of)-248.8(\()]TJ
+/TT9 1 Tf
+7.4785 0 TD
+(n)Tj
+/TT4 1 Tf
+0.6579 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+(1\))Tj
+/TT3 1 Tf
+0.833 0 TD
+<009b>Tj
+/TT9 1 Tf
+0.5 0 TD
+(n)Tj
+/TT2 1 Tf
+0.5 0 TD
+0.2488 Tc
+[(!=)-5.4(\()]TJ
+/TT9 1 Tf
+1.733 0 TD
+0 Tc
+(n)Tj
+/TT4 1 Tf
+0.6579 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[(1\)!)-503.3(permutations)-251.5(exist)-256.8(for)]TJ
+/TT9 1 Tf
+10.6966 0 TD
+(n)Tj
+/TT4 1 Tf
+0.6636 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[(1)-260.3(objects.)]TJ
+-30.1306 -1.2 TD
+[(This)-258.5(completes)-245.8(the)-251(proof.)]TJ
+ET
+0 G
+2 J 0 j 0.48 w 10 M []0 d
+1 i 
+238.3 146.61 8.8 -8.8 re
+S
+BT
+11 0 0 11 119.2 113.0601 Tm
+[(The)-299.9(mathematical)-295.6(induction)-313.6(principle)-300.3(is)-314.8(simple)-315.3(because)-280.9(the)-305.6(natural)-296.4(numbers)-301.6(have)-303.2(a)-310.7(sim-)]TJ
+-2 -1.2 TD
+[(ple)-451(structure:)-441.8(a)-447.1(number)-445.3(is)-460.3(either)-441.8(0)-454.5(o)0(r)-448.8(a)-447.1(number)-445.3(incremented)-430.8(by)-454.5(1.)-713.6(This)-458.5(structure)-428.7(can)-430.5(be)]TJ
+ET
+endstream
+endobj
+35 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT7 8 0 R
+/TT9 9 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+37 0 obj
+<<
+/Length 9646
+>>
+stream
+BT
+/TT9 1 Tf
+10 0 0 10 317.9 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(1.2  Mathematical and Structural Induction     )Tj
+/TT6 1 Tf
+18.6924 0 TD
+(13)Tj
+/TT2 1 Tf
+11 0 0 11 97.2 682.4601 Tm
+[(formalized)-232.6(as)-248.8(a)-247.1(BNF)-263.8(rule:)]TJ
+2 -1.9818 TD
+[(N)-250.6(::=)-262.2(0)-254.5(|)-254.4(N+1)]TJ
+-2 -1.8 TD
+[(Any)-305.1(natural)-296.4(number)-299.9(is)-314.8(just)-318.8(a)-301.6(derivation)-300.3(tree.)-551.5(The)-299.9(mathematical)-295.6(induction)-313.6(principle)-300.3(is)-314.8(a)-301.6(proof)]TJ
+0 -1.2 TD
+[(strategy)-270.8(for)-270.3(showing)-283.6(that)-282.3(all)-282.3(the)-278.3(trees)-266.8(built)-293.8(by)-281.8(the)-269.2(rule)-263.5(for)-261.3(N)-268.7(possess)-272.2(a)-265.2(property)]TJ
+/TT9 1 Tf
+32.0273 0 TD
+(P.)Tj
+/TT2 1 Tf
+1.3909 0 TD
+[(Step)-276.7(1)-272.7(says)]TJ
+-33.4182 -1.2 TD
+[(to)-258.5(show)-252.3(that)-255(the)-251(tree)-237.8(of)-248.8(depth)-251(zero,)-238.4(the)-251(leaf)-237.8(0,)-259.1(has)]TJ
+/TT9 1 Tf
+19.9273 0 TD
+(P.)Tj
+/TT2 1 Tf
+1.3727 0 TD
+[(Step)-258.5(2)-254.5(says)-250.6(to)-258.5(use)-248.8(the)-251(fact)-237.8(that)-255(a)-256.2(tree)]TJ
+/TT9 1 Tf
+14.7909 0 TD
+(t)Tj
+/TT2 1 Tf
+0.5455 0 TD
+(has)Tj
+-36.6364 -1.2 TD
+(property)Tj
+/TT9 1 Tf
+3.6273 0 TD
+(P)Tj
+/TT2 1 Tf
+0.8636 0 TD
+[(to)-258.5(prove)-241.3(that)-255(the)-251(tree)]TJ
+/TT9 1 Tf
+8.5182 0 TD
+(t)Tj
+/TT4 1 Tf
+0.4455 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[(1)-260.3(has)]TJ
+/TT9 1 Tf
+2.3421 0 TD
+(P.)Tj
+/TT2 1 Tf
+-14.3455 -1.2 TD
+[(The)-527.1(mathematical)-522.9(induction)-540.8(principle)-527.6(can)-530.5(be)-538(generalized)-510.3(to)-549.4(work)-535.7(upon)-545.5(any)-538(syntax)]TJ
+-2 -1.2 TD
+[(domain)-309.6(de)]TJ
+/TT7 1 Tf
+4.2529 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ned)-301.6(by)-309.1(a)-301.6(BNF)-318.3(rule.)-558.9(The)-299.9(generalized)-273.9(proof)-297.6(strategy)-298.1(is)-314.8(structural)-296.4(induction.)-563.6(Treat-)]TJ
+-4.8091 -1.2 TD
+[(ing)-331.3(the)-323.8(members)-316.3(of)-321.5(a)-319.8(syntax)-325.5(domain)]TJ
+/TT9 1 Tf
+15.3182 0 TD
+(D)Tj
+/TT2 1 Tf
+1.0455 0 TD
+[(as)-321.5(trees,)-316.9(we)-315.8(show)-325(that)-327.8(all)-336.9(trees)-321.4(in)]TJ
+/TT9 1 Tf
+14.0182 0 TD
+(D)Tj
+/TT2 1 Tf
+1.0545 0 TD
+[(have)-321.4(property)]TJ
+/TT9 1 Tf
+5.9182 0 TD
+(P)Tj
+/TT2 1 Tf
+-37.3545 -1.2 TD
+(inductively:)Tj
+0 -1.8 TD
+[(1.)-1150(Show)-258(that)-255(all)-255(trees)-239.6(of)-248.8(depth)-251(zero)-233.8(have)]TJ
+/TT9 1 Tf
+17.2091 0 TD
+(P)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(.)Tj
+-17.8199 -1.2 TD
+[(2.)-1150(Assume)-268.7(that)-273.2(for)-261.3(an)-265.2(arbitrary)-248.5(depth)]TJ
+/TT9 1 Tf
+15.9818 0 TD
+(m)Tj
+/TT3 1 Tf
+0.7222 0 TD
+<002a>Tj
+/TT2 1 Tf
+0.7142 0 TD
+[(0)-272.7(all)-273.2(trees)-257.8(of)-267(depth)]TJ
+/TT9 1 Tf
+7.7818 0 TD
+(m)Tj
+/TT2 1 Tf
+0.9909 0 TD
+[(or)-267(less)-272.7(have)]TJ
+/TT9 1 Tf
+5.0182 0 TD
+(P,)Tj
+/TT2 1 Tf
+1.1455 0 TD
+[(and)-274.3(show)-279.6(that)]TJ
+-30.3545 -1.2 TD
+[(a)-247.1(tree)-237.8(of)-248.8(depth)]TJ
+/TT9 1 Tf
+5.9818 0 TD
+(m)Tj
+/TT4 1 Tf
+0.8818 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[(1)-260.3(must)-264.3(have)]TJ
+/TT9 1 Tf
+5.0966 0 TD
+(P)Tj
+/TT2 1 Tf
+0.8636 0 TD
+[(as)-248.8(well.)]TJ
+-15.3727 -1.8 TD
+[(This)-258.5(strategy)-243.6(is)-260.3(easily)-249.3(adapted)-236.1(to)-258.5(operate)-230.3(directly)-245.8(upon)-254.5(the)-251(BNF)-263.8(rule)-245.3(that)-255(generates)-224.6(the)-251(trees.)]TJ
+/TT6 1 Tf
+2 -2.4 TD
+0.2636 Tw
+(1.2 De)Tj
+/TT11 1 Tf
+2.9297 0 TD
+0 Tw
+(ﬁ)Tj
+/TT6 1 Tf
+0.5562 0 TD
+(nition:)Tj
+/TT9 1 Tf
+-3.4858 -1.8 TD
+[(The)-254.5(structural)-264.3(induction)-259(principle:)-247.5(for)-260.3(the)-251(syntax)-245.3(domain)-254.5(D)-250.6(and)-254.5(its)-264.3(BNF)-256.8(rule:)]TJ
+2 -1.2 TD
+(d)Tj
+/TT2 1 Tf
+0.9091 0 TD
+(:)Tj
+/TT9 1 Tf
+0.4455 0 TD
+(= Option)Tj
+/TT2 1 Tf
+8 0 0 8 196.829 420.8601 Tm
+(1)Tj
+/TT9 1 Tf
+11 0 0 11 201.9 423.0601 Tm
+( )Tj
+/TT2 1 Tf
+0.4182 0 TD
+(|)Tj
+/TT9 1 Tf
+0.3636 0 TD
+( Option)Tj
+/TT2 1 Tf
+8 0 0 8 243.8062 420.8601 Tm
+(2)Tj
+/TT9 1 Tf
+11 0 0 11 248.8 423.0601 Tm
+( )Tj
+/TT2 1 Tf
+0.4182 0 TD
+(|)Tj
+/TT9 1 Tf
+0.3636 0 TD
+( )Tj
+0.25 0.3 TD
+( . . . )Tj
+1.75 -0.3 TD
+( )Tj
+/TT2 1 Tf
+0.4545 0 TD
+(|)Tj
+/TT9 1 Tf
+0.3636 0 TD
+( Option)Tj
+8 0 0 8 321.7061 420.8601 Tm
+(n)Tj
+11 0 0 11 119.2 409.86 Tm
+[(all)-317.1(members)-289.6(of)-313.1(D)-305.1(have)-303.2(a)-318.2(property)-310.7(P)-316.4(i)0(f)-326.2(the)-314.7(following)-339.9(holds)-323.9(for)-323.9(each)-303.2(Option)]TJ
+8 0 0 8 455.4561 407.6601 Tm
+(i)Tj
+11 0 0 11 458.6 409.86 Tm
+[(,)-322.7(for)]TJ
+/TT2 1 Tf
+2.0636 0 TD
+(1)Tj
+/TT3 1 Tf
+0.5 0 TD
+<0029>Tj
+/TT9 1 Tf
+0.7182 0 TD
+(i)Tj
+/TT3 1 Tf
+0.2778 0 TD
+<0029>Tj
+/TT9 1 Tf
+0.7222 0 TD
+(n:)Tj
+-35.1364 -1.2 TD
+[(if)-262.5(every)-226.4(occurrence)-220.6(of)-258.5(d)-254.5(i)0(n)-258.5(Option)]TJ
+8 0 0 8 268.0562 394.4601 Tm
+(i)Tj
+11 0 0 11 274 396.6601 Tm
+[(has)-256.3(P,)-257.3(then)-251(Option)]TJ
+8 0 0 8 356.6561 394.4601 Tm
+(i)Tj
+11 0 0 11 362.6 396.6601 Tm
+[(has)-256.3(P.)]TJ
+/TT2 1 Tf
+-24.1273 -2.4 TD
+[(The)-308.9(assumption)-326.2(ëëevery)-286(occurrence)-269.3(of)]TJ
+/TT9 1 Tf
+15.7182 0 TD
+(d)Tj
+/TT2 1 Tf
+0.8182 0 TD
+(in)Tj
+/TT9 1 Tf
+1.1 0 TD
+(Option)Tj
+8 0 0 8 321.7561 368.0601 Tm
+(i)Tj
+/TT2 1 Tf
+11 0 0 11 328.4 370.2601 Tm
+(has)Tj
+/TT9 1 Tf
+1.6545 0 TD
+(P)Tj
+/TT2 1 Tf
+0.6108 0 TD
+[(íí)-314.1(is)-333(called)-312.8(the)]TJ
+/TT9 1 Tf
+6.2255 0 TD
+[(inductive)-316.8(hypothesis.)]TJ
+/TT2 1 Tf
+-29.5091 -1.2 TD
+[(The)-290.8(method)-300.5(appears)-273.6(circular)-274(because)-271.8(it)-308(is)-305.7(necessary)-267.8(to)-294.9(assume)-283.4(that)-291.4(trees)-275.9(in)]TJ
+/TT9 1 Tf
+30.5545 0 TD
+(D)Tj
+/TT2 1 Tf
+1.0091 0 TD
+(have)Tj
+/TT9 1 Tf
+2.1636 0 TD
+(P)Tj
+/TT2 1 Tf
+0.9 0 TD
+[(to)-294.9(prove)]TJ
+-34.6273 -1.2 TD
+[(that)-355(the)]TJ
+/TT9 1 Tf
+3.4364 0 TD
+(D)Tj
+/TT2 1 Tf
+0.7222 0 TD
+[(-tree)-337.2(built)-375.6(using)]TJ
+/TT9 1 Tf
+6.9142 0 TD
+(Option)Tj
+8 0 0 8 249.5561 341.6601 Tm
+(i)Tj
+/TT2 1 Tf
+11 0 0 11 256.7 343.86 Tm
+(has)Tj
+/TT9 1 Tf
+1.6909 0 TD
+(P,)Tj
+/TT2 1 Tf
+1.2273 0 TD
+[(but)-367.6(the)-360.1(tree)-346.9(being)-360.1(built)-375.6(must)-373.4(have)-348.7(a)-356.2(depth)-360.1(greater)]TJ
+-17.4182 -1.2 TD
+[(than)-251(the)-251(subtrees)-241.3(used)-248.8(to)-258.5(build)-262.5(it,)-267.1(so)-256.3(steps)-254.5(1)-254.5(and)-247.1(2)-254.5(apply.)]TJ
+/TT6 1 Tf
+2 -2.4 TD
+0.2636 Tw
+(1.3 Theorem:)Tj
+/TT9 1 Tf
+0 -1.8 TD
+0 Tw
+[(The)-254.5(structural)-264.3(induction)-259(principle)-253.3(is)-260.3(valid.)]TJ
+0 -2.4 TD
+(Proof:)Tj
+/TT2 1 Tf
+3.1273 0 TD
+[(Given)-256.2(a)-256.2(proposition)]TJ
+/TT9 1 Tf
+8.2273 0 TD
+(P,)Tj
+/TT2 1 Tf
+1.1273 0 TD
+[(assume)-256.2(that)-264.1(the)-260.1(claim)-260.6(ëëif)-250.4(every)-242.9(occurrence)-214.7(of)]TJ
+/TT9 1 Tf
+18.6091 0 TD
+(d)Tj
+/TT2 1 Tf
+0.7636 0 TD
+(in)Tj
+/TT9 1 Tf
+1.0455 0 TD
+(Option)Tj
+8 0 0 8 511.6562 255.8601 Tm
+(i)Tj
+/TT2 1 Tf
+11 0 0 11 119.2 244.8601 Tm
+(has)Tj
+/TT9 1 Tf
+1.5909 0 TD
+(P,)Tj
+/TT2 1 Tf
+1.1182 0 TD
+(then)Tj
+/TT9 1 Tf
+1.9727 0 TD
+(Option)Tj
+8 0 0 8 201.2561 242.6601 Tm
+(i)Tj
+/TT2 1 Tf
+11 0 0 11 207.2 244.8601 Tm
+(has)Tj
+/TT9 1 Tf
+1.5818 0 TD
+(P)Tj
+/TT2 1 Tf
+0.6108 0 TD
+[(íí)-241.3(has)-248.8(been)-239.6(proved)-241.3(for)-243.1(each)-232.1(of)-248.8(the)-251(options)-264.3(in)-258.5(the)-251(BNF)-263.8(rule)-245.3(for)]TJ
+/TT9 1 Tf
+24.7982 0 TD
+(D.)Tj
+/TT2 1 Tf
+-34.9909 -1.2 TD
+[(But)-300.6(say)-285.2(that)-291.4(some)-289.2(tree)]TJ
+/TT9 1 Tf
+9.3273 0 TD
+(t)Tj
+/TT2 1 Tf
+0.5727 0 TD
+[(in)-294.9(D)-286.9(doesnít)-283.4(have)-275.9(property)]TJ
+/TT9 1 Tf
+11.1364 0 TD
+(P.)Tj
+/TT2 1 Tf
+1.4091 0 TD
+[(Then)-281.7(a)-283.4(contradiction)-278.7(results:)-293.1(pick)]TJ
+-22.4455 -1.2 TD
+(the)Tj
+/TT9 1 Tf
+1.5455 0 TD
+(D)Tj
+/TT2 1 Tf
+0.7222 0 TD
+[(-typed)-314.1(subtree)-312.3(in)]TJ
+/TT9 1 Tf
+7.1778 0 TD
+(t)Tj
+/TT2 1 Tf
+0.6091 0 TD
+[(of)-321.5(the)-323.8(least)-322(depth)-323.8(that)-327.8(does)-321.5(not)-331.3(have)]TJ
+/TT9 1 Tf
+15.1909 0 TD
+(P.)Tj
+/TT2 1 Tf
+1.4455 0 TD
+[(\(There)-299.1(must)-337(always)-314.1(be)]TJ
+-26.6909 -1.2 TD
+[(one;)-251(it)-262.5(can)-239.6(be)]TJ
+/TT9 1 Tf
+5.6091 0 TD
+(t)Tj
+/TT2 1 Tf
+0.5364 0 TD
+[(if)-252.8(necessary.)-481.5(If)-243.1(there)-237.8(are)-233.8(two)-254.5(or)-248.8(more)-245.3(subtrees)-241.3(that)-255(are)-233.8(ëësmallest,íí)-249.7(choose)]TJ
+-6.1455 -1.2 TD
+[(any)-292.5(one)-292.5(of)-294.3(them.\))-299.3(Call)-306.2(the)-296.5(chosen)-286.8(subtree)]TJ
+/TT9 1 Tf
+17.2091 0 TD
+(u.)Tj
+/TT2 1 Tf
+1.3091 0 TD
+(Subtree)Tj
+/TT9 1 Tf
+3.3455 0 TD
+(u)Tj
+/TT2 1 Tf
+0.8 0 TD
+[(must)-309.7(have)-285(been)-275.9(built)-302.9(using)-296.6(some)]TJ
+-22.6636 -1.2 TD
+(Option)Tj
+/TT9 1 Tf
+8 0 0 8 149.7561 176.6601 Tm
+(k)Tj
+/TT2 1 Tf
+11 0 0 11 154.2 178.8601 Tm
+[(,)-559.1(and)-547.1(all)-555(of)-548.8(its)-564.3(proper)]TJ
+/TT9 1 Tf
+10.4 0 TD
+(D)Tj
+/TT2 1 Tf
+0.7222 0 TD
+[(-typed)-550.4(subtrees)-550.4(have)]TJ
+/TT9 1 Tf
+9.3687 0 TD
+(P.)Tj
+/TT2 1 Tf
+1.6818 0 TD
+[(But)-573.4(the)-560.1(claim)-560.6(ëëif)-550.4(every)]TJ
+-25.3545 -1.2 TD
+[(occurrence)-214.7(of)]TJ
+/TT9 1 Tf
+5.6909 0 TD
+(d)Tj
+/TT2 1 Tf
+0.7545 0 TD
+(in)Tj
+/TT9 1 Tf
+1.0364 0 TD
+(Option)Tj
+8 0 0 8 232.0562 163.4601 Tm
+(k)Tj
+/TT2 1 Tf
+11 0 0 11 239.3 165.6601 Tm
+(has)Tj
+/TT9 1 Tf
+1.5818 0 TD
+(P,)Tj
+/TT2 1 Tf
+1.1182 0 TD
+(then)Tj
+/TT9 1 Tf
+1.9727 0 TD
+(Option)Tj
+8 0 0 8 321.2561 163.4601 Tm
+(k)Tj
+/TT2 1 Tf
+11 0 0 11 328.5 165.6601 Tm
+(has)Tj
+/TT9 1 Tf
+1.5818 0 TD
+(P)Tj
+/TT2 1 Tf
+0.6108 0 TD
+[(íí)-241.3(holds.)-264.8(Therefore,)]TJ
+/TT9 1 Tf
+7.9982 0 TD
+(u)Tj
+/TT2 1 Tf
+0.7545 0 TD
+[(must)-264.3(have)-239.6(pro-)]TJ
+-29.9727 -1.2 TD
+(perty)Tj
+/TT9 1 Tf
+2.3 0 TD
+(P)Tj
+/TT2 1 Tf
+0.6909 0 TD
+[(ó)-254.5(a)-247.1(contradiction.)]TJ
+ET
+0 G
+2 J 0 j 0.48 w 10 M []0 d
+1 i 
+240.9 159.61 8.8 -8.8 re
+S
+BT
+11 0 0 11 119.2 126.0601 Tm
+[(Here)-229.9(are)-233.8(two)-254.5(examples)-241.8(of)-248.8(proofs)-244.8(by)-254.5(structural)-241.8(induction.)]TJ
+/TT6 1 Tf
+0 -2.5182 TD
+0.2636 Tw
+(1.4 Example:)Tj
+ET
+endstream
+endobj
+38 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT7 8 0 R
+/TT9 9 0 R
+/TT11 32 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+40 0 obj
+<<
+/Length 6475
+>>
+stream
+BT
+/TT6 1 Tf
+10 0 0 10 97.2 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(14)Tj
+/TT9 1 Tf
+1 0 TD
+(     Syntax)Tj
+/TT2 1 Tf
+11 0 0 11 119.2 682.4601 Tm
+[(For)-256.3(the)-251(domain)-255(E:)-256.8(Expression)-247.1(and)-247.1(its)-264.3(BNF)-263.8(rule:)]TJ
+2 -1.7091 TD
+[(E)-252.8(::=)]TJ
+/TT6 1 Tf
+2.2455 0 TD
+(zero)Tj
+/TT2 1 Tf
+2.0636 0 TD
+0.2543 Tc
+(|E)Tj
+8 0 0 8 200.3192 661.4601 Tm
+0 Tc
+(1)Tj
+/TT3 1 Tf
+11 0 0 11 205.2 663.6601 Tm
+<009b>Tj
+/TT2 1 Tf
+0.5 0 TD
+(E)Tj
+8 0 0 8 217.4192 661.4601 Tm
+(2)Tj
+11 0 0 11 225.1 663.6601 Tm
+[(|)-254.4(\(E\))]TJ
+-9.6273 -1.5636 TD
+[(show)-379.6(that)-382.3(all)-382.3(members)-370.8(of)-376.1(Expression)-374.3(have)-375.9(the)-387.4(same)-381.7(number)-381.7(of)-385.2(left)-385.7(parentheses)-362.7(as)-385.2(the)]TJ
+0 -1.2 TD
+[(number)-245.3(of)-248.8(right)-256.8(parentheses.)]TJ
+/TT9 1 Tf
+0 -2.4 TD
+(Proof:)Tj
+/TT2 1 Tf
+3.1182 0 TD
+[(Consider)-252.8(each)-232.1(of)-248.8(the)-251(three)-237.8(options)-264.3(in)-258.5(the)-251(rule:)]TJ
+-3.1182 -1.9182 TD
+(1.)Tj
+/TT6 1 Tf
+1.9 0 TD
+(zero)Tj
+/TT2 1 Tf
+1.8315 0 TD
+[(:)-236.1(this)-264.3(is)-260.3(trivial,)-261.8(as)-248.8(there)-237.8(are)-233.8(zero)-233.8(occurrences)-207.4(of)-248.8(both)-258.5(left)-249.3(and)-247.1(right)-256.8(parentheses.)]TJ
+-3.7315 -1.3182 TD
+[(2.)-1150(E)]TJ
+8 0 0 8 146.8192 569.0601 Tm
+(1)Tj
+/TT3 1 Tf
+11 0 0 11 151.7 571.2601 Tm
+<009b>Tj
+/TT2 1 Tf
+0.5 0 TD
+(E)Tj
+8 0 0 8 163.9192 569.0601 Tm
+(2)Tj
+11 0 0 11 168.8 571.2601 Tm
+[(:)-440.4(b)0(y)-436.4(the)-432.9(inductive)-433.3(hypothesis,)-454(E)]TJ
+8 0 0 8 317.9192 569.0601 Tm
+(1)Tj
+11 0 0 11 327.7 571.2601 Tm
+[(has,)-444.3(say,)]TJ
+/TT9 1 Tf
+4.0545 0 TD
+(m)Tj
+/TT2 1 Tf
+1.1636 0 TD
+[(left)-440.2(parentheses)-417.3(and)]TJ
+/TT9 1 Tf
+8.7364 0 TD
+(m)Tj
+/TT2 1 Tf
+1.1636 0 TD
+(right)Tj
+-32.0727 -1.2 TD
+[(parentheses,)-349.1(and)-365.2(similarly)-381.2(E)]TJ
+8 0 0 8 269.0192 555.8601 Tm
+(2)Tj
+11 0 0 11 278 558.0601 Tm
+(has)Tj
+/TT9 1 Tf
+1.7 0 TD
+(n)Tj
+/TT2 1 Tf
+0.8727 0 TD
+[(left)-367.5(parentheses)-344.5(and)]TJ
+/TT9 1 Tf
+8.5182 0 TD
+(n)Tj
+/TT2 1 Tf
+0.8727 0 TD
+[(right)-375(parentheses.)-340(Then)]TJ
+-24.4 -1.2 TD
+(E)Tj
+8 0 0 8 147.9192 542.6601 Tm
+(1)Tj
+/TT3 1 Tf
+11 0 0 11 152.8 544.8601 Tm
+<009b>Tj
+/TT2 1 Tf
+0.5 0 TD
+(E)Tj
+8 0 0 8 165.0192 542.6601 Tm
+(2)Tj
+11 0 0 11 172.7 544.8601 Tm
+(has)Tj
+/TT9 1 Tf
+1.5818 0 TD
+(m)Tj
+/TT4 1 Tf
+0.8818 0 TD
+(+)Tj
+/TT9 1 Tf
+0.7182 0 TD
+(n)Tj
+/TT2 1 Tf
+0.7545 0 TD
+[(left)-249.3(parentheses)-226.4(and)]TJ
+/TT9 1 Tf
+8.1636 0 TD
+(m)Tj
+/TT4 1 Tf
+0.8818 0 TD
+(+)Tj
+/TT9 1 Tf
+0.7182 0 TD
+(n)Tj
+/TT2 1 Tf
+0.7545 0 TD
+[(right)-256.8(parentheses.)]TJ
+-19.3182 -1.3182 TD
+[(3.)-1150(\(E\):)-563.5(by)-318.2(the)-323.8(inductive)-324.3(hypothesis,)-335.8(E)-325.5(has)]TJ
+/TT9 1 Tf
+18.3818 0 TD
+(m)Tj
+/TT2 1 Tf
+1.0455 0 TD
+[(left)-322(parentheses)-299.1(and)]TJ
+/TT9 1 Tf
+8.3818 0 TD
+(m)Tj
+/TT2 1 Tf
+1.0455 0 TD
+[(right)-329.5(parentheses.)]TJ
+-26.8545 -1.2 TD
+[(Clearly,)-252.1(\(E\))-241.3(has)]TJ
+/TT9 1 Tf
+6.5455 0 TD
+(m)Tj
+/TT4 1 Tf
+0.8818 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[(1)-260.3(left)-249.3(parentheses)-226.4(and)]TJ
+/TT9 1 Tf
+8.9239 0 TD
+(m)Tj
+/TT4 1 Tf
+0.8818 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[(1)-260.3(right)-256.8(parentheses.)]TJ
+ET
+0 G
+2 J 0 j 0.48 w 10 M []0 d
+1 i 
+435.3 524.31 8.8 -8.8 re
+S
+BT
+11 0 0 11 119.2 488.1601 Tm
+[(The)-245.3(structural)-241.8(induction)-259(principle)-254.9(generalizes)-230.2(to)-267.6(operate)-239.4(over)-250.4(a)-256.2(number)-254.4(of)-257.9(domains)-265.9(simul-)]TJ
+-2 -1.2 TD
+[(taneously.)-581.1(We)-312.3(can)-312.3(prove)-314.1(properties)-310.6(of)-321.5(two)-318.2(or)-312.4(more)-308.9(domains)-320.4(that)-318.7(are)-297.5(de)]TJ
+/TT7 1 Tf
+29.4348 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ned)-310.7(in)-322.2(terms)-314.7(of)-312.4(one)]TJ
+-29.9909 -1.2 TD
+(another.)Tj
+/TT6 1 Tf
+2 -2.5182 TD
+0.2636 Tw
+(1.5 Example:)Tj
+/TT2 1 Tf
+0 -1.8 TD
+0 Tw
+[(For)-256.3(BNF)-263.8(rules:)]TJ
+2 -1.7091 TD
+[(S)-262(::=)]TJ
+/TT3 1 Tf
+2.2 0 TD
+<009b>Tj
+/TT2 1 Tf
+0.5 0 TD
+(E)Tj
+/TT3 1 Tf
+0.6108 0 TD
+<009b>Tj
+/TT2 1 Tf
+-3.3108 -1.3818 TD
+[(E)-252.8(::=)-262.2(+S)-261.7(|)]TJ
+/TT3 1 Tf
+4.0818 0 TD
+<009b009b>Tj
+/TT2 1 Tf
+-6.0818 -1.5636 TD
+[(show)-252.3(that)-255(all)-255(S-values)-247.1(have)-239.6(an)-247.1(even)-239.6(number)-245.3(of)-248.8(occurrences)-207.4(of)-248.8(the)]TJ
+/TT3 1 Tf
+26.4273 0 TD
+<009b>Tj
+/TT2 1 Tf
+0.7545 0 TD
+(token.)Tj
+/TT9 1 Tf
+-27.1818 -2.4 TD
+(Proof:)Tj
+/TT2 1 Tf
+3.1545 0 TD
+[(This)-294.9(result)-287.4(must)-309.7(be)-292.5(proved)-286.8(by)-300(a)-292.5(simultaneous)-304.5(induction)-304.5(on)-300(the)-296.5(rules)-292.5(for)-288.5(S)-307.5(and)-292.5(E,)]TJ
+-3.1545 -1.2 TD
+[(since)-499.9(they)-505.6(are)-488.4(mutually)-517.6(recursively)-484.9(de)]TJ
+/TT7 1 Tf
+16.4348 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ned.)-760.7(We)-494.1(prove)-495.9(the)-505.6(stronger)-486.8(claim)-497(that)-500.5(ëëall)]TJ
+-16.9909 -1.2 TD
+[(members)-279.9(of)-285.2(S)]TJ
+/TT9 1 Tf
+5.9182 0 TD
+(and)Tj
+/TT2 1 Tf
+1.7909 0 TD
+[(E)-289.2(have)-275.9(an)-283.4(even)-275.9(number)-281.7(of)-285.2(occurrences)-243.8(of)]TJ
+/TT3 1 Tf
+17.3 0 TD
+<009b>Tj
+/TT2 1 Tf
+0.5 0 TD
+[(.íí)-284(For)-292.7(rule)-281.7(S,)-302.9(consider)-285(its)]TJ
+-25.5091 -1.2 TD
+[(only)-313.1(option:)-321(by)-309.1(the)-305.6(inductive)-306.1(hypothesis,)-317.6(the)-296.5(E)-298.3(tree)-283.3(has)-294.3(an)-292.5(even)-285(number)-290.8(of)]TJ
+/TT3 1 Tf
+30.9273 0 TD
+<009b>Tj
+/TT2 1 Tf
+0.5 0 TD
+[(,)-559.1(say,)]TJ
+/TT9 1 Tf
+2.6909 0 TD
+(m)Tj
+/TT2 1 Tf
+1.0182 0 TD
+(of)Tj
+-35.1364 -1.2 TD
+[(them.)-568.7(Then)-299.9(the)]TJ
+/TT3 1 Tf
+6.7 0 TD
+<009b>Tj
+/TT2 1 Tf
+0.5 0 TD
+(E)Tj
+/TT3 1 Tf
+0.6108 0 TD
+<009b>Tj
+/TT2 1 Tf
+0.8073 0 TD
+[(tree)-292.4(has)]TJ
+/TT9 1 Tf
+3.4273 0 TD
+(m)Tj
+/TT4 1 Tf
+0.8818 0 TD
+(+)Tj
+/TT2 1 Tf
+0.5488 0 TD
+[(2)-314.8(o)0(f)-303.4(them,)-314.1(which)-301.6(is)-314.8(an)-301.6(even)-294.1(value.)-557.2(For)-310.8(rule)-308.9(E,)-321(the)]TJ
+/TT7 1 Tf
+20.9239 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+(rst)Tj
+-34.9562 -1.2 TD
+[(option)-326.2(builds)-318.8(a)-301.6(tree)-292.4(that)-309.6(has)-303.4(an)-301.6(even)-294.1(number)-299.9(of)]TJ
+/TT3 1 Tf
+19.8 0 TD
+<009b>Tj
+/TT2 1 Tf
+0.5 0 TD
+[(,)-568.2(because)-280.9(by)-309.1(the)-305.6(inductive)-306.1(hypothesis,)]TJ
+-20.3 -1.2 TD
+[(the)-432.9(S)-443.8(tree)-419.6(has)-430.6(an)-428.9(even)-421.4(number,)-431.7(and)-438(no)-445.5(new)-434(ones)-439.7(are)-424.7(added.)-689.6(The)-436.2(second)-432.2(option)-453.4(has)]TJ
+T*
+[(exactly)-240.1(two)-254.5(occurrences,)-211.9(which)-247.1(is)-260.3(an)-247.1(even)-239.6(number.)]TJ
+ET
+349.8 251.41 8.8 -8.8 re
+S
+endstream
+endobj
+41 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT7 8 0 R
+/TT9 9 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+43 0 obj
+<<
+/Length 8612
+>>
+stream
+BT
+/TT9 1 Tf
+10 0 0 10 412.1 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(Suggested Readings     )Tj
+/TT6 1 Tf
+9.2764 0 TD
+(15)Tj
+11 0 0 11 97.2 682.4601 Tm
+[(SUGGESTED)-286.7(READINGS )]TJ
+/TT4 1 Tf
+11.9288 0 TD
+(_)Tj
+0.0257 0 TD
+(_)Tj
+0.1 0 TD
+(_)Tj
+0.0182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(_)Tj
+/TT6 1 Tf
+-37.4636 -2.4 TD
+[(Backus-Naur)-423.4(form:)]TJ
+/TT2 1 Tf
+9.1818 0 TD
+[(Aho)-414.2(&)-422.2(Ullman)-427.8(1977;)-431.3(Barrett)-414.5(&)-431.3(Couch)-425.5(1979;)-431.3(Cleaveland)-411(&)-431.3(Uzgalis)]TJ
+-7.1818 -1.2 TD
+[(1977;)-258.5(Hopcroft)-235.6(&)-258.5(Ullman)-255(1979;)-258.5(Naur)-237.3(et)-251(al.)-255.6(1963)]TJ
+/TT6 1 Tf
+-2 -1.2 TD
+[(Abstract)-315.2(syntax:)]TJ
+/TT2 1 Tf
+7.7364 0 TD
+[(Barrett)-323.6(&)-349.4(Couch)-343.7(1979;)-349.4(Goguen,)-338.5(Thatcher,)-324.1(Wagner,)-321.8(&)-349.4(Wright)-340.2(1977;)-349.4(Gor-)]TJ
+-5.7364 -1.2 TD
+[(don)-254.5(1979;)-258.5(Henderson)-231.6(1980;)-258.5(McCarthy)-245.3(1963;)-258.5(Strachey)-237.8(1966,)-259.1(1968,)-259.1(1973)]TJ
+/TT6 1 Tf
+-2 -1.2 TD
+[(Mathematical)-403.1(and)-451.3(structural)-423.1(induction:)]TJ
+/TT2 1 Tf
+18.2091 0 TD
+[(Bauer)-421.4(&)-440.3(Wossner)-419.2(1982;)-440.3(Burstall)-442.6(1969;)-440.3(Manna)]TJ
+-16.2091 -1.2 TD
+[(1974;)-258.5(Manna)-241.3(&)-258.5(Waldinger)-234.3(1985;)-258.5(Wand)-239.6(1980)]TJ
+/TT6 1 Tf
+-2 -4.8 TD
+(EXERCISES )Tj
+/TT4 1 Tf
+5.9189 0 TD
+(_)Tj
+0.0447 0 TD
+-0.1091 Tc
+(__)Tj
+0.4091 0 TD
+0 Tc
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(_)Tj
+/TT2 1 Tf
+-36.9636 -2.4 TD
+[(1.)-750(a.)-806.2(Convert)-432.9(the)-432.9(speci)]TJ
+/TT7 1 Tf
+10.3638 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(cation)-427.6(of)-430.6(Figure)-434.6(1.6)-440.9(into)-444.3(the)-432.9(classic)-425.4(BNF)-445.6(format)-434.5(shown)-443.2(at)-442(the)]TJ
+-7.9199 -1.2 TD
+[(beginning)-445.9(of)-430.6(the)-432.9(chapter.)-671.3(Omit)-444.3(the)-432.9(rules)-428.9(for)-424.9(<)-81.5(Identi)]TJ
+/TT7 1 Tf
+22.3234 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(er>)-425.1(and)-428.9(<)-81.5(Numeral>.)-678.4(If)-424.9(the)]TJ
+-22.8796 -1.2 TD
+[(grammar)-454.3(is)-478.5(ambiguous,)-479.5(point)-480.7(out)-476.7(which)-465.2(BNF)-482(rules)-465.2(cause)-461.1(the)-478.3(problem,)-481.1(construct)]TJ
+T*
+[(derivation)-309.4(trees)-303.2(that)-318.7(demonstrate)-303.7(the)-314.7(ambiguity,)-331.2(and)-310.7(revise)-303.2(the)-314.7(BNF)-327.4(de)]TJ
+/TT7 1 Tf
+28.9348 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-330.1(into)-317.1(a)]TJ
+-29.4909 -1.2 TD
+[(nonambiguous)-256.8(form)-247.1(that)-255(de)]TJ
+/TT7 1 Tf
+11.0348 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nes)-248.8(the)-251(same)-245.3(language)-236.1(as)-248.8(the)-251(original.)]TJ
+-13.0909 -1.2 TD
+[(b.)-750(Repeat)-241.8(part)-245.3(a)-247.1(for)-243.1(the)-251(de)]TJ
+/TT7 1 Tf
+10.8348 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nitions)-268.2(in)-258.5(Figures)-254.5(1.7)-259.1(and)-247.1(1.8.)]TJ
+-12.8909 -2.4 TD
+[(2.)-750(Describe)-264.5(an)-283.4(algorithm)-293.6(that)-291.4(takes)-281.7(an)-283.4(abstract)-272.4(syntax)-289.2(de)]TJ
+/TT7 1 Tf
+23.3075 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-312(\(like)-294.8(the)-296.5(one)-292.5(in)-304(Figure)-298.3(1.6\))]TJ
+-22.3636 -1.2 TD
+[(as)-330.6(input)-344.3(and)-328.9(generates)-306.4(as)-330.6(output)-344.3(a)-319.8(stream)-316.3(containing)-324.3(the)-323.8(legal)-320.3(sentences)-304.8(in)-331.3(the)-323.8(language)]TJ
+T*
+(de)Tj
+/TT7 1 Tf
+0.9438 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ned)-247.1(by)-254.5(the)-251(de)]TJ
+/TT7 1 Tf
+5.362 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition.)-525.6(Why)-247.1(isnít)-258.5(ambiguity)-263(a)-247.1(problem?)]TJ
+-8.9182 -2.4 TD
+[(3.)-750(Using)-256.3(the)-251(de)]TJ
+/TT7 1 Tf
+6.562 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-266.5(in)-258.5(Figure)-252.8(1.5,)-263.6(write)-245.3(the)-251(abstract)-236.1(syntax)-252.8(forms)-248.8(of)-248.8(these)-245.3(expressions:)]TJ
+-5.6182 -1.8 TD
+[(a.)-806.2(12)]TJ
+0 -1.2 TD
+[(b.)-750(\()-248.8(4)-254.5(+)-254.2(1)0(4)-254.5(\))]TJ
+/TT3 1 Tf
+5.4909 0 TD
+<009b>Tj
+/TT2 1 Tf
+0.7545 0 TD
+(3)Tj
+-6.2455 -1.2 TD
+0.2488 Tc
+[(c)248.8(.)-557.4(\(\(7)-5.7(/)-9.7(0)-5.7(\)\))]TJ
+0 -1.8 TD
+0 Tc
+[(Repeat)-241.8(a-c)-233.8(for)-243.1(the)-251(de)]TJ
+/TT7 1 Tf
+8.2984 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-266.5(in)-258.5(Figure)-252.8(1.6;)-263.1(that)-255(is,)-264.8(draw)-237.3(the)-251(derivation)-245.8(trees.)]TJ
+-10.3545 -2.4 TD
+[(4.)-750(Convert)-260.1(the)-260.1(language)-245.2(de)]TJ
+/TT7 1 Tf
+11.262 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-275.6(in)-267.6(Figure)-261.9(1.6)-268.2(into)-271.6(a)-256.2(d)0(e)]TJ
+/TT7 1 Tf
+11.5166 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nition)-275.6(in)-276.7(the)-269.2(format)-261.7(of)-267(Figure)-271(1.5.)]TJ
+-22.3909 -1.2 TD
+[(What)-243.6(advantages)-230.3(does)-248.8(each)-232.1(format)-243.6(have)-239.6(over)-241.3(the)-251(other?)-237.8(Which)-243.6(of)-248.8(the)-251(two)-254.5(would)-254.5(be)-247.1(easier)]TJ
+T*
+[(for)-243.1(a)-247.1(computer)-241.8(to)-258.5(handle?)]TJ
+-1.5 -2.4 TD
+[(5.)-750(Alter)-245.3(the)-251(BNF)-263.8(rule)-245.3(for)-243.1(the)-251(Command)-260.8(domain)-255(in)-258.5(Figure)-252.8(1.6)-259.1(to)-258.5(read:)]TJ
+3.5 -1.9818 TD
+[(C)-260.3(::=)-516.7(S)-262(|)-254.4(S;C)]TJ
+0 -1.3818 TD
+[(S)-262(::=)-262.2(I:)]TJ
+/TT4 1 Tf
+2.8108 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+0.2568 Tc
+(E|)Tj
+/TT6 1 Tf
+1.3221 0 TD
+0 Tc
+(if)Tj
+/TT2 1 Tf
+0.7727 0 TD
+(E)Tj
+/TT6 1 Tf
+0.7727 0 TD
+(then)Tj
+/TT2 1 Tf
+2.0545 0 TD
+0.2603 Tc
+(C|)Tj
+/TT6 1 Tf
+1.3818 0 TD
+0 Tc
+(while)Tj
+/TT2 1 Tf
+2.4455 0 TD
+(E)Tj
+/TT6 1 Tf
+0.7727 0 TD
+(do)Tj
+/TT2 1 Tf
+1.2273 0 TD
+0.2603 Tc
+(C|)Tj
+/TT6 1 Tf
+1.3818 0 TD
+0 Tc
+(begin)Tj
+/TT2 1 Tf
+2.5091 0 TD
+(B)Tj
+/TT6 1 Tf
+0.8364 0 TD
+(end)Tj
+/TT2 1 Tf
+-20.8364 -1.8 TD
+[(Draw)-397(derivation)-409.4(trees)-403.2(for)-406.7(the)-414.7(old)-422.2(and)-410.7(new)-406.7(de)]TJ
+/TT7 1 Tf
+19.1529 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nitions)-431.9(of)-412.4(Command.)-438(What)-416.3(advantages)]TJ
+-19.7091 -1.2 TD
+[(does)-248.8(one)-247.1(form)-247.1(have)-239.6(over)-241.3(the)-251(other?)]TJ
+-1.5 -2.1636 TD
+[(6.)-750(Using)-429(Strachey-style)-407.1(abstract)-408.8(syntax)-434.6(\(like)-431.1(that)-436.8(in)-440.3(Figures)-436.4(1.6)-440.9(through)-434.6(1.8\),)-439.7(de)]TJ
+/TT7 1 Tf
+34.3166 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5561 0 TD
+[(ne)-428.9(the)]TJ
+-33.3727 -1.2 TD
+[(abstract)-245.2(syntax)-261.9(of)-257.9(the)-260.1(input)-262.5(language)-236.1(to)-258.5(a)-247.1(program)-239.6(that)-255(maintains)-257.3(a)-247.1(data)-243.6(base)-241.3(for)-243.1(a)-247.1(grocery)]TJ
+T*
+[(storeís)-306.7(inventory.)-572(An)-314.2(input)-326.2(program)-303.2(consists)-323.9(of)-312.4(a)-310.7(series)-314.1(of)-321.5(commands,)-326.6(one)-319.8(per)-314.1(line;)-331.7(the)]TJ
+ET
+endstream
+endobj
+44 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT7 8 0 R
+/TT9 9 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+48 0 obj
+<<
+/Length 9489
+>>
+stream
+BT
+/TT6 1 Tf
+10 0 0 10 97.2 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(16)Tj
+/TT9 1 Tf
+1 0 TD
+(     Syntax)Tj
+/TT2 1 Tf
+11 0 0 11 119.2 682.4601 Tm
+[(commands)-249.3(should)-260.3(specify)-239.6(actions)-249.3(for:)]TJ
+0 -1.6818 TD
+[(a.)-806.2(Accessing)-344.7(an)-356.2(item)-368.1(in)-367.6(the)-360.1(inventory)-367.5(\(perhaps)-348(by)-372.7(catalog)-358.2(number\))-357.8(to)-376.7(obtain)-373.2(statistics)]TJ
+1.5 -1.2 TD
+[(such)-248.8(as)-248.8(quantity,)-263.6(wholesale)-237.8(and)-247.1(selling)-260.8(prices,)-244.1(and)-247.1(so)-256.3(on.)]TJ
+-1.5 -1.2 TD
+[(b.)-750(Updating)-251(statistical)-259.5(information)-251.5(about)-251(an)-247.1(item)-259(in)-258.5(the)-251(inventory)]TJ
+T*
+[(c.)-806.2(Creating)-247.5(a)-247.1(new)-243.1(item)-259(in)-258.5(the)-251(inventory;)]TJ
+T*
+[(d.)-750(Removing)-260.8(an)-247.1(item)-259(from)-247.1(the)-251(inventory;)]TJ
+T*
+[(e.)-806.2(Generating)-230.3(reports)-241.3(concerning)-230.3(the)-251(items)-260.8(on)-254.5(hand)-247.1(and)-247.1(their)-249.3(statistics.)]TJ
+-1.5 -2.2818 TD
+[(7.)-750(a.)-806.2(Prove)-621.5(that)-627.8(any)-619.8(sentence)-603.1(de)]TJ
+/TT7 1 Tf
+15.1348 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ned)-619.8(by)-627.3(the)-623.8(BNF)-636.5(rule)-618(in)-631.3(Example)-618.5(1.4)-640.9(has)-630.6(more)]TJ
+-12.6909 -1.2 TD
+[(occurrences)-207.4(of)]TJ
+/TT6 1 Tf
+6.0636 0 TD
+(zero)Tj
+/TT2 1 Tf
+2.0636 0 TD
+[(than)-251(occurrences)-207.4(of)]TJ
+/TT3 1 Tf
+8.0364 0 TD
+<009b>Tj
+/TT2 1 Tf
+0.5 0 TD
+(.)Tj
+-18.1636 -1.2 TD
+[(b.)-750(Attempt)-277.2(to)-276.7(prove)-259.5(that)-273.2(any)-265.2(sentence)-248.5(de)]TJ
+/TT7 1 Tf
+16.762 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ned)-274.3(by)-281.8(the)-278.3(BNF)-291(rule)-272.6(in)-285.8(Example)-273.1(1.4)-286.4(has)-276.1(more)]TJ
+-15.8182 -1.2 TD
+[(occurrences)-252.9(of)]TJ
+/TT6 1 Tf
+6.1545 0 TD
+(zero)Tj
+/TT2 1 Tf
+2.1091 0 TD
+[(than)-296.5(of)-294.3(\(.)-553.4(Where)-271.8(does)-294.3(the)-296.5(proof)-279.4(break)-270.2(down?)-534(Give)-283.4(a)-283.4(counterex-)]TJ
+-8.2636 -1.2 TD
+(ample.)Tj
+-3 -2.1636 TD
+[(8.)-750(Prove)-412.4(that)-418.7(any)-410.7(program)-403.2(in)-422.2(the)-414.7(language)-399.7(in)-422.2(Figure)-416.4(1.6)-422.7(has)-412.4(the)-414.7(same)-409(number)-409(of)]TJ
+/TT6 1 Tf
+35.1182 0 TD
+(begin)Tj
+/TT2 1 Tf
+-33.6182 -1.2 TD
+[(tokens)-252.8(as)-248.8(the)-251(number)-245.3(of)]TJ
+/TT6 1 Tf
+9.8 0 TD
+(end)Tj
+/TT2 1 Tf
+1.8182 0 TD
+(tokens.)Tj
+-13.1182 -2.2818 TD
+[(9.)-750(Formalize)-245.8(and)-247.1(prove)-241.3(the)-251(validity)-263(of)-248.8(simultaneous)-259(structural)-241.8(induction.)]TJ
+-0.5 -2.2818 TD
+[(10.)-750(The)-290.8(principle)-291.3(of)]TJ
+/TT9 1 Tf
+8.8182 0 TD
+(trans)Tj
+/TT10 1 Tf
+2.0562 0 TD
+(ﬁ)Tj
+/TT9 1 Tf
+0.5 0 TD
+[(nite)-308(induction)]TJ
+/TT2 1 Tf
+5.8893 0 TD
+[(on)-300(the)-296.5(natural)-287.3(numbers)-292.5(is)-305.7(de)]TJ
+/TT7 1 Tf
+11.5348 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ned)-292.5(as)-294.3(follows:)-567.6(for)-297.6(a)]TJ
+-27.3545 -1.2 TD
+(property)Tj
+/TT9 1 Tf
+3.7091 0 TD
+(P)Tj
+/TT2 1 Tf
+0.9455 0 TD
+[(on)-336.4(I)151.2(N)0(,)-327.8(i)0(f)-325.5(for)-315.8(arbitrary)]TJ
+/TT9 1 Tf
+8.9818 0 TD
+(n)Tj
+/TT3 1 Tf
+0.5818 0 TD
+<002a>Tj
+/TT2 1 Tf
+0.8 0 TD
+[(0,)-331.8(\(\(for)-304.3(all)]TJ
+/TT9 1 Tf
+4.5455 0 TD
+0.0778 Tc
+[(m<)-174.7(n)]TJ
+/TT2 1 Tf
+2.2273 0 TD
+0 Tc
+(,)Tj
+/TT9 1 Tf
+0.5818 0 TD
+(P)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(\()Tj
+/TT9 1 Tf
+0.333 0 TD
+(m)Tj
+/TT2 1 Tf
+0.7222 0 TD
+[(\))-310.1(holds)-333(\))-321.5(implies)]TJ
+/TT9 1 Tf
+7.0794 0 TD
+(P)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(\()Tj
+/TT9 1 Tf
+0.333 0 TD
+(n)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(\))-314.1(holds\),)]TJ
+-32.562 -1.2 TD
+[(then)-251(for)-243.1(all)]TJ
+/TT9 1 Tf
+4.6364 0 TD
+(n)Tj
+/TT3 1 Tf
+0.5818 0 TD
+<002a>Tj
+/TT2 1 Tf
+0.8 0 TD
+(0,)Tj
+/TT9 1 Tf
+1.0091 0 TD
+(P)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(\()Tj
+/TT9 1 Tf
+0.333 0 TD
+(n)Tj
+/TT2 1 Tf
+0.5 0 TD
+[(\))-241.3(holds.)]TJ
+-8.4711 -1.6818 TD
+[(a.)-806.2(Prove)-248.8(that)-255(the)-251(principle)-245.8(of)-248.8(trans)]TJ
+/TT7 1 Tf
+14.1348 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nite)-255(induction)-259(is)-260.3(valid.)]TJ
+-14.6909 -1.2 TD
+[(b.)-750(Find)-447.8(a)-428.9(property)-421.4(that)-436.9(is)-442.1(provable)-419.6(by)-436.4(trans)]TJ
+/TT7 1 Tf
+18.8075 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nite)-445.9(induction)-449.9(and)-438(not)-449.4(by)-445.5(mathematical)]TJ
+-17.8636 -1.2 TD
+(induction.)Tj
+-3.5 -2.1636 TD
+[(11.)-750(Both)-264.3(mathematical)-241(and)-247.1(trans)]TJ
+/TT7 1 Tf
+13.4711 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nite)-255(induction)-259(can)-239.6(be)-247.1(generalized.)-223.9(A)-250.6(relation)]TJ
+/TT9 1 Tf
+17.9636 0 TD
+(<)Tj
+/TT2 1 Tf
+0.5364 0.3 TD
+(.)Tj
+/TT3 1 Tf
+0.6182 -0.3 TD
+<0085>Tj
+/TT9 1 Tf
+0.8727 0 TD
+(D)Tj
+/TT4 1 Tf
+0.8818 0 TD
+(◊)Tj
+/TT9 1 Tf
+0.7182 0 TD
+(D)Tj
+/TT2 1 Tf
+0.9727 0 TD
+[(is)-269.4(a)]TJ
+/TT9 1 Tf
+-34.5909 -1.2 TD
+[(well-founded)-324.3(ordering)]TJ
+/TT2 1 Tf
+9.3727 0 TD
+[(if)50(f)-324.3(there)-301.5(exist)-320.4(no)-318.2(in)]TJ
+/TT7 1 Tf
+7.8233 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nitely)-334.1(descending)-301.5(sequences)-291.7(in)]TJ
+/TT9 1 Tf
+12.8569 0 TD
+(D,)Tj
+/TT2 1 Tf
+1.2909 0 TD
+[(that)-318.7(is,)-328.5(no)]TJ
+-31.9 -1.2 TD
+[(sequences)-228.1(of)-248.8(the)-251(form)]TJ
+/TT9 1 Tf
+9.0273 0 TD
+(d)Tj
+8 0 0 8 224 309.1601 Tm
+(n)Tj
+/TT2 1 Tf
+11 0 0 11 230.7 314.6601 Tm
+(.)Tj
+/TT9 1 Tf
+-0.0455 -0.3 TD
+0.1706 Tc
+(>d)Tj
+8 0 0 8 245 309.1601 Tm
+0 Tc
+(n)Tj
+/TT3 1 Tf
+0.5 0 TD
+<003c>Tj
+/TT2 1 Tf
+0.5488 0 TD
+(1)Tj
+11 0 0 11 260.1 314.6601 Tm
+(.)Tj
+/TT9 1 Tf
+-0.0455 -0.3 TD
+0.1707 Tc
+(>d)Tj
+8 0 0 8 274.4 309.1601 Tm
+0 Tc
+(n)Tj
+/TT3 1 Tf
+0.5 0 TD
+<003c>Tj
+/TT2 1 Tf
+0.5488 0 TD
+(2)Tj
+11 0 0 11 289.5 314.6601 Tm
+(.)Tj
+/TT9 1 Tf
+-0.0455 -0.3 TD
+(>)Tj
+/TT2 1 Tf
+0.6748 0.3 TD
+( . . . )Tj
+1.75 -0.3 TD
+[(,)-297.9(where)]TJ
+3.2207 0.3 TD
+(.)Tj
+/TT9 1 Tf
+-0.0455 -0.3 TD
+(>)Tj
+/TT4 1 Tf
+0.8455 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+( )Tj
+/TT9 1 Tf
+0.25 0 TD
+(<)Tj
+/TT2 1 Tf
+0.5466 0.3 TD
+(.)Tj
+8 0 0 8 379.7 315.7601 Tm
+(-1)Tj
+11 0 0 11 387.2 311.36 Tm
+(.)Tj
+-24.3636 -1.6818 TD
+[(a.)-806.2(The)-354.4(general)-339.4(form)-356.2(of)-357.9(mathematical)-350.1(induction)-368.1(operates)-341.2(over)-350.4(a)-365.2(pair)-363.5(\()]TJ
+/TT9 1 Tf
+28.9239 0 TD
+(D)Tj
+/TT2 1 Tf
+0.7222 0 TD
+0.0766 Tc
+(, )Tj
+/TT9 1 Tf
+0.5766 0 TD
+0 Tc
+(<)Tj
+/TT2 1 Tf
+0.5409 0.3 TD
+(.)Tj
+0.4545 -0.3 TD
+[(\),)-371.5(where)-348(all)]TJ
+-29.7182 -1.2 TD
+[(the)-269.2(members)-261.7(of)]TJ
+/TT9 1 Tf
+6.5182 0 TD
+(D)Tj
+/TT2 1 Tf
+0.9909 0 TD
+[(form)-265.2(one)-265.2(sequence)]TJ
+/TT9 1 Tf
+7.8273 0 TD
+(d)Tj
+8 0 0 8 309.9 277.4601 Tm
+(0)Tj
+11 0 0 11 316.6 279.66 Tm
+(<)Tj
+/TT2 1 Tf
+0.5364 0.3 TD
+(.)Tj
+/TT9 1 Tf
+0.6182 -0.3 TD
+(d)Tj
+/TT2 1 Tf
+8 0 0 8 334.8 277.4601 Tm
+(1)Tj
+/TT9 1 Tf
+11 0 0 11 342.7 279.66 Tm
+(<)Tj
+/TT2 1 Tf
+0.5364 0.3 TD
+(.)Tj
+/TT9 1 Tf
+0.6182 -0.3 TD
+(d)Tj
+/TT2 1 Tf
+8 0 0 8 360.9 277.4601 Tm
+(2)Tj
+/TT9 1 Tf
+11 0 0 11 367.6 279.66 Tm
+(<)Tj
+/TT2 1 Tf
+0.5364 0.3 TD
+[(.)-204.5( . . . )]TJ
+/TT9 1 Tf
+2.2045 -0.3 TD
+(<)Tj
+/TT2 1 Tf
+0.5682 0.3 TD
+(.)Tj
+/TT9 1 Tf
+0.6182 -0.3 TD
+(d)Tj
+8 0 0 8 416.3 277.4601 Tm
+(i)Tj
+11 0 0 11 421.2 279.66 Tm
+(<)Tj
+/TT2 1 Tf
+0.5364 0.3 TD
+[(.)-204.6( . . . )]TJ
+2.2046 -0.3 TD
+[(.)-300(\(Thus)]TJ
+/TT9 1 Tf
+3.1409 0 TD
+(<)Tj
+/TT2 1 Tf
+0.5364 0.3 TD
+(.)Tj
+0.7182 -0.3 TD
+[(is)-269.4(a)]TJ
+-33.0909 -1.2 TD
+[(well-founded)-232.1(ordering.\))]TJ
+0 -1.6818 TD
+[(i.)-972.2(State)-291.4(the)-296.5(principle)-291.3(of)-294.3(generalized)-264.8(mathematical)-286.5(induction)-304.5(and)-292.5(prove)-286.8(that)-300.5(the)-296.5(prin-)]TJ
+1.5 -1.2 TD
+[(ciple)-247.5(is)-260.3(sound.)]TJ
+-1.5 -1.2 TD
+[(ii.)-694.3(What)-243.6(is)]TJ
+/TT9 1 Tf
+4.8364 0 TD
+(<)Tj
+/TT2 1 Tf
+0.5364 0.3 TD
+(.)Tj
+0.7091 -0.3 TD
+(for)Tj
+/TT9 1 Tf
+1.4091 0 TD
+(D)Tj
+/TT4 1 Tf
+0.8818 0 TD
+(=)Tj
+/TT2 1 Tf
+0.5488 0 TD
+-0.1409 Tc
+0.1409 Tw
+[( IN)-140.9(?)]TJ
+-8.9216 -1.2 TD
+0 Tc
+0 Tw
+[(iii.)-416.5(Give)-247.1(an)-247.1(example)-240.1(of)-248.8(another)-237.8(set)-252.8(with)-267.6(a)-256.2(well-founded)-241.2(ordering)-248.7(to)-267.6(which)-256.2(generalized)]TJ
+1.5 -1.2 TD
+[(mathematical)-241(induction)-259(can)-239.6(apply.)]TJ
+-3 -1.8 TD
+[(b.)-750(The)-318(general)-303.1(form)-319.8(of)-321.5(trans)]TJ
+/TT7 1 Tf
+11.9802 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nite)-336.9(induction)-340.8(operates)-313.9(over)-323.1(a)-328.9(pair)-327.1(\()]TJ
+/TT9 1 Tf
+14.6876 0 TD
+(D)Tj
+/TT2 1 Tf
+0.7222 0 TD
+0.0766 Tc
+(, )Tj
+/TT9 1 Tf
+0.5766 0 TD
+0 Tc
+(<)Tj
+/TT2 1 Tf
+0.5409 0.3 TD
+(.)Tj
+0.4545 -0.3 TD
+[(\),)-335.2(where)]TJ
+/TT9 1 Tf
+3.6727 0 TD
+(<)Tj
+/TT2 1 Tf
+0.5364 0.3 TD
+(.)Tj
+0.7909 -0.3 TD
+[(is)-342.1(a)]TJ
+-33.0182 -1.2 TD
+[(well)-251(founded)-241.3(ordering.)]TJ
+0 -1.8 TD
+[(i.)-972.2(State)-255(the)-251(principle)-245.8(of)-248.8(general)-230.3(trans)]TJ
+/TT7 1 Tf
+15.2257 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nite)-255(induction)-259(and)-247.1(prove)-241.3(it)-262.5(valid.)]TJ
+-15.7818 -1.2 TD
+[(ii.)-694.3(Show)-339.9(that)-336.9(there)-319.6(exists)-340.3(a)-328.9(well-founded)-323(ordering)-330.5(on)-345.5(the)-342(words)-337.5(in)-349.4(a)-338(dictionary)-336.7(and)]TJ
+1.5 -1.2 TD
+[(give)-251(an)-247.1(example)-240.1(of)-248.8(a)-247.1(proof)-243.1(using)-260.3(them)-255(and)-247.1(general)-230.3(trans)]TJ
+/TT7 1 Tf
+22.462 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nite)-255(induction.)]TJ
+-24.5182 -1.2 TD
+[(iii.)-416.5(Show)-294.4(that)-291.4(the)-287.4(principle)-282.2(of)-285.2(structural)-278.2(induction)-295.4(is)-296.6(justi)]TJ
+/TT7 1 Tf
+23.1408 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ed)-304.6(by)-290.9(the)-287.4(principle)-282.2(of)-285.2(gen-)]TJ
+-22.197 -1.2 TD
+[(eral)-237.8(trans)]TJ
+/TT7 1 Tf
+3.6802 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nite)-255(induction.)]TJ
+ET
+endstream
+endobj
+49 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT3 5 0 R
+/TT4 6 0 R
+/TT6 7 0 R
+/TT7 8 0 R
+/TT9 9 0 R
+/TT10 22 0 R
+>>
+/ExtGState <<
+/GS2 10 0 R
+>>
+>>
+endobj
+50 0 obj
+<<
+/Type /Halftone
+/HalftoneType 1
+/Frequency 60
+/Angle 45
+/SpotFunction /SimpleDot
+>>
+endobj
+10 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT 50 0 R
+/TR /Identity
+>>
+endobj
+51 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 701
+/CapHeight 0
+/Descent -298
+/Flags 4
+/FontBBox [-167 -299 1063 827]
+/FontName /GBJAGM+Symbol
+/ItalicAngle 0
+/StemV 0
+/FontFile2 52 0 R
+>>
+endobj
+52 0 obj
+<<
+/Filter /FlateDecode
+/Length 3444
+/Length1 6224
+>>
+stream
+Hâºó}xVe«ø˜πœ9œÑâc°H∞∂sÆ±tL§âÿ†9	i“ö8◊cLcl™-òO®Då¢Eã–åîºp!"ôuæÑö+I√åà»¢eF¥ë”˜˛ÓÒÂ≤˙œÀg◊Ôsˇ^Ó◊ﬂ}ﬂÁú¡ H'|d’÷’Õãﬁ∞øÃhzáÃéœ_ áôDîŒY∫8k¡’	üˆmÄ7dÓ“Eq˙ß∂É•__ü3iX˛≈¥∑–æ∞~nÌ‚˛ˆˆ9"µæy^cÌ–Ê4⁄i∑Õõø¢~L’º0x9}«Ê÷÷ÌΩj|pÓπå_‹@GÍSﬁFv=üˆ®Ü∆≈À◊ﬁ>=èˆz÷q√í¯b[uªèÒ˘ÛõÊ‘6¨ª˛2‡Ï:Œq}cÌÚÊîgÃ-¿–>∆≥‘6ŒÕª∞•8Á8„∂y—‹ÊÍ{«‹§pºî‘ÊEMÕ+Ïu5@⁄(∆G-iºæ˛%ÔA∆ó∫ıD~NŸGyîÚÂÒ˛ıΩø^Ï«x‹Í≠¡DT†’ÊvòXk
+∞Ü—ÒÿéË¶åCjÏV÷9ÖÏFèWÖßi’£–∆r:f≤VáÁyXÇ.≥]ﬁ o¢πõΩ≥[0ô~.kG•›âFy˜†⁄ø¡[Õ≠à{waâIC’ﬁÂﬁÙ3<¥˚'0.òä*<ÇNlµçﬁ—X5JL{o¿À8Ñ±ﬁ8ÃFõ7õ3›czÃ.s¿ˆ Ò¨ŸgNô˝A©˛Íπ °Ë∫∞ÀéÖÿE{8&Z?w9ŒDÁÔ§ﬁlû6õπ˛\}/
+±	w–øâı:Qh€Q`9sºä2˛ÂŸvzäÇı}XáÚ†≥LñÑ-ÃcvóŸÅ"€$L∑Ïvù˚#aä˝l/7¨∆≠x5ËÙ&x∞	ÔkÓƒ+Aõ∑ï˘H:ºÑô›üL ±6h√f&õew$38érÛ∞WÄ4ª’l{+7¡ìﬁQ/5úä∫‡òÈ5}·aéŸÙy@¬tÖc1¡ú
+ãÃû∞8ƒ	ÊqœM´WF∏ÍnıüØ`Ÿº›•euã\…´πÿöö„7"XP;ﬂÂ◊º˚<NäÖÅo=É—Yiù^Œuùì>Sôıƒ5Ÿ£ﬂcf•≈≤:1£ÛÃYª£hF•?<∏¶3—isR:˝úëá˛_P¡Ë+gTfÌ6±)%…nß‘î–yu%Ug—Mˇîí=F∏êé7˘¨H©8ΩÌçÉ)≠ˇu{∫˝˝®óvíOﬁ6ºÏ#:nCkXå⁄’îø≥Ø§¨Òä£◊˘POŸBôê‘ã(˘îôîbJ9eöWå-îlÔ˙®t•mC˚úÈÑcı⁄ÿl6aã+mVÿÌÿŒzUÔä7ŸÆ“Ô¿F{+È/7r‹:åÙ
+£“0ıÙ˝⁄Øã≥øcÙg˙GêüºË⁄±MhòÅ∞ì}5™Ï1±#à;qzJÓc?„ÿ_ªì†≈+Z∞.ËéN(Ù{0÷?å<'A7ÚÉ^Êcä©OdΩåXÀn‰yX»≤Ç}\‡«)è ùm≤É’«T∆ÜÖUÇTLÂ<÷ÿ2xúc)%óc§˚˘Ã˘]Ë`lê[#mÿ◊ëM˝rJÎî⁄f⁄DÙ¨ﬂı1^Dˇê†%Í„<¶∫=2'ë`ø¬qJ6e?•ïÎ{RoàÜp~9N\.‹∫ﬂ+gsS‚ƒÈÃOKPÇ≤dl+Ân∂oèöi‹è._·Fìk”±')≠NXøîcîÒ<‹¡uçu¬µß;£ÏcÁ“»:Ö¨€ñî'±#f¢=nv1/≥˙KÈıoï˛	ÓuèWêÇhe≤«4ß(˚π◊≥ùƒ2ÕXñ•í2t1?’ÃΩ;;ô\Kü"≥uÓˇá$oÀ Ò"9CXﬁ~√≤?fÈÅ«¯6Gƒﬁiıﬁüß.Õ[5¢hÔªK39ÚVô ßaç/Z¥êût#¬ëxZ|S<%æ!û˚ƒã'ƒâ«≈äØãˇ_ˇ.ˆäèâ’:ˇ"˝U¸uX:ÀÈG•ˇI<"˛Q<,˛A<$æ"˛N<(˛V|I|Q¸çx@|_FG{#i=/ﬂÛ‘}¸R˙sI:œ≥“ü!>ç'»ß§?)>!vãèkÓèIT‹'vâ?˜à?">å„*ŒÎ·~+zé„;èÂ◊¡Cƒ»nú#k#ÒÕ“Á"ñúDﬂ.ù§1Ü‹…wèù·~)±ﬁ|øY“’€°~§πv‚~é∞tæ˚˘}≤îñÛ9Àç¥=ŸÉãX“ıC\I}õ⁄‹+ﬁ#˛@}n≈%‰˜•ﬂ-ˇ˜4˙]Ú‹ôÏÔN~#9ÀıÁ<ﬂUªÕòL~á{b—°÷ﬂ÷hõ§KlwÁﬂƒ'»çÚ|C¸∫zÿ†Ë◊ƒ;4ÊzE◊Ò$[‹Æ:mä~U\´=˝äÍ¨o√˘é—kú€≠Ú‹"ÆNûù’∏åñ”-ﬂˆ7k=	’Hhﬂn÷zZôøÉå¥*“äΩå¨¬Jé(bIó·ï¯.•œE,È2‚<Ó∂∫ñ_o¬ç™uSø•qnT≠Ú,óâKµÍ%ì˚Ôuã0Ö-„˝ñZ:èÂ˜[≥v°"Õh“Ó7k˜õ5∑&,¿yÙ5i˜õ47Á±¯Ç⁄4àÛƒπ‚ÒÛbµxùX%^ÀÔVw◊Øï5KÛºFz•¯9±B¸¨8SºZ;U.}Üxï8]¸¥8MºR,ç~œô~J˝OïßD7˙ì“/'ãì¥öâ“/'àóä„≈Kƒb∂∂<sN'^$âcƒB˙,ø˙ú~Å¯q±@çR2_˙«ƒ<Ò|‰råÄ•≥ruBœìû#é¬Y‰H~i[|î'ﬁ"[˛,Ê»Ú{€’ˇà<“Gà√'˜üÉã√4ˆπ™5T<G<;…4fgsƒÄ•Û}ÈÃf¿“çòûå•Î6:›≤Õi—µ=K∑kê<gä©‚@qÄxÜò"∆0ñ˘tµ–;
+zG¡äûÓñßûçÊ_√’◊–ªäΩØßl°tRˆRb0f⁄Í6œˇ@~¯`Üy?o)∏Ôç—ÃZ¿ÛŒ˜∆ ÊŸÁ^πwJ¿|ÚüHÓS ‡Å‹≥322>Ä˛Å¸ã1ﬂˇ!æjC€™¬9˜3…M“$À«ölYoö4©1Kz€€,4µY
+˝ÿjW∞`E:µhYas`\Î~¸°JÒG˜G)áJˇàne~¸–Ie]˙'0§£àT˚·∫b∑ÙÍsob'ì!ä"OrÛ‹sﬁú˜ú˜ºÔyﬂcÖ¨œ»<ªæUè?Òª$ÏR |Ÿî∞[{¡É$àqˆë}ßê‡Ω2$CÄØnÑd‡·˘¥ƒ q”ûp@DIà,Ω^ÍÄﬂHàŒ¨±ÇN§ÌOyg¡ΩÌ¯îqöΩçìQBû9ãˆœëÉ$¨]_˝%Ä WI§ª™,˝”…≈¸ƒ\µl=n¸v≤¿_÷yËEpÜåkg∏q˛ú·œæúô√•¿ƒ3I._[n!é“ri9µÀ);#≤SÁH•¿*ﬂkgD˚/??#4Îcé†V∂≤Fåt‰¬Ã}Ê3k1â<«wô©˘+ÅyçH6éRâ3Û$+vHéçuE…∏2-£–P)≠è˙2©—à¨ î˜Pïz8keÄΩ∞ùcæ®≤EfËÎ´≥¥˘⁄<{óæLÆÒé>°¶è◊ı1"9í5ÒTWóÕÆ+÷Ê§jÍ™⁄*Ã•Ì.ˆ¥hWgW◊fµ´∞‰ùÁ¨L≥~ö‰Lx·Ã9JK∞M•ú¢•˙w:?Èï≈˚1|.ù
+ú»Î≈*ø"ôr≈"Ú·ögªM}«å‡À„T NW&£S4íÊ=|”ﬁ–FÃ»ˆ˚	˙Œ÷wÃª«¥7µc}”∏√Nsõ8ÁZr°hbäd’Z¥õ]uVCÇM§CB‹uƒ„ÿ(√“Nünkí,oîK˙ú=rHÒ“V<à”AòsÃ7€—∂|‹ Ì§{Î'˝M[”ÈansjÌ€â◊ßË0ç√˙ûß-”Ü◊xH*WOãD(r∂bÒ:l"«K‹ŒfóÜZRî≤”XÁR	Í◊SºGVçIèõÏÃÄüæı5sT◊{CªMπç;3MNÚüMi7∑niõòEmtô=…j»§√πTæ=´˙Ìn€‡@,L∂n’l…ˆ(Ó†e»'«⁄’Äø;o∑K¶_Ïr&ÂÃ¶¶\À.)._∆©œÆî]¬G€Ÿ
+ØœÎRè[h5E=noï©mÌù‘N´,≠£)⁄›OÒ÷™x}j[SïAz/}ÄVô0ıCì![¢-jùÎÔID√˚˚zÊ≤r\Môwöl∞%ïZ_§1ŸÉæ–}π¥Ëö`∆ÀZ€‰Üƒ≈òÛﬁdZâ≠ëOÔó#≠√X‘ñ:H(!9±sÙà´ê8?híàÑ[Õà=ƒº¸Ø„d≤ø∆{;X’Aˇ;é˛l˛70Ú”¯N≥Ìúﬁ∏≠∆0?z	gFã˘• ‰ÆÉ5Æ◊GGjúü®q¸•ﬁ¸°ÉΩ∆:}bÏ‰Ò{ø†–ÃìC≤•h≈Íi$•1§¢„(YüBy|
+Ï	›˜ñ˚'=∆*/„¿!Á2Fµî”3∑¯#Ói‘Ä!Û‹ìÁ~¨.{ìRìañ≥W^}˛˜¸¶-løezAò7¨Uµ˘MÄ à£ì
+endstream
+endobj
+53 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+54 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 701
+/CapHeight 0
+/Descent -298
+/Flags 32
+/FontBBox [-167 -299 1063 827]
+/FontName /GBJAJO+Symbol
+/ItalicAngle 0
+/StemV 0
+/FontFile2 55 0 R
+>>
+endobj
+55 0 obj
+<<
+/Filter /FlateDecode
+/Length 3044
+/Length1 6004
+>>
+stream
+Hâºñ|ïU«?Á9œÛ‹i«ú"¡bÊ§±tLú˘eÉÊ$§I4◊c,cÏ¬ ÿÇyC#ú?¢h—"4#%_xCD2"Í¸Öò+I”åàà¢eF¥NnüÛŸ%}Y˝ÁÀ{_ﬂ˜˘ûÔ˜úÔ9Á{Œyû@·cbm]›¸‰[ˆóÄôÍ¨sb¬˘ajàÚπçµQÒG“um3Ê.mŒYxm‹ß~?‡eÕ[∫8∆v” ªã•__õ;qp¡•¨Ôa˝‚˙yµÕ˝ÒÏDz}t~cÌ†hÎ}¨∑Õ_∞ºæƒÙ-∂3ÊäÜyµu{Æ[∫Ç˛KhH∆[œ–∑≥>¢°±˘¶µwL„|¸cΩqI¨ŸDV]Dû£¡Ç¶πµ„o8'ãÒÓj¨Ω)öˆºπïÒÜ“ü≥∞∂q^I…⁄ÎÅÛŒßﬂFõbÕ∞n~Áˆ:tÒºhı£π∂¥À(È—≈M—ÂˆÊ"£åÌG,i¸|˝+ﬁ#Ï;∞¡≠/ôƒœ){)èSû†<Ÿøﬁ˜·◊É}ã€º5òÄôËDµ9Ümf÷öB¨°w,∂b∫(%(Dç›Ã6}Ë∆Nt{≥Ò,kı(Ú≥úÜl’·y^6ñ†”¨Gß7¿õ`ƒFØ√¨ƒ&Ã¬0?ü-è£ nG#äΩ˚QÌﬂË≠é 1Ô^,1à°⁄ª“õvÜávˇJÇ)òç]H`≥mÙéD™QfzΩØ· ∆x%òÉ6og∫€tõÊÄ9‰UbøŸk˙Ãæ†\ˇzÆrzÇNÏÜ`v∞>¨üÚó≥>#9'ıf]¨Ÿ»ıOÁÍ{PÑ∏õˆló@ëmG°ÂÃq¸è¥Ì¥qÍ{q'*ÉnÃ2X∂0WÙŸfäm{7]™Û"”≥QÍÁz˘a5n√— ·çÛ`‚ﬁ	∂‹é◊É6o3Ûëtxq3ß?'òTbm–Ü,f&óÂlÓ»∞‡8*Õc^!2Ïf≥ÂtnÇßΩ#^z8u¡1”cz√ã¬<≥-ËıÄ∏È«`úÈãÕÓ∞4¿qÊq˜Õ´W&q.÷]Î?_¡≤˘∫[ÀÍö\…´€ÏM—ÿ
+§k∏¸öwü«âë0≠g0*'#·Â]Uóò¯È™úßÆÀ-ıûjNF$'ÅÈâ≥ñÁÏL&ßW˘CÇÎ¡–ÑÕKK¯y√˛?Á¡¬QWOØ Ÿi"ìÀRa'◊î—xmUW£ôˆ…eÖzÃp!owÆÕ<µÂ≠W”ZˇÎˆt˘˚P/Ì$ü8,º-xÕGÚd∏≠a)jXØ¶‘¯uòEeçWö|ì©±îMîq)ΩòR@ôA)•TR¶z•ÿDYŒ˛.Fï+mZsÜé’c`£ŸÄMÆ¥≈Xn∑b+€ÕxW‹∏©~U~÷€„XI{E∏û„÷a∏Wî,ÛPO€Ø¸∫‰!∆;F˚0ˇ0
+“Äó]?ˆ	3VbQ*V£ nì9åòßßÕƒÉåS¬xÌNÇØ2h¡ùAWÚD0E~7∆¯á0“I–ÖÇ†á˘ÿÇRÍÿ.;íÕ≤˘¡H,b9ì1.Úcî]»dü‹`5ÜÑC0Öæ¡·lxA:¶pkl<Œ±úíœ12˝Ê¸^t–7¿≠ëuÿ7ëK˝JJ€î€8fÿxrøﬂëÏ•øòˆ¨†%ŸÀyLq{dN"Œ∏Î¬1J.e•ïÎ{Zoå8≤8ø<'.n›Ôé≥çπ)s‚tÊß%(CE ∑ôr˚∑ÖGÃTÓ«tóØpΩ…∑ôÿùíV'l_Œ1*xÓÊ∫∆8·⁄3ÉÌ…å1ésidõ"∂mKIûì»a3¡7;òóY˝•Ù˙”•Ç{›Ì¶!π2’ècö> >Óı'ëafÀrI:ôüjÊﬁùùa\Kü"stÓˇá§nÀô‚%2Ü|ü•”¶|ñ∂°xÇo{$˘√;Ωﬁ˚Û“únëLÓywi&%ΩU&¿)X„ã-§'›àpDR<%æ-ˆâoâ'≈^Ò_‚	Òü‚qÒ‚õ‚ﬂ≈7ƒøâ=‚_≈c‚_¥Œ?K?ä?°KWs∫≈ÈãâøäØãø_#æ"æ,˛Z< æÑ/#õ£ΩÑ·¨Ω(€ã‘}¸B˙):À~Èœãœâœ‚)ÚÈOãOâ]‚ìö˚“˜äù‚œƒ›‚O≈]‚Oƒ«c\√y=÷_Kæ¿Òù≈ÚÎ‡Q†g'ŒSm=èÚÕ“Ê<ñúH€ù§G0ö‹Œwèùîƒ√¸R(fªá˘~≥§k∑M#¸HsM‡!é∞t∂á¯}≤î5gs57“÷TÁ±§ãC\M}ã˙< ﬁ/˛@17„rÚ˚“Ôì˝{˝^YÓI≈ªáﬂHÆÊ‚9ã≈w’o#&ëﬂ·ûXt®˜∑5⁄Èﬂ€›9∆7qπ^ñoà_WÑuÚ~Mº[cﬁ%Ôù<…w®Mõº∑ãkµß_Uõ5‚Wp°cÚŒÌ6YnWßŒŒjågÕÈño˚[¥û∏Zƒµo∑h=≠Ãﬂ´Ù¥ ”ä=Ù¨¬Jé»cIó·ï¯Æ†Õy,È2‚,Ó∂∫û_o∆
+µ∫πø¶qV®’rYnóâKµÍ%ì˙Ôuã1ô=c˝5ıtÀÔ∑®vë<Q4i˜£⁄˝®Ê÷ÑÖ∏Ä∂&Ì~ìÊÊ,_Püqæ8Oú+~N¨ogã◊Ûª’›ıÎUõ•y^'ΩJ¸¨8S¸å8CºV;U)}∫xç8M¸î8UºZ,O˛é3˝§‚Oë•L7˙“Ø'âµö	“«ã„ƒ+ƒ±‚Âb){[û9ßóàóà≈‚h±à6ÀØ>ß_$~\,G°ú,ê˛1q§x!Ú9F¿“’ÚuB/êû'é¿Ÿ‰p~i[|î'ﬁ"WˆÊ»Ú{€µˇà,Ÿ“áäC&ıüÉãÉ5ˆ˘j5H<O<7≈f'9b¿“ŸŒA&≥∞t#f¶|ô∫çN∑ÏsJt}œ÷Ì ÀYb∫¯!ÒLÒ1Må`ÚÈj°wÙéÇ=›-OëçÊ_√’◊–∫ä—Ô¢l¢$({(3uuõâ| ?|0√ºüøÏˇ|)∏ÔçQÃZ¿ÛŒ˜∆ôÃ≥œΩ˙7˚U⁄DÖgvgˇ2iÕ∂J4Mõn∞µ`§hqi/bäx/≠´í
+jëﬁ‘*[†ˆbDD<x“SëJ°óx^Çû≈É åøôƒ˙Cµxt?v˜€˘€y3ÔΩyOú)÷I$ˆ…¥9ˆÃJp‘áPŒÎF€®<yˆtÎ jb$V«±K‡qo‚ÿ≠F&“Ñq$ÅqöÌu–≤‡–ÍV¥l4h~;J: v”	ﬁ ÄEqXñàóéCo8¨”ïÇg…IîOú\Öè"»€¶¿ØIoˆûë„úY@˘úA≤Èó Ç≥˙-·¢,ÒÏ‰ıƒÉJÿ÷2&ﬂÉÍ1[Ç∑‹WH:òciÌâ‘Áh“bH
+LMa§;_Ã˜íH!_»˜‘€é›ÓÿNöë“µ°Ù9ò3j◊æ]÷;≈øŒ¬¬Í
+Ê’û¨˘&ô’üQ˚1∏•Ö#Ewµ‰ÆˆíÓíãwuˆ9v´ÌÙ;ˆeöﬁ≤~ê°˜}•”<öÛiNÃÙ,ç≤ZÂ•úW<Y£œ22´¯&#5#7ﬂá…ïVãb∏~	V[J©ØƒM£˛åèôïøç¨.x!l?i†;,ëE
+ÀB¨J?V˜£»⁄Ç∆ªBé,I®kÍ3»q8Áñih"kµB:Ûêâ$V!¶J-#åﬂ/˜Eƒ0Órt†áF-jXÙ†EèRuŒ“q/xÃ{Ù¢|®O«ô´~zÙÇ‰‰>9[‡‘éò\«Ì]cÒ?6Ah]≈~ˆBc¿h∑æeﬁ≤›⁄T“∞cüÊø˙√øªˇ∏%CÃ d3eæ÷Öû£‰ÉÙ8Îº¸©¸±ºTNo»Û‘«6Iz›ã◊êﬂåÅ◊Tπ;¬,îƒ‡c+\Åˇ™r#åT9ü®r|Êƒpj(5“uf:Î] lˇÅ`kò§0d
+Cu!`õÜK‡é3€∆"NÅùG‡π}ª›‘H)W	3Ëä"#Ü§8Ωå/»U®ÑlÛ˛–‚È—=ÓwJMπ,ÔÓ\o·„ÉÁ?ÁÕzNÆVu~	0 ©Pµ∫
+endstream
+endobj
+56 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 676
+/Descent -250
+/Flags 262178
+/FontBBox [-168 -218 1000 935]
+/FontName /Times-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 461
+/StemH 139
+>>
+endobj
+57 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+58 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 653
+/Descent -250
+/Flags 98
+/FontBBox [-169 -217 1010 883]
+/FontName /Times-Italic
+/ItalicAngle -15
+/StemV 76
+/XHeight 441
+/StemH 76
+>>
+endobj
+59 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 653
+/Descent -250
+/Flags 98
+/FontBBox [-169 -217 1010 883]
+/FontName /Times-Italic
+/ItalicAngle -15
+/StemV 76
+/XHeight 441
+/StemH 76
+>>
+endobj
+60 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 676
+/Descent -250
+/Flags 262178
+/FontBBox [-168 -218 1000 935]
+/FontName /Times-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 461
+/StemH 139
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 151
+/Widths [250 333 0 0 0 0 778 0 333 333 0 564 250 333 250 278 
+500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 
+0 722 667 667 722 611 556 722 722 333 0 0 611 889 722 722 
+556 0 667 556 611 722 0 944 0 722 0 0 0 0 0 500 
+0 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 
+500 500 333 389 278 500 500 722 500 500 444 0 200 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 333 333 0 0 0 0 1000 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 53 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type0
+/BaseFont /GBJAGM+Symbol
+/Encoding /Identity-H
+/DescendantFonts [ 61 0 R ]
+/ToUnicode 62 0 R
+>>
+endobj
+61 0 obj
+<<
+/Type /Font
+/Subtype /CIDFontType2
+/BaseFont /GBJAGM+Symbol
+/FontDescriptor 51 0 R
+/CIDSystemInfo<<
+/Registry (Adobe)
+/Ordering (Identity)
+/Supplement 0
+>>
+/DW 1000
+/W [
+41 42 548
+60 [548]
+65 [986]
+68 [712]
+133 [712]
+155 [500]
+]
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 43
+/LastChar 215
+/Widths [549 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 549 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 500 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 549 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /GBJAJO+Symbol
+/FontDescriptor 54 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 122
+/Widths [250 0 0 0 0 0 0 0 0 0 0 0 0 333 250 0 
+500 500 500 500 500 500 500 500 500 500 333 0 0 0 0 0 
+0 722 667 722 722 667 611 778 778 389 0 0 667 944 722 778 
+611 0 722 556 667 722 0 0 722 722 0 0 0 0 0 500 
+0 500 556 444 556 444 333 500 556 278 0 556 278 833 556 500 
+556 556 444 389 333 556 500 722 500 500 444 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Bold
+/FontDescriptor 56 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 223
+/Widths [556 556 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 57 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 122
+/Widths [250 0 0 0 0 0 0 0 333 333 0 0 250 333 250 0 
+500 500 500 0 0 0 0 0 0 0 333 0 675 675 675 0 
+0 611 611 0 722 611 611 0 0 333 0 0 0 833 667 722 
+611 0 611 500 556 0 0 0 0 0 0 0 0 0 0 0 
+0 500 500 444 500 444 278 500 500 278 278 444 278 722 500 500 
+500 0 389 389 278 500 444 667 444 444 389 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Italic
+/FontDescriptor 58 0 R
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 222
+/Widths [500 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Times-Italic
+/FontDescriptor 59 0 R
+>>
+endobj
+32 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 222
+/Widths [556 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Times-Bold
+/FontDescriptor 60 0 R
+>>
+endobj
+62 0 obj
+<<
+/Filter /FlateDecode
+/Length 266
+>>
+stream
+HâTQMoÑ Ω˚+Êÿ¶Ñu∑kb∏l/˙ëj{G]íäÒ‡ø/†›M@ﬁÃ{3Ûr©_j£=ê7…=Ù⁄(áÛ¥8â–·†PJKø£tÀQX A‹¨≥«±6˝UïëœêúΩ[·°mO˘#êwß–i3ÑH¡ææC§Y¨˝¡çá8Ö}F.Ø¬æâÅ$·=ÿÆÅ%L˜ﬁì¬Ÿ
+âNò° sVÚ¯î4Í>;n™ÆóW·≤@;»¿få2QA#¢ÂéäîÀœ	ùè	ùO	≈ÚQ˜Ã≥–eØGˇ™oÕÓ√0ëÿßbgo˘8^\›ÕÆ\úõH˚M~£Smˆv≤—T<ŸØ   ≠Ét
+endstream
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 15 0 R
+/Contents 14 0 R
+>>
+endobj
+16 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 18 0 R
+/Contents 17 0 R
+>>
+endobj
+19 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 21 0 R
+/Contents 20 0 R
+>>
+endobj
+23 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 25 0 R
+/Contents 24 0 R
+>>
+endobj
+26 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 28 0 R
+/Contents 27 0 R
+>>
+endobj
+29 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 31 0 R
+/Contents 30 0 R
+>>
+endobj
+33 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 35 0 R
+/Contents 34 0 R
+>>
+endobj
+36 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 38 0 R
+/Contents 37 0 R
+>>
+endobj
+39 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 41 0 R
+/Contents 40 0 R
+>>
+endobj
+42 0 obj
+<<
+/Type /Page
+/Parent 46 0 R
+/Resources 44 0 R
+/Contents 43 0 R
+>>
+endobj
+47 0 obj
+<<
+/Type /Page
+/Parent 46 0 R
+/Resources 49 0 R
+/Contents 48 0 R
+>>
+endobj
+63 0 obj
+<<
+/S /D
+>>
+endobj
+64 0 obj
+<<
+/Nums [0 63 0 R ]
+>>
+endobj
+11 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 13 0 R 16 0 R 19 0 R 23 0 R 26 0 R 29 0 R 33 0 R 36 0 R 39 0 R]
+/Count 10
+/Parent 45 0 R
+>>
+endobj
+46 0 obj
+<<
+/Type /Pages
+/Kids [42 0 R 47 0 R]
+/Count 2
+/Parent 45 0 R
+>>
+endobj
+45 0 obj
+<<
+/Type /Pages
+/Kids [11 0 R 46 0 R ]
+/Count 12
+/MediaBox [0 0 612 792]
+>>
+endobj
+65 0 obj
+<<
+/CreationDate (D:20050425064246-06'00')
+/ModDate (D:20050425064246-06'00')
+/Producer (Apple pstopdf)
+>>
+endobj
+66 0 obj
+<<
+/Type /Catalog
+/Pages 45 0 R
+/PageLabels 64 0 R
+>>
+endobj
+xref
+0 67
+0000000000 65535 f 
+0000101534 00000 n 
+0000000016 00000 n 
+0000007581 00000 n 
+0000098266 00000 n 
+0000098832 00000 n 
+0000099225 00000 n 
+0000099755 00000 n 
+0000100225 00000 n 
+0000100399 00000 n 
+0000089884 00000 n 
+0000102607 00000 n 
+0000007732 00000 n 
+0000101615 00000 n 
+0000007789 00000 n 
+0000012869 00000 n 
+0000101699 00000 n 
+0000013021 00000 n 
+0000015983 00000 n 
+0000101783 00000 n 
+0000016135 00000 n 
+0000022627 00000 n 
+0000100853 00000 n 
+0000101867 00000 n 
+0000022781 00000 n 
+0000032621 00000 n 
+0000101951 00000 n 
+0000032762 00000 n 
+0000038735 00000 n 
+0000102035 00000 n 
+0000038887 00000 n 
+0000043408 00000 n 
+0000101025 00000 n 
+0000102119 00000 n 
+0000043573 00000 n 
+0000054561 00000 n 
+0000102203 00000 n 
+0000054713 00000 n 
+0000064412 00000 n 
+0000102287 00000 n 
+0000064577 00000 n 
+0000071105 00000 n 
+0000102371 00000 n 
+0000071257 00000 n 
+0000079922 00000 n 
+0000102825 00000 n 
+0000102744 00000 n 
+0000102455 00000 n 
+0000080074 00000 n 
+0000089616 00000 n 
+0000089781 00000 n 
+0000090023 00000 n 
+0000090213 00000 n 
+0000093745 00000 n 
+0000093942 00000 n 
+0000094133 00000 n 
+0000097265 00000 n 
+0000097467 00000 n 
+0000097664 00000 n 
+0000097864 00000 n 
+0000098064 00000 n 
+0000098974 00000 n 
+0000101195 00000 n 
+0000102539 00000 n 
+0000102567 00000 n 
+0000102917 00000 n 
+0000103040 00000 n 
+trailer
+<<
+/Size 67
+/Root 66 0 R
+/Info 65 0 R
+/ID [<4dba09e01bac325fd7b31267111ab17f><4dba09e01bac325fd7b31267111ab17f>]
+>>
+startxref
+103110
+%%EOF

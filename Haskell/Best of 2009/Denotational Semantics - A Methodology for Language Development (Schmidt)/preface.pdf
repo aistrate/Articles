@@ -1,0 +1,1030 @@
+%PDF-1.3
+%âãÏÓ
+2 0 obj
+<<
+/Length 7629
+>>
+stream
+BT
+/TT2 1 Tf
+21 0 0 21 97.2 694.8601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(Preface)Tj
+/TT4 1 Tf
+11 0 0 11 97.2 609.6601 Tm
+[(Denotational)-362.2(semantics)-365.7(is)-378.5(a)-365.2(methodology)-377.2(for)-361.3(giving)-380.7(mathematical)-359.2(meaning)-365.7(to)-385.8(programming)]TJ
+0 -1.2 TD
+[(languages)-365.1(and)-374.3(systems.)-392.1(It)-380.1(was)-372.1(developed)-363.3(by)-381.8(Christopher)-378.3(Strachey’s)-361.1(Programming)-382.3(Research)]TJ
+T*
+[(Group)-244.8(at)-251(Oxford)-239.1(University)-251(in)-258.5(the)-251(1960s.)-260.8(The)-245.3(method)-255(combines)-249.3(mathematical)-241(rigor,)-260.7(due)-256.2(to)-267.6(the)]TJ
+T*
+[(work)-299.4(of)-303.4(Dana)-290.1(Scott,)-321.6(with)-313.1(notational)-310.1(elegance,)-280.2(due)-301.6(to)-313.1(Strachey.)-296.9(Originally)-307.8(used)-303.4(as)-294.3(an)-292.5(analysis)]TJ
+T*
+[(tool,)-339.8(denotational)-320.8(semantics)-320.3(has)-321.5(grown)-317.6(in)-331.3(use)-321.5(as)-321.5(a)-319.8(tool)-344.3(for)-324.9(language)-317.9(design)-334.6(and)-328.9(implementa-)]TJ
+T*
+(tion.)Tj
+2 -1.2 TD
+[(This)-267.6(book)-263.6(was)-263(written)-267.5(to)-276.7(make)-261.7(denotational)-266.2(semantics)-265.7(accessible)-246.8(to)-276.7(a)-265.2(wider)-259.5(audience)-246.8(and)]TJ
+-2 -1.2 TD
+[(to)-294.9(update)-279.9(existing)-297.1(texts)-293.1(in)-285.8(the)-278.3(area.)-512.7(I)-276.1(have)-266.9(presented)-259.4(the)-278.3(topic)-282.3(from)-274.3(an)-274.3(engineering)-261.6(viewpoint,)]TJ
+T*
+[(emphasizing)-282.2(the)-287.4(descriptional)-280.4(and)-283.4(implementational)-292.9(aspects.)-280.5(The)-281.7(relevant)-270.7(mathematics)-282.7(is)-296.6(also)]TJ
+T*
+[(included,)-370.3(for)-361.3(it)-380.7(gives)-371(rigor)-365.2(and)-365.2(validity)-381.2(to)-367.6(the)-360.1(method)-364.1(and)-356.2(provides)-356.2(a)-356.2(foundation)-358.4(for)-352.2(further)]TJ
+T*
+(research.)Tj
+2 -1.2 TD
+[(The)-263.5(book)-272.7(is)-278.5(intended)-265.7(as)-267(a)-265.2(tutorial)-275.5(for)-261.3(computing)-277.2(professionals)-259.5(and)-265.2(as)-267(a)-265.2(text)-273.2(for)-270.3(university)]TJ
+-2 -1.2 TD
+[(courses)-555.5(at)-569.2(the)-569.2(upper)-550.4(undergraduate)-526.2(or)-557.9(beginning)-564.1(graduate)-539.4(level.)-815.7(The)-554.4(reader)-529.7(should)-569.4(be)]TJ
+T*
+[(acquainted)-287.1(with)-313.1(discrete)-290.6(structures)-294.1(and)-301.6(one)-301.6(or)-303.4(more)-299.9(general)-284.9(purpose)-306.7(programming)-311.2(languages.)]TJ
+T*
+[(Experience)-221.1(with)-258.5(an)-247.1(applicative-style)-237.1(language)-236.1(such)-248.8(as)-248.8(LISP,)-266.6(ML,)-259.1(or)-248.8(Scheme)-243.6(is)-260.3(also)-252.8(helpful.)]TJ
+/TT2 1 Tf
+0 -4.8 TD
+[(CONTENTS)-271.3(OF)-256.8(THE)-270(BOOK )]TJ
+/TT6 1 Tf
+13.0505 0 TD
+(_)Tj
+0.0404 0 TD
+(_)Tj
+T*
+(_)Tj
+0.0182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(_)Tj
+/TT4 1 Tf
+-37.4636 -2.4 TD
+[(The)-327.1(Introduction)-329.4(and)-328.9(Chapters)-327.1(1)-336.4(through)-334.6(7)-336.4(form)-328.9(the)-332.9(core)-324.7(of)-339.7(the)-342(book.)-350(The)-336.2(Introduction)-338.5(pro-)]TJ
+0 -1.2 TD
+[(vides)-325.5(motivation)-339.7(and)-319.8(a)-310.7(brief)-303.2(survey)-306.7(of)-312.4(semantics)-311.2(speci)]TJ
+/TT7 1 Tf
+22.2456 0 TD
+(Þ)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(cation)-309.4(methods.)-325(Chapter)-307.2(1)-318.2(introduces)]TJ
+-22.8017 -1.2 TD
+[(BNF,)-386.5(abstract)-363.4(syntax,)-384.6(and)-374.3(structural)-369.1(induction.)-645.4(Chapter)-370.8(2)-381.8(lists)-397.3(those)-380.1(concepts)-365.1(of)-376.1(set)-380.1(theory)]TJ
+T*
+[(that)-264.1(are)-242.9(relevant)-243.4(to)-267.6(semantic)-254.9(domain)-264.1(theory.)-258.9(Chapter)-243.6(3)-254.5(covers)-235.6(semantic)-245.8(domains,)-261.3(the)-251(value)-243.6(sets)]TJ
+T*
+[(used)-439.7(in)-458.5(denotational)-448(semantics.)-452.1(The)-445.3(fundamental)-438.3(domains)-456.8(and)-447.1(their)-449.3(related)-434.3(operations)-443.6(are)]TJ
+T*
+[(presented.)-309.4(Chapter)-316.3(4)-318.2(introduces)-307.2(basic)-309(denotational)-311.7(semantics.)-315.7(Chapter)-307.2(5)-318.2(covers)-299.2(the)-314.7(semantics)]TJ
+T*
+[(of)-248.8(computer)-241.8(storage)-239.6(and)-247.1(assignment)-255(as)-248.8(found)-257.9(in)-267.6(conventional)-253.1(imperative)-251.4(languages.)-506(Nontradi-)]TJ
+T*
+[(tional)-386.3(methods)-384.1(of)-376.1(store)-374.3(evaluation)-371.3(are)-361.1(also)-380.1(considered.)-618.5(Chapter)-370.8(6)-381.8(presents)-359.5(least)]TJ
+/TT7 1 Tf
+33.5273 0 TD
+(Þ)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(xed)-372.7(point)]TJ
+-34.0834 -1.2 TD
+[(semantics,)-370.3(which)-365.2(is)-378.5(used)-367(for)-370.3(determining)-377.1(the)-378.3(meaning)-374.8(of)-376.1(iterative)-369.6(and)-374.3(recursive)-353.6(de)]TJ
+/TT7 1 Tf
+34.4166 0 TD
+(Þ)Tj
+/TT4 1 Tf
+0.5562 0 TD
+(nitions.)Tj
+-34.9727 -1.2 TD
+[(The)-554.4(related)-543.4(semantic)-554.9(domain)-564.1(theory)-554.4(is)-569.4(expanded)-541.2(to)-567.6(include)-556.6(complete)-544.1(partial)-545.8(orderings;)]TJ
+T*
+[(‘‘predomains’’)-275.2(\(complete)-292.9(partial)-309.4(orderings)-305(less)-318.2(‘‘bottom’’)-307.2(elements\))-303.7(are)-297.5(used.)-317(Chapter)-307.2(7)-318.2(cov-)]TJ
+T*
+[(ers)-243.1(block)-251(structure)-237.8(and)-247.1(data)-243.6(structures.)]TJ
+2 -1.2 TD
+[(Chapters)-245.3(8)-254.5(through)-261.9(12)-263.6(present)-248.7(advanced)-233.7(topics.)-525(Tennent’s)-246.9(analysis)-260.1(of)-257.9(procedural)-233.7(abstrac-)]TJ
+-2 -1.2 TD
+[(tion)-271.6(and)-256.2(general)-239.4(binding)-262.5(mechanisms)-247.5(is)-260.3(used)-248.8(as)-248.8(a)-247.1(focal)-237.8(point)-262.5(for)-243.1(Chapter)-243.6(8.)-259.1(Chapter)-243.6(9)-254.5(analyzes)]TJ
+T*
+[(forms)-385.2(of)-385.2(imperative)-378.7(control)-385.7(and)-383.4(branching.)-378.7(Chapter)-379.9(10)-390.9(surveys)-390.3(techniques)-387.3(for)-388.5(converting)-387.3(a)]TJ
+T*
+[(denotational)-357.1(de)]TJ
+/TT7 1 Tf
+6.2438 0 TD
+(Þ)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(nition)-375.6(into)-371.6(a)-356.2(computer)-341.8(implementation.)-364.5(Chapter)-343.6(11)-354.5(contains)-349.3(an)-347.1(overview)-333.8(of)]TJ
+-6.8 -1.2 TD
+[(Scott’s)-304(inverse)-285(limit)-319.9(construction)-302.1(for)-297.6(building)-321(recursively)-284.9(de)]TJ
+/TT7 1 Tf
+24.4984 0 TD
+(Þ)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(ned)-301.6(domains.)-315.9(Chapter)-298.1(12)-309.1(closes)]TJ
+-25.0545 -1.2 TD
+[(the)-251(book)-254.5(with)-258.5(an)-247.1(introduction)-257.3(to)-258.5(methods)-256.8(for)-243.1(understanding)-243.6(nondeterminism)-255.5(and)-247.1(concurrency.)]TJ
+2 -1.2 TD
+[(Throughout)-287.4(the)-287.4(book)-290.9(I)-285.2(have)-275.9(consistently)-295.4(abused)-277.7(the)-287.4(noun)-290.9(‘‘access,’’)-246.1(treating)-282.2(it)-298.9(as)-285.2(a)-292.5(verb.)]TJ
+-2 -1.2 TD
+[(Also,)-260.8(‘‘if)50(f’’)-228.7(abbreviates)-228.6(the)-251(phrase)-235.6(‘‘if)-241.3(and)-247.1(only)-258.5(if.’’)]TJ
+/TT2 1 Tf
+10 0 0 10 97.2 57.6601 Tm
+(viii)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT7 7 0 R
+>>
+/ExtGState <<
+/GS2 8 0 R
+>>
+>>
+endobj
+10 0 obj
+<<
+/FunctionType 2
+/Domain [0 1]
+/N 1
+>>
+endobj
+12 0 obj
+<<
+/Length 9510
+>>
+stream
+BT
+/TT9 1 Tf
+10 0 0 10 463.5 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(Preface     )Tj
+/TT2 1 Tf
+4.3594 0 TD
+(ix)Tj
+11 0 0 11 97.2 682.4601 Tm
+[(ORGANIZATION)-261.5(OF)-256.8(A)-250.6(COURSE )]TJ
+/TT6 1 Tf
+15.3538 0 TD
+(_)Tj
+0.028 0 TD
+-0.2 Tc
+(__)Tj
+0.3182 0 TD
+0 Tc
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(_)Tj
+/TT4 1 Tf
+-37.4636 -2.4 TD
+[(The)-263.5(book)-272.7(contains)-267.5(more)-272.6(material)-269.6(than)-278.3(what)-274.3(can)-266.8(be)-274.3(comfortably)-267.3(covered)-253.6(in)-285.8(one)-274.3(term.)-281.1(A)-277.8(course)]TJ
+0 -1.2 TD
+[(plan)-296.5(should)-305.7(include)-293(the)-296.5(core)-279.3(chapters;)-281.5(any)-283.4(remaining)-282.2(time)-295.4(can)-275.9(be)-283.4(used)-285.2(for)-279.4(Chapters)-281.7(8)-290.9(through)]TJ
+T*
+[(12,)-295.5(which)-283.4(are)-270.2(independent)-285.5(of)-294.3(one)-292.5(another)-283.3(and)-292.5(can)-285(be)-292.5(read)-279.3(in)-304(any)-292.5(order.)-540.1(The)-290.8(core)-279.3(can)-285(be)-292.5(han-)]TJ
+T*
+[(dled)-251(as)-248.8(follows:)]TJ
+8 0 0 8 97.2 596.6601 Tm
+(•)Tj
+11 0 0 11 118.1 596.6602 Tm
+[(Present)-292.5(the)-296.5(Introduction)]TJ
+/TT7 1 Tf
+9.9909 0 TD
+(Þ)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(rst.)-566.6(You)-296(may)-296.5(wish)-301.7(to)-304(give)-305.6(a)-301.6(one)-301.6(lecture)-288.9(preview)-288.4(of)-303.4(Chapter)-298.1(4.)]TJ
+-10.4471 -1.2 TD
+[(A)-496(preview)-479.3(motivates)-502.7(the)-496.5(students)-504(to)-504(carefully)-474.1(study)-505.7(the)-496.5(material)-487.8(in)-504(the)-487.4(background)]TJ
+T*
+[(Chapters)-245.3(1)-254.5(through)-252.8(3.)]TJ
+8 0 0 8 97.2 557.0601 Tm
+(•)Tj
+11 0 0 11 118.1 557.0601 Tm
+[(Cover)-247.1(all)-255(of)-248.8(Chapters)-245.3(1)-254.5(and)-247.1(2,)-259.1(as)-248.8(they)-251(are)-233.8(short)-254.5(and)-247.1(introduce)-241.8(crucial)-234.3(concepts.)]TJ
+8 0 0 8 97.2 543.8601 Tm
+(•)Tj
+11 0 0 11 118.1 543.8601 Tm
+[(Use)-299.4(Chapter)-298.1(3)-309.1(a)0(s)-303.4(a)-301.6(‘‘reference)-243(manual.’’)-549.7(You)-305.1(may)-314.7(wish)-319.9(to)-322.2(start)-314.7(at)-314.7(the)-314.7(summary)-314.7(Section)]TJ
+0.1 -1.2 TD
+[(3.5)-331.8(and)-319.8(outline)-331.7(the)-323.8(structures)-312.3(of)-321.5(semantic)-318.5(domains.)-588.6(Next,)-324.3(present)-312.3(examples)-314.5(of)-321.5(semantic)]TJ
+T*
+[(algebras)-232.1(from)-247.1(the)-251(body)-254.5(of)-248.8(the)-251(chapter.)]TJ
+8 0 0 8 97.2 504.2601 Tm
+(•)Tj
+11 0 0 11 118.1 504.2601 Tm
+[(Cover)-310.7(all)-318.7(of)-312.4(Chapter)-307.2(4)-318.2(and)-310.7(at)-314.7(least)-312.9(Sections)-320.4(5.1)-322.7(and)-310.7(5.4)-322.7(from)-310.7(Chapter)-307.2(5.)-577.3(If)-315.8(time)-331.7(allows,)]TJ
+0.1 -1.2 TD
+[(cover)-233.8(all)-255(of)-248.8(Chapter)-243.6(5.)]TJ
+8 0 0 8 97.2 477.8601 Tm
+(•)Tj
+11 0 0 11 118.1 477.8601 Tm
+[(Summarize)-282.2(Chapter)-279.9(6)-290.9(i)0(n)-294.9(one)-283.4(or)-294.3(two)-300(lectures)-281.5(for)-288.5(an)-292.5(undergraduate)-262.6(course.)-540.1(This)-304(summary)]TJ
+0.1 -1.2 TD
+[(can)-239.6(be)-247.1(taken)-243.6(from)-247.1(Section)-255(6.1.)-518.2(A)-250.6(graduate)-230.3(course)-235.6(should)-260.3(cover)-233.8(all)-255(of)-248.8(the)-251(chapter.)]TJ
+8 0 0 8 97.2 451.4601 Tm
+(•)Tj
+11 0 0 11 118.1 451.4601 Tm
+[(Cover)-247.1(as)-248.8(much)-251(of)-248.8(Chapter)-243.6(7)-254.5(a)0(s)-248.8(possible.)]TJ
+/TT2 1 Tf
+-1.9 -4.8 TD
+[(REFERENCES)-267.3(AND)-242.6(EXERCISES )]TJ
+/TT6 1 Tf
+15.3189 0 TD
+(_)Tj
+0.0447 0 TD
+-0.1818 Tc
+(__)Tj
+0.3364 0 TD
+0 Tc
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(_)Tj
+/TT4 1 Tf
+-37.4636 -2.4 TD
+[(Following)-342.7(each)-304.8(chapter)-303.1(is)-333(a)-319.8(short)-327.3(list)-341(of)-321.5(references)-283.5(that)-336.9(suggests)-338.1(further)-315.7(reading.)-578.7(Each)-319.6(refer-)]TJ
+0 -1.2 TD
+[(ence)-250.3(identi)]TJ
+/TT7 1 Tf
+4.3592 0 TD
+(Þ)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(es)-279(the)-269.2(author)-263.5(and)-265.2(the)-269.2(year)-252(of)-267(publication.)-532.8(Letters)]TJ
+/TT9 1 Tf
+20.012 0 TD
+[(a,)-277.3(b,)-277.3(c,)]TJ
+/TT4 1 Tf
+3.0182 0 TD
+[(and)-256.2(so)-265.4(on,)-268.2(are)-242.9(used)-257.9(if)-261.9(the)]TJ
+-27.9455 -1.2 TD
+[(author)-327.1(has)-330.6(multiple)-348.8(references)-283.5(for)-324.9(a)-328.9(year.)-320.2(The)-327.1(references)-283.5(are)-315.7(compiled)-333.4(in)-349.4(the)-342(bibliography)-344.2(in)]TJ
+T*
+[(the)-387.4(back)-375.9(of)-385.2(the)-378.3(book.)-640.9(I)-376.1(have)-366.8(tried)-376.6(to)-385.8(make)-370.8(the)-378.3(bibliography)-380.6(current)-359.4(and)-374.3(complete,)-375.9(but)-385.8(this)]TJ
+T*
+[(appears)-355.4(to)-385.8(be)-374.3(an)-374.3(impossible)-393.8(task,)-384.6(and)-383.4(I)-385.2(apologize)-376.4(to)-394.9(those)-389.2(researchers)-339.8(whose)-381.2(ef)50(forts)-376.5(I)-385.2(have)]TJ
+T*
+[(unintentionally)-263.5(omitted.)]TJ
+2 -1.2 TD
+[(Exercises)-304.8(are)-306.6(provided)-318(for)-315.8(each)-304.8(chapter.)-562.2(The)-318(order)-308.3(of)-321.5(a)-319.8(chapter’s)-299.1(exercises)-299.1(parallels)-312.8(the)]TJ
+-2 -1.2 TD
+[(order)-353.8(of)-367(presentation)-358.2(of)-367(the)-369.2(topics)-365.9(in)-367.6(the)-360.1(chapter.)-344(The)-354.4(exercises)-335.4(are)-342.9(not)-367.6(graded)-342.9(according)-339.4(to)]TJ
+T*
+(dif)Tj
+/TT7 1 Tf
+1.0608 0 TD
+(Þ)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(culty;)-314.8(an)-301.6(hour’s)-299.4(ef)50(fort)-292.9(on)-309.1(a)-301.6(problem)-303.8(will)-317.1(allow)-305.6(the)-305.6(reader)-275.2(to)-313.1(make)-307.2(that)-318.7(judgment)-322.7(and)-310.7(will)]TJ
+-1.617 -1.2 TD
+[(also)-252.8(aid)-251(development)-244.1(of)-248.8(intuitions)-276.2(about)-251(the)-251(signi)]TJ
+/TT7 1 Tf
+19.7721 0 TD
+(Þ)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(cant)-260.8(problems)-251(in)-258.5(the)-251(area.)]TJ
+/TT2 1 Tf
+-20.3282 -4.8 TD
+(ACKNOWLEDGEMENTS )Tj
+/TT6 1 Tf
+12.0293 0 TD
+(_)Tj
+0.0434 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(__)Tj
+0.5182 0 TD
+(_)Tj
+/TT4 1 Tf
+-37.4636 -2.4001 TD
+[(Many)-348.8(people)-343.6(deserve)-328.1(thanks)-352.8(for)-343.1(their)-349.3(assistance,)-342.4(encouragement,)-333(and)-356.2(advice.)-349.7(In)-357.9(particular,)-346.2(I)]TJ
+0 -1.2 TD
+[(thank)-442(Neil)-442(Jones)-441.5(for)-434(teaching)-431(me)-442(denotational)-438.9(semantics;)-442.4(Peter)-436.2(Mosses)-445(for)-434(answering)-417.4(my)]TJ
+T*
+[(questions;)-389.8(Robin)-391.5(Milner)-378.3(for)-370.3(allowing)-382.3(me)-378.3(to)-385.8(undertake)-357.6(this)-391.5(project)-378.2(while)-387.4(under)-377.7(his)-396.6(employ;)]TJ
+T*
+[(Paul)-358.5(Chisholm)-364.9(for)-334(encouraging)-321.3(me)-342(to)-349.4(write)-336.2(this)-355.2(book)-345.5(and)-338(for)-334(reading)-328.7(the)-342(initial)-357.9(draft;)-334.5(Allen)]TJ
+T*
+[(Stoughton)-288.2(for)-261.3(many)-269.2(stimulating)-290.9(discussions;)-284.2(Colin)-286.4(Stirling)-290.4(for)-270.3(being)-278.3(an)-274.3(agreeable)-242.6(of)]TJ
+/TT7 1 Tf
+34.0376 0 TD
+(Þ)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(ce)-264(mate;)]TJ
+-34.5937 -1.2 TD
+[(and)-247.1(my)-258.5(parents,)-244.1(family,)-257.8(and)-247.1(friends)-241.3(in)-258.5(Kansas,)-243.6(for)-243.1(almost)-260.8(everything)-241.8(else.)]TJ
+2 -1.2 TD
+[(John)-310.8(Sulzycki)-309.6(of)-303.4(Allyn)-313.1(and)-301.6(Bacon)-308.9(deserves)-293.5(special)-305.5(thanks)-316.4(for)-306.7(his)-323.9(interest)-311.2(in)-322.2(the)-314.7(project,)]TJ
+ET
+endstream
+endobj
+13 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT7 7 0 R
+/TT9 14 0 R
+>>
+/ExtGState <<
+/GS2 8 0 R
+>>
+>>
+endobj
+16 0 obj
+<<
+/Length 2303
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 97.2 722.4601 Tm
+0 g
+/GS2 gs
+0 Tc
+0 Tw
+(x)Tj
+/TT9 1 Tf
+0.5 0 TD
+(     Preface)Tj
+/TT4 1 Tf
+11 0 0 11 97.2 682.4601 Tm
+[(and)-547.1(Laura)-532.1(Cleveland,)-550.3(Sue)-554.5(Freese,)-540.1(and)-547.1(Jane)-541.3(Schulman)-555(made)-543.6(the)-542(book’s)-541.5(production)-540.2(run)]TJ
+0 -1.2 TD
+[(smoothly.)-427.3(The)-399.9(reviewers)-376.9(Jim)-418.8(Harp,)-396.4(Larry)-388.4(Reeker,)-391.2(Edmond)-411.3(Schonberg,)-400.4(and)-401.6(Mitchell)-420.9(Wand)]TJ
+T*
+[(contributed)-391.3(numerous)-383.4(useful)-383.4(suggestions.)-655.7(\(I)-379.4(apologize)-376.4(for)-379.4(the)]TJ
+/TT7 1 Tf
+26.1364 0 TD
+(ß)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(aws)-388.7(that)-391.4(remain)-378.2(in)-394.9(spite)-393.1(of)]TJ
+-26.6925 -1.2 TD
+[(their)-267.5(ef)50(forts.\))-257.1(Those)-265.2(instructors)-269.2(and)-265.2(their)-267.5(students)-276.7(who)-277.8(used)-276.1(preliminary)-271.3(drafts)-268.6(as)-276.1(texts)-284.1(deserve)]TJ
+T*
+[(thanks;)-265.9(they)-260.1(are)-242.9(Jim)-273.4(Harp,)-251(Austin)-269.4(Melton,)-270.4(Colin)-277.3(Stirling,)-285.9(David)-256.1(Wise,)-258.9(and)-247.1(their)-249.3(students)-258.5(at)-251(the)]TJ
+T*
+[(universities)-426(of)-421.5(Lowell,)-426.6(Kansas)-411.8(State,)-432.3(Edinburgh,)-428.3(and)-419.8(Indiana,)-415.1(respectively.)-409.9(My)-438.1(students)-440.3(at)]TJ
+T*
+[(Edinburgh,)-255.6(Iowa)-237.3(State,)-259.6(and)-247.1(Kansas)-239.1(State)-255(also)-252.8(contributed)-245.8(useful)-247.1(suggestions)-260.3(and)-247.1(corrections.)]TJ
+2 -1.2 TD
+[(Finally,)-362(the)-342(text)-345.9(would)-345.5(not)-349.4(have)-330.5(been)-330.5(written)-340.2(had)-338(I)-348.8(not)-358.5(been)-339.6(fortunate)-336.1(enough)-347.1(to)-358.5(spend)]TJ
+-2 -1.2 TD
+[(several)-323(years)-326.5(in)-349.4(Denmark)-324.8(and)-338(Scotland.)-605(I)-339.7(thank)-332.9(the)-332.9(people)-325.4(at)-332.9(Aarhus)-320.9(University,)-337.4(Edinburgh)]TJ
+T*
+[(University,)-437.4(Heriot-Watt)-414.4(University,)-437.4(and)-428.9(The)-427.1(Fiddler’s)-434.6(Arms)-441.5(for)-434(providing)-447.7(stimulating)-463.6(and)]TJ
+T*
+[(congenial)-240.1(environments.)]TJ
+2 -1.2 TD
+[(I)-248.8(would)-254.5(be)-247.1(pleased)-237.8(to)-258.5(receive)-222.9(comments)-253.3(and)-247.1(corrections)-230.3(from)-247.1(the)-251(readers)-222.4(of)-248.8(this)-264.3(book.)]TJ
+ET
+endstream
+endobj
+17 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT7 7 0 R
+/TT9 14 0 R
+>>
+/ExtGState <<
+/GS2 8 0 R
+>>
+>>
+endobj
+18 0 obj
+<<
+/Type /Halftone
+/HalftoneType 1
+/Frequency 60
+/Angle 45
+/SpotFunction /SimpleDot
+>>
+endobj
+8 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT 18 0 R
+/TR /Identity
+>>
+endobj
+19 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 676
+/Descent -250
+/Flags 262178
+/FontBBox [-168 -218 1000 935]
+/FontName /Times-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 461
+/StemH 139
+>>
+endobj
+20 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+21 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 701
+/CapHeight 0
+/Descent -298
+/Flags 32
+/FontBBox [-167 -299 1063 827]
+/FontName /Symbol
+/ItalicAngle 0
+/StemV 0
+>>
+endobj
+22 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+23 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 653
+/Descent -250
+/Flags 98
+/FontBBox [-169 -217 1010 883]
+/FontName /Times-Italic
+/ItalicAngle -15
+/StemV 76
+/XHeight 441
+/StemH 76
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 120
+/Widths [250 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 722 667 722 722 667 611 778 778 389 0 778 667 944 722 778 
+611 0 722 556 667 722 0 1000 722 0 667 0 0 0 0 0 
+0 500 0 444 0 444 333 0 0 278 0 0 0 0 0 0 
+0 0 444 0 0 0 500 0 500 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Bold
+/FontDescriptor 19 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 40
+/LastChar 149
+/Widths [333 333 0 0 250 333 250 0 500 500 500 500 500 500 500 500 
+500 500 278 278 0 0 0 0 0 722 667 667 722 611 556 722 
+722 333 389 722 611 889 722 722 556 0 667 556 611 722 0 944 
+0 722 0 0 0 0 0 0 0 444 500 444 500 444 333 500 
+500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 
+500 500 444 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 333 333 0 0 350 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 20 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 95
+/LastChar 95
+/Widths [500 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Symbol
+/FontDescriptor 21 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 223
+/Widths [556 556 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 22 0 R
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 114
+/Widths [250 0 0 0 0 0 0 0 0 0 0 0 250 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+611 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 500 500 444 0 444 278 0 0 0 0 0 0 0 0 0 
+0 0 389 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Italic
+/FontDescriptor 23 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 9 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Page
+/Parent 9 0 R
+/Resources 13 0 R
+/Contents 12 0 R
+>>
+endobj
+15 0 obj
+<<
+/Type /Page
+/Parent 9 0 R
+/Resources 17 0 R
+/Contents 16 0 R
+>>
+endobj
+24 0 obj
+<<
+/S /D
+>>
+endobj
+25 0 obj
+<<
+/Nums [0 24 0 R ]
+>>
+endobj
+9 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 11 0 R 15 0 R]
+/Count 3
+/MediaBox [0 0 612 792]
+>>
+endobj
+26 0 obj
+<<
+/CreationDate (D:20050425064424-06'00')
+/ModDate (D:20050425064424-06'00')
+/Producer (Apple pstopdf)
+>>
+endobj
+27 0 obj
+<<
+/Type /Catalog
+/Pages 9 0 R
+/PageLabels 25 0 R
+>>
+endobj
+xref
+0 28
+0000000000 65535 f 
+0000022901 00000 n 
+0000000016 00000 n 
+0000007697 00000 n 
+0000021275 00000 n 
+0000021684 00000 n 
+0000022210 00000 n 
+0000022372 00000 n 
+0000020175 00000 n 
+0000023215 00000 n 
+0000007825 00000 n 
+0000022981 00000 n 
+0000007882 00000 n 
+0000017445 00000 n 
+0000022546 00000 n 
+0000023064 00000 n 
+0000017586 00000 n 
+0000019942 00000 n 
+0000020072 00000 n 
+0000020313 00000 n 
+0000020515 00000 n 
+0000020712 00000 n 
+0000020878 00000 n 
+0000021075 00000 n 
+0000023147 00000 n 
+0000023175 00000 n 
+0000023310 00000 n 
+0000023433 00000 n 
+trailer
+<<
+/Size 28
+/Root 27 0 R
+/Info 26 0 R
+/ID [<5e25a7d189b44ce6fea02047e44b1aaa><5e25a7d189b44ce6fea02047e44b1aaa>]
+>>
+startxref
+23502
+%%EOF
