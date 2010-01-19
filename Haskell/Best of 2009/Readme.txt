@@ -15,7 +15,7 @@ This paper showcases the decision of a software business to use functional progr
 #6 Algebra of programming in Agda: Dependent types for relational program derivation - Shin-Cheng Mu et al.
 Agda, a dependently typed programming language with a syntax similar to Haskell, is fueling a lot of research this year. After reading many papers such as this one, I can't help but think that the future lies in dependent types.
 
-This paper presents an unorthodox approach to writing programs called relational program derivation. One starts by encoding a proposition, for example “the algorithm x sorts all lists”, and then deriving a program that the proposition is true for, like quicksort. The authors created an algebra for encoding these derivations in Agda. By using Agda, the derived programs include a computer verified proof of correctness.
+This paper presents an unorthodox approach to writing programs called relational program derivation. One starts by encoding a proposition, for example "the algorithm x sorts all lists", and then deriving a program that the proposition is true for, like quicksort. The authors created an algebra for encoding these derivations in Agda. By using Agda, the derived programs include a computer verified proof of correctness.
 
 I think it is going to take a while before the programming community, myself included, becomes fully aware of the implications of this paper.
 
